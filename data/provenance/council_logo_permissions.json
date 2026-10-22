@@ -1,0 +1,124 @@
+{
+  "retrieved": "2026-10-21",
+  "policies": {
+    "E09000026": {
+      "source": "https://www.redbridge.gov.uk/terms-of-use/",
+      "sha256": "a88da3ad591b2d61c0c4a81515447b7bb6e3fcb38fd6aaf833c7929cf6f978f8",
+      "excerpts": [
+        "Information produced by us may be subject to copyright and other intellectual property rights. Information should not be reproduced, modified or distributed or used in any way for commercial purposes without our permission."
+      ],
+      "finding": "not-established"
+    },
+    "E09000031": {
+      "source": "https://www.walthamforest.gov.uk/council-and-elections/information-about-website/website-disclaimer",
+      "sha256": "f0106c230e0ad53614ba220fec1301b3b26c8911e998e76b147284ae0efe794f",
+      "excerpts": [
+        "Use of any of the council's logos or coat of arms without consent is not permitted."
+      ],
+      "finding": "restricted"
+    },
+    "E09000028": {
+      "source": "https://www.southwark.gov.uk/branding",
+      "sha256": "c1fc5b54fba350b17eb382e52c5662886e270e3a1c629a06ac17eaf43bcc5b45",
+      "excerpts": [
+        "Use this guidance if you're a web developer building a Southwark-branded website",
+        "To develop a Southwark branded site you'll need:"
+      ],
+      "finding": "not-established"
+    },
+    "E09000012": {
+      "source": "https://www.hackney.gov.uk/more-us/terms-use",
+      "sha256": "8e510cc0840571bfebbc22e814245e2a9acae84a47e04550bc7ff0e139d0b092",
+      "excerpts": [
+        "The copying and use of the council logo and other council logos is not permitted without our prior approval. Permission requests should be directed to the  digital content team . Tell us who you are, the organisation you represent (if any), how and why you wish to use our logo. Please include your contact details name, address, telephone number, fax number and email.",
+        "You do not have to ask permission to link directly to pages hosted on the council website. We do not object to you linking directly to our information that is hosted on other domains - for example, housing information. However, we do not permit the use of our logos as promotional or hypertext objects. Please see the paragraph above on logos."
+      ],
+      "finding": "restricted"
+    },
+    "E09000001": {
+      "source": "https://www.cityoflondon.gov.uk/footer/legal-notices",
+      "sha256": "71636e093a9192d0e73f29ed2b9a630e39eed2e73e2176f966a876c3448582c3",
+      "excerpts": [
+        "Any trademark, logo, crest or other identifiable emblem of the City of London shall remain the property of the City of London at all times and no licence or right to use any of the same shall be granted or implied in any way."
+      ],
+      "finding": "restricted"
+    },
+    "E09000004": {
+      "source": "https://www.bexley.gov.uk/terms-conditions",
+      "sha256": "954c3d03e7fc9a3c76e44fd687b7f8411b0836a4a85ba47c04cd159f5a6128b9",
+      "excerpts": [
+        "The names, images and logos identifying The London Borough of Bexley are proprietary marks of the Council. Copying of our logos and/or any third-party logos accessed via this website is not permitted without prior approval from the relevant copyright owner. Please contact the Digital Team for further assistance."
+      ],
+      "finding": "restricted"
+    },
+    "E09000008": {
+      "source": "https://www.croydon.gov.uk/webdisclaimer",
+      "sha256": "149cfcaae1d3d6c8cb039f02bc8c29e7fda9bcb146475ad43611bb7186b77609",
+      "excerpts": [],
+      "finding": "not-established"
+    },
+    "E09000011": {
+      "source": "https://www.royalgreenwich.gov.uk/terms-and-privacy",
+      "sha256": "5a64fe1869c0d97ba986301cd6c6a2fd0b3453738df0c6d5eb291ab7e82d4132",
+      "excerpts": [
+        "Any other use of the materials on our site (including reproduction for purposes other than noted above and alteration, modification, distribution or republication) without our prior written permission is strictly prohibited. Should you require permission for the above, please contact: Information, Safety and Communities, 3rd Floor, The Woolwich Centre, 35 Wellington Street, London, SE18 6HQ or foi@royalgreenwich.gov.uk"
+      ],
+      "finding": "restricted"
+    }
+  },
+  "scope": "Permission to embed an isolated council logo on an independent council-budget comparison page. No prior written council approvals have been obtained. Official hosting, downloads, brand guidelines, data licences and colour sampling do not themselves establish an applicable logo reuse grant.",
+  "methodology": [
+    "Only an explicit and applicable official grant for logo/editorial reuse can produce permitted. No fair-dealing or trademark exemption is assumed by this ledger.",
+    "Restricted means applicable terms explicitly withhold logo/republication rights or require permission. Not-established means no applicable explicit logo permission was found or the asset was not audited. Both states require a name-and-colour fallback.",
+    "Downloaded files are retained as source-research evidence, not an approved redistribution bundle. Do not embed, hotlink or ship unapproved logo assets as UI branding.",
+    "Focal/default London audit: Redbridge, Waltham Forest, City of London, Bexley, Hackney, Southwark, Croydon and Greenwich. Other source-verified assets remain not-established rather than inferred permitted.",
+    "Rebuild ledger only: python scripts\\import_colours.py --build-logos. This operation does not regenerate council colours."
+  ],
+  "decisions": {
+    "E09000026": {
+      "permission": "not-established",
+      "permissionSource": "https://www.redbridge.gov.uk/terms-of-use/",
+      "note": "Redbridge terms identify copyright/intellectual-property rights and require permission for commercial reproduction, modification or distribution. No explicit logo-specific editorial grant was established. Do not assume a general information licence covers the leaf logo; obtain approval or use the council name and verified swatch."
+    },
+    "E09000031": {
+      "permission": "restricted",
+      "permissionSource": "https://www.walthamforest.gov.uk/council-and-elections/information-about-website/website-disclaimer",
+      "note": "The official disclaimer states: \"Use of any of the council's logos or coat of arms without consent is not permitted.\" No consent has been obtained; the older committee-portal logo is not approved for embedding. Use the council name and verified swatch."
+    },
+    "E09000001": {
+      "permission": "restricted",
+      "permissionSource": "https://www.cityoflondon.gov.uk/footer/legal-notices",
+      "note": "City legal notices expressly state that no licence or right to use its trademark, logo, crest or emblem is granted or implied. Downloading is limited to private non-commercial viewing. Do not embed the crest; use the council name and verified swatch unless authorised."
+    },
+    "E09000004": {
+      "permission": "restricted",
+      "permissionSource": "https://www.bexley.gov.uk/terms-conditions",
+      "note": "Bexley terms call council names/images/logos proprietary marks and prohibit copying logos without prior approval from the copyright owner. No approval obtained. Use the council name and verified swatch."
+    },
+    "E09000012": {
+      "permission": "restricted",
+      "permissionSource": "https://www.hackney.gov.uk/more-us/terms-use",
+      "note": "Hackney explicitly prohibits copying/use of council logos without prior approval and also prohibits use as promotional or hypertext objects. The separate OGL statement for data does not override this logo restriction. Use the council name and verified swatch."
+    },
+    "E09000011": {
+      "permission": "restricted",
+      "permissionSource": "https://www.royalgreenwich.gov.uk/terms-and-privacy",
+      "note": "Greenwich permits downloading/copying/printing only for private or classroom educational use, with acknowledgement; other reproduction or republication requires prior written permission. No applicable public editorial logo grant established. Use the council name and verified swatch."
+    },
+    "E09000028": {
+      "permission": "not-established",
+      "permissionSource": "https://www.southwark.gov.uk/branding",
+      "note": "The official branding page provides guidance for developers building Southwark-branded websites. It is not an explicit grant for an independent editorial/comparison site to reuse the council logo. Obtain applicable approval; otherwise use the council name and verified swatch."
+    },
+    "E09000008": {
+      "permission": "not-established",
+      "permissionSource": "https://www.croydon.gov.uk/webdisclaimer",
+      "note": "The linked official web disclaimer did not establish explicit logo reuse or editorial permission in its returned content. Do not infer permission from availability of the logo or favicon; use the council name and verified swatch pending clearance."
+    }
+  },
+  "openGovernmentLicence": {
+    "source": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "sha256": "f5b2b9f2af63647cde889fa6c3508f5705925295b74912c68caa28dd37e64aa5",
+    "logoExclusionExcerpt": "n Acts for the UK and Scotland) by or with the consent of the Information Provider; departmental or public sector organisation logos, crests and the Royal Arms except where they form an integral part of a document or dataset; military insignia; third party rights the Information Provider is not authorised to license; other intellectual property right"
+  }
+}

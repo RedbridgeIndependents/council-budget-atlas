@@ -1,0 +1,17 @@
+{
+  "name": "council-budget-atlas",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline, source-led 2026-27 council budget atlas",
+  "scripts": {
+    "build": "python scripts\\import_data.py && python scripts\\build.py",
+    "test:data": "python -m unittest discover -s tests -p \"test_*.py\"",
+    "test:browser": "node --test tests\\browser.test.cjs",
+    "test:benchmarks": "node --test tests\\benchmark.test.cjs",
+    "test": "npm run test:data && npm run test:benchmarks && npm run test:browser"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "axe-core": "^4.11.0"
+  }
+}

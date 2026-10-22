@@ -1,0 +1,3140 @@
+
+=== PDF PAGE 1 ===
+Appendix AA 
+ 
+ 
+LONDON BOROUGH OF NEWHAM 
+ 
+CABINET 
+Report title Final Budget 2026/27, Council Tax 2026/27 and MTFS 
+2026/27-2030/31: Establishing Financial Resilience, 
+Sustainability and Delivering a Fairer Newham 
+Date of 
+Meeting 
+Tuesday 17 February 2025 
+Lead 
+Officer  
+Andrew Ward, Deputy Director of Finance (Deputy 
+Section 151 Officer) 
+Corporate 
+Director  
+Maria G. Christofi, Interim Assistant Chief Executive – 
+Change & Improvement & Corporate Director of 
+Resources (Section 151 Officer) 
+Lead 
+Member 
+Cllr Zulfiqar Ali, Cabinet Member for Finance and 
+Resources 
+Key 
+Decision? 
+Yes Reasons: Decisions over 
+£1m 
+Exempt 
+Information 
+& Grounds 
+No Grounds:  
+N/A 
+Wards 
+Affected 
+All 
+Appendices 
+ 
+A Section 25 Statement of the Section 151 Officer 
+B Capital Investment Strategy 
+C Capital  
+C(i) Capital Proposals 
+C(ii) Capital Programme Summary 
+C(iii) Capital  Programme Detail 
+D Flexible Use of Capital Receipts 
+E Treasury Management Strategy 
+E(i) Prudential Indicators 
+E(ii) Specified and Non-Specified Investments 
+E(iii) Minimum Revenue Provision 
+E(iv) Economic Outlook 
+F Non-Treasury Investment Strategy 2026/27 
+G Fees and Charges 
+H Parking Revenue Account 
+
+=== PDF PAGE 2 ===
+Appendix AA 
+ 
+ 
+I Budget Tables 
+J Dedicated Schools Grant 
+J(i) Dedicated Schools Grant Settlement 
+J(ii) Dedicated Schools Grant Estimated Balance 
+J(iii) School Formula Funding Factors 
+K Budget Engagement Report 
+L Savings 
+L(i) New Savings 
+L(ii) Savings from Draft Report 
+L(iii) Transformation Savings 
+M All MTFS Savings 
+N Growth 
+O Cumulative EQIA 
+P Grants (Specific) 
+Q Council Tax Requirement 
+Q(i) Council Tax resolution 
+Q(ii) Valuation Band 2026/27 
+R Medium Term Financial Strategy 
+R(i) Medium Term Financial Strategy Table 
+R(ii) Movements in the MTFS 
+R(iii) 
+Medium Term Financial Strategy Written 
+Narrative 
+S Council Tax Scenarios 
+T Earmarked Reserves 
+U Chief Officers’ Pay Policy Statement 
+ 
+ 
+ 
+ 
+  
+
+=== PDF PAGE 3 ===
+Appendix AA 
+ 
+ 
+Introduction by Cllr Zulfiqar Ali, Cabinet Member for Finance and Resource 
+ 
+As Cabinet Lead for Finance and Resources, I am pleased to say there will be no 
+Exceptional Financial Support (EFS) as we are presenting a Balanced Budget for the 
+2026/27 financial year alongside a strengthened and more sustainable Medium-Term 
+Financial Strategy for the years ahead. This is the final budget of this administration, and 
+it represents an important milestone for our borough. It is not simply a financial document; 
+it is a statement of resilience, responsibility and long-term sustainability. It reflects the 
+collective effort, discipline and shared values of this Labour administration, our senior 
+leadership team and the many dedicated council staff who work tirelessly for the people of 
+Newham.  
+ 
+Over recent years we have faced unprecedented financial and social pressures. Rising 
+demand for essential services — particularly homelessness and temporary 
+accommodation — the cost-of-living crisis, persistent inflation, and historic underfunding 
+have created sustained strain on local government finances. Behind these pressures are 
+real lives: families seeking secure housing, older residents needing dignity in care, young 
+people searching for opportunity, and vulnerable residents requiring protection and 
+support. Throughout these challenges, our guiding principle has been clear: financial 
+responsibility must go hand in hand with compassion, and resilience must be built through 
+sustainable decisions rather than short-term fixes. 
+  
+This administration has never shied away from difficult choices, but we have always 
+approached them with residents at the centre of our thinking and with a firm commitment 
+to financial resilience and organisational sustainability. Our priorities have been to protect 
+frontline services wherever possible, strengthen neighbourhoods, invest in prevention and 
+early intervention, support young people and families, and ensure that those most in need 
+are not left behind. These priorities are not only socially responsible — they are financially 
+sustainable, reducing future demand and building long-term resilience into the council’s 
+service delivery model.  
+ 
+We have faced unprecedented challenges in homelessness and Temporary 
+Accommodation costs, along with rising costs of service delivery and demographic 
+changes. Despite these we have made significant progress in improving financial 
+governance, transparency and accountability. Stronger scrutiny processes and clearer 
+reporting. These have increased organisational resilience and enabled more sustainable 
+financial decision-making. These improvements are fundamental to ensuring that Newham 
+is not simply reacting to pressures year by year but is building a stable and sustainable 
+financial future.  
+ 
+Balancing this Budget has required honesty, discipline and transformation. Through 
+detailed Budget challenge sessions, zero-based budgeting reviews, benchmarking with 
+other authorities and a relentless focus on value for money, we have examined every area 
+of expenditure. This has not been about reducing services for the sake of savings; it has 
+been about redesigning services, so they are efficient, modern and financially sustainable. 
+We have placed strong emphasis on prevention, digital enablement and service redesign 
+so that improvements today contribute to financial resilience tomorrow.  
+ 
+Our Capital programme has also been carefully reviewed to ensure that investment 
+supports long-term sustainability. We have prioritised safety, statutory obligations, 
+
+=== PDF PAGE 4 ===
+Appendix AA 
+ 
+ 
+essential infrastructure and invest-to-save schemes that reduce ongoing revenue 
+pressures. This disciplined approach to capital spending strengthens our financial 
+resilience, reduces borrowing where possible and ensures that future administrations 
+inherit a more stable and sustainable financial platform.  
+ 
+One of the most significant achievements of this administration has been restoring 
+Financial Resilience. We have rebuilt General Fund Balance, strengthened internal 
+controls, improved forecasting and adopted a prudent approach to borrowing. These 
+measures are not merely technical financial actions; they are the foundations of 
+sustainability. A resilient council is one that can withstand economic uncertainty, respond 
+to unexpected demand and continue delivering reliable services to its residents. The 
+financial position we present today is markedly stronger, more stable and more sustainable 
+than in previous years.  
+ 
+This Budget also introduces key proposals and improvements that directly support both 
+social and financial sustainability. These include continued investment in housing supply 
+and homelessness prevention to reduce long-term temporary accommodation pressures; 
+strengthened support for children and families through earlier intervention; sustainable 
+funding for adult social care; targeted improvements to neighbourhood and environmental 
+services; and focused assistance for residents facing cost-of-living challenges. Alongside 
+these service investments, we continue to advance digital transformation and modern 
+service delivery, improving accessibility for residents while delivering efficiencies that 
+enhance long-term financial sustainability.  
+ 
+Importantly, this Budget reflects a shift toward more preventative and demand-
+management approaches. By investing in early help, community support and service 
+redesign, we are building resilience into the system itself — reducing avoidable costs, 
+improving outcomes and creating a more sustainable service model for the future. These 
+changes are not short-term savings; they are structural improvements designed to 
+strengthen the council’s financial and operational sustainability over the medium and long 
+term.  
+ 
+We also recognise the importance of the national funding context. Emerging reforms and 
+fairer funding considerations have begun to better acknowledge the scale of need in 
+boroughs such as Newham. While prudent Financial Management remains essential, this 
+evolving landscape provides a more stable planning environment and contributes to the 
+improved medium-term outlook we are now able to present — further reinforcing the 
+Resilience and Sustainability of our Financial strategy.  
+ 
+As this is the final Budget of this administration, it is right to recognise those who have 
+made this progress possible. I extend sincere thanks to the Mayor, my Cabinet colleagues, 
+Scrutiny Members, all elected Members, our senior leadership team, the Section 151 
+Officer, our finance professionals and every member of staff who has worked with 
+professionalism and dedication, often under considerable pressure. I also thank the 
+residents and businesses of Newham for their engagement, feedback and trust. Their 
+voices have strengthened our decision-making and ensured that Financial Resilience and 
+Sustainability remain central to our approach.  
+ 
+We leave the council’s finances on a far more secure and sustainable footing than in 
+previous years. This Balanced Budget provides stability, resilience and a credible long-
+
+=== PDF PAGE 5 ===
+Appendix AA 
+ 
+ 
+term platform for the incoming administration to continue delivering opportunity, fairness 
+and high-quality services. It is not merely the closing chapter of one term — it is the 
+sustainable foundation for the next.  
+ 
+Ultimately, this Budget is about people and about the future of our borough. It is about 
+ensuring that children have the support they need to succeed, that vulnerable residents 
+are protected, that our streets and neighbourhoods remain places we are proud to call 
+home, and that public money is used wisely, responsibly and sustainably. Good financial 
+management is not an end in itself; it is the means by which we build a fairer, more resilient 
+and more sustainable Newham for everyone.  
+ 
+The Section 151 Officer has provided the statutory Section 25 statement assurance that 
+the Council’s 2026/27 Budget estimates are robust and that the level of Reserves is 
+adequate. The statement confirms that, despite ongoing economic uncertainty and service 
+demand pressures, the proposed Budget is Balanced on a Sustainable basis for the next 
+3 years without reliance on Exceptional Financial Support. It highlights strengthened 
+financial controls, delivery of significant savings and transformation programmes, and the 
+rebuilding of the General Fund Balance to around 10% of net revenue expenditure, 
+alongside the creation of dedicated risk reserves. While recognising continued risks around 
+inflation, demand for social care and high levels of external debt, the overall professional 
+opinion is that the Council is financially resilient, with appropriate governance, monitoring 
+arrangements and contingency provisions in place.  
+ 
+With these words, Mayor, I ask Cabinet to approve the recommendations set out in this 
+report and to commend this Resilient and Sustainable Budget to Full Council. 
+ 
+ 
+  
+
+=== PDF PAGE 6 ===
+Appendix AA 
+ 
+ 
+1. Executive Summary 
+ 
+1.1. As per the Local Government Finance Act 1992, the Executive is required to 
+recommend to Council for approval a balanced Revenue Budget alongside a 
+Capital Programme on an annual basis before 11 March. 
+ 
+1.2. The main purpose of this report is to enable the Mayor and Cabinet to consider 
+its final 2026/27 Revenue Budget proposals and the proposed Capital 
+Programme at a formal meeting of Cabinet on the 17 February 2026, 
+considering the final Local Government Financial Settlement, which was 
+published by the Ministry of Housing Communities and Local Government 
+(MHCLG) on the 9 February 2026. 
+ 
+1.3. Thereafter, the Executive will present its recommendations to Council to 
+approve a final 2026/27 Revenue Budget, the Capital Programme to 2028/29 
+and set the Council Tax for the 2026/27 financial year at a meeting of Full 
+Council on 27 February 2026. The budget is based on an increase of 4.99% in 
+Council Tax, made up of a 2.99% general Council Tax increase, and a 2.00% 
+Adult Social Care Precept increase. 
+ 
+1.4. This report explains the changes made to the 2026/27 draft ‘Building a Fairer 
+Newham through Financial Sustainability’ Budget published on the 22 
+December 2025 which was approved by the Mayor and Cabinet on 8 January 
+2026 and subject to further engagement with residents, stakeholders and 
+discussions with the Council’s Scrutiny Budget Working Committee. 
+ 
+1.5. In summary the final 2026/27 Budget proposals balances; significant ongoing 
+demand led, demographic and inflationary pressures of £59.860m; with total 
+savings of £55.747m; and additional income, mainly because of the 
+government’s Fair Funding Review increases of £44.293m. A balanced outturn 
+position requires the delivery of all the savings set in this report to time, value 
+and profile. 
+ 
+1.6. As previously highlighted in the draft 2026/27 Budget report presented to the 
+Mayor and Cabinet in January 2026, Exceptional Financial Support in the form 
+of using Capital receipts to achieve a balanced Revenue position is not 
+required from central government to balance the proposed 2026/27 Final 
+Budget plan. This means that the Council will not be selling assets to fund the 
+ongoing costs of delivering services, as it now has a sustainable Balanced 
+Budget for the next 3 years, and a sustainable approach to a new 5-year 
+Medium Term Financial Strategy approach.  
+ 
+1.7. The Council has addressed Financial Sustainability in the 2026/27 Budget 
+and MTFS and will continue this Financially Sustainable position, balancing its 
+Budget in a sustainable way for 3 years – 2026/27, 2027/28 and 2028/29.  This 
+budget demonstrates the improvement made to establish Financial 
+Sustainability and stability as required by MHCLG in its non-statutory Best 
+Value Notice to the authority in May 20251.  The notice included following:  
+ 
+1 Newham Council: Best Value Notice (May 2025) 
+
+=== PDF PAGE 7 ===
+Appendix AA 
+ 
+ 
+ Significant value for money weaknesses around the council’s governance 
+arrangements, highlighted by the council’s external auditor in their annual 
+report published on 20 February 2025.  
+ Cultural and governance issues identified in a scrutiny improvement 
+review by the Centre for Governance and Scrutiny in 2023, and the LGA’s 
+corporate peer challenge completed in December 2023 and subsequent 
+progress review in October 2024.  
+ Significant delivery concerns about some of the programmes delivered by 
+the authority, particularly following the Regulator of Social Housing C4 
+grading published in October 2024.  
+ 
+MHCLG is expecting that Newham “ Take steps to improve its financial 
+sustainability, reflecting this in the council’s medium-term financial strategy”.  
+ 
+1.8. MHCLG referenced fulfilling the External Audit Recommendation made by Ernst 
+and Young in their Value for Money report 2023/24 on 20 February 20252, which 
+stated: 
+  “ The Council requires urgent action to restore it to a financially sustainable 
+position” and “ It should consider actions required to address the 
+continuous use of reserves and capital receipts to support the general fund 
+budget and restore the general fund reserve to the level recommended by 
+the Corporate Director of Resources . It is the responsibility of all officers 
+and elected members to work together to agree and deliver plans to return 
+the Council to a financially sustainable position”   
+ 
+1.9. The 5 year Medium Term Financial Strategy in Appendix R (i)  outlines the 
+projections for budget growth, and after accounting for the savings included in 
+this report, shows a forecast balanced budget until 2029/30. The Council will 
+continue to work on a long term basis to identify strategies to meet the financial 
+pressures projected in years 4 and 5 of the MTFS. 
+ 
+1.10. The budget increases the Contingency to £10.000m, although this is an 
+increase to prior years, it is however approximately 2% of the Net General Fund 
+Revenue Budget.  This may need increasing in future years. Some of the known 
+potential risks that the Council may need to manage are listed in Section 16. 
+ 
+1.11. The Council has also addressed Financial  Resilience in this year as the 
+report includes the results of a review of reserves conducted by the Section 151 
+officer, of all Earmarked Reserves, and this shows the consolidation of 
+reserves, increasing General Fund Balance, the introduction of a new 
+Transformation Reserve, and new Business Risk Reserve, which will help 
+manage the financial risks the Council faces. 
+ 
+1.12. After accounting for the forecast underspend in 2025/26, it is forecasted that 
+unallocated General Fund Balance can be set at £52.090m and then maintained 
+ 
+2 External Auditors Completion Report Feb 2025 
+
+=== PDF PAGE 8 ===
+Appendix AA 
+ 
+ 
+at 10% of the Net General Fund Revenue Budget for the 5 year MTFS period.  
+This is the Council’s financial safety net and last line of defence. 
+ 
+1.13. The final 2026/27 Budget report acknowledges the ongoing financial challenges 
+facing the Council and sets out the risks it is prudent to anticipate. 
+Consequently, taking into account the Service budgets proposed including 
+Growth for Demographic Demand and Inflation, the Contingency provided for, 
+and the new levels of General Fund Balance and Earmarked Reserves, the 
+Mayor and Cabinet can be assured that the final 2026/27 Budget can be 
+considered sustainable and resilient in the medium term. 
+ 
+ 
+2. Recommendations 
+ 
+For the reasons set out in the report and its appendices, the Mayor and Cabinet 
+are recommended to agree that the final 2026/27 Budget proposals should be 
+recommended to Full Council for approval: 
+ 
+2.1. Note the conclusions of the Council’s Interim Section 151 Officer in their Section 
+25 report (Appendix A) confirming the robustness of the Budget estimates and 
+Medium Term Financial Strategy, the adequacy of the level of Council’s 
+Reserves and the Reserves Strategy, as required by Section 25 of the Local 
+Government Act 2003. 
+ 
+In respect of the Capital Investment Programme 2026/27 to 2028/29 
+ 
+2.2. Agree the Capital Investment Programme of £292.978m in 2026/27 and a 
+further £2,257.322m in future years along with the unchanged Community 
+Infrastructure Levy (CIL) infrastructure list, as set out in Section 8 and the 
+Capital Investment Strategy Appendices B, C(i), C(ii) and C(iii). 
+ 
+2.3. Agree to notify the Secretary of State of the plans to fund transformative 
+expenditure to generate ongoing savings using the provision for Flexible Use of 
+Capital Receipts as per Appendix D. 
+ 
+2.4. Agree the Treasury Management Strategy and Prudential Indicators as set out 
+in Appendix E and E(i). 
+ 
+2.5. Agree the Annual Investment Strategy and Minimum Revenue Provision Policy 
+as set out in Appendix E and E(iii) and  
+ 
+2.6. Agree the Non Treasury Investment Strategy 2026/27 set out in  Appendix F. 
+ 
+2.7. In respect of Fees, Charges for 2026/27 
+ 
+2.8. Agree or note, as appropriate, the proposed fees and charges as set out in 
+Appendix G for implementation from April 2026. 
+ 
+2.9. Note the Parking Revenue Account as set out in Appendix H and reported in 
+Section 10. 
+
+=== PDF PAGE 9 ===
+Appendix AA 
+ 
+ 
+ 
+In respect of the General Fund Budget 2026/27 
+ 
+2.10. Note that the Council has balanced its budget for 2026/27 as set out in Section 
+4 and Appendix I. 
+ 
+2.11. Note the Proposed Budget Tables showing the Council’s budget by Directorate 
+and Service for the 2026/27 financial year in Appendix I. 
+ 
+2.12. Note that the level of the Dedicated Schools Grant (DSG), for 2026/27 has been 
+set at £290.802m, and approve the local funding formula recommended by the 
+Schools Forum in Appendices J(i), J(ii) and J(iii). 
+ 
+2.13. Note the report on Budget Engagement as set out in Appendix K. 
+ 
+2.14. Having considered the cumulative Equalities Impact Assessment of the 
+budgetary savings and growth as set out in Appendix O. 
+ 
+2.15. Agree the Budget Saving £54.178m and Growth proposals £59.860m to be 
+made to the Budget for 2026/27 as set out in Appendices L, M and N. 
+ 
+2.16. Note the cumulative equalities impact assessment of the budgetary savings and 
+growth as set out in Appendix O. 
+ 
+2.17. Note the Specific Revenue Grants Schedule detailed in Appendix P. 
+ 
+2.18. Agree the General Fund Net Budget requirement for 2026/27 be set at 
+£520.897m for 2026/27 and the individual Directorate Budgets for 2026/27 as 
+set out in Appendix I.  
+ 
+In respect of Council Tax and Business Rates for 2026/27 
+ 
+2.19. Agree an overall 4.99% increase in the Council's element of Council Tax for 
+2026/27, made up of 2.00% as a precept for Adult Social Care and a 2.99% 
+general Council Tax increase. 
+ 
+2.20. Agree, having taken into account the outcome of the statutory consultation 
+process, to implement the Council Tax Reduction Scheme as set out in Section 
+14. 
+ 
+2.21. Subject to confirmation of the GLA's precept, agree to set the overall amount of 
+Council Tax for 2026/27 as set out in Appendix Q the Council Tax Resolution. 
+ 
+In respect of the Medium-Term Financial Strategy 
+ 
+2.22. Consider and approve the 5 year Medium Term Financial Strategy 2026/27 to 
+2030/31 in Appendices R, R(i) and R(ii). 
+ 
+2.23. Notes the Budget pressures, risks and uncertainties as set out in Section 16. 
+ 
+
+=== PDF PAGE 10 ===
+Appendix AA 
+ 
+ 
+2.24. Note the total Net Savings proposals of £89.812m, and growth proposals of 
+£277.913m in the Medium Term Financial Strategy in Appendices L, M and N. 
+ 
+2.25. Note the forecast £46.077m savings required in years 2029/20 and 2030/31 to 
+balance the MTFS dependent on future Central Government funding decisions 
+as set out in Appendix R(ii). 
+ 
+2.26. Note the review of Reserves including the forecast General Fund Balance and 
+the forecast levels of Earmarked Reserves for 2026/27 in Appendix T. 
+ 
+2.27. Agree that the Section 151 Officer in consultation with the Lead Member for 
+Finance and Resources be authorised if necessary to make revisions to the 
+2026/27 Budget relating to any other funding announcements made after 
+Cabinet has agreed the Council recommendations, subject to this not impacting 
+on the recommended 2026/27 Council Tax increase. 
+ 
+2.28. Note the Council Tax Scenarios and the impact on the Budget Gap in each year 
+as in Appendix S. 
+ 
+2.29. Agree the Chief Officers’ Policy Statement as in Appendix U. 
+ 
+ 
+3. Background 
+ 
+3.1. This report follows the approval of the draft 2026/27 Budget proposals, for the 
+purposes of engagement, in a report to Cabinet in January 2025. That report 
+set out in detail the budget proposals regarding savings and growth as well as 
+all income assumptions, which resulted in a Balanced Budget being proposed 
+for 2026/27, without recourse to Exceptional Financial Support (EFS). This 
+report updates those proposals, detailing all changes being made to those 
+proposals. 
+ 
+3.2. This report also follows the presentation of the Housing Revenue Account 
+Business plan to Cabinet in December 2025, and a Housing Revenue Account 
+Budget Setting report to Cabinet earlier on this same agenda. 
+ 
+3.3. Fair Funding Review 
+ 
+3.4. The draft 2026/27 Budget report described how there has been a major change 
+in government funding figures since the government responded through its 
+‘Local government finance policy statement 2026-27 to 2028-29 ’ published 20 
+November 2025, to the Fair Funding 2.0 Review consultation; and the 
+subsequent release of its provisional funding figures for 2026/27 on the 17 
+December 2025. These figures have been confirmed by the Final Local 
+Government Finance Settlement announced 9 February 2026, with only a 
+relatively minor adjustment which is explained further down in this report. 
+ 
+3.5. Under its Fair Funding 2.0 approach, the government is allocating resources to 
+local councils based on a series of formula, all of which are calculated from 
+appropriate data sources. 
+
+=== PDF PAGE 11 ===
+Appendix AA 
+ 
+ 
+ 
+3.6. In summary, the main changes made by government between what was 
+originally consulted on and the formal response to that consultation, relate to 
+how the government will:  
+ 
+ Use the most up to date population data available, rather than relying on 
+Census data taken during the Covid-19 pandemic; 
+ Update the Index of Multiple Deprivation (IMD) data so that deprivation is 
+central to government grant allocations, including the cost of Housing; and 
+ Update the Children’s element of the funding formula so that it uses the 
+most up to date Income Deprivation Affecting Children Index (IDACI) data. 
+ 
+3.7. Modelling from London Councils shows how these changes will impact London 
+Boroughs, with the London Borough of Newham now scoring over 50% more 
+highly on the update IMD deprivation data than previously, and over 80% more 
+highly on the IDACI data than previously – see Charts 1 and 2 below. 
+  
+Chart 1: London Councils analysis on IMD data changes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+=== PDF PAGE 12 ===
+Appendix AA 
+ 
+ 
+Chart 2: London Councils analysis of IDACI data changes 
+ 
+ 
+ 
+3.8. These changes significantly increase the amount of funding directed to Newham 
+under the Fair Funding 2.0 formula, with allocations increasing over the next 
+three years as transitional arrangements to direct funding to where it is needed 
+most take effect. 
+ 
+3.9. The government also confirmed in its November policy statement that:  
+ 
+ Fairer Funding will be a three-year settlement, which will provide multi-
+year certainty. 
+ The reforms distribute funding to better reflect need and therefore demand 
+on councils. 
+ There will be consolidation of grants into fewer funding ‘pots’ and ringfence 
+arrangements will be reduced allowing councils greater flexibility. 
+ 
+3.10. The above arrangements have been confirmed by the Final Local Government 
+Finance Settlement. There has been an increase in funding of £0.500m in 
+2026/27 and £0.250m in 2027/28 when compared to the Provisional Local 
+Government Finance Settlement 
+ 
+3.11. Financial Pressures 
+ 
+3.12. The budget is set against a background of financial pressures, most of which 
+are common to other authorities both in and outside of London. Those pressures 
+which have been taken into account are: 
+ 
+
+
+=== PDF PAGE 13 ===
+Appendix AA 
+ 
+ 
+3.13. Homelessness – The Council continues to experience high demand for the 
+provision of temporary accommodation following the cost of living and housing 
+crisis. 
+ 
+3.14. Adult Social Care  – Increasing demographic and complexity pressures on 
+demand and escalation of care need in Adult Social Cre. 
+ 
+3.15. Children’s Social Care – Increased complexity of need driving cost increases 
+particularly in relation to external residential care. 
+ 
+3.16. Inflation – the general rate of increase in the cost of goods and services is 
+feeding through as pressure on Council contracts, supplies and rates of pay. 
+ 
+3.17. Levies – population growth and demographic change is driving the increases in 
+the cost of the East London Waste Authority levy, and also the cost of paying 
+the Newham share of Transport for London’s Freedom Pass scheme. 
+ 
+3.18. Internal Investment  – the council needs to invest in its transformation of 
+operations, in the provision of data and information technology services, and in 
+its internal control and procurement functions. 
+ 
+3.19. Risks 
+ 
+3.20. National and economic risks impacting the budget and Financial Strategy 
+include the following: 
+ 
+3.21. Economic growth  – The inability to attract and retain investment, stimulate 
+local business growth, and implement economic development strategies will 
+result in stagnant or declining economic performance, reduced employment 
+opportunities, and diminished public revenue, ultimately impacting the quality of 
+local public services and increased financial instability. 
+ 
+3.22. Economic Risks – Increasing costs due to inflation and demographic pressures 
+resulting in significant savings requirements in future years. A separate 
+provision has also been set against the risk of fluctuations in the cost of energy 
+supply, such as has been experienced in recent years. 
+ 
+3.23. Interest rates  – risks of adverse movements on rates, both in terms of 
+borrowing and investments. The risk of a sudden rise in the rate of inflation; the 
+latest Retail Price Index is currently at a level above the Bank of England’s target 
+of 2% per annum. Whilst inflation allocations in the budget reflect the current 
+trends, we have seen in recent years global and macroeconomic events cause 
+a steep increase in the rate of inflation which would feed through into higher 
+costs of pay, supplies and services and contracts, as well as impacting the cost 
+of borrowing to fund the Capital Programme. Whilst much of the Council’s debt 
+is fixed rate, the requirement to replace maturing loans exposes the Council to 
+interest rate volatility. 
+ 
+3.24. Pay Settlements – An appropriate provision has been set aside to cover a pay 
+increase in-line with that negotiated, at a national level, for 2025/26. The Chief 
+
+=== PDF PAGE 14 ===
+Appendix AA 
+ 
+ 
+Officers’ Pay Policy Statement is an annual document for Council to approve 
+and sets out the arrangements for senior officer pay, this can be found in 
+Appendix U. This provision is also set and designed to meet any additional cost 
+of members allowances or additional cost if members are admitted during the 
+year to the Local Government Pension Scheme (LGPS). 
+ 
+3.25. Climate change and the environment  – Failure to prioritise and address 
+climate change impacts will result in environmental degradation, public health 
+crisis, widening social inequality and economic stability, infrastructure damage 
+and budget pressures from emergency response costs and funding shortfalls. 
+ 
+3.26. Budget Risks include the following:  
+ 
+3.27. Contract failure – Due to risk of suppliers and contractors defaulting as a result 
+of financial difficulties. 
+ 
+3.28. Demographic demand  – Significant increases in demand generally for 
+statutory and essential services put pressure on the service and may lead to 
+increased unit costs. 
+ 
+3.29. Adult Social Care  – Increasing demographic pressures on demand and 
+escalation of care need in excess of what has been budgeted for. Complex 
+cases can be difficult to predict and may result in increased financial pressures 
+ 
+3.30. Homelessness – In line with the national issue affecting many local authorities 
+across the country, the Council continues to experience high demand, and there 
+remains a risk of this demand increasing further should the national and local 
+housing markets become even more difficult. 
+ 
+3.31. Specifically, there is the risk of slower than planned delivery on Temporary 
+Accommodation demand management and cost savings measures. The budget 
+reflects the intent to reverse the recent trajectory of spend on this important 
+service area. This is clearly a risk to achieving a balanced outturn and is 
+mitigated by concerted and focused management attention and the ongoing 
+transformation of all aspects of this service. 
+ 
+3.32. Children’s Social Care  – Increasing levels of demand and increased 
+complexity of need may drive further cost increases, particularly in relation to 
+external residential care 
+ 
+3.33. SEND Transport – Increasing levels of demand and increased complexity of 
+need may drive further cost increases in Home to School Transport. 
+ 
+3.34. Budget Savings Implementation  – due to potential delay or under 
+achievement of agreed planned savings to time, value and profile. Regarding 
+the risk of non-delivery or slippage on MTFS savings; whilst the Council has a 
+relatively good record of savings delivery and is currently reporting 84% as per 
+the Quarter Three Budget Monitoring report to Cabinet, there remains the risk 
+of slippage on achieving the projects intended to save and achieve value for 
+
+=== PDF PAGE 15 ===
+Appendix AA 
+ 
+ 
+money. This is mitigated by the budget setting process itself which seeks to 
+ensure that savings plans are robust and achievable. 
+ 
+3.35. The cumulative impact of savings plans  – the increasing challenges of 
+achieving the on-going significant budget savings to maintain levels of service 
+provision. 
+ 
+3.36. Capacity and Capability – potential lack of skills and expertise to develop and 
+deliver services, transformation, improvements and change. 
+ 
+3.37. Capital programme – Managing the programme to meet deadlines and within 
+agreed budget allocations. 
+ 
+3.38. Income uncertainties  – Uncertainties on collection including Council Tax, 
+Business Rates, demand for fee paying services and Parking Enforcement 
+Income. 
+ 
+3.39. Statutory override Dedicated Schools Grant (DSG)  – The Council has a 
+forecast opening deficit on the DSG of £8.729m in 2026/27. Although the 
+government have recently announced that the majority of DSG deficits will be 
+centrally funded, the Council awaits details on how this announcement will work. 
+ 
+3.40. Tax changes – Any change to tax including, for example, the landfill tax. 
+ 
+3.41. Cyber Attack  – The risk of a cyber attack or other extreme event which 
+adversely affects the council’s operations, and results in additional costs in order 
+to safeguard the provision of Council services. Measures to mitigate the risk of 
+cyber attacks are constantly being employed and developed by the Council’s 
+Digital and Data Technology service. 
+ 
+3.42. Council Owned Companies and Commercial Ventures  – Financial impacts 
+from economic and operational changes that have financial impacts on the 
+Council. 
+ 
+3.43. School Closure - The risk of the Council’s General Fund having to cover the 
+cost of school closures as the borough’s pupil numbers continue to fall, where 
+schools have to close any deficit on the school’s budget will be covered by the 
+General Fund. 
+ 
+3.44. Effective risk management can reduce the call on reserves and the need to hold 
+them, but there will always be a need for reserves and contingencies in local 
+authority finances because some things are inherently uncertain and defy risk 
+management interventions. The MTFS includes the consideration of the 
+requirement for contingencies and reserves to manage risks should they 
+materialise. 
+ 
+3.45. Directorates will be expected to take all reasonable action to mitigate the 
+pressures and risks that may emerge during the financial year 2026/27 that are 
+in excess to their Budget allocations.  There has been a Contingency Budget of 
+
+=== PDF PAGE 16 ===
+Appendix AA 
+ 
+ 
+£10.000m included in the Budget.  This has been provided in the event that 
+Directorate and organisational corporate actions prove to be insufficient. 
+ 
+3.46. In that event, the Contingency Budget would be available corporately to absorb 
+the costs in year 2026/27. Therefore enabling the Useable Reserves to be 
+preserved at their planned level in the MTFS. 
+ 
+ 
+4. Final Budget Setting 
+ 
+4.1. Income Streams 
+ 
+4.2. The Council’s income is made up of a range of grants received from 
+Government together with council tax for which levels are controlled by 
+Government and business rates income which is subject to a nationally 
+controlled income distribution system.  
+ 
+4.3. The Government published the Provisional Local Government Finance 
+Settlement (PLGFS) on 17 December 2025. This was the first year of a three-
+year settlement which reallocate resources by implementing the Fair Funding 
+Review. 
+ 
+4.4. The Government published  the Final LGFS 9 February 2026, with £0.500m 
+additional funding confirmed for 2026/27 and £0.250m confirmed for 2027/28. 
+This funding will be held corporately. 
+ 
+4.5. The impact of the Fair Funding Review is significant. According to the PLGFS 
+Newham will, by 2028/29 attract £123.979m more per year than the baseline of 
+2025/26. Section 3 set out the main changes in funding allocation that have 
+impacted Newham, namely updated population and income deprivation data 
+being used in the formulae. 
+ 
+4.6. The Fair Funding Review consolidates a number of grants into the Council’s 
+funding assessment; this includes the Local Authority Better Care Fund Grant 
+(LABCG). 
+ 
+4.7. The detail of the PLGFS for Newham is shown in the tables below, with rebased 
+2025/26 figures shown for comparison. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 17 ===
+Appendix AA 
+ 
+ 
+Table 1 – Provisional Local Government Funding Settlement Figures 
+ 
+ Baselined 
+2025/26 
+£m 
+2026/27 
+ 
+£m 
+2027/28 
+ 
+£m 
+2028/29 
+ 
+£m 
+Fair Funding Assessment: baseline funding 
+level* NNDR 
+145.821 197.646 202.180 206.259 
+Fair Funding Assessment: Revenue Support 
+Grant 
+145.138 133.607 191.743 229.173 
+Fair Funding Assessment: LABCG top slice 21.210  21.210 - - 
+Consolidated Homelessness, Rough Sleeping 
+and Domestic Abuse Grant 
+13.036 12.339 11.724 10.494 
+Consolidated Children, Families and Youth 
+Grant (portion within Core Spending Power) 
+4.735 9.358 9.358 7.993 
+Recovery Grant 11.012  11.012 11.012 11.012 
+Total 340.951 385.172 426.017 464.931 
+Increase on Prior Year  44.221 40.845 38.914 
+% increase  13% 11% 9% 
+Cumulative Increase  44.072 85.066 123.979 
+* 2025/26 is equal to budgeted NNDR, not the PLGFS estimate. 
+ 
+ 
+4.8. Business Rates income budgeted for 2026/27 totals £197.646m, as per the Fair 
+Funding Formula tables above. 
+ 
+4.9. Core Spending Power 
+ 
+4.10. The government’s preferred measure of local authority funding is what it terms 
+‘Core Spending Power’ (CSP). This differs slightly to income budgets due to 
+government calculation estimates on Council Tax base and NNDR but remains 
+a useful tool to assess how a Council’s funding compares to others and has 
+changed over time. The tables below show that Newham’s (CSP) not only 
+increases from the 2025/26 baseline by 13% in 2026/27, but it is also then 
+forecast to increase by a further 10% and 9% year on year in 2027/28 and 
+2028/29 respectively. This is the three year period that it will take for Fair 
+Funding to be fully implemented. 
+  
+
+=== PDF PAGE 18 ===
+Appendix AA 
+ 
+ 
+Table 2 – Newham’s Core Spending Power 
+ 
+  
+ 
+2025/26 
+£m 
+2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+Council Tax Council Tax requirement 
+(excluding parish precepts) 
+126.4 137.6 149.7 162.8 
+New FFR - 
+FFA 
+Baseline Funding Level -  197.646 202.180 206.259 
+Revenue Support Grant -  133.607 191.743 229.173 
+Local Authority Better Care 
+Grant 
+21.2 21.210 - - 
+New FFR Homelessness, Rough 
+Sleeping and Domestic Abuse 
+13.0 12.339 11.724 10.494 
+Families First Partnership 
+(within Children, Families and 
+Youth Grant) 
+4.7 9.358 9.358 7.993 
+Revised for 
+FFR 
+Legacy Business Rates 168.7        
+Legacy Grant Funding 105.4        
+Grants rolled in to RSG (new 
+grants) 
+12.3       
+Un-ringfenced 
+Grants 
+Recovery Grant  11.0  11.012 11.012 11.012 
+  Total Core Spending Power  462.8  522.7 575.7 627.7  
+Annual change in cash-
+terms CSP 
+12.7% 13.0% 10.1% 9.0% 
+ 
+ 
+4.11. The next table shows CSP on a per capita basis in Newham, adjusted for 
+inflation to provide a real comparison it shows the annual change in funding per 
+person in 2026/27 is 11.2%. Note though that when compared to 2010/11 levels 
+CSP per person is 22.5% lower (in real terms) than it was in that year. 
+ 
+Table 3 – Core Spending Power per Capita in Newham 
+ 
+CSP - in real terms 2025/26 2026/27  2027/28  2028/29  
+Core Spending Power - real terms (£m)  £        442   £        491   £        529   £        566  
+Real terms CSP per capita (£)  £     1,143   £     1,271   £     1,372   £     1,465  
+Annual change in real-terms CSP per 
+capita 
+9.5% 11.2% 8.0% 6.8% 
+Cumulative change in real-terms CSP 
+per capita 
+-30.3% -22.5% -16.3% -10.6% 
+ 
+ 
+4.12. Council Tax rates are set out in more detail in Section 14. In total Council Tax 
+income will rise by £11.018m under this proposed budget. This is made up of 
+increases in the number of homes in the borough, known as the Council Tax 
+base, the reduction in support in the Council Tax Reduction Scheme, and the 
+proposed increase of 4.99% Council Tax made up of 2.99% for General Council 
+Tax, and 2.00% for the Adult Social Care Precept. A breakdown is provided 
+below. 
+ 
+
+=== PDF PAGE 19 ===
+Appendix AA 
+ 
+ 
+Table 4 – Council Tax Income changes 
+ 
+ £m 
+Council Tax Income 2025/26 126.438 
+Plus; increase of 2,036 homes in the borough (CT Base) 2.821 
+Changes to Council Tax Reduction Scheme 1.570 
+4.99% increase to Council Tax 6.448 
+Council Tax Income 2026/27 137.496 
+ 
+4.13. Other changes to income; the £3.2m packaging Extended Producer 
+Responsibility (pEPR) scheme. This is a new scheme designed to shift the 
+financial and physical responsibility of managing packaging waste from 
+taxpayers to producers. Under this scheme, producers of packaging waste are 
+required to fund the full cost of collecting, sorting, treating, and recycling 
+packaging waste. Local authorities will receive payments to contribute to the net 
+costs of managing household packaging waste. The allocation for Newham in 
+2026/27 is £3.200m.  
+ 
+4.14. The budget also accounts for an increase of £3.000m in Penalty Charge Notice 
+income, which reflects the Transport for London increases to these charge 
+notices in April 2025 (the first increases since 2011). 
+ 
+4.15. Total Net Revenue Stream 
+ 
+4.16. Table 5 sets out the net revenue stream for the five year MTFS period, with 
+2025/26 as a rebased baseline. 
+ 
+Table 5 – Net Revenue Stream – General Fund 
+ 
+Funding Stream 2025/26 
+£m 
+2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+2029/30 
+£m 
+2030/31 
+£m 
+Fair Funding settlement - Grants  (129.077)   (188.025)  (224.087)  (258.671)  (267.371)  (276.271) 
+Fair Funding Settlement - Business 
+Rates, S31 grants, and Business Rate 
+Top up 
+ (173.455)  (197.646)  (202.180)  (206.243)  (206.243)  (206.243) 
+Recovery Grant  (11.012)   -  -  - -  - 
+Council Tax  (126.438)     (137.456)  (137.456) (148.415)    (160.261)    (163.261)   
+Assumed increases in Council Tax set 
+out in the MTFS 
+ -   -   (6.859)  (7.406)  -  -   
+Assumed future increase in Council 
+Tax Base 
+ - -   (4.100)  (4.440)  (3.000)  (3.000) 
+Deficit on Collection Fund - 2.230 - - - - 
+Sub-Total (439.982)  (520.897)  (574.682)  (625.175)  (636.875)  (648.775) 
+Add Grants included in FFR form 
+2026/27 onwards 
+(27.352)      
+ (467.334)  (520.897)  (574.682)  (625.175)  (636.875)  (648.775) 
+Increase on Prior Year  (53.449) (53.785) (50.493) (11.700) (11.900) 
+Cumulative Increase  (53.449) (107.234) (157.727) (169.427) (181.327) 
+
+=== PDF PAGE 20 ===
+Appendix AA 
+ 
+ 
+ 
+4.17. The draft budget report was prepared with the PLGFS figures for the next three 
+years. This report updates the MTFS with the Final Local Government Finance 
+Settlement, and an initial projection for the following two years, making it a five 
+year MTFS. In the table above the increases to income slow down after the 
+transition to Fair Funding has taken place, and thereafter the MTFS has been 
+expanded to only account for 2% inflationary increases to income, and for 
+continued modest growth to the Council Tax Base. 
+ 
+4.18. In addition to expanding the MTFS to 5 years, this report introduces other 
+changes to the Draft Budget Report, and these are explained in the section 
+below, followed by summary tables for all budgetary growth and the savings 
+required to balance the budget. 
+ 
+4.19. Proposed Changes to the Draft Budget Report 
+ 
+4.20. The Provisional Local Government Finance Settlement (PLGFS) was published 
+on the 17 December 2025, and the Draft Budget report was published shortly 
+thereafter. In view of the short turn around between these dates, it has been 
+imperative that during the period between the draft and this final budget report 
+being published, that the financial plans are subjected to extensive checks and 
+review. 
+ 
+4.21. This has been conducted by Portfolio Leads, Directorate Management Teams, 
+the Finance service, and also by the Budget Scrutiny Commission.  The rigour 
+and challenge that the scrutiny process and other reviews have brought has 
+helped identify amendments to the draft budget, and these are detailed in the 
+table below. 
+ 
+4.22. Changes to the General Fund budgets are detailed in Appendix I  which 
+provides full budget tables. The table below shows the changes to the draft 
+budget for 2026/27 only. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 21 ===
+Appendix AA 
+ 
+ 
+Table 6 – Proposed Changes to the Draft Budget Report 
+ 
+ 5 Year Medium Term 
+Financial Strategy 
+2026/27 2027/28 2028/29 2029/30 2030/31 
+  £m  £m £m £m £m 
+Draft Budget Report Position -  (13.535) (1.844) - - 
+Adjustments to Capital 
+Financing to reflect Proposed 
+Capital Programme 
+(4.100) - 1.018 1.013 1.988 
+Update income from grants 
+following PLGFS 
+reconciliation 
+(3.000) 3.000 - - - 
+New Savings (0.700)  - - - - 
+Update Acquisitions budgets 
+to match Model numbers 
+(0.908) (0.329) - - - 
+Reserves Adjustment  (0.161)  0.161 
+  
+  
+All other Savings Adjustments 0.803 (0.720) (0.750) - - 
+New Growth 1.300  0.250 - - - 
+Reverse Collection Fund 
+Reserve drawdown of £4m 
+4.000 - - - - 
+Reverse reversal of 
+collections fund reserve £4m 
+(this was in previous MTFS) 
+- (4.000) - - - 
+Revision of Council tax 
+increase estimates 
+- 0.177 0.177 - - 
+FLGFS Income Adjustment (0.500)  0.250 0.250 - - 
+FLGFS Adjustment to be held 
+centrally 
+0.500 (0.250)   - - 
+Increase Contingency to 2% 
+(£10m in 2026/27) 
+1.858 0.079 - - - 
+Inflation for years 4 and 5       12.000 12.500 
+Temporary Accommodation 
+for years 4 and 5 
+    
+ 
+20.480 17.933 
+Demographic Pressure for 
+years 4 and 5 
+   
+9.500 10.000 
+2% increase on government 
+grants 
+ 
+    (8.700) (8.900) 
+Moderate growth in the 
+Council Tax Base 
+ 
+    (3.000) (3.000) 
+Final Budget Report 
+Position 
+- (14.588) (1.149) 31.293 30.521 
+Transfer to/(from) Reserves 
+2027/28 
+ 
+14.588 (14.588) - - 
+Transfer to/(from) Reserves 
+2028/29 
+  
+15.737 (15.737) - 
+MTFS Incremental GAP - - - 15.556 30.521 
+MTFS Cumulative GAP - - - 15.556 46.077 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 22 ===
+Appendix AA 
+ 
+ 
+4.23. Changes to Savings;  Appendix L (i), (ii) and (iii)  contain full details on 
+savings, but in summary the changes made since the draft budget are; 
+ 
+ A £4.100m saving on Capital Financing costs now that the capital 
+investment strategy has been prepared. Capital investment has been 
+limited to £119.000m in 2026/27 as opposed to the indicative £140.000m 
+used for the draft budget workings. Additionally, the capital programme 
+has been reprofiled, making it more realistic and contributing to the 
+£4.100m saving. Note that these revenue costs have been reprofiled into 
+later years. 
+ 
+ There is a new saving on Temporary Accommodation relating to the 
+proposed tenure change of 41 units soon to be completed by the council 
+on the Greenhills and Burgoyne’s estates. These units will no longer be 
+sold for Shared Ownership but will instead be utilised for discharging 
+clients currently in Temporary Accommodation which will save £0.700m 
+per annum. 
+ 
+ Budgets will also be amended to reflect the financial models for each of 
+the acquisitions blocks that the council has purchased, bringing each of 
+those budgets into line with the Cabinet approved position for 2026/27. 
+This totals £0.908m income. 
+ 
+ Saving S106 Children’s saving of £0.750m (reference CYPS:26-27:010 
+has been reversed following review of the draft budget, as the funding it 
+relied upon is being used to support eligible expenditure elsewhere. 
+ 
+ The voluntary sector £0.100m saving (reference RES: 25-26:008/B1) in 
+2026/27 has been removed. 
+ 
+ The Children’s Centre saving (reference CYPS: 26-27:007) has been 
+partially reprofiled back a year, with £0.700m saving moved into 2027/28. 
+ 
+ The element of the Libraries saving (reference C&I: 25-26:007/B15) which 
+related to staffing savings has been reversed, this was worth £0.161m in 
+2026/27 and £0.309m in 2027/28. The planned reserves contribution has 
+been adjusted to balance this. 
+ 
+4.24. Changes to Growth;  Appendix N lists all growth, the new additions to this 
+since the draft report are for; 
+ 
+ Growth of £0.250m to fulfil CQC recommendations following their 
+assessment of Adult Social Care and so improve those services. 
+ 
+ Growth of £0.750m to invest in and improve the Council’s procurement 
+service and achieve greater value for money. 
+
+=== PDF PAGE 23 ===
+Appendix AA 
+ 
+ 
+ 
+ Growth of £0.300m to invest in the Internal Audit function of the council 
+and enable a full review of internal controls. 
+ 
+4.25. Other changes necessary to update the budget; 
+ 
+ £3.000m adjustment to government income following full reconciliation of 
+the Provisional Local Government Finance Settlement. A further £0.500m 
+income has been recognised following FLGFS, with the corresponding 
+expenditure budget to be held corporately. 
+ 
+ A £4.000m reversal of the planned contribution which was to be taken from 
+the earmarked collection fund reserve, made possible by the increased 
+savings and income adjustment listed above. Note that the full review of 
+reserves is discussed at Section 17 and shown at Appendix T. 
+ 
+ A £1.858m contribution to the Contingency budget so that it’s increased 
+£10.000m for 2026/27, which is equal to 2% of the Net Revenue Budget. 
+ 
+ The planned contributions to the General Fund Balance has been reduced 
+to compensate for the Libraries saving partial reversal. Note that it has still 
+been possible to get the General Fund Balance to at least 10% of the Net 
+Revenue Stream in every year of the MTFS following the Reserves 
+Review. 
+ 
+ Other updates made to future year Council Tax estimates and reserve 
+contributions to balance the total adjustments. 
+ 
+4.26. Section 25 Statement – the report on the robustness of the Budget 
+estimates and the adequacy of reserves 
+ 
+4.27. The Section 25 report in Appendix A is a statutory requirement made under 
+section 25 of the Local Government Act 2003, which requires the Section 151 
+Officer to report on the report on the robustness of the estimates and the 
+adequacy of reserves to Council Members when agreeing its annual budget and 
+Council Tax levels. 
+ 
+4.28. Council must have regard to this report when making its decisions around the 
+annual budget and the level of Council Tax for 2026/27 in accordance with 
+section 31A of the Local Government Finance Act 1992. 
+ 
+4.29. For Members of the Council the Section 25 report provides critical context for 
+budgetary discussions in relation to the entire suite of the 2026/27 General Fund 
+Revenue Budget and MTFS, including Capital and Treasury Management 
+Strategy and HRA reports on this agenda setting the 2026/27 Council Tax. The 
+provision of this information is a legal requirement and ensures that all Members 
+
+=== PDF PAGE 24 ===
+Appendix AA 
+ 
+ 
+have regard to the professional advice provided by the Section 151 Officer when 
+final Budget decisions are made being made. 
+ 
+4.30. For context, the 2025/26 Balanced Budget was only able to be set following a 
+successful application for Exceptional Financial Support (EFS) to underpin the 
+budget, allowing the Council to fund revenue costs through the generation of 
+Capital Receipts from sale of Assets. This course of action was not considered 
+a sustainable strategy, but rather a temporary measure to provide breathing 
+room to assess the impact of the governments Fair Funding Review and the 
+development of robust savings including transformational service delivery plans 
+to cut costs  
+ 
+4.31. The proposed 2026/27 Budget enables the Council to emerge from the EFS 
+regime as a result of significant additional savings and increased funding from 
+the governments Fair Funding Review, in part as a result of greater recognition 
+within the funding formula for deprivation levels in the borough, whilst at the 
+same time focusing on increasing efficiency and transforming delivery across 
+the Council thereby setting a Balanced Budget without EFS support. 
+ 
+4.32. There are risks identified that will need to be mitigated should they arise within 
+the Budget.  The Budget relies on all Savings including Transformation savings 
+delivering to time, value and profile. 
+ 
+4.33. The Council still plans to take advantage of a general dispensation available to 
+all Local Authorities to use Flexible Use of Capital Receipts to fund 
+Transformation activity as this will play a key role in enabling activity with one 
+cost that will deliver sustainable cost reductions and savings in the medium 
+term. The key to managing significant savings delivery is a robust financial 
+management and monitoring framework to identify and inform management 
+action to mitigate any implantation problems, underpinned by the Corporate 
+Contingency of £10.000m provision of an appropriate level of reserves to help 
+mitigate. 
+ 
+4.34. The Council has implemented a strong financial management framework to 
+ensure Budgets are fit for purpose as much as possible within the financial 
+envelope, adapt service delivery to efficiently and effectively manage cost and 
+demand pressures and closely monitor day to day expenditure, and drive 
+delivery of savings. The in year 2025/26 position as at Quarter 3 (Month 8) 
+showed a forecast underspend of £8.200m, which was an increase to the of 
+£4.700m since Quarter 2 (Month 5). The main variances to budgets were due 
+to improved pricing negotiations in Temporary Accommodation and 
+containment of risks across the Council thereby minimising use of corporate 
+Contingency Budgets. Despite this the Council does still face continued 
+pressures resulting in overspends such as high cost care packages in Adult 
+Social Care, increasing demand for Schools Transport in CYPS and slippage 
+on delivery of agreed savings. 
+ 
+
+=== PDF PAGE 25 ===
+Appendix AA 
+ 
+ 
+4.35. Newham, like many Local Authorities has faced increased demand for services 
+for pupils with Special Educational Needs and Disabilities (SEND). The 
+Government introduced a statutory override that requires local authority DSG 
+deficits to be ringfenced from the General Fund reserves. The statutory override 
+is due to expire on 31 March 2028, at the time of writing the government has 
+announced plans to fund the majority of Councils’ DSG deficits and a white 
+paper is awaited. 
+ 
+4.36. The Council has a forecast opening deficit on the DSG of £8.729m in 2026/27. 
+Although the statutory override preventing Council’s from recognising this loss 
+remains in place for now, and the Council understands that a significant 
+proportion of this deficit will be funded by central government subject to the 
+white paper referenced above. 
+ 
+4.37. The Council’s overall financial position has significantly improved and has been 
+able to present setting a Balanced Sustainable Budget for 3 years – 2026/27, 
+2027/28 and 2028/29. The Council has addressed Financial Sustainability 
+in the 2026/27 Budget and MTFS.  It demonstrates that it is a financially viable 
+organisation, not just for 2026/27 but for the first 3 years in the MTFS. 
+ 
+4.38. The Council has also addressed Financial  Resilience in this year as the 
+report includes the results of a review of reserves conducted by the Section 151 
+officer, of all Earmarked Reserves, and this shows the consolidation of 
+reserves, increasing General Fund Balance, the introduction of a new 
+Transformation Reserve, and new Business Risk Reserve, which will help 
+manage the financial risks the Council faces. 
+ 
+4.39. The Councils Reserves are key to Financial Resilience and Sustainability, 
+enabling the Council to absorb significant shocks such as those presented by 
+the pandemic and the housing crisis, as well as smaller fluctuations in the 
+Councils operational and financial landscape. This Budget seeks to ensure that 
+General Fund Balance (unallocated) increase to an appropriate level 
+recommended by the Section 151 Officer to be 10% of Net Revenue Budget 
+over the medium term.  The Section 151 Officer considers that subject to 
+the approval of these plans, the level of Reserves for 2026/27 are 
+adequate. 
+ 
+4.40. The Section 151 Officer considers that overall, the proposals in this report, 
+including; the reliance upon delivery of a £89.812m programme of savings; the 
+dispensation to utilise up to £15.203m of capital receipts to fund Transformation; 
+and the proposed increase in Council Tax of 4.99%, represent a robust 
+Budget for 2026/27 with adequate reserves. 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 26 ===
+Appendix AA 
+ 
+ 
+5. Building out the MTFS to 5 years 
+ 
+5.1. Appendix R(i) shows the MTFS over a five year period whereas previously it 
+has been forecast for a three year period. The approach taken for years four 
+and five has been to make broad assumptions and estimates (listed below), and 
+these will be refined in future versions of the MTFS. 
+ 
+5.2. Beyond the core MTFS period, the Council has modelled a set of broad, high-
+level financial assumptions for 2029/30 and 2030/31. These assumptions are 
+intended to provide an indication of the potential scale of financial pressures 
+facing the Council in the later years of the plan and should be regarded as 
+illustrative planning assumptions rather than detailed forecasts. 
+ 
+5.3. Inflationary pressures are assumed to continue into the later years, adding 
+£12.000m in 2029/30 and £12.500m in 2030/31. This reflects the ongoing 
+impact of contract inflation, service cost growth and residual price pressures, 
+even where national inflation is expected to moderate over the medium term. 
+ 
+5.4. Temporary Accommodation (TA) remains the most significant driver of cost 
+pressures in the later years of the plan. Additional pressures of £20.500m in 
+2029/30 and £17.900m in 2030/31 have been assumed. While the profile 
+assumes some reduction in growth by 2030/31, TA costs remain highly 
+sensitive to demand levels, market rents and wider housing market conditions. 
+ 
+5.5. Demographic and demand-led pressures across statutory services are 
+assumed to add a further £9.500m in 2029/30 and £10.000m in 2030/31, 
+reflecting population growth, increasing complexity of need and cost pressures 
+in key demand-led services. 
+ 
+5.6. These pressures are partially offset by assumed improvements in funding and 
+local income. Government income is assumed to increase by £8.700m in 
+2029/30 and £8.900m in 2030/31, while growth in the Council Tax Base is 
+assumed to generate additional income of £3.000m per annum in each year. 
+ 
+  
+
+=== PDF PAGE 27 ===
+Appendix AA 
+ 
+ 
+6. Savings 
+ 
+6.1. Appendix M provides a list of all savings measures proposed in this budget for 
+2026/27 and for the next two years of the MTFS. A departmental summary of 
+savings measures for 2026/27 is provided below. 
+ 
+Table 7 – 2026/27 Savings by Directorate 
+ 
+Directorate Efficiency 
+ 
+£m 
+Income 
+Generation 
+£m 
+Service 
+Reduction 
+£m 
+Trans-
+formation 
+£m 
+Total 
+ 
+£m 
+Adults & Health (2.100)  - - (9.634) (11.734) 
+Change & Improvement (0.480)  (0.045) (0.534) (0.271) (1.330) 
+Children & Young People (2.519)  - (0.618) (4.096) (7.233) 
+Environment & Sustainable 
+Transport 
+- (0.874) - (0.649) (1.523) 
+Inclusive Economy & Housing (17.105)  - (0.200) (9.353) (26.658) 
+Resources (3.500)  - - (0.236) (3.736) 
+Cross Cutting -  - - (1.963) (1.963) 
+Corporate Budgets -  - (1.570) - (1.570) 
+Total (25.704) (0.919) (2.922) (26.202) (55.747) 
+ 
+ Table 8 – Savings by type over the MTFS 
+ 
+Savings Type 2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+2029/30 
+£m 
+2030/31 
+£m 
+Total 
+£m 
+Efficiency  (25.704) (4.379) (0.015) - - (30.098) 
+Income Generation  (0.919) (1.545) (0.500) - - (2.964) 
+Service Reduction  (2.922) (0.087) (0.543) - - (3.552) 
+Transformation  (26.202) (18.270) (8.726) - - (53.198) 
+Grand Total  (55.747) (24.281) (9.784) - - (89.812) 
+ 
+ 
+6.2. The tables above and below show that £55.747m of savings are proposed for 
+2026/27 out of a total £89.812 over the three year period 
+ 
+6.3. Appendix L(i)  lists and describes all MTFS savings which have been 
+introduced as part of the 2026/27 budget setting. It includes full details for those 
+savings measures that are either newly introduced since the draft budget report, 
+or which have been amended since the draft budget report. Full details on the 
+other savings are listed in the draft budget report and are not repeated here. 
+ 
+
+=== PDF PAGE 28 ===
+Appendix AA 
+ 
+ 
+6.4. Appendix L(ii)  lists and describes all MTFS savings introduced prior to the 
+2026/27 budget setting process. This shows where amendments have been 
+made such as consolidation into the Transformation programme. 
+ 
+6.5. Appendix L(iii)  provides a focussed look at the Transformation savings 
+included within the savings programme and which now total £26.988m. It shows 
+how these savings have been amended, distributed and reprofiled across the 
+Council. 
+ 
+6.6. Appendix M provides a complete list of all savings in the MTFS period 2026/27 
+to 2028/29 totalling £89.812m, summarised in the table below. 
+ 
+Table 9 – All Savings in the Medium Term Financial Strategy by 
+Directorate 
+ 
+Directorate 2026/27 
+Savings 
+£m 
+2027/28 
+Savings 
+£m 
+2028/29 
+Savings  
+£m 
+2029/30 
+Savings 
+£m 
+2030/31 
+Savings 
+£m 
+Total 
+Savings 
+£m 
+Adults & Health (11.734) (7.010) (5.920) - - (24.664) 
+Change & 
+Improvement (1.330)  (0.122) - 
+- - 
+(1.452) 
+Children &Young 
+People (7.233)  (3.014) (1.950) 
+- - 
+(12.197) 
+Environment 
+&Sustainable 
+Transport (1.523)  (1.655) (0.899) 
+- - 
+(4.077) 
+Inclusive Economy 
+& Housing (26.658)  (3.257) (1.015) 
+- - 
+(30.930) 
+Resources (3.736) (0.417) - - - (4.153) 
+Cross Cutting (1.963) (8.806) - - - (10.769) 
+Corporate Budgets (1.570) - - - - (1.570) 
+Total (55.747) (24.281) (9.784) - - (89.812) 
+ 
+  
+
+=== PDF PAGE 29 ===
+Appendix AA 
+ 
+ 
+7. Budgetary Growth 
+ 
+7.1. Appendix N provides a table of all growth allocated in this proposed budget for 
+2026/27 and for the next two years of the MTFS. A departmental summary of 
+budgetary growth for 2026/27 and the MTFS is provided below. 
+ 
+Table 10 – 2026/27 Budgetary Growth by Directorate 
+ 
+Directorate Demograp
+hic/Base 
+Increase 
+£m 
+Inflation 
+ 
+ 
+£m 
+Investing 
+In Service 
+ 
+£m 
+Other 
+ 
+ 
+£m 
+Previously 
+Agreed Multi-
+Year Growth 
+£m 
+Temporary 
+Accommo
+dation 
+£m 
+Total 
+ 
+ 
+£m 
+Adults & Health    11.260       4.630       0.500  - - -    16.390  
+Change & Improvement -  -      1.000  - - -      1.000  
+Children & Young People      2.080  - - - - -      2.080  
+Environment & Sustainable 
+Transport 
+     1.280  -      1.490  - - -      2.770  
+Inclusive Economy & 
+Housing 
+     1.200  -      0.150       1.000  - -      2.350  
+Temporary Accommodation      3.000  - - -      1.100     12.800     16.900  
+Resources      0.500  -      2.750  - - -      3.250  
+Inflation -     11.860  - - - -    11.860  
+Corporate Budgets      0.980  - -      2.280  - -      3.260  
+Grand Total    20.300     16.490       5.890       3.280       1.100     12.800     59.860  
+ 
+Table 11 – MTFS Growth by Type 
+ 
+Type of Growth 2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+2029/30 
+£m 
+2030/31 
+£m 
+Total 
+£m 
+Demographic/Base Increase          20.300             10.030          9.010  - -        39.340  
+Inflation            16.490             16.010     11.510  - -        44.010  
+Investing In Service              5.890  0.450       0.440  - -         6.780  
+Other              3.280              1.380        1.770  - -           6.430  
+Previously Agreed Multi-Year Growth              1.100                      -                 -   - -           1.100  
+Temporary Accommodation            12.800         22.300      24.300  - -         59.400  
+Grand Total            59.860            50.170      47.030  - -       157.060  
+ 
+Table 12 – MTFS Growth by Directorate 
+ 
+Directorate 2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+2029/30 
+£m 
+2030/31 
+£m 
+TOTAL 
+£m 
+Adults & Health      16.390        10.080          9.010  - -       35.480  
+Change & Improvement        1.000          0.450          0.450  - -         1.900  
+Children and Young People        2.080  1.220          1.200  - -         4.500  
+Environment and Sustainable Transport        2.770  0.750        (0.010)  - - 3.510  
+Inclusive Economy & Housing 2.350                  -                  -   - -         2.350  
+Temporary Accommodation      16.900  24.000       26.000  - -       66.900  
+Resources       3.250                  -                   -   - -         3.250  
+Inflation      11.860        11.200          7.570  - -       30.630  
+Corporate Budgets       3.260  2.470          2.810  - -         8.540  
+Total      59.860        50.170        47.030  - -     157.060  
+
+=== PDF PAGE 30 ===
+Appendix AA 
+ 
+ 
+7.2. Growth to budgets has been allocated in order to meet the changing and 
+growing population in Newham, to meet inflationary pressures, to invest in 
+services areas identified as needing improvement, to provide enough growth to 
+meet the trends in Temporary Accommodation, and in other areas identified as 
+requiring budgetary corrections. 
+ 
+7.3. Budgetary growth therefore takes into account service user number data, 
+demographic data, general and specific inflation rates observed in what the 
+council buys. 
+ 
+7.4. Note that the temporary accommodation growth accounts for price and demand 
+trajectories before adjusting for the plans to avoid costs and make savings. To 
+explain further, the net result of the Temporary Accommodation growth and 
+savings is a reduction to the total budget made available to the service in 
+2026/27. 
+ 
+7.5. The full list and descriptions of budgetary growth allocated in this budget are 
+provided in Appendix N of this report. 
+ 
+ 
+8. Capital Investment Strategy 
+ 
+8.1. The draft budget report set out the approach to reviewing and amending the 
+capital programme for the 2026/27 budget setting reports. This approach is 
+summarised briefly below, and the full Capital Investment Strategy is provided 
+as Appendix B. 
+ 
+8.2. Prospective Schemes are initially considered against the following principles 
+which the Mayor and Cabinet previously approved as part of the MTFS in the 
+February 2024 Budget setting reports: 
+ Alignment to the delivery of Building a Fairer Newham outcomes and the 
+Local Plan, and that supports growth. 
+ Schemes that have a strong financial case 
+ Business Critical Schemes that minimise risk and enable operational 
+efficiency (i.e. Health & Safety / ICT) 
+ Schemes that are ready to go and deliverable from 2025/26 
+ 
+8.3. For 2026/27, with regards to the financial position, including the council’s debt 
+burden, greater emphasis was then placed on: 
+ Schemes with a strong financial case which are effectively self-financing / 
+can contribute towards delivery of revenue savings through a return on 
+investment (ROI) whereby the financial benefit derived from the scheme 
+meets or exceeds the total cost of the project including the borrowing costs 
+over the lifetime of the asset.  
+ Schemes which serve a business-critical need such as Health & Safety.  
+ Schemes which attract external investment are also considered.  
+ 
+8.4. There is a key interrelationship between revenue and capital budgets which 
+places constraints on the size of the financial envelope available to fund further 
+capital investment without the need to find savings elsewhere in Council 
+
+=== PDF PAGE 31 ===
+Appendix AA 
+ 
+ 
+budgets. A large proportion of the funding invested in capital delivery is sourced 
+from prudential borrowing. The Council must set aside revenue budget to fund 
+the interest and repayment of this borrowing; an illustration is given in the table 
+below. 
+ 
+Table 13 – Illustrative Borrowing Costs 
+ 
+Charge to Revenue 5 year Asset 
+£m 
+50 year Asset 
+£m 
+Interest @ 5.5% 0.060 0.060 
+MRP* 0.200 0.020 
+Total 0.260 0.080 
+ 
+* MRP (Minimum Revenue Provision) is a charge to the revenue account that effectively spreads 
+the cost of the borrowing over the economic life of the asset 
+ 
+ 
+8.5. With funding constrained, the Council cannot afford to pursue all Capital 
+Schemes it would like. Therefore, of any additions to the 2026/27 Budget there 
+will be greater emphasis on prioritising those schemes which have a strong 
+financial case and can contribute to the delivery of revenue savings to support 
+the management of significant pressures on the revenue budget in line with the 
+principals set out above. 
+ 
+8.6. With significant budgetary challenges in-year and in the years ahead covering 
+the MTFS period, in the same way Revenue savings have been sought, the 
+Capital programme has also been subject to critical review to identify Schemes 
+that might be Stopped, Reduced, or Delayed. 
+ 
+8.7. The results of the review are included in Appendices B and C (i), (ii), and (iii). 
+New additions have been limited to less than what was provisionally allowed for 
+in the draft budget, and there has been reprofiling of the capital programme to 
+more realistically match likely spending patterns. 
+ 
+  
+
+=== PDF PAGE 32 ===
+Appendix AA 
+ 
+ 
+Table 14 – Summary of Full Capital Programme 
+ 
+Directorate 2025/26 Budget 2026/27 Budget 2027/28 Budget 2028/29 Budget 2029/30 Budget 2030/31 Budget Total Budget 
+  £m £m £m £m   £m £m 
+General Fund Capital Programme 
+Adults & Public Health 13.370  19.335 6.623 12.459 18.688 18.688 89.164 
+Change and Improvement 0.362  - - 0.025 0.038 0.038 0.462 
+Children & Young People 3.090  4.966 0.348 0.033 0.050 0.050 8.538 
+Environment & Sustainable 
+Transport 40.334 21.344 7.097 5.069 7.604 7.604 89.051 
+Inclusive Economy & Housing 61.184  163.294 152.168 57.421 86.131 86.131 606.329 
+Populo 19.239  64.660 150.539 23.843 35.764 35.764 329.810 
+Resources 6.550  0.931 1.005 0.297 0.446 0.446 9.675 
+Schools (Capital) 33.491  4.856 10.001 0.659 0.989 0.989 50.985 
+Total General Fund Exc 
+Corporate 177.620 279.386 327.781 99.807 149.710 149.710 1184.014 
+Corporate 0.777  13.591 127.592 350.681 526.021 526.021 1544.682 
+Total General Fund Capital 
+Programme 178.397 292.977 455.373 450.487 675.731 675.731 2728.696 
+HRA Capital Programme               
+Housing Revenue Account 211.639  201.645 189.405 173.167 107.172 81.674 964.703 
+Total Planned Capital 
+Expenditure 390.036 494.622 644.778 623.654 782.903 757.405 3693.399 
+ 
+ 
+Table 15 – Summary of New Capital Schemes 
+ 
+Directorates Category Project Title Programme Total Capital 
+£m 
+Adults & Heath Invest to 
+Save 
+Acquisition of Long Term 
+Accommodation Facilities 
+Newham Living 12.000  
+Adults & Heath Total       12.000 
+Children and Young 
+People 
+Business 
+Critical 
+Children’s Social Care System 
+Replacement 
+Operations & 
+Safeguarding 
+4.000 
+Children and Young 
+People Total 
+      4.000 
+Environment and 
+Sustainable 
+Transport 
+Self 
+Financing 
+Digitalisation of Passenger 
+Transport 
+Business System 
+Developments 
+0.100 
+Environment and 
+Sustainable 
+Transport 
+Business 
+Critical 
+Martyn's Law Blast Resistant Litter 
+Bin Installation 
+New Provision 0.075  
+Environment and 
+Sustainable 
+Transport 
+Business 
+Critical 
+East Ham WW1 Memorial (Central 
+Park) 
+Parks & Open 
+Spaces 
+0.139 
+Environment and 
+Sustainable 
+Transport 
+Business 
+Critical 
+Parks footpaths and infrastructure Parks & Open 
+Spaces 
+1.050 
+
+=== PDF PAGE 33 ===
+Appendix AA 
+ 
+ 
+Directorates Category Project Title Programme Total Capital 
+£m 
+Environment and 
+Sustainable 
+Transport 
+Business 
+Critical 
+Keep Newham Moving Yr 12-17 Keeping 
+Newham Moving 
+10.034 
+Environment and 
+Sustainable 
+Transport 
+Invest to 
+Save 
+Burial Provision Asset Investment 
+- Stock 
+0.750 
+Environment and 
+Sustainable 
+Transport 
+Business 
+Critical 
+Health & Safety of Physical Activity 
+& Play Infrastructure  
+Leisure 1.000  
+Environment and 
+Sustainable 
+Transport Total 
+      13.148 
+Inclusive Economy & 
+Housing 
+Self 
+Financing 
+Residential Acquisitions  Acquisitions 
+Programme  
+75.000 
+Inclusive Economy & 
+Housing 
+Invest to 
+Save 
+Commercial Property Improvements  Asset Investment 3.600  
+Inclusive Economy & 
+Housing 
+Invest to 
+Save 
+Corporate Property Improvements Asset Investment 
+- Stock 
+4.500 
+Inclusive Economy & 
+Housing 
+Business 
+Critical 
+Leisure Centres Capital Programme Asset Investment 
+- Stock 
+1.000 
+Inclusive Economy & 
+Housing 
+Business 
+Critical 
+Thames River Wall Flood Defences Asset Investment 2.000  
+Inclusive Economy & 
+Housing 
+Invest to 
+Save 
+Victoria Street Housing General 
+Fund 
+3.000 
+Inclusive Economy & 
+Housing Total 
+      89.100 
+Total General Fund 
+Capital 
+      118.248 
+Housing Revenue 
+Account 
+Invest to 
+Save 
+AHfN - Greenhill and Burgoyne 
+Centre E12 
+Affordable 
+Homes New 
+Build 
+4.456 
+Housing Revenue 
+Account Total 
+      4.456 
+Total Additions       122.704 
+ 
+ 
+8.8. In addition to the Capital Investment Strategy and Programme presented in 
+Appendices B and C, this report also provides; 
+ 
+ the Treasury Management Strategy ( Appendix E ), which Prudential 
+Indicators (E(i)); 
+ 
+ the Minimum Revenue Policy ( E(iii)), which sets out how the Council make 
+arrangements to charge the redemption of debt to Council Tax; 
+ 
+ the Non-Treasury Investment Strategy for 2026/27 ( Appendix F) which 
+outlines how service based and commercial investments are to be 
+managed. 
+ 
+8.9. The Prudential Indicators include affordability metrics to assess the affordability 
+of the capital investment plans. Table 16 of the appendix gives the ratio of 
+General Fund Financing Costs to Net revenue and is also shown below. 
+ 
+
+=== PDF PAGE 34 ===
+Appendix AA 
+ 
+ 
+ 
+Table 16 – Ratio of General Fund Financing Costs to Net Revenue Stream  
+ 
+   2024/25 2025/26 2025/26 2026/27 2027/28 2028/29 2029/30 2030/31 
+  Actual % TMSS % Forecast % Forecast % Forecast % Forecast % Forecast % Forecast % 
+General Fund      18.62             25.32 
+ 
+           16.03
+   
+           17.18
+  
+           19.41
+   
+           21.59
+  
+           26.33
+   
+32.45
+ 
+ 
+8.10. Community Infrastructure Levy (CIL) 
+ 
+8.11. The list was discussed in the draft budget report. For reference and clarity, it is 
+reproduced below. It is unchanged from previous years for 2026/27. 
+ 
+Table 17 – CIL Infrastructure List 
+ 
+Provision, Improvement, Operation & Maintenance of: 
+Town centres, local centres and employment use; civic uses and community facilities 
+Public Realm – including walking and cycling initiatives which connect social and green infrastructure to our residents 
+Newham’s parks, open spaces, green spaces 
+Play equipment; outdoor gym equipment in Newham’s parks and housing areas 
+Newham’s sports facilities 
+Newham’s Education Facilities 
+Newham’s Health & Social Care Facilities 
+Newham’s Cultural Facilities 
+Newham’s Carbon reduction initiatives and energy infrastructure e.g. District heating Schemes 
+Newham’s Flood Defence 
+ 
+ 
+8.12. The types of investment made will be subject to robust governance processes 
+and ensure that the investment made achieves corporate priorities and fulfils 
+the Councils requirements as set out in government guidance and legislation. 
+ 
+ 
+9. Fees and Charges  
+ 
+9.1. The previous iterations of the MTFS set out a strategy of raising fees and 
+charges by up to 10% in 2026/27 wherever possible, and the same again in 
+2027/28. 
+ 
+9.2. A review was carried out by officers, and where the council has the ability to do 
+so and is not otherwise constrained by market conditions and income forecasts, 
+has lifted fees and charges by the amounts set out in Appendix F. 
+ 
+9.3. This revenue raising measure is budgeted to raise an additional £1.000m for 
+2026/27, and £1.300m in 2027/28. The increases in the schedule raise £0.800m 
+per annum which will count towards this saving, and other income maximisation 
+
+=== PDF PAGE 35 ===
+Appendix AA 
+ 
+ 
+strategies will be employed to make the total saving. This additional income is 
+accounted for in the Transformation Savings set out in this budget. 
+ 
+9.4. The review also provides assurance that budgets are aligned to and reflect 
+realistic income expectations across all services. 
+ 
+ 
+10. Parking Revenue Account 
+ 
+10.1. The budgets that make up the Parking Revenue Account are summarised in 
+Appendix H of this report. This shows the proposed total income from parking 
+and traffic management in 2026/27 is £47.153m. This is the first year that this 
+appendix has featured in the annual budget setting report, and it is provided for 
+the purposes of transparency and information. 
+ 
+10.2. The income will fund expenditure on Parking and Traffic enforcement totalling 
+£16.828m. Appendix H shows that £32.135m will be used to contribute to the 
+Council’s transport strategies. These strategies include; revenue spend on 
+managing the highways network; maintaining the roads under the Keep 
+Newham Moving programme; home to school transport provision; and meeting 
+the cost of Transport for London Freedom Passes. 
+ 
+ 
+11. Budget Engagement 
+ 
+11.1. Engagement on the budget options and proposals followed the October Finance 
+Review report received by Cabinet in October 2025. It continued through to the 
+end of January 2026. The Budget Engagement Report appended to this report 
+describes the activity and findings of all the engagement activity. See Appendix 
+K. 
+ 
+  
+
+=== PDF PAGE 36 ===
+Appendix AA 
+ 
+ 
+ 
+12. Budget Summary 
+ 
+12.1. Appendix I provides full Budget tables for the 2026/27 financial year. These 
+are summarised below with the movement from the 2025/26 financial year set 
+out. 
+ 
+Table 18 – 2026/27 General Fund Budget  
+ 
+ 
+General Fund Directorate 
+Budgets 
+Base 
+Budget 
+2025/26 
+ 
+ 
+£m 
+Saving    
+2026/27 
+ 
+ 
+ 
+£m 
+Growth    
+2026/27 
+ 
+ 
+ 
+£m 
+Financing 
+2026/27 
+ 
+ 
+ 
+£m 
+Original 
+Budget     
+2026/27 
+ 
+ 
+£m 
+Total 
+Changes 
+from prior 
+year 
+ 
+£m 
+Adults & Health 134.278 (11.729) 16.390 2.190 141.129 6.851 
+Change & Improvement 15.131 (1.582) 1.058 - 14.607 (0.524) 
+Children & Young People 
+Services 
+131.694 (8.255) 4.829 3.810 132.078 0.384 
+Environment & 
+Sustainable Transport 
+22.397 (2.907) 3.633 (3.000) 20.123 (2.274) 
+Inclusive Economy & 
+Housing 
+88.613 (22.971) 16.123 11.953 93.717 5.104 
+Legal & Governance 4.632 (0.153) 0.014 - 4.493 (0.139) 
+Resources 30.211 (1.306) 7.554 8.291 44.749 14.538 
+Total Service budgets 426.956 (48.904) 49.600 23.244 450.896 23.940        
+Contingency 7.592 - 0.550 1.858 10.000 2.408 
+Other Corporate Budgets 61.858 (5.273) 9.710 3.990 70.284 8.426 
+Corporate Budgets 69.449  (5.273) 10.260 5.848 80.284 10.835        
+Total Service Budget 
+including Contingency 
+and other Corporate 
+Budgets 
+496.405 (54.177) 59.860 29.092 531.180 34.775 
+       
+Additional Revenue 
+Financing and Capital 
+Receipts 
+(56.423) - - 46.140 (10.283) 46.140 
+              
+Net Budget Requirement 439.982 (54.177) 59.860 75.232 520.897 80.915 
+ 
+ 
+ 
+13. Grants 
+ 
+13.1. Appendix P  sets out those grants which are budgeted for within service 
+budgets, and those which are taken centrally to fund the net cost of services. 
+ 
+
+=== PDF PAGE 37 ===
+Appendix AA 
+ 
+ 
+13.2. Note that under the Fair Funding Review, there has been consolidation of a 
+number of smaller grants into central funding streams. Consequently £27.352m 
+of grants accounted for by services in 2025/26 are now accounted for in the 
+central funding budgets. This budget movement has a ‘net nil’ effect, with no 
+reduction to service spending power. 
+ 
+13.3. The budgets proposed are based on the allocations announced at the time of 
+the Final Local Government Finance Settlement and will be updated in due 
+course if there are any further adjustments (as per recommendation in 
+paragraph 2.8 above), ensuring all grant terms and conditions are adhered to. 
+ 
+ 
+14. Council Tax 
+ 
+14.1. A 4.99% total increase in Council Tax made up of a 2.99% increase in Council 
+Tax, and a 2.00% increase in the Adult Social Care Precept is proposed for the 
+2026/27 financial year. 
+ 
+14.2. Table 19 below shows the impact of the increase on the banded rates of council 
+tax. Note that the Band D figure is in bold text as this is the standard figure used 
+to compare Council tax rates across the country. Note also that 93% of homes 
+in Newham fall into bands A to D, with just 7% in bands E to H. 
+ 
+ 
+Table 19 – London Borough of Newham Proposed Council Tax increase 
+ 
+Band Band A  Band B Band C Band D Band E Band F Band G Band H 
+2025/26 Rate 
+£  
+910.39 1,062.12 1,213.85 1,365.58 1,669.04 1,972.50 2,275.97 2,731.16 
+2026/27 Rate  955.81 1,115.12 1,274.41 1,433.72 1,752.32 2,070.93 2,389.53 2,867.44 
+Made up of; 
+        
+Council Tax % 2.99% 2.99% 2.99% 2.99% 2.99% 2.99% 2.99% 2.99% 
+Council Tax £    27.22         31.76      36.29       40.83      49.90       58.98        68.05       81.66  
+Adult Social Care 
+Precept % 
+2.00% 2.00% 2.00% 2.00% 2.00% 2.00% 2.00% 2.00% 
+Adult Social Care Precept 
+£ 
+   18.21       21.24       24.28        27.31       33.38        39.45       45.52        54.62  
+Total Annual Change £     45.43        53.00        60.57        68.14       83.29       98.43     113.57     136.28  
+Total Monthly Change £       3.79          4.42          5.05          5.68          6.94          8.20          9.46       11.36  
+ 
+14.3. For avoidance of doubt the figures in the table above do not include the 
+GLA Precept. 
+ 
+14.4. The Greater London Authority (GLA) draft budget proposes (in line with the 
+provisional LGFS council tax referendum principles):  Total Increase as per 
+Band D: 4.1% £20.13. 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 38 ===
+Appendix AA 
+ 
+ 
+Table 20 – Total Band D Council Tax, inclusive of GLA Precept 
+ 
+Band D 2025/26 
+£ 
+2026/27 
+£ 
+Change 
+£ 
+LBN 1,365.58  1,433.72 68.14 
+GLA 490.38  510.51 20.13 
+Total 1,855.56 1,944.23 88.27 
+ 
+14.5. The bar chart below compares the current rates of band D council tax across 
+London. Newham, highlighted in green, has the lowest cost council tax in outer 
+London currently. The average rate of band D Council tax is highlighted in red. 
+It is expected that most if not all London boroughs plan to increase council tax 
+by 4.99% for 2026/27. 
+ 
+Chart 3: Council Tax Rates across London (2025/26) 
+ 
+ 
+14.6. Following benchmarking across London, the Council consulted on amending 
+the Council Tax Reduction Scheme to offer a maximum of 70% relief rather than 
+the current 80%. The budget proposal is that making this amendment would 
+save the Council £1.57m annually. Whilst this is included in the savings 
+proposals in this paper, the decision to change the Council Tax Reduction 
+(CTR) Scheme is subject to the outcome of that consultation, with the final 
+decision to be made at the full Council meeting on 26 February 2026. 
+ 
+14.7. Whilst the improved funding from Fair Funding Review has negated the need 
+for further Exceptional Financial Support, it has not eliminated the requirement 
+to deliver all of the proposed savings for 2026/27, including the £1.5m reduction 
+in the Council’s expenditure on CTR through the proposed changes consulted 
+on, to achieve a legally balanced budget. 
+
+
+=== PDF PAGE 39 ===
+Appendix AA 
+ 
+ 
+ 
+14.8. The consultation included a change to the scheme, to give households support 
+for the number of children allowed for in DWP means-tested benefits. This 
+means that if the Government removes the two-child benefit cap introduced in 
+April 2016, households getting CTR will be able to fully benefit from any increase 
+in their household income. 
+ 
+14.9. This change will most benefit those households who, through work, disability or 
+caring responsibilities, are exempt from the government’s overall benefit cap; in 
+London, £1,413.92 each month for single adult households and £2,110.25 each 
+month for couples and families. 
+ 
+14.10.  These exempt households will see their income from Universal Credit for 
+example increase by £303.94 each month for each child who was previously 
+excluded from support by the two child benefit cap. 
+ 
+14.11. Other households who are not currently subject to the overall benefit cap will 
+see their income increase for previously unsupported children until the total of 
+all their benefits reaches the overall cap amount. 
+ 
+14.12. The proposals do not impact qualifying pensioner households who will continue 
+to receive up to 100% Council Tax Reduction Support. 
+ 
+14.13. The consultation was launched on 12 November 2025 and ran to 13 January 
+2026. A summary of the findings is below. 
+ 
+14.14. Summary of Findings 
+ 
+14.15. There were 425 responses to the consultation with 312 (73.4%) coming from 
+CTR recipients; 101 (23.8%) from Council Taxpayers; and 12 (2.8%) from other 
+residents, organisations or representatives. 
+ 
+14.16. On the proposal to reduce the maximum support to 70%, there was a strong 
+negative response with 65.2% rejecting it; 67.6% of those were in receipt of 
+CTR and 56.4% of other Council Taxpayers. 
+ 
+14.17. The proposal to increase non-dependent deductions annually by the Consumer 
+Price Index was also rejected – 63.5% of all respondents; 63.1% of those 
+receiving CTR and 61.4% of other Council Taxpayers. 
+ 
+14.18. There was a positive response to removing or amending the two-child benefit 
+cap in line with any changes made by central Government to other means tested 
+benefits. 57.4% of all respondents supported the proposal; 56.7% of those in 
+receipt of CTR and 60.4% of other Council Taxpayers. 
+ 
+14.19. Mitigations 
+ 
+14.20. The proposed CTR changes from 80% to 70% do not impact qualifying 
+pensioner households who will continue to receive up to 100% Council Tax 
+
+=== PDF PAGE 40 ===
+Appendix AA 
+ 
+ 
+Reduction Support. However, 15,614 working age households will be impacted, 
+of which the following claimant groups are overrepresented:  
+ 
+ 93.7% of claimants’ female headed single-parent households  
+ 63.5% of claimants are women  
+ 42.7% of claimants are Disabled residents  
+ 26.6% of claimants are Black residents  
+ 
+14.21. In line with the Council’s Equality Duty requirements and the Building a Fairer 
+Newham corporate plan policy framework to address inequality and poverty; 
+alongside requirements to meet the government’s requirements to address 
+deprivation, several mitigations are already or will be put in place: 
+ 
+14.22. The Council’s Collection teams have policies in place to identify vulnerable 
+residents who are in arrears and will make reasonable and appropriate 
+adjustments to debt collection procedures.  In the most exceptional cases, the 
+council has discretionary powers to further reduce council tax liability, after an 
+award of Council Tax Reduction. 
+ 
+14.23. Checking a taxpayer’s possible entitlement to Department for Work and 
+Pensions (DWP) benefits to maximise their income, including ensuring that 
+Single Person Discounts are awarded to those who are eligible. 
+ 
+14.24. Creating payment plans with a frequency to suit both the taxpayer and the 
+Council to either avoid arrears building or to address arrears that have built. 
+Additionally, residents have the option to pay over 12 months rather than 10 
+months as well. 
+ 
+14.25. Working closely with DWP and other government agencies to identify 
+forthcoming changes and the effects they will have on our residents so that 
+mitigations can be considered and planned. 
+ 
+14.26.  For instance, the newly announced Crisis and Resilience Fund (CRF) will 
+operate from April 2026 to March 2029, replacing the Household Support Fund 
+which has been delivered through short-term tranches of 6 months to 1 year 
+since 2021. The CRF will be used by the Council to ensure households can 
+both manage immediate financial shocks and build longer-term financial 
+sustainability. 
+ 
+14.27. Signposting to the Council’s Our Newham Money service which works to 
+support households with debt advice and income maximisation, alongside 
+agencies such as the Citizen’s Advice Bureau (CAB) for holistic debt help to 
+support households into pathways to financial sustainability. 
+ 
+14.28. Ongoing evaluation of the mitigations in place so the impacted households are 
+effectively supported. 
+ 
+14.29. As per paragraph 14.8; The consultation included a change to the scheme, to 
+give households support for the number of children allowed for in DWP means-
+tested benefits. This means that if the Government removes the two-child 
+
+=== PDF PAGE 41 ===
+Appendix AA 
+ 
+ 
+benefit cap introduced in April 2016, households getting CTR will be able to fully 
+benefit from any increase in their household income. 
+ 
+ 
+15. Medium Term Financial Strategy (MTFS) 
+ 
+15.1. Appendices R(i), R(ii) and R(iii) set out the Council’s Medium Term Financial 
+Strategy for the next 5 years. A summary is provided below, but appendix R(i) 
+and R(ii) provide full details. 
+ 
+15.2. The MTFS shows a balanced budget for 2026/27, 2027/28 and 2028/29, but 
+then shows forecast budget gaps in the fourth and fifth years of the model. 
+ 
+15.3. Appendix R(iii) is the written narrative Medium Term Financial Strategy, and 
+explains the approach taken to date, how to manage the overall financial 
+position, and the way forward in terms of addressing the forecast budget gaps 
+of £15.556m in 2029/30, and £46.077m in 2030/31. 
+ 
+Table 21 – Summary MTFS 2026/27 to 2030/31 
+  
+2026/27 
+£m 
+2027/28 
+£m 
+2028/29 
+£m 
+2029/30 
+£m 
+2030/31 
+£m 
+Base Budgets 496.405 531.179 560.093 609.457 652.431 
+Total Growth 59.860  50.170 47.030 41.980 40.433 
+Total Savings (54.178)  (24.280) (9.784) - - 
+Total other changes 29.093  3.024 12.117 0.994 1.988 
+Net Budget Requirement before  
+Exceptional Financial Support, 
+Flexible use of Capital Receipts 
+531.179 560.093 609.457 652.431 694.852 
+      
+Flexible Use of Capital Receipts (10.283)  - - - - 
+Contribution to/(from)  Reserve -  14.589 15.718 - -       
+Net Budget Requirement 520.897 574.682 625.175 652.431 694.852 
+Income from Central Government 
+and Council Tax 
+     
+Fair Funding settlement - Grants (188.025)  (224.087) (258.671) (267.371) (276.271) 
+Fair Funding Settlement - 
+Business Rates, S31 grants, and 
+Business Rate Top up 
+(197.646) (202.180) (206.243) (206.243) (206.243) 
+Recovery Grant -  - - - - 
+Council Tax (137.456)  (137.456) (148.415) (160.261) (163.261) 
+Assumed increases in Council Tax 
+set out in the MTFP 
+- (6.859) (7.406) - - 
+Assumed future increase in 
+Council Tax Base 
+- (4.100) (4.440) (3.000) (3.000) 
+Deficit on Collection Fund (NNDR) 2.230 - - - - 
+Total Income from Central 
+Government and Council Tax 
+(520.897) (574.682) (625.175) (636.875) (648.775) 
+Incremental Budget Gap 
+   
+15.556 30.521 
+Cumulative Budget Gap - - - 15.556 46.077 
+
+=== PDF PAGE 42 ===
+Appendix AA 
+ 
+ 
+ 
+* This line does not include the Council Tax Reduction Scheme saving included 
+in the Savings Appendix. This is accounted for within the council tax line. 
+ 
+15.4. Appendix S provides information on how different scenarios on Council Tax 
+Increases would cumulatively impact the MTFS position. It illustrates how the 
+forecast cumulative budget gap for 2030/31 would be £29.933m if a Council Tax 
+increase of 4.99% was agreed in every year, forecast compared to a budget 
+gap of £49.070m if a council tax increase of 1.99% was agreed in year instead. 
+ 
+ 
+16. Risks and Contingency 
+ 
+16.1. The risks that the council faces were outlined in Section 3 of this report, but the 
+main risks are repeated here for convenience. 
+ 
+16.2. National and economic risks impacting the budget and Financial Strategy 
+include the following: 
+ 
+16.3. Economic growth  – The inability to attract and retain investment, stimulate 
+local business growth, and implement economic development strategies will 
+result in stagnant or declining economic performance, reduced employment 
+opportunities, and diminished public revenue, ultimately impacting the quality of 
+local public services and increased financial instability. 
+ 
+16.4. Economic Risks – Increasing costs due to inflation and demographic pressures 
+resulting in significant savings requirements in future years. A separate 
+provision has also been set against the risk of fluctuations in the cost of energy 
+supply, such as has been experienced in recent years. 
+ 
+16.5. Interest rates  – risks of adverse movements on rates, both in terms of 
+borrowing and investments. The risk of a sudden rise in the rate of inflation; the 
+latest Retail Price Index is currently at a level above the Bank of England’s target 
+of 2% per annum. Whilst inflation allocations in the budget reflect the current 
+trends, we have seen in recent years global and macroeconomic events cause 
+a steep increase in the rate of inflation which would feed through into higher 
+costs of pay, supplies and services and contracts, as well as impacting the cost 
+of borrowing to fund the Capital Programme. Whilst much of the Council’s debt 
+is fixed rate, the requirement to replace maturing loans exposes the Council to 
+interest rate volatility. 
+ 
+16.6. Pay Settlements – An appropriate provision has been set aside to cover a pay 
+increase in-line with that negotiated, at a national level, for 2025/26. The Chief 
+Officers’ Pay Policy Statement is an annual document for Council to approve 
+and sets out the arrangements for senior officer pay, this can be found in 
+Appendix U. This provision is also set and designed to meet any additional cost 
+of members allowances or additional cost if members are admitted during the 
+year to the Local Government Pension Scheme (LGPS). 
+ 
+
+=== PDF PAGE 43 ===
+Appendix AA 
+ 
+ 
+16.7. Climate change and the environment  – Failure to prioritise and address 
+climate change impacts will result in environmental degradation, public health 
+crisis, widening social inequality and economic stability, infrastructure damage 
+and budget pressures from emergency response costs and funding shortfalls. 
+ 
+16.8. Budget Risks include the following:  
+ 
+16.9. Contract failure – Due to risk of suppliers and contractors defaulting as a result 
+of financial difficulties. 
+ 
+16.10. Demographic demand  – Significant increases in demand generally for 
+statutory and essential services put pressure on the service and may lead to 
+increased unit costs. 
+ 
+16.11. Adult Social Care  – Increasing demographic pressures on demand and 
+escalation of care need in excess of what has been budgeted for. Complex 
+cases can be difficult to predict and may result in increased financial pressures 
+ 
+16.12. Homelessness – In line with the national issue affecting many local authorities 
+across the country, the Council continues to experience high demand, and there 
+remains a risk of this demand increasing further should the national and local 
+housing markets become even more difficult. 
+ 
+16.13. Specifically, there is the risk of slower than planned delivery on Temporary 
+Accommodation demand management and cost savings measures. The budget 
+reflects the intent to reverse the recent trajectory of spend on this important 
+service area. This is clearly a risk to achieving a balanced outturn and is 
+mitigated by concerted and focused management attention and the ongoing 
+transformation of all aspects of this service. 
+ 
+16.14. Children’s Social Care  – Increasing levels of demand and increased 
+complexity of need may drive further cost increases, particularly in relation to 
+external residential care 
+ 
+16.15. SEND Transport – Increasing levels of demand and increased complexity of 
+need may drive further cost increases in Home to School Transport. 
+ 
+16.16. Budget Savings Implementation  – due to potential delay or under 
+achievement of agreed planned savings to time, value and profile. Regarding 
+the risk of non-delivery or slippage on MTFS savings; whilst the Council has a 
+relatively good record of savings delivery and is currently reporting 84% as per 
+the Quarter Three Budget Monitoring report to Cabinet, there remains the risk 
+of slippage on achieving the projects intended to save and achieve value for 
+money. This is mitigated by the budget setting process itself which seeks to 
+ensure that savings plans are robust and achievable. 
+ 
+16.17. The cumulative impact of savings plans  – the increasing challenges of 
+achieving the on-going significant budget savings to maintain levels of service 
+provision. 
+ 
+
+=== PDF PAGE 44 ===
+Appendix AA 
+ 
+ 
+16.18. Capacity and Capability – potential lack of skills and expertise to develop and 
+deliver services, transformation, improvements and change. 
+ 
+16.19. Capital programme – Managing the programme to meet deadlines and within 
+agreed budget allocations. 
+ 
+16.20. Income uncertainties  – Uncertainties on collection including Council Tax, 
+Business Rates, demand for fee paying services and Parking Enforcement 
+Income. 
+ 
+16.21. Statutory override Dedicated Schools Grant (DSG)  – The Council has a 
+forecast opening deficit on the DSG of £8.729m in 2026/27. Although the 
+government have recently announced that the majority of DSG deficits will be 
+centrally funded, the Council awaits details on how this announcement will work. 
+ 
+16.22. Tax changes – Any change to tax including, for example, the landfill tax. 
+ 
+16.23. Cyber Attack  – The risk of a cyber attack or other extreme event which 
+adversely affects the council’s operations, and results in additional costs in order 
+to safeguard the provision of Council services. Measures to mitigate the risk of 
+cyber attacks are constantly being employed and developed by the Council’s 
+Digital and Data Technology service. 
+ 
+16.24. Council Owned Companies and Commercial Ventures  – Financial impacts 
+from economic and operational changes that have financial impacts on the 
+Council. 
+ 
+16.25. School Closure - The risk of the Council’s General Fund having to cover the 
+cost of school closures as the borough’s pupil numbers continue to fall, where 
+schools have to close any deficit on the school’s budget will be covered by the 
+General Fund. 
+  
+16.26. The proposed budget sets a general Contingency budget of £10.000m for 
+2026/27. This budget is only to be employed to meet those in-year financial 
+pressures that Service Directorate budgets are unable to cover or mitigate.  The 
+Contingency is the second line of defence. 
+ 
+16.27. A separate provision has also been set against the risk of fluctuations in the cost 
+of energy supply, such as has been experienced in recent years. 
+ 
+16.28. This report does not list all potential risks facing the Council in the 2026/27 
+financial year, but there are clearly some known risks, against which it is 
+sensible to hold a Contingency Budget, a Business Risk Reserve and sufficient 
+level of reserves. Examples of these risks are given below. 
+ 
+16.29. The risk of a sudden rise in the rate of inflation; the latest Retail Price Index is 
+currently at a level above the Bank of England’s target of 2% per annum. Whilst 
+inflation allocations in the budget reflect the current trends, we have seen in 
+recent years global and macroeconomic events cause a steep increase in the 
+rate of inflation which would feed through into higher costs of pay, supplies and 
+
+=== PDF PAGE 45 ===
+Appendix AA 
+ 
+ 
+services and contracts, as well as impacting the cost of borrowing to fund the 
+Capital Programme. 
+ 
+17. Earmarked Reserves 
+ 
+17.1. The Section 151 officer conducted a review of all earmarked reserves in 
+January and February 2026. The results of this review are included in Appendix 
+T of this report and are summarised in the table below. 
+ 
+Table 22 – Earmarked Reserves 
+ 
+Earmarked Reserves 31 March 
+2026 
+Forecast 
+£m 
+31 March 
+2027 
+Estimated 
+£m 
+31 March 
+2028 
+Estimated 
+£m 
+31 March 
+2029 
+Estimated 
+£m 
+31 March 
+2030 
+Estimated 
+£m 
+Restricted Reserves 21.494  20.344 19.344 18.344 17.344 
+Other Earmarked 
+Reserves 
+15.435 10.669 8.969 7.269 7.469 
+Collection Fund 
+Reserve 
+14.223 11.993 11.993 11.993 11.993 
+Treasury Reserve 6.529  6.529 6.529 6.529 6.529 
+Transformation 
+Reserve 
+3.000 3.000 3.000 3.000 3.000 
+Business Risk Reserve 20.000 33.615 48.688 51.922 55.136 
+Subtotal 80.681 86.150 98.523 99.057 101.471 
+Unallocated General 
+Fund Balance 
+52.090 57.468 62.517 63.687 64.877 
+School Balances 
+Reserve 
+22.800 20.700 18.600 16.500 16.500 
+HRA Reserves 40.191  40.191 40.191 40.191 40.191 
+Dedicated Schools 
+Grant Deficit 
+(8.729) (8.729) (8.729) (8.729) (8.729) 
+Total 187.033 195.780 211.102 210.706 214.310 
+ 
+ 
+17.2. The unallocated ‘General Fund Balance’ has been set at level equivalent to 10% 
+of the Net Revenue Budget, £52.090m. This is a marked increase on the level 
+of General Fund Balance, which was previously at less than 3% of the net 
+revenue budget. This has been achieved in the following ways; 
+ by making the Budget budgeted contribution to reserves of £2.933m 
+in 2025/26; 
+ by adding the forecast underspend for 2025/26 of £8.200m to the 
+General Fund Balance. 
+ 
+17.3. The £11.133m would take the reserve up to £25.003m, which is approximately 
+5% of net revenue budget, but this is further increased by consolidating and 
+prioritising of other Earmarked Reserves, particularly those described in the 
+latest Going Concern Statement to Audit Committee in June 2025 as being 
+considered available if they needed. The movements are; 
+ £18.615m taken by closing the capital financing reserve 
+ £12.600m taken from the treasury reserve 
+ £7.047m taken from the collection fund reserve  
+
+=== PDF PAGE 46 ===
+Appendix AA 
+ 
+ 
+ £8.552m taken from other reserves which were reviewed as no longer 
+being required. 
+ 
+17.4. £23.814 of the above is being added to unallocated reserves to bring it to 
+£52.090m which is equivalent to 10% of the Net Revenue Budget. 
+ 
+17.5. The standard advice for Local Authorities in setting general or unallocated 
+reserves is to set at between 5% to 10%. Setting at this level provides the 
+Authority with a secure reserve which provides a stable foundation for a 
+resilience in a sustainable Medium Term Financial Strategy. 
+ 
+17.6. The reserves review also created; 
+ A new £3.000m Transformation reserve 
+ A new £20.000m Business Risk reserve 
+ 
+17.7. The Transformation reserve will provide additional funds, if needed, to enable 
+the Council’s transformation and improvement. The 2026/27 budget already 
+provides resource to do this, but this reserve can be held until needed in future. 
+ 
+17.8. The Business Risk reserve represents the third line of defence against financial 
+risk. The first two lines being Service budgets themselves, which have been 
+estimated carefully with budgetary growth provided against risks, and then the 
+Council’s Contingency budget, which is being set at £10.000m or 2% of the Net 
+Revenue budget. The Business risk reserve will only be called upon once those 
+two risk mitigations, or lines of defence, have been utilised. 
+ 
+17.9. The fourth line of defence are all other unrestricted reserves with the final line 
+of defence, the unallocated General Fund Balance the safety net of the Council. 
+It is intended that this will remain at 10% and only be called upon in times of 
+extreme financial stress which endanger the Council’s ability to continue its 
+operations. The MTFS for the next 3 years allows for a budgeted contribution to 
+this reserve each year, to maintain it at the 10% level. 
+ 
+17.10. The capital financing reserve, treasury reserve and collection fund reserve 
+which have made up the bulk of the transfer of reserves, are not new funding or 
+resources. The council has long held these reserves, with usage restricted to 
+minimal smoothing of budget pressures and underspends, except for when the 
+capital financing resource had to be used to cover an element of the Council’s 
+overspend in 2023/24 and 2024/25. These overspends came at a time of 
+extreme financial pressure with rapidly rising temporary accommodation costs 
+outstripping any increase in the council’s available resources at that time. These 
+reserves have always reported them in the annual Going Concern Statement 
+produced alongside the statement of accounts. 
+ 
+17.11. The financial landscape has changed significantly for Newham following the 
+Fairer Funding Review. The reserves review provides a clear presentation of 
+earmarked reserves that are held against financial risk, and shows all 
+stakeholders, unequivocably, that 10% General Fund Balance are set aside, 
+and will not be touched unless in the most extreme circumstances. 
+ 
+
+=== PDF PAGE 47 ===
+Appendix AA 
+ 
+ 
+17.12. In Appendix A , the Section 151 Officer states that they consider that the 
+proposed Budget for 2026/27 is robust, including its reliance upon delivery of a 
+£54.178m programme of savings, dispensation to utilise up to £15.283m of 
+capital receipts to fund transformation, and that a proposed increase in Council 
+Tax of 4.99% is adequate. 
+ 
+17.13. The Section 151 Officer considers that subject to the approval of these plans, 
+the level of Reserves for 2026/27 is adequate. 
+ 
+ 
+18. Value for Money Commentary and Best Value Notice 
+ 
+18.1. In its audit report of February 2025, the Council’s external auditor, Ernst and 
+Young commented on the Council’s arrangements for securing economy, 
+efficiency and effectiveness in its use of resources. In this commentary the 
+auditors identified a risk of significant weakness given that the Council had 
+made decisions to use general fund balances (also known as unallocated 
+general reserves) to fund deficit budgets and that this had reduced those 
+balances below the Council’s recommended minimum levels. 
+ 
+18.2. The report recommended that the council; 
+ 
+“The Council requires urgent action to restore it to a financially sustainable 
+position” and “ It should consider actions required to address the continuous 
+use of reserves and capital receipts to support the general fund budget and 
+restore the general fund reserve to the level recommended by the Corporate 
+Director of Resources . It is the responsibility of all officers and elected 
+members to work together to agree and deliver plans to return the Council to 
+a financially sustainable position”  
+ 
+18.3. In May 2025 the Council received a letter of concern in the form of a non-
+statutory Best Value Notice from MHCLG, in part because of the value for 
+money weaknesses identified by the auditor. These acknowledged steps being 
+taken by the Council, but requires Newham to make further improvements, 
+including to; 
+ 
+“Take steps to improve its financial sustainability, reflecting this in the council’s 
+medium term financial strategy.”   
+ 
+18.4. Steps have now been taken. The proposed budget for 2026/27 and MTFS 
+presented in this report unequivocally sets and maintains the General Fund 
+Balance at 10% of the Net Revenue Budget, and shows a Balanced Sustainable 
+Budget for the next 3 years. Appropriate Contingency and Risk reserves have 
+been set to provide Financial Resilience, and future iterations of the MTFS will 
+address the budget gaps in year 4 and 5 of the modelling. 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 48 ===
+Appendix AA 
+ 
+ 
+19. Education Funding 
+ 
+19.1. As an education authority the Council also receives the following funding to 
+passport / administer funds to local schools and retain to fund central functions: 
+ Dedicated Schools Grant (DSG) 
+ Universal Infant School Meals (UIFSM) 
+ Pupil Premium Grant (PPG) 
+ Devolved Formula Capital Grant  
+ PE and Sports Premium  
+ 
+Dedicated Schools Grant  
+ 
+19.2. On 17 December 2025, The DSG settlement for 2026/27 was published. Blocks 
+within the settlement for the Schools Block (SB), High Needs Block (HNB), Early 
+Years Block (EYB) and Central Schools Services Block (CSSB) are based on 
+calculations under the National Funding Formula (NFF). The DSG settlement 
+for 2026/27 is £579.261m before Academy Recoupment; an increase of 1.06% 
+over 2025/26. Note that the Schools Business Support Grant (SBSG) and 
+National Insurance Contributions (NIC) grant in 2025/26 has now been added 
+to the DSG in 2026/27 and thus the 2025/26 figures have been re-baselined to 
+include this grant. Refer to Appendix J(i), (II)  2026/27 DSG Settlement and 
+J(iii) – Schools Formula Proposed Funding Factors 2026/27 for further 
+information. 
+ 
+Table 23: DSG Settlement 2026/27 
+ 
+DSG Funding Schools 
+Block * 
+High Needs 
+Block 
+Early Years 
+Block 
+Central 
+Services 
+Schools 
+Block 
+Total Allocation 
+(Before recoupment 
+and High Needs 
+place deductions) 
+  £m £m £m £m £m 
+2025/26 437.160 82.635 50.749 2.647 573.191 
+2026/27 430.741 85.002 60.747 2.770 579.260 
+Movement  (6.419) 2.367  9.998  0.123  6.069  
+Movement % (1.47%) 2.86% 19.70% 4.65% 1.06% 
+           * Includes SBSG and NIC 
+ 
+19.3. Members of Schools Forum were informed at their 19 January 2026 meeting 
+of the DSG settlement for 2026/27.  
+ 
+DSG – Schools Block  
+19.4. In 2026/27 Schools Block budgets continue to be set based on a single National 
+Funding Formula. Under this system, the DfE used October 2025 census data 
+and 2025/26 baselines to generate Primary Units of Funding and Secondary 
+Units of Funding. For Newham, these figures are £7,077.48 and £9,039.53 
+respectively.   
+ 
+
+=== PDF PAGE 49 ===
+Appendix AA 
+ 
+ 
+19.5. The resulting Unit values are then multiplied by October 2025 census data 
+(£7,077.48 x 30,472 plus £9,039 x 22,555). This amounts to £419.552m. Added 
+to this are historic allocations for explicit growth, and premises costs (rates, split 
+sites and PFI) of £11.189m to give a total Schools Block allocation of 
+£430.741m, a decrease of 1.47% compared to 2025/26. 
+ 
+19.6. Nationally, there has been no significant policy change in mainstream schools 
+funding formula. As in previous years, inner London boroughs have the lowest 
+per pupil increases. Newham has the fifth lowest per pupil increase nationally 
+(third lowest per pupil increase nationally in 2025/26 at 1.52%, second lowest 
+in 2024/25 and third lowest in 2023/24). 
+ 
+19.7. The single largest determinant of schools funding are pupil numbers, and the 
+decrease can be attributed to the reduction of 1,646 pupils. There is no 
+protection in the NFF for falling rolls. This represents a significant reduction in 
+spending power for schools which is greater in real terms once inflation is 
+factored in.  In the previous year, the October 2024 census reported a reduction 
+of around 1,200 pupils.  This represents a reduction of 2,846 pupils over a two-
+year period, equating to a funding loss of around £22m.   
+ 
+19.8. In 2026/27 the Council will continue to allocate the Schools Block on the basis 
+of the National Funding Formula.  
+ 
+DSG – Central Schools Services Block 
+ 
+19.9. The Central School Services Block (CSSB)  was introduced in 2018/19 and 
+includes funding for specific central schools’ services operated by the Council. 
+The total allocation for 2026/27 is £2.770m, for both ongoing duties and 
+historical commitments. The overall allocation represents an increase of 
+4.65%compared to 2025/26. 
+ 
+DSG – High Needs Block 
+  
+19.10. DfE recently announced that in 2026/27 they are temporarily suspending the 
+high needs national funding formula (NFF), which in previous years has been 
+used to calculate local authorities’ high needs allocations. Instead, local 
+authorities’ allocations will be based on their 2025/26 allocations, with some 
+adjustments. Following wider reforms to the SEND system, which the 
+government will set out in early 2026, they will review the methodology for 
+allocating high needs funding so that it supports the SEND reforms. 
+ 
+19.11. The allocation is based partly on a historical spend factor as well as other proxy 
+factors the Import/Export adjustment, funding for Teachers’ Pension Employer 
+Contributions and an adjustment for new and growing free schools. This 
+together with the Basic Entitlement totals £64.932m which represents an 
+increase of £1.814m a 2.9% compared to 2025/26. 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 50 ===
+Appendix AA 
+ 
+ 
+DSG – Early Years Block  
+ 
+19.12. For Newham, the local authority funding rate under the Early Years National 
+Funding Formula (EYNFF) has been set at £13.85 per hour for 2026/27 for 3 
+and 4 year-olds (for both the universal offer and the additional hours offered to 
+working families). Local Authorities are required to pass 96% of their 3 and 4 
+year old funding from Government to Early Years Providers. The pass-through 
+amount includes the base hourly as well as deprivation, contingency, and SEN 
+inclusion funding.  
+ 
+19.13. Local authorities must have a deprivation supplement for 3 and 4 year-olds and 
+have discretion to include a certain other specified funding supplement. The 
+total value of supplements used must not exceed 10% of the total value of 
+planned funding to be passed through to providers.  
+ 
+19.14. The hourly rate for disadvantaged 2 year-olds has been set at £10.08 per hour 
+which is an increase of 4.78% compared to 2025/26. The 2-year-old offer has 
+also been extended to include working families. The total estimated allocation 
+for 2026/27 for both disadvantaged 2 year old entitlement and the 2 year old 
+entitlement for working families is £16.392m,  
+ 
+19.15. For under 2’s Newham has been provisionally allocated £11.602m to deliver the 
+enhanced offer  
+ 
+19.16. There are further allocations £0.364m of Early Years pupil premium and 
+£0.345m Disability Access Funding. This gives a total Early Years Block 
+settlement of £60.747m and increase of 19.7% compared to 2025/26. The Early 
+Years block amount is then distributed to providers using the locally agreed 
+Early Years formula rates and criteria.  
+ 
+Universal Infant Schools Meals (UIFSM)  
+ 
+19.17. Schools will also receive funding for UIFSM for eligible children in Reception, 
+Year 1 and Year 2 on the school’s roll at the October 2025 and January 2026 
+census days. Each meal taken by an eligible pupil attracts a per meal value. An 
+allocation assumes that pupils take 190 school meals over an academic year, 
+providing a per pupil annual amount. 
+ 
+19.18. Since September 2023 the Mayor of London has allocated funding to provide 
+free meals to all pupils in key stage 2 (year 3 to 6) who do not receive a free 
+school meal. This funding is for the 2024/25 and 2025/26 academic years. This 
+now funds the Eat for Free scheme previously funded by Newham. 
+ 
+PE and Sports Premium  
+ 
+19.19. Schools receive funding to make additional and sustainable improvements to 
+the quality of their physical education (PE), physical activity and sport Schools 
+Direct Funding  
+ 
+
+=== PDF PAGE 51 ===
+Appendix AA 
+ 
+ 
+19.20. Some schools will receive Schools Direct funding as a contribution to the 
+training and salary costs for each qualifying trainee on School Direct (salaried) 
+courses. Payments are made in 11 instalments, based on the trainee data the 
+schools submit.  
+ 
+Pupil Premium Grant 
+  
+19.21. The Pupil Premium Grant provides funding for: 
+ Raising the attainment of disadvantaged pupils of all abilities to reach 
+their potential. 
+ Supporting children and young people with parents in the regular armed 
+forces. 
+ 
+19.22. It is allocated for all pupils who have been eligible or are eligible for free school 
+meals during the last six years (FSM6), looked-after children, children who have 
+ceased to be looked-after, and service pupils, at the following rates per pupil: 
+ Primary FSM6 pupils: £1,550 
+ Secondary FSM6 pupils: £1,100 
+ Looked-after children: £2,570 
+ Children who have ceased to be looked-after: £2,690 
+ Service children: £360 
+ 
+19.23. It is currently estimated that the authority will receive £11.096m Pupil Premium 
+Grant in 2026/27; however, this will be subject to change based on actual pupil 
+numbers. 
+Devolved Formula Capital Grant 
+19.24. Each year, the DfE allocates funding to help maintain and improve the condition 
+of school buildings and grounds. This funding is made up of: 
+ School Condition Allocations (SCA): given to eligible bodies responsible 
+for maintaining school buildings. 
+ Devolved Formula Capital (DFC): allocated to schools and other eligible 
+institutions. 
+ 
+DSG Deficit Management Plan  
+ 
+19.25. The DSG deficit peaked at the end of 2022/23 reaching £18m.   A recovery plan 
+delivered in-year underspends in subsequent years reducing the deficit year on 
+year. The deficit at the start of the financial year 2025/26 was £8.729m. For 
+2026/27 the High Needs block balances to the in-year block allocation. 
+ 
+ 
+20. Next Steps 
+ 
+20.1. Cabinet meets on 17 February 2026 to decide whether to recommend this 
+budget report to Full Council at its budget setting meeting on 26 February 2026. 
+ 
+20.2. Budget Scrutiny Commission will report its findings and recommendations on 
+12 February 2026, ahead of Cabinet on the 17 February 2026. 
+
+=== PDF PAGE 52 ===
+Appendix AA 
+ 
+ 
+ 
+ 
+21. Delivering Council Policy and Corporate Priorities 
+ 
+21.1. The Council’s budget allocates resources so that directorates can deliver the 
+Council policies and corporate priorities as set out in the Building a Fairer 
+Newham Corporate Plan. There is clearly an interaction between prioritisation 
+and decisions on savings and growth, so the budget reflects updated priorities. 
+ 
+ 
+22. Alternatives Considered 
+ 
+22.1. This report contains proposals which achieve a balanced budget for 2026/27. 
+Prior to the final budget setting at the planned full meeting of the Council, 
+alternative proposals can be considered, but the end result, must provide a 
+balanced budget for the coming financial year.    
+ 
+ 
+23. Consultation and Scrutiny 
+ 
+23.1. Cllr Zulfiqar Ali, Lead Member for Finance and Resources, July 2025 to 
+February 2026. 
+ 
+23.2. Mayor and Cabinet, December 2025 to February 2026.  
+ 
+23.3. Budget Scrutiny Commission January 2026.  
+ 
+ 
+24. Implications 
+ 
+24.1. Finance Implications 
+ 
+24.2. Financial implications are covered throughout the main body of this report and 
+also in Appendix A, which provides the statutory advice of the Section 151 
+Officer. This advice is known as the Section 25 Statement. 
+ 
+24.3. In summary; the advice of the Council’s Interim Chief Finance Officer (Section 
+151 Officer) in their Section 25 report, relates to the robustness of the Budget 
+estimates and the adequacy of the level of Reserves for 2026/27, as required 
+by Section 25 of the Local Government Act 2003. 
+ 
+24.4. The responsibility of Council Members under Section 31A of the Local 
+Government Finance Act 1992, to have regard to this ‘Section 25 Statement’ 
+(Appendix A) when making decisions on agreeing the Budget and setting the 
+Council Tax for the financial year 2026/27. 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 53 ===
+Appendix AA 
+ 
+ 
+24.5. Legal Implications 
+ 
+24.6. The Council is required under Part 1, Chapter III of the Local Government and 
+Finance Act 1992 (the 1992 Act) to set a council tax for the forthcoming year 
+and confirm its budget estimates. In accordance with Section 30(6) of the 1992 
+Act, the decision must be made before 11 March of the preceding year (i.e. by 
+midnight on 10 March) but is not invalid merely because it is made on or after 
+that date. 
+ 
+24.7. Each Member has a positive duty to ensure that the Council complies with its 
+legal obligations, to set a lawfully balanced budget. In doing so, the Council’s 
+prospective expenditure must not be likely to exceed its resources available to 
+meet that expenditure.  
+ 
+24.8.  The Chief Finance Officer has a legal duty to report to the Authority on the 
+robustness of the estimates made for the purposes of the calculations and the 
+adequacy of the proposed financial reserves. Cabinet must consider the Chief 
+Finance Officer’s advice in this regard, when determining whether the proposals 
+should be recommended to Council for approval. 
+ 
+24.9. The approval of the budget and calculation of council tax is a decision reserved 
+to (Full) Council under Section 67(2)(b) of the 1992 Act. Should Council seek to 
+reject or vary the budget in any material respect (in a way which is contrary to 
+the 43 Executive’s recommended budget), then the statutory process set out in 
+Part 4.3 of the Constitution must be followed. 
+ 
+24.10. Cabinet and Council, in recommending and then setting the Council Tax, must 
+have due regard to the impact those decisions will have upon the Council’s 
+statutory public sector equality duty as set out below. 
+ 
+24.11. Equalities Implications 
+ 
+24.12. The Public Sector Equality Duty (PSED) under Section 149 of the Equality Act 
+2010 requires the Council, when exercising its functions, to have due regard to: 
+ the need to eliminate discrimination, harassment, victimisation and any 
+other conduct that is prohibited by or under the Equality Act 2010;  
+ the need to advance equality of opportunity between persons who share 
+protected characteristics and those who do not, and;  
+ foster good relations between those who have protected characteristics 
+and those who do not. 
+ 
+24.13. ‘Protected characteristics’ are: age, gender, race, disability, sexual orientation, 
+marriage and civil partnerships, religion or belief, pregnancy and maternity and 
+gender reassignment. The Council also recognises socio-economic 
+disadvantage, care experience and health and wellbeing status as additional 
+characteristics.  
+ 
+24.14. Any budgetary decisions which subsequently need to be taken should be made 
+in accordance with the duty set out above. 
+
+=== PDF PAGE 54 ===
+Appendix AA 
+ 
+ 
+ 
+24.15. Due regard means giving proper and focussed consideration of the impact of 
+the decision on meeting its equalities duties. The primary focus should be on 
+any adverse equalities implications that will arise from a decision and how they 
+can be avoided and / or how they are mitigated in the decisions. The amount of 
+focus on the duties will vary with each decision and how far they adversely 
+impact on protected characteristics. 
+ 
+24.16. Members should note that budget decisions on services form only an allocation 
+of funds to a service or area; they do not constitute the final decision on service 
+delivery. Where changes to service delivery are proposed by budgetary 
+changes, a full equalities assessment will be undertaken before the final 
+decision is made by Cabinet. It is to be noted that the Mayor and Cabinet have 
+stated that for the purposes of the Budget setting process for 2025/26 and the 
+MTFS period enhanced diligence will be applied to saving proposals brought 
+forward for consultation, engagement and approval. 
+ 
+24.17. Cumulative Equalities Impact Assessment 
+ 
+24.18. Appendix O provides a full cumulative equalities impact assessment of this 
+budget, following individual assessments of each savings proposal in the draft 
+budget. 
+ 
+24.19. It is up to decision-makers to balance the equality implications of all the 
+proposals against other factors including the Council’s difficult budgetary 
+pressures. If decision-makers believe they need more information regarding the 
+equality implications of a specific proposal before making a final decision on 
+whether to approve a proposal, this should be indicated to lead officers. 
+ 
+24.20. Decision makers should note the analysis for some proposals is indicative at 
+this stage. Once proposals are finalised, the likely equalities impacts will need 
+to be reviewed considering any changes made or additional information that 
+has come to light. Some proposals may have further cabinet papers produced 
+over the financial year; following statutory consultations for example, where 
+more in-depth equality implication reports must be presented. 
+ 
+24.21. Climate Implications 
+ 
+24.22. This report will not materially directly impact the Council’s response to the 
+Climate Emergency as iterated in its Just Transition Climate Action Plan, 
+published in December 2023, but subsequent decisions on resource allocation 
+could do so. 
+ 
+ 
+25. Background Information Used in the Preparation of this Report  
+ 
+25.1. 2026/27 Draft Budget Proposals: Creating the pathway to financial sustainability 
+and delivering a Fairer Newham 
+Agenda for Cabinet on Thursday 8th January 2026, 10.30 a.m. – Newham 
+Council 
+
+=== PDF PAGE 55 ===
+Appendix AA 
+ 
+ 
+25.2. October Finance Review 2025 
+Agenda item - October Finance Review Report 2025 – Newham Council 
+25.3. July Finance Review 2025 
+Agenda item - July Finance Review – Newham Council 
+25.4. Schools Forum on 15 th December 2025 
+Newham Schools Forum 15-12-2025 
+25.5. HRA Business Plan December 2025  
+Cabinet Report Dec 2025 - HRA Business Plan Update.pdf 
+25.6. The council’s draft accounts for 2024/25 were reported to the Audit Committee 
+on 30 June 2025, and published on the council’s website, meeting the statutory 
+deadline. 
+Agenda for Audit and Governance Committee on Monday 30th June 2025, 7.00 
+p.m. 
+25.7. The budget setting and MTFS reports back to the Summer Finance Review 
+2024 are available on the links below. 
+Agenda item - 2025/26 Budget Setting Report: Sustaining a Fairer Newham and 
+Addressing the Financial Challenges Ahead 
+Agenda item - December 2024 Finance Review: Draft Budget Proposals for 
+2025/26 
+Agenda item - October Finance Papers - Quarter Two 2024/25 Budget 
+Monitoring and Review 
+Agenda item - Summer 2024 Finance Review Report 

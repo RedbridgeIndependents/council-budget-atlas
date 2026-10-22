@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A source-led, offline comparison of 2026–27 council budgets: Redbridge, London and England, with honest UK coverage gaps.">
+  <title>Council budget atlas | Where does Redbridge differ?</title>
+  <script>
+  (() => {
+    const param = new URLSearchParams(window.location.search).get("scoutTheme");
+    const theme =
+      param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+  </script>
+  <style>/* ATLAS_CSS */</style>
+</head>
+<body id="top">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="masthead">
+    <progress class="progress" id="reading-progress" max="100" value="0" aria-label="Reading progress">0%</progress>
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="#top">Council<br>budget atlas<span class="sr-only"> — back to top</span></a>
+      <nav aria-label="Major sections">
+        <a href="#funding">Money in</a><a href="#review">Investigate</a><a href="#total">Money out</a><a href="#themes">Themes</a><a href="#london">Compare</a><a href="#roads">Per mile</a><a href="#reports">Reports</a><a href="#services">Every line</a><a href="#methods">Methods</a><a href="#sources">Sources</a>
+      </nav>
+      <button type="button" class="theme-button js-only" id="theme-toggle" aria-label="Switch colour theme">Light / dark</button>
+    </div>
+  </header>
+  <main id="content" tabindex="-1">
+    <section class="hero wrap" id="funding" aria-labelledby="funding-title">
+      <p class="eyebrow">The local ledger / 2026–27 budget edition</p>
+      <div class="hero-grid">
+        <div><h1 id="funding-title">Where does<br><!-- REDBRIDGE --><br>differ?</h1><p class="lede">Find the services where <!-- REDBRIDGE --> plans to spend more or less than selected peers, by how much, and what to investigate next. First, follow the funding. A difference is a question, not proof of waste or underprovision.</p></div>
+        <div class="hero-number"><span class="small">2026–27 own council-tax requirement · <!-- REDBRIDGE --></span><strong class="number" data-money="ra1_ctrtot" data-money-authority="focus"><!-- TAX_TOTAL --></strong><p>A <strong>budgeted funding requirement</strong>, not cash already collected, a collection rate, a Band D bill or the full amount on a resident’s bill.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p></div>
+      </div>
+      <p style="margin-top:1.5rem"><a href="#review">Go straight to Redbridge’s spending differences →</a></p>
+      <p class="byline">Independent comparative analysis · no council endorsement implied<br>Budget release: 11 June 2026 · sources checked: 21 October 2026 · England in scope; UK gaps below</p>
+      <noscript><p class="note">JavaScript is off. The sourced funding and spending comparisons, complete line catalogue, London reports and initial data tables remain readable. Interactive selection, charts and downloads require JavaScript.</p></noscript>
+      <div class="controls js-only" aria-label="Comparison settings">
+        <label>Analytical reference<select id="focus-council" disabled><!-- FOCUS_OPTIONS --></select></label>
+        <div class="comparison-picker">
+          <details id="comparison-picker"><summary>Choose one or more comparison councils</summary>
+            <label>Find an authority<input id="comparison-search" type="search" placeholder="Council name or responsibility"></label>
+            <fieldset class="comparison-options"><legend>Comparison authorities (checkboxes)</legend><!-- COMPARISON_CHECKBOXES --></fieldset>
+          </details>
+        </div>
+        <label>Peer group<select id="peer-group">
+          <option value="london">London boroughs (not City)</option>
+          <option value="single">England: single-tier councils (not City)</option>
+          <option value="same">England: same authority class as focus</option>
+          <option value="councils">England: all councils — different duties</option>
+          <option value="all">All 415 return authorities — unlike duties</option>
+        </select></label>
+        <div class="selection-colours" id="selection-colours"><!-- SELECTION_LABELS --></div>
+        <div class="selection-actions"><button type="button" id="all-london" class="primary">All London councils</button><button type="button" id="clear-comparisons">Clear comparisons</button><button type="button" id="reset-comparisons">Reset to Redbridge + Waltham Forest</button></div>
+        <p id="selected-count" class="small" role="status" aria-live="polite">2 selected authorities: 1 focus and 1 comparison.</p>
+      </div>
+      <p id="selection-status" class="small muted" role="status" aria-live="polite">Initial comparison: <!-- SELECTION_LABELS -->. London rankings exclude <!-- CITY --> and the non-returning <!-- GREENWICH -->.</p>
+      <p class="small">“All London councils” selects all 33 council entries in the return, including <!-- CITY --> with its distinct responsibilities and <!-- GREENWICH --> with an absent RA return. The focus is never duplicated; ranking peer groups still distinguish the City from borough peers.</p>
+      <div id="funding-cards"><!-- FUNDING_CARDS --></div>
+      <div class="method-grid">
+        <div><h3>Tax, grants and rates are not the same thing</h3><p>The council’s own council-tax requirement is RA line 990. Billing councils also collect precepts for bodies such as the GLA, police and fire; those other bodies have their own returns. This atlas does not treat the whole bill as the borough’s funding. The collection-fund adjustment is shown separately, not added to council tax without explanation.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p><p>Central-government grants here mean <strong>specific/special grants inside AEF + Revenue Support Grant + police grant</strong>, from explicit financing lines. Retained business rates are a separate source. Dedicated Schools Grant is identified as part of specific grants, not counted twice or assumed to be freely spendable.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-3">[3]</a></p></div>
+        <div><h3>A reconciliation, not a residual</h3><p>The funding mix below reconciles to <strong>revenue expenditure (RA 900)</strong>, not to the different net service total (RA 799). Funding contributions reverse the sign of the return’s credits; own council tax retains its reported sign. Negative reserve contributions mean planned additions to reserves, not a new government grant.</p><p>Shares use the explicitly reconciling revenue-expenditure total as denominator, so a negative financing contribution produces a negative share. No percentage is calculated when the total is zero or unavailable. Gross service income and grants outside AEF are not appended to this already-net perimeter.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p></div>
+      </div>
+      <figure class="chart-panel" style="margin-block:2rem"><h3>Funding contributions · 2026–27 budget</h3><div id="funding-chart" class="js-only"></div><figcaption id="funding-caption">Signed contributions to RA 900. Council tax, grants and business rates are directly reported lines, not an unexplained “government support” residual. Exact values, source locators and shares follow.</figcaption></figure>
+      <details><summary>Complete selected-council financing tables, shares and reconciliation</summary><div class="table-scroll" id="funding-table" tabindex="0" aria-label="Detailed funding comparison"><!-- FUNDING_TABLE --></div></details>
+      <details><summary>Compare the funding of every authority in the selected peer group</summary><div class="table-scroll" id="funding-peer-table" tabindex="0" aria-label="Peer group funding data"><!-- FUNDING_PEER_TABLE --></div></details>
+      <div class="note" id="capitalisation-context"><!-- CAPITALISATION_CONTEXT --></div>
+      <p class="small">Actual council-tax receipts and collection rates are <strong>not imported</strong> here. They belong to separate collection statistics and years, not the 2026–27 budget mix. The tax base and Band D rate also answer different questions. Higher expenditure per resident does not establish greater need, stronger resources or lower efficiency: deprivation, local tax bases, responsibilities and service pressures require separate evidence.<a class="citation" href="#source-27">[27]</a></p>
+    </section>
+    <section class="chapter wrap" id="review" aria-labelledby="review-title">
+      <p class="eyebrow">The investigation shortlist</p>
+      <h2 id="review-title">More than peers.<br>Less than peers.<br>What explains the gap?</h2>
+      <p class="lede">An accessible shortlist of the 129 detailed published service lines, ordered by the size of Redbridge’s difference. Open a service for its figures, denominator and evidence gaps.</p>
+      <p class="note"><strong>Above/below benchmark is not overspend/underspend.</strong> These are planned budgets, not actual-versus-budget evidence. Service need, outcomes, quality, commissioning, maintained-school shares, ring-fencing and income all need checking. No matched outcome or demand dataset has been imported: every difference is <strong>investigate / insufficient evidence for a verdict</strong>, never an identified saving or funding gap.</p>
+      <div class="explorer-controls js-only">
+        <label>Benchmark lens<select id="benchmark-metric"><option value="resident">£ per resident — scale, not unit cost</option><option value="absolute">Budget amount (£m) — no size adjustment</option><option value="roads">£ per network mile — eligible maintenance lines only</option></select></label>
+        <label>Show differences<select id="benchmark-filter"><option value="all">All detailed service lines</option><option value="above">Above selected-peer benchmark</option><option value="below">Below selected-peer benchmark</option><option value="available">Valid comparable evidence only</option><option value="missing">Insufficient comparison data</option></select></label>
+        <label>Order<select id="benchmark-sort"><option value="magnitude">Largest absolute difference in this lens</option><option value="above">Largest positive difference first</option><option value="below">Largest negative difference first</option><option value="name">Service name</option></select></label>
+      </div>
+      <p id="benchmark-method" class="small"><!-- BENCHMARK_METHOD --></p>
+      <p class="small">Only selected London boroughs with an available matching measure enter the benchmark; Redbridge, City of London, other authority classes and missing measures do not. One peer means a direct comparison; two or more means the unweighted median (average of the two middle values when even), with range and valid count. The peer-group explorer does not silently add councils to this selected benchmark. School/care need and responsibility differences remain within a borough class, so this is a screening comparison, not a like-for-like efficiency estimate.<a class="citation" href="#source-5">[5]</a></p>
+      <div id="headline-benchmarks"><!-- HEADLINE_BENCHMARKS --></div>
+      <div class="table-scroll" id="benchmark-table" tabindex="0" aria-label="Prioritised spending differences"><!-- BENCHMARK_TABLE --></div>
+      <p class="small">Theme and total roll-ups are shown separately and never added to this shortlist. Even detailed accounting lines can have scope overlaps: do not sum the differences into a savings target. For service-unit costs, the preferred denominator catalogue is authoritative; residents are only a scale proxy. <a href="#funding">Funding constraints and tax-base context</a> do not establish service demand or explain away a difference.</p>
+    </section>
+
+    <section class="hero wrap" id="total" aria-labelledby="hero-title">
+      <p class="eyebrow">The spending boundary</p>
+      <div class="hero-grid">
+        <div>
+          <h2 id="hero-title">Where the<br>money goes.</h2>
+          <p class="lede">A council budget is a picture of a place: its schools, its streets, its people. Start with <!-- REDBRIDGE -->. Then look beyond the headline.</p>
+        </div>
+        <div class="hero-number">
+          <span class="small"><!-- REDBRIDGE --> · planned net service expenditure</span>
+          <strong class="number" data-money="ra1_servicetot" data-money-authority="focus"><!-- HERO_TOTAL --></strong>
+          <p>For day-to-day services in <strong>2026–27</strong>, after service income. Not the council-tax bill, not all gross spending, and not an outturn.<a class="citation" href="#source-1" aria-label="Source 1">[1]</a><a class="citation" href="#source-5" aria-label="Source 5">[5]</a></p>
+        </div>
+      </div>
+      <div class="stat-grid">
+        <div class="stat"><span>Total service expenditure · RA 799</span><strong data-money="ra1_servicetot" data-money-authority="focus"><!-- HERO_TOTAL --></strong><span>13 published theme totals, counted once<a class="citation" href="#source-1">[1]</a></span></div>
+        <div class="stat"><span>Net current expenditure · RA 849</span><strong data-money="ra1_netcurrtot" data-money-authority="focus"><!-- CURRENT_TOTAL --></strong><span>Adds benefits, levies and adjustments<a class="citation" href="#source-1">[1]</a></span></div>
+        <div class="stat"><span>Revenue expenditure · RA 900</span><strong data-money="ra1_revenuetot" data-money-authority="focus"><!-- REVENUE_TOTAL --></strong><span>Includes non-current adjustments and receipts<a class="citation" href="#source-1">[1]</a></span></div>
+      </div>
+      <p class="note">These are <strong>budgets, not money already spent</strong>. Council reports can use a narrower “net General Fund budget”. Schools grants, council housing and capital have different accounting boundaries. Switching between these totals changes the question, not just the label.<a class="citation" href="#source-5">[5]</a></p>
+      <div id="total-benchmark"><!-- TOTAL_BENCHMARK --></div>
+    </section>
+
+    <section class="chapter wrap" id="themes" aria-labelledby="themes-title">
+      <p class="eyebrow">01 / The composition</p>
+      <div class="section-head">
+        <h2 id="themes-title">One total.<br>Many obligations.</h2>
+        <p class="prose">The 13 published service totals are the cleanest way to read the whole budget. Each bar starts at zero and uses the same scale. A zero is a reported zero, not proof that a service does not exist: another authority may deliver it.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p>
+      </div>
+      <figure>
+        <div class="theme-bars" id="theme-bars"><!-- THEME_BARS --></div>
+        <figcaption id="themes-caption">2026–27 budget, net current expenditure on services, £ million. RA part 1, published theme-total columns. These mutually exclusive totals reconcile to RA line 799; detailed rows are not added again.<a class="citation" href="#source-1">[1]</a></figcaption>
+      </figure>
+      <details><summary>Read the theme data as a table</summary><div class="table-scroll" id="theme-table"><!-- THEME_TABLE --></div></details>
+      <details><summary>Redbridge’s differences from the selected-peer benchmark, by theme</summary><div class="table-scroll" id="theme-benchmarks"><!-- THEME_BENCHMARKS --></div></details>
+    </section>
+
+    <section class="story" aria-labelledby="story-title">
+      <div class="wrap">
+        <p class="eyebrow" style="padding-top:3rem">02 / Read between the bars</p>
+        <h2 id="story-title">The same place.<br>A different lens.</h2>
+        <div class="story-layout">
+          <div class="story-narrative">
+            <section class="story-step" data-step="0" aria-labelledby="step-0">
+              <p class="eyebrow">The whole service budget</p><h3 id="step-0">First, keep the boundaries in view.</h3>
+              <p>The largest services can dominate a headline. This shared graphic compares the selected authorities across eight major themes. For more than three selections it switches to named council rows for one explicitly labelled measure, retaining every theme in the data table.</p>
+              <p>Scroll to change the lens, or use the buttons. Changing an authority updates every comparison, including the individual service sections.</p>
+              <button type="button" data-story="0" class="js-only">Show whole-budget lens</button>
+            </section>
+            <section class="story-step" data-step="1" aria-labelledby="step-1">
+              <p class="eyebrow">Schools and learning</p><h3 id="step-1">A school budget is not every school.</h3>
+              <p>Education in the council return covers the provision funded through the council. Centrally funded academies sit outside this boundary. Different mixes of maintained schools and academies can change the comparison without a change in the needs of children.<a class="citation" href="#source-5">[5]</a><a class="citation" href="#source-6">[6]</a></p>
+              <p>The chart now opens the education total into its six published components. A pupil-normalised comparison would need pupil counts matched to those funding responsibilities. That denominator has not been imported.</p>
+              <button type="button" data-story="1" class="js-only">Show education lens</button>
+            </section>
+            <section class="story-step" data-step="2" aria-labelledby="step-2">
+              <p class="eyebrow">Care and support</p><h3 id="step-2">Population gives scale. Not need.</h3>
+              <p>Dividing by residents makes councils of different sizes easier to put alongside one another. It does not adjust for disability, deprivation, care intensity or local prices. Adult social care in this return excludes expenditure funded by NHS transfers.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p>
+              <p>This lens shows the eight themes per resident, using ONS mid-2025 estimates. It is a scale comparison, not an efficiency score or a 2026–27 population forecast.<a class="citation" href="#source-8">[8]</a></p>
+              <button type="button" data-story="2" class="js-only">Show resident-scale lens</button>
+            </section>
+            <section class="story-step" data-step="3" aria-labelledby="step-3">
+              <p class="eyebrow">Street-level detail</p><h3 id="step-3">Sometimes a smaller number needs a better question.</h3>
+              <p>Parking income can make net transport lines negative. A negative bar is not negative activity; it means recorded service income exceeds the expenditure on that line. The final lens separates transport functions before the road-length worked example below.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-5">[5]</a></p>
+              <button type="button" data-story="3" class="js-only">Show transport lens</button>
+            </section>
+          </div>
+          <figure class="story-visual">
+            <h3 id="story-chart-title">Eight major service themes · 2026–27 budget</h3>
+            <div class="legend" id="story-legend"><!-- SELECTION_LABELS --></div>
+            <div id="story-chart" class="js-only"></div>
+            <figcaption id="story-caption">A shared zero-based axis; solid and outlined bars distinguish the two councils even when logo colours are similar. Hover, tap or focus a bar pair for its exact values.<a class="citation" href="#source-1">[1]</a></figcaption>
+            <details><summary>Read this chart as a table</summary><div class="table-scroll" id="story-table"><!-- STORY_TABLE --></div></details>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter wrap" id="london" aria-labelledby="london-title">
+      <p class="eyebrow">03 / London, then England</p>
+      <h2 id="london-title">Compare the measure.<br>Not the reputation.</h2>
+      <p class="lede">Choose any published line. Look at its total, its scale per resident, and the responsibilities behind it.</p>
+      <div class="explorer-controls js-only">
+        <label>Published budget line<select id="budget-line"><!-- LINE_OPTIONS --></select></label>
+        <label>Display metric<select id="display-metric"><option value="absolute">Budget amount (£m)</option><option value="resident">Per resident (£) — scale only</option><option value="roads">Per locally managed road mile (£) — selected maintenance lines only</option></select></label>
+      </div>
+      <div class="explorer-grid">
+        <figure class="chart-panel">
+          <h3 id="explorer-title">Total service expenditure · 2026–27 budget</h3>
+          <div id="comparison-chart" class="js-only"></div>
+          <figcaption id="explorer-caption">Default peers: 32 London boroughs excluding the City. <!-- GREENWICH --> did not return data, leaving 31 available budget observations. The complete peer table below includes missing records rather than assigning them a rank.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-4">[4]</a></figcaption>
+        </figure>
+        <aside class="explainer" aria-labelledby="comparison-notes-title">
+          <h3 id="comparison-notes-title">What this comparison can tell you</h3>
+          <div id="line-explanation"><p>Net service expenditure is the sum of the 13 theme totals. It includes school spending funded through councils and excludes the separate Housing Revenue Account.</p></div>
+          <div id="explorer-benchmark"><!-- TOTAL_BENCHMARK --></div>
+          <p id="metric-note" class="note">Absolute budgets describe scale. Spending per resident is not a measure of value for money.</p>
+          <div class="small" id="spending-funding-context" tabindex="0" aria-label="Selected councils’ funding context"><!-- SPENDING_FUNDING_CONTEXT --></div>
+          <div id="comparison-formula"></div>
+          <p class="small"><!-- CITY --> has a separate context, including police and non-resident service responsibilities. It can be selected, but is excluded from default rankings. Two-tier districts and counties do not have the same duties as single-tier boroughs.<a class="citation" href="#source-5">[5]</a><a class="citation" href="#source-20">[20]</a></p>
+        </aside>
+      </div>
+      <details open>
+        <summary>All peer data, source rows and denominator values</summary>
+        <div class="table-scroll" id="peer-table"><!-- PEER_TABLE --></div>
+      </details>
+      <button type="button" class="js-only" id="download-data">Download this comparison as CSV</button>
+    </section>
+
+    <section class="chapter wrap" id="roads" aria-labelledby="roads-title">
+      <p class="eyebrow">04 / The denominator test</p>
+      <h2 id="roads-title">What does a mile<br>actually buy?</h2>
+      <p class="lede">The right numerator matters as much as the denominator. Do not divide the entire transport budget by road length and call it road maintenance.</p>
+      <div class="method-grid" style="margin-top:2rem">
+        <div>
+          <h3>Start with structural maintenance</h3>
+          <p>RA line 230 is the planned net revenue amount for structural maintenance. The network comparison below uses DfT’s 2025 <strong>major locally managed roads + all minor roads</strong>. The source is already in miles; no kilometre conversion is applied.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-7">[7]</a></p>
+          <div class="formula" id="roads-formula"><!-- ROADS_FORMULA --></div>
+          <p class="small">This is a <strong>network-scale proxy, not an audited cost per maintained mile</strong>. DfT lengths are rounded; network scope can include roads managed by another London body, and revenue maintenance excludes capital works. Road condition, traffic and treatment area are not held constant. A lower ratio is not necessarily better.<a class="citation" href="#source-5">[5]</a><a class="citation" href="#source-7">[7]</a></p>
+        </div>
+        <div>
+          <h3>Keep the gaps visible</h3>
+          <div class="table-scroll" id="roads-table"><!-- ROADS_TABLE --></div>
+          <p class="small">The same denominator can provide cautious network-scale context for environmental/routine maintenance and winter service. It is intentionally unavailable for transport planning, concessionary fares, parking, street lighting and all-transport totals. A lighting-column count would be a better unit for street lighting.</p>
+          <button type="button" class="primary js-only" id="explore-roads">Compare structural maintenance per mile</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter wrap" id="reports" aria-labelledby="reports-title">
+      <p class="eyebrow">05 / Read the council’s own account</p>
+      <h2 id="reports-title">London’s budget<br>reports, side by side.</h2>
+      <p class="lede">The standard return gives us a common language. The council report explains the choices, the funding and the risks behind it.</p>
+      <p class="note">The report ledger below keeps each council’s <strong>own headline and definition</strong> separate from the common RA service and revenue totals. These amounts are not silently reconciled, substituted into the ranking, or assumed to be the same measure. A report can be available even when its RA return is absent.</p>
+      <p id="report-coverage" class="small"><!-- REPORT_COVERAGE --></p>
+      <label class="js-only" style="max-width:28rem;margin-block:1rem">Filter London reports<input id="report-search" type="search" placeholder="Council or report measure"></label>
+      <div class="table-scroll" id="report-ledger"><!-- REPORT_LEDGER --></div>
+    </section>
+
+    <section class="chapter wrap" id="services" aria-labelledby="services-title">
+      <p class="eyebrow">06 / Open the ledger</p>
+      <h2 id="services-title">Every published line.<br>No invented detail.</h2>
+      <p class="lede">129 detailed service lines, 13 theme totals, and 179 further accounting and grant lines. This is the complete numeric catalogue in the three imported workbooks, not a claim to enumerate every operational activity.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-2">[2]</a><a class="citation" href="#source-3">[3]</a></p>
+      <p class="prose" style="margin-top:1rem">Open any line for its accounting definition, exact source locator, selected-council comparison and preferred service denominator. Where a service-unit count is not imported, the missing ratio stays missing. The published guidance supplies the fuller accounting inclusions.<a class="citation" href="#source-6">[6]</a></p>
+      <div class="catalog-controls js-only">
+        <label>Search the complete catalogue<input id="service-search" type="search" placeholder="Try libraries, waste, homelessness or reserves"></label>
+        <label>Line type<select id="catalog-kind"><option value="all">All 321 numeric lines</option><option value="service">129 detailed service lines</option><option value="theme">13 theme totals</option><option value="accounting">179 accounting and grant lines</option></select></label>
+      </div>
+      <p class="catalog-count" id="catalog-count" role="status" aria-live="polite">321 published numeric lines. Each has its own section.</p>
+      <div id="service-catalog"><!-- SERVICE_CATALOG --></div>
+    </section>
+
+    <section class="chapter wrap" id="methods" aria-labelledby="methods-title">
+      <p class="eyebrow">07 / The small print is part of the story</p>
+      <h2 id="methods-title">Comparable does<br>not mean identical.</h2>
+      <div class="coverage-grid">
+        <article class="coverage-card"><span class="pill">Included</span><h3>England</h3><p><strong>415 return authorities; 406 returned.</strong> This includes 317 councils and 98 other authorities. All are searchable, but police, fire, parks, waste and combined authorities are not borough peers. London has 33 council entries including the City: 32 returns, or 31 of the 32 boroughs once the City is excluded.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-4">[4]</a></p></article>
+        <article class="coverage-card"><span class="pill">Not harmonised</span><h3>Scotland</h3><p>Scottish Government publishes its own local-government finance series. It is linked here, not merged into England’s RA categories. Service responsibilities, grant treatment and definitions need a documented crosswalk before a UK-wide league table is defensible.<a class="citation" href="#source-10">[10]</a></p></article>
+        <article class="coverage-card"><span class="pill">Not harmonised</span><h3>Wales</h3><p>Welsh Government’s 2026–27 revenue budget and capital forecast is a separate publication, released 18 June 2026. Its service classification and totals have not been mapped into this edition. Missing harmonisation is not zero expenditure.<a class="citation" href="#source-11">[11]</a></p></article>
+        <article class="coverage-card"><span class="pill">Different duties</span><h3>Northern Ireland</h3><p>Councils do not deliver the same services as London boroughs: education, personal social services, roads and public housing are outside their responsibilities. No Northern Ireland budget is imported or ranked against English boroughs.<a class="citation" href="#source-12">[12]</a></p></article>
+      </div>
+      <div class="method-grid">
+        <div>
+          <h3>What the money means</h3>
+          <h3 id="consolidation">How services are consolidated</h3>
+          <p><strong>Common official codes, not similar-sounding names.</strong> Every harmonised comparison uses the same 2026–27 England RA/SG return part, asset code, line and definition. The 321 canonical fields retain their original labels, source columns and council-specific source rows. Shorter editorial theme labels are display aliases only: they do not merge money or change scope.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-2">[2]</a><a class="citation" href="#source-3">[3]</a><a class="citation" href="#source-6">[6]</a></p>
+          <p>The 33 local report records retain the council’s own label, year, scope, amount and page locator where transcribed. <strong>No local headline has been verified as an equivalent RA service breakdown.</strong> All remain explicitly unmapped and excluded from service benchmarks; no directorate is allocated to narrower services by name similarity. Transport is not road maintenance; children’s services are not automatically children’s social care; General Fund housing is not HRA. Missing breakdowns are gaps, not inferred splits.</p>
+          <p>Only the 13 mutually exclusive published theme totals are added to RA 799, checked for every submitted return. Parents are never added to their components. No unverified many-to-one aggregation or one-to-many allocation is performed. Scotland, Wales and Northern Ireland have no established crosswalk here.</p>
+          <details><summary>Inspect canonical service codes, original labels and aliases</summary><div class="table-scroll"><!-- CONSOLIDATION_TABLE --></div></details>
+          <p><strong>Service lines:</strong> nominal 2026–27 budget amounts, originally in £ thousands, net of service sales, fees, charges and specified transfers. Values are multiplied by 1,000 before any per-unit division. No inflation-adjusted time series is constructed.<a class="citation" href="#source-1">[1]</a></p>
+          <p><strong>Gross spending:</strong> not available for every service in this release. A net service budget must not be described as gross expenditure. HRA income and expenditure are separately labelled in part 2.<a class="citation" href="#source-2">[2]</a></p>
+          <p><strong>Grants and financing:</strong> grants are not extra service spending to add to the service total. The SG workbook includes Dedicated Schools Grant and grants inside/outside Aggregate External Finance; they are shown as financing lines, not piled on top of education. “Capital items” in RA part 2 are accounting items, not a complete capital investment programme.<a class="citation" href="#source-2">[2]</a><a class="citation" href="#source-3">[3]</a><a class="citation" href="#source-5">[5]</a></p>
+          <h3>Missing is not zero</h3>
+          <p>Reported numeric zero, a missing return (<code>[x]</code>), not applicable and suppressed values have distinct states. This vintage contains <code>[x]</code> values for the nine absent returns. No service-level applicability is inferred from a zero; responsibility differences remain visible.</p>
+          <p>The non-returning authorities are <!-- MISSING_NAMES -->. Their rows remain present, with no invented budget values. Official England totals are grossed estimates, not a sum of only the submitted council rows.<a class="citation" href="#source-4">[4]</a><a class="citation" href="#source-5">[5]</a></p>
+          <h3>Boundaries and reorganisations</h3>
+          <p>The 2026–27 RA roster is preserved as published, by ONS and return identifier. Former councils are not carried forward, new authorities are not added to their predecessors, and overlapping counties, districts and special authorities are never summed as “England councils”. All 415 entries and their responsibility classes can be inspected in the explorer.</p>
+          <p>Exact-code joins only: ONS population has no matching code for the RA entries for <!-- BARNSLEY --> and <!-- SHEFFIELD -->. Their per-resident comparisons stay unavailable; names are not used as a fuzzy boundary crosswalk. The denominator audit below enumerates every unjoined authority.<a class="citation" href="#source-1">[1]</a><a class="citation" href="#source-8">[8]</a></p>
+        </div>
+        <div>
+          <h3>Denominator vintage and limits</h3>
+          <p><strong>Residents:</strong> ONS mid-2025, MYE2 Persons, all ages (published 1 October 2026). Joined by exact ONS area code. Per-resident values describe population scale only, not demand, need, efficiency or quality. <span id="population-coverage"><!-- POPULATION_COVERAGE --></span><a class="citation" href="#source-8">[8]</a><a class="citation" href="#source-9">[9]</a></p>
+          <p><strong>Roads:</strong> DfT RDL0102a, 2025, updated 12 February 2026; locally managed major roads plus minor roads in miles, using source-rounded components. <span id="road-coverage"><!-- ROAD_COVERAGE --></span> No denominator is borrowed from a county for a district.<a class="citation" href="#source-7">[7]</a></p>
+          <p><strong>Other service units:</strong> pupil/place counts, care users, households assisted, tonnes of waste, planning cases and other units are catalogued but not imported. Their official collections are linked as routes to future matched datasets, not cited as measured denominators in this edition.<a class="citation" href="#source-15">[15]</a><a class="citation" href="#source-16">[16]</a><a class="citation" href="#source-17">[17]</a><a class="citation" href="#source-18">[18]</a><a class="citation" href="#source-19">[19]</a></p>
+          <details><summary>Inspect all denominator joins and gaps</summary><div class="table-scroll"><!-- DENOMINATOR_AUDIT --></div></details>
+          <h3>What was actually checked</h3>
+          <p>The importer preserves every numeric field in the two RA parts and the SG return. For every submitted authority, the 13 theme totals reconcile exactly to total service expenditure. The England theme totals are checked against the separate national Table 2 to source rounding.</p>
+          <p>These are internal and publisher consistency checks, <strong>not three independent confirmations of every cell</strong>. The London report ledger adds primary council documents, but different accounting scopes mean not every local headline is reconciled to the RA return. No claim of full triangulation is made. Council reports, government releases and republished tables may share the same underlying return.</p>
+          <p>All 24 candidate local-report headlines were rechecked against preserved PDFs: <strong>23 are supported; Harrow’s £215m was withheld because the source described 2025–26, not 2026–27</strong>. The report ledger explains each retained amount’s year, units, scope and page; none is substituted into a service benchmark. Bromley’s adopted-year public booklet was retrieved, but its full technical budget report remained inaccessible.</p>
+          <p>Reproducible checks compare all <strong>133,215 imported monetary cells</strong> with their preserved workbook coordinates, recompute every authority/field conversion and all supported benchmark lenses, and verify financing, peer exclusions, medians, signed differences, denominator joins and missing states. This is one 2026–27 source snapshot, not an audit of the underlying official estimates. Unreconciled local headlines never enter conclusions.</p>
+          <p><strong>Display precision:</strong> £m amounts use three decimal places (the source’s £ thousands); resident/network ratios round to the nearest £ and funding/difference percentages to one decimal. Calculations, ordering and CSV values use unrounded inputs. No percentages are shown for zero/missing financing totals or zero/negative spending benchmarks; a net-income benchmark still has a valid signed cash difference. Rounding means displayed financing shares need not sum to exactly 100.0%.</p>
+          <h3>Visual evidence, not decoration</h3>
+          <p>Common scales, direct labels, accessible tables and explicit missingness follow principles associated with Edward Tufte’s <cite>The Visual Display of Quantitative Information</cite> and <cite>Beautiful Evidence</cite>, and Stephen Few’s <cite>Information Dashboard Design</cite>. The latter is by Few, not Tufte. No book text is reproduced.<a class="citation" href="#source-13">[13]</a><a class="citation" href="#source-14">[14]</a></p>
+          <h3>Council identities</h3>
+          <p id="identity-coverage"><!-- IDENTITY_COVERAGE --></p>
+          <p>Official logo/brand swatches sit beside readable text in both themes; text is never forced into an inaccessible brand colour. Redbridge’s requested dark red is its official primary-palette chestnut, not the black wordmark or a claim that its current pink header is dark red. Solid versus outlined bars and direct names remain available when identities share a colour. An empty dashed swatch means the identity colour has not been verified.</p>
+          <details><summary>Council colour provenance</summary><div class="table-scroll"><!-- COLOUR_LEDGER --></div></details>
+          <h3>Official logos: permission comes first</h3>
+          <p id="logo-coverage"><!-- LOGO_COVERAGE --></p>
+          <p>Logo copyright/brand rules are not assumed to be covered by the government data licence. The readable council name and exact sourced colour swatch are the offline fallback, with no invented crest or implied endorsement. Researching a public asset is not claiming permission to reproduce it.</p>
+          <details><summary>Inspect logo permission evidence and fallbacks</summary><div class="table-scroll"><!-- LOGO_LEDGER --></div></details>
+          <h3>The document’s visual identity</h3>
+          <p>The overall navy, yellow, white and condensed typography are derived from <a href="https://redbridgeindys.org/">Redbridge Independents</a>, as requested, not from a council’s identity. The site’s navy is used for readable light-mode text; its yellow is reserved for rules and high-contrast dark-mode accents. The dark theme is an accessible adaptation, not a claim about the source site’s own theme.<a class="citation" href="#source-22">[22]</a><a class="citation" href="#source-23">[23]</a></p>
+          <p>Barlow Condensed 400/600/700/800 and Barlow 400/600/700 are embedded under SIL Open Font License 1.1, including licence text. The source site also declares Century Gothic; it is used only if locally installed because redistribution permission was not established. Barlow, also used in the site’s main heading, is the bundled offline body fallback.<a class="citation" href="#source-24">[24]</a><a class="citation" href="#source-25">[25]</a><a class="citation" href="#source-26">[26]</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter wrap" id="sources" aria-labelledby="sources-title">
+      <p class="eyebrow">08 / Follow the evidence</p>
+      <h2 id="sources-title">Sources &amp;<br>source notes.</h2>
+      <p class="prose">Numbered references travel with figures, tables and explanations. Workbook citations identify the sheet, source row, line and column. All files and links were retrieved or checked on <strong>21 October 2026</strong> unless a report record says otherwise. The page itself makes no network requests; following an external source link requires a connection.</p>
+      <ol class="sources"><!-- SOURCES --></ol>
+    </section>
+  </main>
+  <a class="back-top" href="#top" aria-label="Back to the top">↑ Back to top</a>
+  <footer class="wrap"><p><strong>Council budget atlas</strong> · 2026–27 budget snapshot · built for scrutiny, not a value-for-money league table.</p><p>Public-source research stored in a private repository. No public hosting, analytics, cookies, external fonts or runtime APIs.</p></footer>
+  <script type="application/json" id="atlas-data">/* ATLAS_DATA */</script>
+  <script>/* ATLAS_JS */</script>
+</body>
+</html>

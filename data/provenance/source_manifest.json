@@ -1,0 +1,32 @@
+[
+  {
+    "file": "data\\raw\\budgets\\RA_2026-27_part1.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/6a2962166d178a6fb7e32089/RA_2026-27_data_Part_1.ods",
+    "sha256": "3ea4d4c2218bc9f49bbf59a6fc82481acb6a3494d5b0f4e114cdb945730653db"
+  },
+  {
+    "file": "data\\raw\\budgets\\RA_2026-27_part2.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/6a281185e371d9d2c0052b0a/RA_2026-27_data_Part_2.ods",
+    "sha256": "55c34505c69513fcba446f3484061d2bd115c4ce06bb5bafba7b36e330be4d65"
+  },
+  {
+    "file": "data\\raw\\budgets\\SG_2026-27.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/6a28119b6d178a6fb7e31f7f/SG_2026-27.ods",
+    "sha256": "6150792dcea97ca58b912a5fbf9fdc99562ba782fb7d6f5c8885e6ca1a17e3b5"
+  },
+  {
+    "file": "data\\raw\\denominators\\rdl0102.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/697b61f5f8f4a746d9572f1c/rdl0102.ods",
+    "sha256": "12eccff8b87e5a4aed0619e42acacd889af66983b373bd125f481f23abf0fe05"
+  },
+  {
+    "file": "data\\raw\\denominators\\population_2025.xlsx",
+    "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland/mid2025/mye25tablesuk.xlsx",
+    "sha256": "8ae244e3341257ecccaee55f4973fe12f46afe6656ead6c1a9ed3f4f8585e40f"
+  },
+  {
+    "file": "data\\raw\\budgets\\national_table2.ods",
+    "url": "https://assets.publishing.service.gov.uk/media/6a280e823b15d05a7ce31f6c/RA_2026-27_Table_2.ods",
+    "sha256": "9c9b22b28afe18eef2e9d0582e8f1e46686210e21f84cca3cf1995c5d3247e3c"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "retrieved": "2026-10-21",
+  "site": "https://redbridgeindys.org/",
+  "palette": {
+    "navy": "#06296d",
+    "gold": "#fdd200",
+    "alternateGold": "#fdd300",
+    "heading": "#181818",
+    "white": "#ffffff",
+    "shade": "#f5f5f5",
+    "border": "#e5e5e5",
+    "mutedAccessible": "#54595f"
+  },
+  "evidence": "Homepage inline edublink primary #06296D / primary-alt #FDD300; Elementor homepage headings #FDD200, Barlow Condensed weight 800. Live computed homepage heading families include Barlow 700 and Barlow Condensed 700/800; body declares century-gothic. Elementor global secondary #54595F supplies higher-contrast muted text rather than the site's low-contrast #808080 body colour.",
+  "typography": {
+    "headings": "Barlow Condensed 700/800, bundled under OFL 1.1.",
+    "body": "Century Gothic if installed locally; Barlow 400/600/700 is the bundled, openly licensed offline fallback, also used in the source site's main heading.",
+    "restriction": "No Century Gothic asset is bundled: redistribution permission for the proprietary font has not been established."
+  },
+  "adaptations": "Editorial layout is original. Light mode uses navy text/accent on white with gold rules. Dark mode uses the site's #181818 and white, with gold accents; translucent tints are derived adaptations, not claimed as a source-site dark mode.",
+  "sources": [
+    {
+      "file": null,
+      "url": "https://redbridgeindys.org/",
+      "sha256": "cd2aef475bb9a108b9d6836440691305315a50a7209cf6cbf7d4122c86f895d2",
+      "retained": false
+    },
+    {
+      "file": null,
+      "url": "https://redbridgeindys.org/wp-content/themes/edublink/assets/css/main.css?ver=1.0.5",
+      "sha256": "d91d72e44ca903d921f10155ae5bec0eb2a2bc967261e736a703d49ea6ec161e",
+      "retained": false
+    },
+    {
+      "file": null,
+      "url": "https://redbridgeindys.org/wp-content/themes/edublink/style.css?ver=6.8.11",
+      "sha256": "3c75a711e3c17c8f2cf7514b0f3b473d552a7791f68f15ab3687d253d082c085",
+      "retained": false
+    },
+    {
+      "file": null,
+      "url": "https://redbridgeindys.org/wp-content/uploads/elementor/css/post-7.css?ver=1791233516",
+      "sha256": "aa5aaf92077eb8e9e7d730b31c9196a81bd7586787fef0001c9b7edb107c0f32",
+      "retained": false
+    },
+    {
+      "file": null,
+      "url": "https://redbridgeindys.org/wp-content/uploads/elementor/css/post-21162.css?ver=1791596251",
+      "sha256": "719d2bf198900893ede4a7577a9d3d70a1542363d0274568946d1a1e230f5dfa",
+      "retained": false
+    },
+    {
+      "file": "data\\raw\\design\\barlow-fonts.css",
+      "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&display=swap",
+      "sha256": "79eea42ecb3f28795f6b3a30b04efca14eb4a034337e5a368d104340c863b2b3",
+      "retained": true
+    },
+    {
+      "file": "data\\raw\\design\\barlow-body-fonts.css",
+      "url": "https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap",
+      "sha256": "dd83f49135a83f4bfa4aa52a44ef912b1ea722a56101088a4ff1d1c6a24b90e1",
+      "retained": true
+    },
+    {
+      "file": "data\\raw\\design\\BarlowCondensed-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "retained": true
+    },
+    {
+      "file": "data\\raw\\design\\Barlow-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "retained": true
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Barlow Condensed",
+      "weight": 400,
+      "file": "data\\raw\\design\\BarlowCondensed-400.ttf",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTx3L3I-JCGChYJ8VI-L6OO_au7B2xY.ttf",
+      "sha256": "c82d65280835cb3cd1b499863cf68cae8c6193c45ffae9495d28d01f749a9ae2",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow Condensed",
+      "weight": 600,
+      "file": "data\\raw\\design\\BarlowCondensed-600.ttf",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf",
+      "sha256": "0d85af813fc3ed87db0c6265515689b2eef5cbaf7aab17922528dfc95a2cd73f",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow Condensed",
+      "weight": 700,
+      "file": "data\\raw\\design\\BarlowCondensed-700.ttf",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf",
+      "sha256": "7dde307fa887fc65ff5830cfada77a7decc5dae8d3c816c9d39ba3f1af1c4ed7",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow Condensed",
+      "weight": 800,
+      "file": "data\\raw\\design\\BarlowCondensed-800.ttf",
+      "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1_3E.ttf",
+      "sha256": "73bc9e17231e9073780d3c81574c7253cecd5645c93544df1a935054b39a364f",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow",
+      "weight": 400,
+      "file": "data\\raw\\design\\Barlow-400.ttf",
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHpv4kjgoGqM7EPCw.ttf",
+      "sha256": "a35caa4687f434d66453c1fe423d7074cfa9fd7ab80c19b0780f3862887d2fc9",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow",
+      "weight": 600,
+      "file": "data\\raw\\design\\Barlow-600.ttf",
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E30-8c4A.ttf",
+      "sha256": "c15439e7a03af5714282ec1780ff7b0214ec6a7db96300b54928dbcd2569ca0c",
+      "licence": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "Barlow",
+      "weight": 700,
+      "file": "data\\raw\\design\\Barlow-700.ttf",
+      "url": "https://fonts.gstatic.com/s/barlow/v13/7cHqv4kjgoGqM7E3t-4c4A.ttf",
+      "sha256": "74103fd6d41bc32c63aa2e6eb3db619ddb80ce9ca1b1420d5548a23b8ee5d154",
+      "licence": "SIL Open Font License 1.1"
+    }
+  ]
+}
