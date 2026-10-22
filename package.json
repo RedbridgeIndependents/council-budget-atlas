@@ -4,10 +4,11 @@
   "version": "1.0.0",
   "description": "Offline, source-led 2026-27 council budget atlas",
   "scripts": {
-    "build": "python scripts\\import_data.py && python scripts\\build.py",
+    "build": "python scripts/import_data.py && python scripts/build.py",
+    "build:pages": "npm run build && python scripts/package_site.py",
     "test:data": "python -m unittest discover -s tests -p \"test_*.py\"",
-    "test:browser": "node --test tests\\documents.browser.test.cjs",
-    "test:benchmarks": "node --test tests\\benchmark.test.cjs tests\\navigation.test.cjs",
+    "test:browser": "node --test tests/documents.browser.test.cjs tests/pages.browser.test.cjs",
+    "test:benchmarks": "node --test tests/benchmark.test.cjs tests/navigation.test.cjs",
     "test": "npm run test:data && npm run test:benchmarks && npm run test:browser"
   },
   "devDependencies": {
