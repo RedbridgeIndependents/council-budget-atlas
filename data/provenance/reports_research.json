@@ -1,0 +1,794 @@
+{
+  "barking": {
+    "url": "https://lbbd.moderngov.co.uk/documents/s183985/Budget%20Framework%202026-27%20Report.pdf",
+    "final_url": "https://lbbd.moderngov.co.uk/documents/s183985/Budget%20Framework%202026-27%20Report.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "rejected": "Read PDF: corporate vision/priorities, no 2026/27 budget content; initial lead rejected.",
+    "retained": false
+  },
+  "barnet": {
+    "url": "https://barnet.moderngov.co.uk/documents/s94324/Business%20Planning%202026-2031%20Medium%20Term%20Financial%20Strategy%20March%2026%20Council.pdf",
+    "final_url": "https://barnet.moderngov.co.uk/documents/s94324/Business%20Planning%202026-2031%20Medium%20Term%20Financial%20Strategy%20March%2026%20Council.pdf",
+    "file": "data\\raw\\reports\\barnet.pdf",
+    "content_type": "application/pdf"
+  },
+  "brent": {
+    "url": "https://democracy.brent.gov.uk/documents/s155404/6.1%20Budget%20Council%20Tax%202026-27.pdf",
+    "final_url": "https://democracy.brent.gov.uk/documents/s155404/6.1%20Budget%20Council%20Tax%202026-27.pdf",
+    "file": "data\\raw\\reports\\brent.pdf",
+    "content_type": "application/pdf"
+  },
+  "camden": {
+    "url": "https://www.camden.gov.uk/documents/d/guest/2026-27-budget-book-final",
+    "final_url": "https://www.camden.gov.uk/documents/d/guest/2026-27-budget-book-final",
+    "file": "data\\raw\\reports\\camden.pdf",
+    "content_type": "application/pdf"
+  },
+  "croydon": {
+    "url": "https://croydon.moderngov.co.uk/documents/s69848/The%20Councils%20Budget%202026-27.pdf",
+    "final_url": "https://croydon.moderngov.co.uk/documents/s69848/The%20Councils%20Budget%202026-27.pdf",
+    "file": "data\\raw\\reports\\croydon.pdf",
+    "content_type": "application/pdf"
+  },
+  "enfield": {
+    "url": "https://governance.enfield.gov.uk/documents/s112750/Budget+Report+2026-27+Council+26.02.26.pdf",
+    "final_url": "https://governance.enfield.gov.uk/documents/s112750/Budget+Report+2026-27+Council+26.02.26.pdf",
+    "file": "data\\raw\\reports\\enfield.pdf",
+    "content_type": "application/pdf"
+  },
+  "bexley_page": {
+    "url": "https://www.bexley.gov.uk/about-the-council/council-budgets-and-spending/medium-term-financial-planning",
+    "final_url": "https://www.bexley.gov.uk/about-the-council/council-budgets-and-spending/medium-term-financial-planning",
+    "file": "data/provenance/reports_context/bexley_page.html",
+    "content_type": "text/html"
+  },
+  "bromley_page": {
+    "url": "https://www.bromley.gov.uk/council-budgets-spending",
+    "final_url": "https://www.bromley.gov.uk/council-budgets-spending",
+    "file": "data/provenance/reports_context/bromley_page.html",
+    "content_type": "text/html"
+  },
+  "ealing_page": {
+    "url": "https://ealing.moderngov.co.uk/mgAi.aspx?ID=898",
+    "final_url": "https://ealing.moderngov.co.uk/ieLogon.aspx?RPID=0&HPID=0&Forms=1",
+    "file": "data/provenance/reports_context/ealing_page.html",
+    "content_type": "text/html",
+    "rejected": "Invalid guessed agenda ID redirected to login, not budget evidence; replaced by ealing_item."
+  },
+  "islington_page": {
+    "url": "https://democracy.islington.gov.uk/ieDecisionDetails.aspx?ID=2349",
+    "final_url": "https://democracy.islington.gov.uk/ieDecisionDetails.aspx?ID=2349",
+    "file": "data/provenance/reports_context/islington_page.html",
+    "content_type": "text/html"
+  },
+  "hackney": {
+    "url": "https://hackney.moderngov.co.uk/documents/s96975/2026_27%20Budget%20Report.pdf",
+    "final_url": "https://hackney.moderngov.co.uk/documents/s96975/2026_27%20Budget%20Report.pdf",
+    "file": "data\\raw\\reports\\hackney.pdf",
+    "content_type": "application/pdf"
+  },
+  "hammersmith": {
+    "url": "https://democracy.lbhf.gov.uk/documents/s133753/Revenue%20Budget%20and%20Council%20Tax%20Levels%202026-27.pdf",
+    "final_url": "https://democracy.lbhf.gov.uk/documents/s133753/Revenue%20Budget%20and%20Council%20Tax%20Levels%202026-27.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "havering_cover": {
+    "url": "https://democracy.havering.gov.uk/documents/s83058/0%20-%20cover%20report%20Council%2004-03-26.pdf",
+    "final_url": "https://democracy.havering.gov.uk/documents/s83058/0%20-%20cover%20report%20Council%2004-03-26.pdf",
+    "file": "data\\raw\\reports\\havering_cover.pdf",
+    "content_type": "application/pdf"
+  },
+  "hounslow": {
+    "url": "https://democraticservices.hounslow.gov.uk/documents/s205995/Budget%20Report%202026.pdf",
+    "final_url": "https://democraticservices.hounslow.gov.uk/documents/s205995/Budget%20Report%202026.pdf",
+    "file": "data\\raw\\reports\\hounslow.pdf",
+    "content_type": "application/pdf"
+  },
+  "islington": {
+    "url": "https://democracy.islington.gov.uk/documents/s44147/Final Budget Report - Executive 04.02.26.pdf",
+    "final_url": "https://democracy.islington.gov.uk/documents/s44147/Final%20Budget%20Report%20-%20Executive%2004.02.26.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "greenwich_page": {
+    "url": "https://committees.royalgreenwich.gov.uk/ieListDocuments.aspx?CId=151&MId=10606&Ver=4",
+    "final_url": "https://committees.royalgreenwich.gov.uk/mgMsg.aspx",
+    "file": "data/provenance/reports_context/greenwich_page.html",
+    "content_type": "text/html",
+    "rejected": "Invalid search-derived meeting ID; redirected to mgMsg. Replaced by official Council meeting 2646."
+  },
+  "haringey_page": {
+    "url": "https://www.minutes.haringey.gov.uk/mgAi.aspx?ID=85016",
+    "final_url": "https://www.minutes.haringey.gov.uk/mgAi.aspx?ID=85016",
+    "file": "data/provenance/reports_context/haringey_page.html",
+    "content_type": "text/html"
+  },
+  "harrow_page": {
+    "url": "https://talk.harrow.gov.uk/budgetconsultation2026-27/documents",
+    "final_url": "https://talk.harrow.gov.uk/budgetconsultation2026-27/widgets/145106/documents",
+    "file": "data/provenance/reports_context/harrow_page.html",
+    "content_type": "text/html"
+  },
+  "hillingdon_page": {
+    "url": "https://www.hillingdon.gov.uk/budget-reports",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  "bexley_strategy": {
+    "url": "https://www.bexley.gov.uk/about-the-council/medium-term-financial-strategy-2026-27-2029-30",
+    "final_url": "https://www.bexley.gov.uk/about-the-council/medium-term-financial-strategy-2026-27-2029-30/issues-medium-term-financial-strategy",
+    "file": "data/provenance/reports_context/bexley_strategy.html",
+    "content_type": "text/html"
+  },
+  "bromley_budget_page": {
+    "url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627",
+    "final_url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627",
+    "file": "data/provenance/reports_context/bromley_budget_page.html",
+    "content_type": "text/html"
+  },
+  "harrow": {
+    "url": "https://moderngov.harrow.gov.uk/documents/s198391/Final Budget 2026-27 and MTFS Report -19 Feb 2026 - FINAL version 2026-02-10 clear copy for the Le.pdf",
+    "final_url": "https://moderngov.harrow.gov.uk/documents/s198391/Final%20Budget%202026-27%20and%20MTFS%20Report%20-19%20Feb%202026%20-%20FINAL%20version%202026-02-10%20clear%20copy%20for%20the%20Le.pdf",
+    "file": "data\\raw\\reports\\harrow.pdf",
+    "content_type": "application/pdf"
+  },
+  "haringey": {
+    "url": "https://www.minutes.haringey.gov.uk/documents/s156236/2 March 2026 Full Council ver1.0 003.docx_updated 7.30.pdf",
+    "final_url": "https://www.minutes.haringey.gov.uk/documents/s156236/2%20March%202026%20Full%20Council%20ver1.0%20003.docx_updated%207.30.pdf",
+    "file": "data\\raw\\reports\\haringey.pdf",
+    "content_type": "application/pdf"
+  },
+  "haringey_annex": {
+    "url": "https://www.minutes.haringey.gov.uk/documents/s156212/Annex 1 -10 February 26 Cabinet_ 2026.27Budget and 2026.31MTFFS ver2.0 10022026 Cabinet.pdf",
+    "final_url": "https://www.minutes.haringey.gov.uk/documents/s156212/Annex%201%20-10%20February%2026%20Cabinet_%202026.27Budget%20and%202026.31MTFFS%20ver2.0%2010022026%20Cabinet.pdf",
+    "file": "data\\raw\\reports\\haringey_annex.pdf",
+    "content_type": "application/pdf"
+  },
+  "merton": {
+    "url": "https://www.merton.gov.uk/sites/default/files/2026-08/Budget%20Book%20Detailed%2026-30_print_room.pdf",
+    "final_url": "https://www.merton.gov.uk/sites/default/files/2026-08/Budget%20Book%20Detailed%2026-30_print_room.pdf",
+    "file": "data\\raw\\reports\\merton.pdf",
+    "content_type": "application/pdf"
+  },
+  "richmond_page": {
+    "url": "https://www.richmond.gov.uk/budgets_and_spending",
+    "final_url": "https://www.richmond.gov.uk/budgets_and_spending",
+    "file": "data/provenance/reports_context/richmond_page.html",
+    "content_type": "text/html"
+  },
+  "kingston_page": {
+    "url": "https://www.kingston.gov.uk/council-tax/budget",
+    "final_url": "https://www.kingston.gov.uk/council-tax/budget",
+    "file": "data/provenance/reports_context/kingston_page.html",
+    "content_type": "text/html"
+  },
+  "kensington_page": {
+    "url": "https://www.rbkc.gov.uk/newsroom/council-approves-forward-looking-budget-2026-2027",
+    "final_url": "https://www.rbkc.gov.uk/newsroom/council-approves-forward-looking-budget-2026-2027",
+    "file": "data/provenance/reports_context/kensington_page.html",
+    "content_type": "text/html"
+  },
+  "newham_page": {
+    "url": "https://www.newham.gov.uk/news/article/1531/newham-council-budget-and-council-tax-approved-for-2026-27",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "lambeth_page": {
+    "url": "https://moderngov.lambeth.gov.uk/ieDecisionDetails.aspx?ID=8241",
+    "final_url": "https://moderngov.lambeth.gov.uk/ieDecisionDetails.aspx?ID=8241",
+    "file": "data/provenance/reports_context/lambeth_page.html",
+    "content_type": "text/html"
+  },
+  "southwark_page": {
+    "url": "https://moderngov.southwark.gov.uk/mgAi.aspx?ID=75985",
+    "final_url": "https://moderngov.southwark.gov.uk/mgAi.aspx?ID=75985",
+    "file": "data/provenance/reports_context/southwark_page.html",
+    "content_type": "text/html"
+  },
+  "sutton": {
+    "url": "https://moderngov.sutton.gov.uk/documents/s94860/Medium%20Term%20Financial%20Plan%202026_27%20-%202028_29%20_%20Council%20_%2002032026.pdf",
+    "final_url": "https://moderngov.sutton.gov.uk/documents/s94860/Medium%20Term%20Financial%20Plan%202026_27%20-%202028_29%20_%20Council%20_%2002032026.pdf",
+    "file": "data\\raw\\reports\\sutton.pdf",
+    "content_type": "application/pdf"
+  },
+  "towerhamlets_page": {
+    "url": "https://democracy.towerhamlets.gov.uk/mgAi.aspx?ID=170309",
+    "final_url": "https://democracy.towerhamlets.gov.uk/mgAi.aspx?ID=170309",
+    "file": "data/provenance/reports_context/towerhamlets_page.html",
+    "content_type": "text/html"
+  },
+  "walthamforest_page": {
+    "url": "https://www.walthamforest.gov.uk/council-and-elections/about-us/council-budgets-and-spending/council-finances",
+    "final_url": "https://www.walthamforest.gov.uk/council-and-elections/about-us/council-budgets-and-spending/council-finances",
+    "file": "data/provenance/reports_context/walthamforest_page.html",
+    "content_type": "text/html"
+  },
+  "wandsworth_page": {
+    "url": "https://www.wandsworth.gov.uk/the-council/how-the-council-works/council-finances/council-budget/",
+    "final_url": "https://www.wandsworth.gov.uk/the-council/how-the-council-works/council-finances/council-budget/",
+    "file": "data/provenance/reports_context/wandsworth_page.html",
+    "content_type": "text/html"
+  },
+  "westminster_page": {
+    "url": "https://www.westminster.gov.uk/about-council/transparency-hub/our-spending-and-finances/funding-and-spending",
+    "final_url": "https://www.westminster.gov.uk/about-council/transparency-hub/our-spending-and-finances/funding-and-spending",
+    "file": "data/provenance/reports_context/westminster_page.html",
+    "content_type": "text/html"
+  },
+  "city_page": {
+    "url": "https://democracy.cityoflondon.gov.uk/ieListMeetings.aspx?CId=223&Year=2026",
+    "final_url": "https://democracy.cityoflondon.gov.uk/ieListMeetings.aspx?CId=223&Year=2026",
+    "file": "data/provenance/reports_context/city_page.html",
+    "content_type": "text/html"
+  },
+  "wandsworth": {
+    "url": "https://www.wandsworth.gov.uk/media/af5d1dab/council_budget_2026_27.pdf",
+    "final_url": "https://www.wandsworth.gov.uk/media/af5d1dab/council_budget_2026_27.pdf",
+    "file": "data\\raw\\reports\\wandsworth.pdf",
+    "content_type": "application/pdf"
+  },
+  "southwark": {
+    "url": "https://moderngov.southwark.gov.uk/documents/s131206/Report Policy and Resources Strategy 2026-27.pdf",
+    "final_url": "https://moderngov.southwark.gov.uk/documents/s131206/Report%20Policy%20and%20Resources%20Strategy%202026-27.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "kingston": {
+    "url": "https://moderngov.kingston.gov.uk/documents/b23632/Budget%20Pack%20202627-%20202930%20-%20Draft%20version%20for%20Corporate%20Resources%20Committeee%20Thursday%2012-Feb-2.pdf?T=9",
+    "final_url": "https://moderngov.kingston.gov.uk/documents/b23632/Budget%20Pack%20202627-%20202930%20-%20Draft%20version%20for%20Corporate%20Resources%20Committeee%20Thursday%2012-Feb-2.pdf?T=9",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "kingston_booklet": {
+    "url": "https://kingston.gov.uk/sites/default/files/2026-03/Council-Tax-Booklet-2026-27%28accessible%29.pdf",
+    "final_url": "https://www.kingston.gov.uk:443/sites/default/files/2026-03/Council-Tax-Booklet-2026-27%28accessible%29.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "city_meeting": {
+    "url": "https://democracy.cityoflondon.gov.uk/ieListDocuments.aspx?CId=223&MId=25159&Ver=4",
+    "final_url": "https://democracy.cityoflondon.gov.uk/ieListDocuments.aspx?CId=223&MId=25159&Ver=4",
+    "file": "data/provenance/reports_context/city_meeting.html",
+    "content_type": "text/html"
+  },
+  "greenwich_meetings": {
+    "url": "https://committees.royalgreenwich.gov.uk/ieListMeetings.aspx?CId=151&Year=2026",
+    "final_url": "https://committees.royalgreenwich.gov.uk/ieListMeetings.aspx?CId=151&Year=2026",
+    "file": "data/provenance/reports_context/greenwich_meetings.html",
+    "content_type": "text/html"
+  },
+  "westminster_meetings": {
+    "url": "https://committees.westminster.gov.uk/ieListMeetings.aspx?CId=138&Year=2026",
+    "final_url": "https://committees.westminster.gov.uk/ieListMeetings.aspx?CId=138&Year=2026",
+    "file": "data/provenance/reports_context/westminster_meetings.html",
+    "content_type": "text/html"
+  },
+  "bexley": {
+    "url": "https://democracy.bexley.gov.uk/documents/s121831/Item%204%20Financial%20Plans%202026-27%20Council%20Report%20Final.pdf",
+    "final_url": "https://democracy.bexley.gov.uk/documents/s121831/Item%204%20Financial%20Plans%202026-27%20Council%20Report%20Final.pdf",
+    "file": "data\\raw\\reports\\bexley.pdf",
+    "content_type": "application/pdf"
+  },
+  "city": {
+    "url": "https://democracy.cityoflondon.gov.uk/documents/s230239/City Fund Budget 2026-27 and MTFP - COCO FINAL v3.pdf",
+    "final_url": "https://democracy.cityoflondon.gov.uk/documents/s230239/City%20Fund%20Budget%202026-27%20and%20MTFP%20-%20COCO%20FINAL%20v3.pdf",
+    "file": "data\\raw\\reports\\city.pdf",
+    "content_type": "application/pdf"
+  },
+  "richmond": {
+    "url": "https://www.richmond.gov.uk/media/epafe3cl/budget_book_2026_27.pdf",
+    "final_url": "https://www.richmond.gov.uk/media/epafe3cl/budget_book_2026_27.pdf",
+    "file": "data\\raw\\reports\\richmond.pdf",
+    "content_type": "application/pdf"
+  },
+  "newham": {
+    "url": "https://mgov.newham.gov.uk/documents/s186015/Appendix%20AA%20-%20Final%20Budget%20Setting%20Report%20-%20Cabinet%20Report.pdf",
+    "final_url": "https://mgov.newham.gov.uk/documents/s186015/Appendix%20AA%20-%20Final%20Budget%20Setting%20Report%20-%20Cabinet%20Report.pdf",
+    "file": "data\\raw\\reports\\newham.pdf",
+    "content_type": "application/pdf",
+    "transport": "curl.exe using Schannel trusted TLS; urllib certificate chain failed"
+  },
+  "westminster": {
+    "url": "https://committees.westminster.gov.uk/documents/s70929/Report%20of%20Cabinet.pdf",
+    "final_url": "https://committees.westminster.gov.uk/documents/s70929/Report%20of%20Cabinet.pdf",
+    "file": "data\\raw\\reports\\westminster.pdf",
+    "content_type": "application/pdf"
+  },
+  "westminster_cabinet": {
+    "url": "https://committees.westminster.gov.uk/documents/s70545/4.%20Cabinet%20Report%20-%20Business%20and%20Financial%20Planning%202026-27%20to%202028-29.pdf",
+    "final_url": "https://committees.westminster.gov.uk/documents/s70545/4.%20Cabinet%20Report%20-%20Business%20and%20Financial%20Planning%202026-27%20to%202028-29.pdf",
+    "file": "data\\raw\\reports\\westminster_cabinet.pdf",
+    "content_type": "application/pdf"
+  },
+  "havering": {
+    "url": "https://democracy.havering.gov.uk/documents/s83059/0-1%20-%20Budget%20report%20cabinet%202026%202.pdf",
+    "final_url": "https://democracy.havering.gov.uk/documents/s83059/0-1%20-%20Budget%20report%20cabinet%202026%202.pdf",
+    "file": "data\\raw\\reports\\havering.pdf",
+    "content_type": "application/pdf"
+  },
+  "ealing_strategy_page": {
+    "url": "https://www.ealing.gov.uk/downloads/download/4296/medium-term_financial_strategy",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "lewisham_page": {
+    "url": "https://councilmeetings.lewisham.gov.uk/ieDecisionDetails.aspx?AIId=37735",
+    "final_url": "https://councilmeetings.lewisham.gov.uk/ieDecisionDetails.aspx?AIId=37735",
+    "file": "data/provenance/reports_context/lewisham_page.html",
+    "content_type": "text/html"
+  },
+  "greenwich_meeting": {
+    "url": "https://committees.royalgreenwich.gov.uk/ieListDocuments.aspx?CId=151&MId=2646&Ver=4",
+    "final_url": "https://committees.royalgreenwich.gov.uk/ieListDocuments.aspx?CId=151&MId=2646&Ver=4",
+    "file": "data/provenance/reports_context/greenwich_meeting.html",
+    "content_type": "text/html"
+  },
+  "hillingdon_meeting": {
+    "url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=117&MId=4969",
+    "final_url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=117&MId=4969",
+    "file": "data/provenance/reports_context/hillingdon_meeting.html",
+    "content_type": "text/html"
+  },
+  "walthamforest_item": {
+    "url": "https://democracy.walthamforest.gov.uk/mgAi.aspx?ID=46062",
+    "final_url": "https://democracy.walthamforest.gov.uk/mgAi.aspx?ID=46062",
+    "file": "data/provenance/reports_context/walthamforest_item.html",
+    "content_type": "text/html"
+  },
+  "bromley_meetings": {
+    "url": "https://cds.bromley.gov.uk/ieListMeetings.aspx?CId=115&Year=2026",
+    "error": "Remote end closed connection without response"
+  },
+  "harrow_meetings": {
+    "url": "https://moderngov.harrow.gov.uk/ieListMeetings.aspx?CId=288&Year=2026",
+    "final_url": "https://moderngov.harrow.gov.uk/ieListMeetings.aspx?CId=288&Year=2026",
+    "file": "data/provenance/reports_context/harrow_meetings.html",
+    "content_type": "text/html"
+  },
+  "lambeth_meetings": {
+    "url": "https://moderngov.lambeth.gov.uk/ieListMeetings.aspx?CId=142&Year=2026",
+    "final_url": "https://moderngov.lambeth.gov.uk/ieListMeetings.aspx?CId=142&Year=2026",
+    "file": "data/provenance/reports_context/lambeth_meetings.html",
+    "content_type": "text/html"
+  },
+  "kensington_budget": {
+    "url": "https://www.rbkc.gov.uk/council-tax/guide-council-tax-benefits-and-business-rates/your-council-tax-and-business-rates-2026-2027-and-our-performance-and-spending-plans/rbkcs-budget-and-council-tax-requirement-2026-2027",
+    "final_url": "https://www.rbkc.gov.uk/council-tax/guide-council-tax-benefits-and-business-rates/your-council-tax-and-business-rates-2026-2027-and-our-performance-and-spending-plans/rbkcs-budget-and-council-tax-requirement-2026-2027",
+    "file": "data/provenance/reports_context/kensington_budget.html",
+    "content_type": "text/html"
+  },
+  "greenwich": {
+    "url": "https://committees.royalgreenwich.gov.uk/documents/s18350/Budget and Council Tax Setting 2026 27.pdf",
+    "final_url": "https://committees.royalgreenwich.gov.uk/documents/s18350/Budget%20and%20Council%20Tax%20Setting%202026%2027.pdf",
+    "file": "data\\raw\\reports\\greenwich.pdf",
+    "content_type": "application/pdf"
+  },
+  "greenwich_mtfs": {
+    "url": "https://committees.royalgreenwich.gov.uk/documents/s18359/MTFS Medium Term Financial Strategy 202627.pdf",
+    "final_url": "https://committees.royalgreenwich.gov.uk/documents/s18359/MTFS%20Medium%20Term%20Financial%20Strategy%20202627.pdf",
+    "file": "data\\raw\\reports\\greenwich_mtfs.pdf",
+    "content_type": "application/pdf"
+  },
+  "lewisham": {
+    "url": "https://councilmeetings.lewisham.gov.uk/documents/s123667/2026-27 Budget Report MC.pdf",
+    "final_url": "https://councilmeetings.lewisham.gov.uk/documents/s123667/2026-27%20Budget%20Report%20MC.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "hillingdon": {
+    "url": "https://modgov.hillingdon.gov.uk/documents/s65831/260226 - 08 - Budget.pdf",
+    "final_url": "https://modgov.hillingdon.gov.uk/documents/s65831/260226%20-%2008%20-%20Budget.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "hillingdon_recommendations": {
+    "url": "https://modgov.hillingdon.gov.uk/documents/s65872/260226 - 09 - 26-27 Budget - Cabinet recommendations.pdf",
+    "final_url": "https://modgov.hillingdon.gov.uk/documents/s65872/260226%20-%2009%20-%2026-27%20Budget%20-%20Cabinet%20recommendations.pdf",
+    "file": "data\\raw\\reports\\hillingdon_recommendations.pdf",
+    "content_type": "application/pdf"
+  },
+  "walthamforest": {
+    "url": "https://democracy.walthamforest.gov.uk/documents/s106841/Budget Report 2026-29 - Cabinet Report.pdf",
+    "final_url": "https://democracy.walthamforest.gov.uk/documents/s106841/Budget%20Report%202026-29%20-%20Cabinet%20Report.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "harrow_meeting": {
+    "url": "https://moderngov.harrow.gov.uk/ieListDocuments.aspx?CId=288&MId=66223&Ver=4",
+    "final_url": "https://moderngov.harrow.gov.uk/ieListDocuments.aspx?CId=288&MId=66223&Ver=4",
+    "file": "data/provenance/reports_context/harrow_meeting.html",
+    "content_type": "text/html"
+  },
+  "lambeth_meeting": {
+    "url": "https://moderngov.lambeth.gov.uk/ieListDocuments.aspx?CId=142&MId=17355&Ver=4",
+    "final_url": "https://moderngov.lambeth.gov.uk/ieListDocuments.aspx?CId=142&MId=17355&Ver=4",
+    "file": "data/provenance/reports_context/lambeth_meeting.html",
+    "content_type": "text/html"
+  },
+  "barking_meeting": {
+    "url": "https://lbbd.moderngov.co.uk/Internet/ieDecisionDetails.aspx?ID=3796",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "ealing_guide": {
+    "url": "https://www.ealing.gov.uk/download/downloads/id/21310/council_tax_guide_for_2026_to_2027.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "city_item": {
+    "url": "https://democracy.cityoflondon.gov.uk/mgAi.aspx?ID=171028",
+    "final_url": "https://democracy.cityoflondon.gov.uk/mgAi.aspx?ID=171028",
+    "file": "data/provenance/reports_context/city_item.html",
+    "content_type": "text/html"
+  },
+  "lambeth": {
+    "url": "https://moderngov.lambeth.gov.uk/documents/s174193/Budget Report 2026-27 - COUNCIL.pdf",
+    "final_url": "https://moderngov.lambeth.gov.uk/documents/s174193/Budget%20Report%202026-27%20-%20COUNCIL.pdf",
+    "file": "data\\raw\\reports\\lambeth.pdf",
+    "content_type": "application/pdf"
+  },
+  "lambeth_addendum": {
+    "url": "https://moderngov.lambeth.gov.uk/documents/s174194/Addendum to Budget Report 2026-27.pdf",
+    "final_url": "https://moderngov.lambeth.gov.uk/documents/s174194/Addendum%20to%20Budget%20Report%202026-27.pdf",
+    "file": "data\\raw\\reports\\lambeth_addendum.pdf",
+    "content_type": "application/pdf"
+  },
+  "kensington": {
+    "url": "https://rbkc.moderngov.co.uk/Committees/documents/s30980/2026-27%20Budget%20and%20Council%20Tax%20Main%20Report.pdf",
+    "final_url": "https://rbkc.moderngov.co.uk/Committees/documents/s30980/2026-27%20Budget%20and%20Council%20Tax%20Main%20Report.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "retained": false
+  },
+  "ealing": {
+    "url": "https://ealing.moderngov.co.uk/documents/s23075/2026-27%20Budget%20Strategy%20Report%20FINAL.pdf",
+    "final_url": "https://ealing.moderngov.co.uk/documents/s23075/2026-27%20Budget%20Strategy%20Report%20FINAL.pdf",
+    "file": "data\\raw\\reports\\ealing.pdf",
+    "content_type": "application/pdf"
+  },
+  "ealing_item": {
+    "url": "https://ealing.moderngov.co.uk/mgAi.aspx?ID=6594",
+    "final_url": "https://ealing.moderngov.co.uk/mgAi.aspx?ID=6594",
+    "file": "data/provenance/reports_context/ealing_item.html",
+    "content_type": "text/html"
+  },
+  "bromley_meetings2": {
+    "url": "https://bromley.moderngov.co.uk/ieListMeetings.aspx?CId=115&Year=2026",
+    "error": "HTTP Error 522: <none>"
+  },
+  "barking_decision": {
+    "url": "https://lbbd.moderngov.co.uk/ieDecisionDetails.aspx?ID=3796",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "towerhamlets": {
+    "url": "https://democracy.towerhamlets.gov.uk/documents/s268183/The Councils 2026-27 Budget Report and Medium Term Financial Strategy 2026-29.pdf",
+    "final_url": "https://democracy.towerhamlets.gov.uk/documents/s268183/The%20Councils%202026-27%20Budget%20Report%20and%20Medium%20Term%20Financial%20Strategy%202026-29.pdf",
+    "file": "data\\raw\\reports\\towerhamlets.pdf",
+    "content_type": "application/pdf"
+  },
+  "bromley_future": {
+    "url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627/2",
+    "final_url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627/2",
+    "file": "data/provenance/reports_context/bromley_future.html",
+    "content_type": "text/html"
+  },
+  "harrow_item": {
+    "url": "https://moderngov.harrow.gov.uk/mgAi.aspx?ID=141375",
+    "final_url": "https://moderngov.harrow.gov.uk/mgAi.aspx?ID=141375",
+    "file": "data/provenance/reports_context/harrow_item.html",
+    "content_type": "text/html"
+  },
+  "lambeth_item": {
+    "url": "https://moderngov.lambeth.gov.uk/mgAi.aspx?ID=67346",
+    "final_url": "https://moderngov.lambeth.gov.uk/mgAi.aspx?ID=67346",
+    "file": "data/provenance/reports_context/lambeth_item.html",
+    "content_type": "text/html"
+  },
+  "lewisham_meetings": {
+    "url": "https://councilmeetings.lewisham.gov.uk/ieListMeetings.aspx?CId=138&Year=2026",
+    "final_url": "https://councilmeetings.lewisham.gov.uk/ieListMeetings.aspx?CId=138&Year=2026",
+    "file": "data/provenance/reports_context/lewisham_meetings.html",
+    "content_type": "text/html"
+  },
+  "southwark_meetings": {
+    "url": "https://moderngov.southwark.gov.uk/ieListMeetings.aspx?CId=132&Year=2026",
+    "final_url": "https://moderngov.southwark.gov.uk/ieListMeetings.aspx?CId=132&Year=2026",
+    "file": "data/provenance/reports_context/southwark_meetings.html",
+    "content_type": "text/html"
+  },
+  "kingston_meetings": {
+    "url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=150&Year=2026",
+    "final_url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=150&Year=2026",
+    "file": "data/provenance/reports_context/kingston_meetings.html",
+    "content_type": "text/html"
+  },
+  "westminster_item": {
+    "url": "https://committees.westminster.gov.uk/mgAi.aspx?ID=22914",
+    "final_url": "https://committees.westminster.gov.uk/mgAi.aspx?ID=22914",
+    "file": "data/provenance/reports_context/westminster_item.html",
+    "content_type": "text/html"
+  },
+  "bromley_guide": {
+    "url": "https://www.bromley.gov.uk/council-tax/council-tax-guide",
+    "final_url": "https://www.bromley.gov.uk/council-tax/council-tax-guide",
+    "file": "data/provenance/reports_context/bromley_guide.html",
+    "content_type": "text/html"
+  },
+  "bromley": {
+    "url": "https://www.bromley.gov.uk/downloads/file/3910/council-tax-guide-booklet-print-version-",
+    "final_url": "https://www.bromley.gov.uk/downloads/file/3910/council-tax-guide-booklet-print-version-",
+    "file": "data\\raw\\reports\\bromley.pdf",
+    "content_type": "application/pdf"
+  },
+  "barking_meetings": {
+    "url": "https://lbbd.moderngov.co.uk/ieListMeetings.aspx?CId=180&Year=2026",
+    "final_url": "https://lbbd.moderngov.co.uk/ieListMeetings.aspx?CId=180&Year=2026",
+    "file": "data/provenance/reports_context/barking_meetings.html",
+    "content_type": "text/html"
+  },
+  "lewisham_meeting": {
+    "url": "https://councilmeetings.lewisham.gov.uk/ieListDocuments.aspx?CId=138&MId=8820&Ver=4",
+    "final_url": "https://councilmeetings.lewisham.gov.uk/ieListDocuments.aspx?CId=138&MId=8820&Ver=4",
+    "file": "data/provenance/reports_context/lewisham_meeting.html",
+    "content_type": "text/html"
+  },
+  "southwark_meeting": {
+    "url": "https://moderngov.southwark.gov.uk/ieListDocuments.aspx?CId=132&MId=8198&Ver=4",
+    "final_url": "https://moderngov.southwark.gov.uk/ieListDocuments.aspx?CId=132&MId=8198&Ver=4",
+    "file": "data/provenance/reports_context/southwark_meeting.html",
+    "content_type": "text/html"
+  },
+  "hillingdon_cabinet": {
+    "url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=115&MId=5061",
+    "final_url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=115&MId=5061",
+    "file": "data/provenance/reports_context/hillingdon_cabinet.html",
+    "content_type": "text/html"
+  },
+  "kingston_current": {
+    "url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=118&Year=2026",
+    "final_url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=118&Year=2026",
+    "file": "data/provenance/reports_context/kingston_current.html",
+    "content_type": "text/html"
+  },
+  "lewisham_final": {
+    "url": "https://councilmeetings.lewisham.gov.uk/documents/s123888/2026-27 Budget Report Council.pdf",
+    "final_url": "https://councilmeetings.lewisham.gov.uk/documents/s123888/2026-27%20Budget%20Report%20Council.pdf",
+    "file": "data\\raw\\reports\\lewisham_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "hillingdon_full": {
+    "url": "https://modgov.hillingdon.gov.uk/documents/s65768/2026-27 Budget and Medium Term Financial Strategy FINAL.pdf",
+    "final_url": "https://modgov.hillingdon.gov.uk/documents/s65768/2026-27%20Budget%20and%20Medium%20Term%20Financial%20Strategy%20FINAL.pdf",
+    "file": "data\\raw\\reports\\hillingdon_full.pdf",
+    "content_type": "application/pdf"
+  },
+  "southwark_final": {
+    "url": "https://moderngov.southwark.gov.uk/documents/s131435/Report PRS 2026-27.pdf",
+    "final_url": "https://moderngov.southwark.gov.uk/documents/s131435/Report%20PRS%202026-27.pdf",
+    "file": "data\\raw\\reports\\southwark_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "barking_committees": {
+    "url": "https://lbbd.moderngov.co.uk/mgListCommittees.aspx?bcr=1",
+    "final_url": "https://lbbd.moderngov.co.uk/mgListCommittees.aspx?bcr=1",
+    "file": "data/provenance/reports_context/barking_committees.html",
+    "content_type": "text/html"
+  },
+  "kingston_committees": {
+    "url": "https://moderngov.kingston.gov.uk/mgListCommittees.aspx?bcr=1",
+    "final_url": "https://moderngov.kingston.gov.uk/mgListCommittees.aspx?bcr=1",
+    "file": "data/provenance/reports_context/kingston_committees.html",
+    "content_type": "text/html"
+  },
+  "islington_council_meetings": {
+    "url": "https://democracy.islington.gov.uk/ieListMeetings.aspx?CId=134&Year=2026",
+    "final_url": "https://democracy.islington.gov.uk/ieListMeetings.aspx?CId=134&Year=2026",
+    "file": "data/provenance/reports_context/islington_council_meetings.html",
+    "content_type": "text/html"
+  },
+  "hammersmith_council_meetings": {
+    "url": "https://democracy.lbhf.gov.uk/ieListMeetings.aspx?CId=114&Year=2026",
+    "final_url": "https://democracy.lbhf.gov.uk/ieListMeetings.aspx?CId=114&Year=2026",
+    "file": "data/provenance/reports_context/hammersmith_council_meetings.html",
+    "content_type": "text/html"
+  },
+  "barking_full_meetings": {
+    "url": "https://lbbd.moderngov.co.uk/ieListMeetings.aspx?CId=179&Year=2026",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "kingston_full_meetings": {
+    "url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=137&Year=2026",
+    "final_url": "https://moderngov.kingston.gov.uk/ieListMeetings.aspx?CId=137&Year=2026",
+    "file": "data/provenance/reports_context/kingston_full_meetings.html",
+    "content_type": "text/html"
+  },
+  "islington_council": {
+    "url": "https://democracy.islington.gov.uk/ieListDocuments.aspx?CId=134&MId=5285&Ver=4",
+    "final_url": "https://democracy.islington.gov.uk/ieListDocuments.aspx?CId=134&MId=5285&Ver=4",
+    "file": "data/provenance/reports_context/islington_council.html",
+    "content_type": "text/html"
+  },
+  "hammersmith_council": {
+    "url": "https://democracy.lbhf.gov.uk/ieListDocuments.aspx?CId=114&MId=7895&Ver=4",
+    "final_url": "https://democracy.lbhf.gov.uk/ieListDocuments.aspx?CId=114&MId=7895&Ver=4",
+    "file": "data/provenance/reports_context/hammersmith_council.html",
+    "content_type": "text/html"
+  },
+  "newham_meeting": {
+    "url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=294&MId=15016",
+    "final_url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=294&MId=15016",
+    "file": "data/provenance/reports_context/newham_meeting.html",
+    "content_type": "text/html",
+    "rejected": "Directly read: Cabinet 17 June 2025, not budget Council February 2026; replaced by newham_actual_meeting."
+  },
+  "westminster_full_meetings": {
+    "url": "https://committees.westminster.gov.uk/ieListMeetings.aspx?CId=149&Year=2026",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "kingston_council": {
+    "url": "https://moderngov.kingston.gov.uk/ieListDocuments.aspx?CId=137&MId=10156&Ver=4",
+    "final_url": "https://moderngov.kingston.gov.uk/ieListDocuments.aspx?CId=137&MId=10156&Ver=4",
+    "file": "data/provenance/reports_context/kingston_council.html",
+    "content_type": "text/html"
+  },
+  "islington_final": {
+    "url": "https://democracy.islington.gov.uk/documents/s44239/Final Budget Report - Full Council 26.2.26.pdf",
+    "final_url": "https://democracy.islington.gov.uk/documents/s44239/Final%20Budget%20Report%20-%20Full%20Council%2026.2.26.pdf",
+    "file": "data\\raw\\reports\\islington_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "hammersmith_final": {
+    "url": "https://democracy.lbhf.gov.uk/documents/s134070/Budget Report.pdf",
+    "final_url": "https://democracy.lbhf.gov.uk/documents/s134070/Budget%20Report.pdf",
+    "file": "data\\raw\\reports\\hammersmith_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "barking_council_list": {
+    "url": "https://lbbd.moderngov.co.uk/ieListMeetings.aspx?CommitteeId=179&Year=2026",
+    "final_url": "https://lbbd.moderngov.co.uk/ieListMeetings.aspx?CommitteeId=179&Year=2026",
+    "file": "data/provenance/reports_context/barking_council_list.html",
+    "content_type": "text/html"
+  },
+  "barking_details": {
+    "url": "https://lbbd.moderngov.co.uk/mgCommitteeDetails.aspx?ID=179",
+    "final_url": "https://lbbd.moderngov.co.uk/mgCommitteeDetails.aspx?ID=179",
+    "file": "data/provenance/reports_context/barking_details.html",
+    "content_type": "text/html"
+  },
+  "barking_news": {
+    "url": "https://www.lbbd.gov.uk/news/2026/barking-and-dagenham-council-agrees-202627-budget-protect-key-services-and-invest",
+    "final_url": "https://www.lbbd.gov.uk/news/2026/barking-and-dagenham-council-agrees-202627-budget-protect-key-services-and-invest",
+    "file": "data/provenance/reports_context/barking_news.html",
+    "content_type": "text/html"
+  },
+  "barking_final": {
+    "url": "https://lbbd.moderngov.co.uk/documents/s179277/Budget%20Framework%202026-27%20Report.pdf",
+    "final_url": "https://lbbd.moderngov.co.uk/documents/s179277/Budget%20Framework%202026-27%20Report.pdf",
+    "file": "data\\raw\\reports\\barking_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "barking_item": {
+    "url": "https://lbbd.moderngov.co.uk/mgAi.aspx?ID=100799",
+    "final_url": "https://lbbd.moderngov.co.uk/mgAi.aspx?ID=100799",
+    "file": "data/provenance/reports_context/barking_item.html",
+    "content_type": "text/html"
+  },
+  "barking_full_meeting": {
+    "url": "https://lbbd.moderngov.co.uk/ieListDocuments.aspx?CId=179&MId=13704&Ver=4",
+    "final_url": "https://lbbd.moderngov.co.uk/ieListDocuments.aspx?CId=179&MId=13704&Ver=4",
+    "file": "data/provenance/reports_context/barking_full_meeting.html",
+    "content_type": "text/html"
+  },
+  "kingston_final": {
+    "url": "https://moderngov.kingston.gov.uk/documents/s113057/Budget Report 2026_27- 2029_30 - Budget Council February 2026.pdf",
+    "final_url": "https://moderngov.kingston.gov.uk/documents/s113057/Budget%20Report%202026_27-%202029_30%20-%20Budget%20Council%20February%202026.pdf",
+    "file": "data\\raw\\reports\\kingston_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "kingston_item": {
+    "url": "https://moderngov.kingston.gov.uk/mgAi.aspx?ID=52213",
+    "final_url": "https://moderngov.kingston.gov.uk/mgAi.aspx?ID=52213",
+    "file": "data/provenance/reports_context/kingston_item.html",
+    "content_type": "text/html"
+  },
+  "southwark_item": {
+    "url": "https://moderngov.southwark.gov.uk/mgAi.aspx?ID=76426",
+    "final_url": "https://moderngov.southwark.gov.uk/mgAi.aspx?ID=76426",
+    "file": "data/provenance/reports_context/southwark_item.html",
+    "content_type": "text/html"
+  },
+  "hounslow_meeting": {
+    "url": "https://democraticservices.hounslow.gov.uk/ieListDocuments.aspx?MId=13613",
+    "final_url": "https://democraticservices.hounslow.gov.uk/ieListDocuments.aspx?MId=13613",
+    "file": "data/provenance/reports_context/hounslow_meeting.html",
+    "content_type": "text/html"
+  },
+  "hounslow_final": {
+    "url": "https://democraticservices.hounslow.gov.uk/documents/s206031/REFERENCE%20REPORT%20Council%20Tax%20Resolution%202026-27.pdf",
+    "final_url": "https://democraticservices.hounslow.gov.uk/documents/s206031/REFERENCE%20REPORT%20Council%20Tax%20Resolution%202026-27.pdf",
+    "file": "data\\raw\\reports\\hounslow_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "kensington_committees": {
+    "url": "https://rbkc.moderngov.co.uk/Committees/mgListCommittees.aspx?bcr=1",
+    "final_url": "https://rbkc.moderngov.co.uk/Committees/mgListCommittees.aspx?bcr=1",
+    "file": "data/provenance/reports_context/kensington_committees.html",
+    "content_type": "text/html"
+  },
+  "walthamforest_committees": {
+    "url": "https://democracy.walthamforest.gov.uk/mgListCommittees.aspx?bcr=1",
+    "final_url": "https://democracy.walthamforest.gov.uk/mgListCommittees.aspx?bcr=1",
+    "file": "data/provenance/reports_context/walthamforest_committees.html",
+    "content_type": "text/html"
+  },
+  "kensington_council_list": {
+    "url": "https://rbkc.moderngov.co.uk/Committees/ieListMeetings.aspx?CId=175&Year=2026",
+    "final_url": "https://rbkc.moderngov.co.uk/Committees/ieListMeetings.aspx?CId=175&Year=2026",
+    "file": "data/provenance/reports_context/kensington_council_list.html",
+    "content_type": "text/html"
+  },
+  "walthamforest_council_list": {
+    "url": "https://democracy.walthamforest.gov.uk/ieListMeetings.aspx?CId=335&Year=2026",
+    "final_url": "https://democracy.walthamforest.gov.uk/ieListMeetings.aspx?CId=335&Year=2026",
+    "file": "data/provenance/reports_context/walthamforest_council_list.html",
+    "content_type": "text/html"
+  },
+  "kensington_council": {
+    "url": "https://rbkc.moderngov.co.uk/Committees/ieListDocuments.aspx?CId=175&MId=4176&Ver=4",
+    "final_url": "https://rbkc.moderngov.co.uk/Committees/ieListDocuments.aspx?CId=175&MId=4176&Ver=4",
+    "file": "data/provenance/reports_context/kensington_council.html",
+    "content_type": "text/html"
+  },
+  "walthamforest_council": {
+    "url": "https://democracy.walthamforest.gov.uk/ieListDocuments.aspx?CId=335&MId=6164&Ver=4",
+    "final_url": "https://democracy.walthamforest.gov.uk/ieListDocuments.aspx?CId=335&MId=6164&Ver=4",
+    "file": "data/provenance/reports_context/walthamforest_council.html",
+    "content_type": "text/html"
+  },
+  "kensington_final": {
+    "url": "https://rbkc.moderngov.co.uk/Committees/documents/s31635/BU-Appendix A.pdf",
+    "final_url": "https://rbkc.moderngov.co.uk/Committees/documents/s31635/BU-Appendix%20A.pdf",
+    "file": "data\\raw\\reports\\kensington_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "walthamforest_final": {
+    "url": "https://democracy.walthamforest.gov.uk/documents/s106981/1. Budget Report 2026-29 Council.pdf",
+    "final_url": "https://democracy.walthamforest.gov.uk/documents/s106981/1.%20Budget%20Report%202026-29%20Council.pdf",
+    "file": "data\\raw\\reports\\walthamforest_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "newham_cover": {
+    "url": "https://mgov.newham.gov.uk/documents/s186010/FULL%20COUNCIL%20COVER%20REPORT%2026FEB2026.pdf",
+    "file": null,
+    "content_type": "application/pdf",
+    "transport": "curl.exe using Schannel trusted TLS",
+    "retained": false
+  },
+  "newham_actual_meeting": {
+    "url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=295&MId=15006&Ver=4",
+    "final_url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=295&MId=15006&Ver=4",
+    "file": "data/provenance/reports_context/newham_actual_meeting.html",
+    "content_type": "text/html"
+  },
+  "newham_final": {
+    "url": "https://mgov.newham.gov.uk/documents/s186059/Final Budget 2026-27 Council Tax 2026-27 and MTFS 2026-27 to 2030-31.pdf",
+    "final_url": "https://mgov.newham.gov.uk/documents/s186059/Final%20Budget%202026-27%20Council%20Tax%202026-27%20and%20MTFS%202026-27%20to%202030-31.pdf",
+    "file": "data\\raw\\reports\\newham_final.pdf",
+    "content_type": "application/pdf"
+  },
+  "redbridge_budget_report": {
+    "url": "https://moderngov.redbridge.gov.uk/documents/s173077/Revenue%20Capital%20Budget%20and%20Council%20Tax%2026%20-27%20and%20MTFS%2026-27%20and%2030-31%20-%20Report.pdf",
+    "file": "data/raw/reports/redbridge_budget_report.pdf",
+    "content_type": "application/pdf",
+    "note": "Retrieved by parent and read as 16-page 2026/27 Budget Council report."
+  },
+  "bromley_full_report_attempt": {
+    "url": "https://cds.bromley.gov.uk/documents/b50020202/4.%20Final%20Report%20of%20Director%20of%20Finance%20Thursday%2026-Feb-2026%2019.00%20Council.pdf?T=9",
+    "error": "HTTPS requests timed out with zero bytes; committee home also timed out/returned empty reply; HTTP alternative timed out; bromley.moderngov.co.uk returned 522. No full report downloaded. Official council-tax booklet used as explicit summary fallback."
+  }
+}

@@ -1,0 +1,1488 @@
+{
+  "retrieved": "2026-10-21",
+  "directory": {
+    "source": "https://raw.githubusercontent.com/alphagov/local-links-manager/e0044d06811681acc2ed14acbd83cfdaa4177714/data/local-authorities.csv",
+    "evidence": "data/raw/logos/local-authorities.csv",
+    "sha256": "24c6ea7db4f679ec592aa58930d12a02944517aa2aa0f2999723d6cac466110f",
+    "purpose": "Website discovery only, not colour evidence. Exact ONS joins; three explicit historical metropolitan identifier changes documented in import_colours.py."
+  },
+  "methodology": [
+    "Verified values are exact official SVG fill/stroke literals, opaque raster pixels, or (Redbridge only, following the user-directed dark-red correction) the official primary brand-palette CSS token with a verified paint selector. No hashes, arbitrary palettes, inferred darkening or unrelated UI accents generate colours.",
+    "Official .gov.uk homepages and committee/consultation portals validate assets. Three council-published CDN uploads retain linking official HTML excerpts, excerpt hashes and full-source-page hashes.",
+    "Selections are representative, not necessarily unique or dominant. Multicolour, raster-compressed, monochrome and older variants are identified in notes.",
+    "Logo-icon fields are part of the officially supplied emblem composition. Reversed-white Havering is explicit, not sold as a distinctive corporate hue.",
+    "Unknown authorities have null colours and sources. London was prioritised, followed by a bounded national county/metropolitan/unitary batch; not every council has been researched.",
+    "Offline rebuild: python scripts\\import_colours.py --build. Raster investigation uses optional Pillow. Evidence must match SHA-256; source retention does not imply endorsement or permission to republish logos."
+  ],
+  "authorities": {
+    "E06000001": {
+      "source": "https://www.hartlepool.gov.uk/site/dist/images/favicons/apple-touch-icon.png?2.5.1",
+      "sourcePage": "https://www.hartlepool.gov.uk",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000001-icon.png",
+      "sha256": "54f433dabfc1dc20fa0532c1772fce860e92f1e3df556de140c758b08fd524f5",
+      "colour": "#003e52",
+      "sampleCount": 3451,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000003": {
+      "source": "https://www.redcar-cleveland.gov.uk/themes/custom/rcbc/logo.svg",
+      "sourcePage": "https://www.redcar-cleveland.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000003.svg",
+      "sha256": "67be46e08ea0219d9e7d007ea19f75d00fcaa3a4bc17dc589c87d1c1a9f305b0",
+      "colour": "#0066a4",
+      "sampleCount": 16,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000005": {
+      "source": "https://www.darlington.gov.uk/PWA/Images/apple-icon-180.png",
+      "sourcePage": "https://www.darlington.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000005-icon.png",
+      "sha256": "1595266c1b3cace30fb1476fb64324344cd40a1baaa7f0442cfabe92d06fdcec",
+      "colour": "#007397",
+      "sampleCount": 126,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000007": {
+      "source": "https://www.warrington.gov.uk/sites/default/files/2019-06/WBC%20Logo%20-%20Landscape%20-%20High%20Res.png",
+      "sourcePage": "https://www.warrington.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000007.png",
+      "sha256": "8b55935903d7baa480257e7f48452a4164b40f0b28ef1b3979e21550b7e02054",
+      "colour": "#000000",
+      "sampleCount": 165,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000010": {
+      "source": "https://www.hull.gov.uk/site/dist/images/site-logo.png?1.32.0",
+      "sourcePage": "https://www.hull.gov.uk",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000010.png",
+      "sha256": "6657dace22f9dddbba8619527d1d9f7bfceb447cbe11cacb5a4dc9a6fc00e821",
+      "colour": "#221f1f",
+      "sampleCount": 5747,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000012": {
+      "source": "https://www.nelincs.gov.uk/assets/themes/NELC2020/inc/assets/img/logo.png",
+      "sourcePage": "https://www.nelincs.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000012.png",
+      "sha256": "7654f0acbe9293eca69d52fb78b83dca08a589fe2914c89141fbae2ac20a611c",
+      "colour": "#231f20",
+      "sampleCount": 63235,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000014": {
+      "source": "https://www.york.gov.uk/site/dist/images/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.york.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000014-icon.png",
+      "sha256": "b3ce99c18c1a8ee6a5cba4eb8faf29803ed98fc0ef84cfa3ab534e841a09ff6b",
+      "colour": "#1f1d1d",
+      "sampleCount": 13802,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000016": {
+      "source": "https://www.leicester.gov.uk/themes/custom/bbd_localgov/logo.svg",
+      "sourcePage": "https://www.leicester.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000016.svg",
+      "sha256": "20db144be76d42064170f087696d50671dc5b89b207a58081af1af8154feb60f",
+      "colour": "#005961",
+      "sampleCount": 26,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000017": {
+      "source": "https://www.rutland.gov.uk/themes/custom/bbd_localgov/images/RutlandCCLogo.png",
+      "sourcePage": "https://www.rutland.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000017.png",
+      "sha256": "0fedf36dfa29b4fce85b04b19d962f80c807c9c8abc11b0fe49da69d9b9d6410",
+      "colour": "#009a78",
+      "sampleCount": 18279,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000019": {
+      "source": "https://www.herefordshire.gov.uk/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.herefordshire.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000019-icon.png",
+      "sha256": "43f9d3df7b27523caaf6091862ac1b36499ee684ca23c97318a814a3781382dd",
+      "colour": "#000000",
+      "sampleCount": 4403,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000022": {
+      "source": "https://www.bathnes.gov.uk/themes/custom/banes8/images/logos/banes-logo-withstrapline.png",
+      "sourcePage": "https://www.bathnes.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000022.png",
+      "sha256": "d5f6e7a754f2e18123d6f4e6191e9ec82bb0db8348e9c8976637b999f2d441a5",
+      "colour": "#20a64b",
+      "sampleCount": 5614,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000024": {
+      "source": "https://n-somerset.gov.uk/themes/north_somerset/templates/system/logo-new.svg",
+      "sourcePage": "https://n-somerset.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000024.svg",
+      "sha256": "5f8d795ce83bde984acc8c080cedc986e845fa20d3222bcc2aefb0068848ec1d",
+      "colour": "#15162e",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000025": {
+      "source": "https://essential.southglos.gov.uk/Assets/images/logo1.png",
+      "sourcePage": "https://essential.southglos.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000025.png",
+      "sha256": "0c4c4a7020e509cb477d88eb7ceb757ed875ed8bc876eda468096f9614a5dc23",
+      "colour": "#1c6b24",
+      "sampleCount": 2093,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000026": {
+      "source": "https://www.plymouth.gov.uk/sites/default/files/2022-01/LogoPCCBorder100px.png",
+      "sourcePage": "https://www.plymouth.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000026.png",
+      "sha256": "3e1fd058c2b5963254ab14a5b131dc22b4340c3c09e235461a3a720d7bd0d713",
+      "colour": "#009036",
+      "sampleCount": 4353,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000027": {
+      "source": "https://www.torbay.gov.uk/media/2059/tc-logo-white.png",
+      "sourcePage": "https://www.torbay.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000027.png",
+      "sha256": "2f860613e2315557644dbf7e4676b9f55f415319b1f9fd73b172b473b51b6602",
+      "colour": "#fbbc40",
+      "sampleCount": 7001,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000031": {
+      "source": "https://www.peterborough.gov.uk/_46aYdw_58a776b0-cf7e-490b-b859-c5d94aab1c3d/static/icon/apple-touch-icon.png",
+      "sourcePage": "https://www.peterborough.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000031-icon.png",
+      "sha256": "a1a165986aabd0f29642fdca1e0f5a1cc69c827ff41a0c3f4a311e9ddf2f76b5",
+      "colour": "#007361",
+      "sampleCount": 457,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000032": {
+      "source": "https://www.luton.gov.uk/themes/custom/lgd/logo_luton_150.svg",
+      "sourcePage": "https://www.luton.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000032.svg",
+      "sha256": "a4e9c8e32ca00b7921ef1aa0692623b19bf2cb168799405c23cdd63ec7e2fc3b",
+      "colour": "#ff8901",
+      "sampleCount": 8,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000039": {
+      "source": "https://www.slough.gov.uk/site/dist/images/favicons/apple-touch-icon.png?1.16.0",
+      "sourcePage": "https://www.slough.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000039-icon.png",
+      "sha256": "9ee1e0fcd2d80eeadfc714eb35d124ad4641bec65fde09a5ddf75c9bc7b994a1",
+      "colour": "#3b353c",
+      "sampleCount": 13098,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000040": {
+      "source": "https://www.rbwm.gov.uk/themes/custom/bbd_localgov/logo.svg",
+      "sourcePage": "https://www.rbwm.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000040.svg",
+      "sha256": "6bf46ccfff74f4a58f138b79c649a906603d6b1bdc4ba726aac05dfa0c8c5465",
+      "colour": "#b69755",
+      "sampleCount": 2,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000041": {
+      "source": "https://www.wokingham.gov.uk/themes/custom/wok/images/logo.svg",
+      "sourcePage": "https://www.wokingham.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000041.svg",
+      "sha256": "a2695c9a486a94f39d48f5c917de442a296c5d76cc7b3148b67fa1a6e16d4547",
+      "colour": "#000000",
+      "sampleCount": 23,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000044": {
+      "source": "https://www.portsmouth.gov.uk/themes/custom/pcc/assets/images/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.portsmouth.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000044-icon.png",
+      "sha256": "cdcab534bc1ac4392ed6eeb6cc9d7f16f95d835457d98e9d21692499978e59d2",
+      "colour": "#2b3d69",
+      "sampleCount": 21551,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000049": {
+      "source": "https://www.cheshireeast.gov.uk/images/non_user/cec-logo-colour-155x70px.png",
+      "sourcePage": "https://www.cheshireeast.gov.uk/home.aspx",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000049.png",
+      "sha256": "e2b5917541871394f52661decb5b9017918f98ea35e4b87ceef6cd6df3271ece",
+      "colour": "#005437",
+      "sampleCount": 850,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000050": {
+      "source": "https://www.cheshirewestandchester.gov.uk/_Nl7gMQ_7d09d6bc-3417-4458-82a4-c848ebfe709f/static/img/icons/favicon1.png",
+      "sourcePage": "https://www.cheshirewestandchester.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000050-icon.png",
+      "sha256": "5ed3938a9e6e997c642778bf7699b3d86cd92d0f1ac128d3b37e4b25d84d5368",
+      "colour": "#f9a533",
+      "sampleCount": 115,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000051": {
+      "source": "https://next.shropshire.gov.uk/images/favicon.svg",
+      "sourcePage": "https://next.shropshire.gov.uk/",
+      "method": "SVG logo-icon fill",
+      "evidence": "data/raw/logos/E06000051-icon.svg",
+      "sha256": "525cfc8b9e67d103951efb340560dd9cbafc6de9729ae285a3cdd4d0f360cd3a",
+      "colour": "#003078",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E06000052": {
+      "source": "https://www.cornwall.gov.uk/Content/images/cchoriz-logo.png",
+      "sourcePage": "https://www.cornwall.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000052.png",
+      "sha256": "f473f02cfec755bacc3c9d199426a6ace6378609e37c5bed06516fcd09c2fea2",
+      "colour": "#f9b000",
+      "sampleCount": 3151,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000053": {
+      "source": "https://www.scilly.gov.uk/sites/default/files/babmoologo_1.png",
+      "sourcePage": "https://www.scilly.gov.uk",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000053.png",
+      "sha256": "711379fbe95ee6bc194fb50cf1e550296c8682ba469ae398f8699a7fa80132c4",
+      "colour": "#0893ce",
+      "sampleCount": 1536,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000056": {
+      "source": "https://www.centralbedfordshire.gov.uk/themes/custom/cbc_theme/logo.svg",
+      "sourcePage": "https://www.centralbedfordshire.gov.uk",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000056.svg",
+      "sha256": "a5384e240d80759a769bc35eecc210f93e92bf32f175e93c7fe3840a69dfdf6f",
+      "colour": "#8cc640",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000057": {
+      "source": "https://www.northumberland.gov.uk/themes/custom/ncc_theme_v1/img/svg/ncc-flag.svg",
+      "sourcePage": "https://www.northumberland.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000057.svg",
+      "sha256": "dcca6b2c9e0a7acec6f059ba99f4927743a58324fd7df5b285cbe78084545943",
+      "colour": "#e52124",
+      "sampleCount": 2,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Red fill from the Northumberland flag emblem displayed by the official council header."
+    },
+    "E06000058": {
+      "source": "https://www.bcpcouncil.gov.uk/_mk7dvA_1352dcbf-e1c4-44cf-8424-3431bd2729d2/static/img/BCP-Council-RGB-white-keyline.svg?bdacb4aee6bc66077541088e5ee2d87e",
+      "sourcePage": "https://www.bcpcouncil.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E06000058.svg",
+      "sha256": "60b8ef8d69ad9675456d3b02b2967504a6dd7ff7958a767c09bab1fc829a37ab",
+      "colour": "#361d54",
+      "sampleCount": 3,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E06000059": {
+      "source": "https://www.dorsetcouncil.gov.uk/image/layout_set_logo?img_id=3219019&t=1792548190793",
+      "sourcePage": "https://www.dorsetcouncil.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E06000059.png",
+      "sha256": "c2d08992bcd9ab9a39ae99711d90d34cee5d19fb63eded8e7c3ba709714ac58a",
+      "colour": "#00a099",
+      "sampleCount": 185353,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Teal element selected from the official multicolour Dorset logo; not asserted as its only or largest colour."
+    },
+    "E06000060": {
+      "source": "https://www.buckinghamshire.gov.uk/apple-touch-icon.png",
+      "sourcePage": "https://www.buckinghamshire.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E06000060-icon.ico",
+      "sha256": "13a94ba104ac181a99f9aeea61e27760f15c371694939f5c395fa964d02c8180",
+      "colour": "#2c2d84",
+      "sampleCount": 18262,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000002": {
+      "source": "https://www.bury.gov.uk/_fMq9oQ_292b0189-accf-4d1d-abba-c72a8b99534f/static/website/header_logo.svg",
+      "sourcePage": "https://www.bury.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E08000002.svg",
+      "sha256": "0e718aaba0affe7e517874f789c22f056693c59442b62207a368eae41e357953",
+      "colour": "#feca1d",
+      "sampleCount": 4,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000005": {
+      "source": "https://www.rochdale.gov.uk/site/dist/images/favicons/apple-touch-icon.png?1.27.0",
+      "sourcePage": "https://www.rochdale.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000005-icon.png",
+      "sha256": "dcd163606c11555e0ab4464f6192665ed9864ef146c4920d3aa42eaa8a5a34a2",
+      "colour": "#008571",
+      "sampleCount": 2652,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000007": {
+      "source": "https://www.stockport.gov.uk/assets/images/ui-images/sg/apple-touch-icon.png",
+      "sourcePage": "https://www.stockport.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000007-icon.png",
+      "sha256": "c8903d054c65e0b24146a17697fc861308a062513d5a4a60480187b5d50bdeef",
+      "colour": "#055c58",
+      "sampleCount": 12301,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000008": {
+      "source": "https://www.tameside.gov.uk/documents/49992875/52330087/favicon-32x32/2ed47c5a-0763-1f13-fd72-c50abe08b363",
+      "sourcePage": "https://www.tameside.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000008-icon.png",
+      "sha256": "a4186ac0d638ee33259a1167f7fbf48eddc9a9f02c42bffb378a19be1b40659c",
+      "colour": "#347ab7",
+      "sampleCount": 321,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000011": {
+      "source": "https://www.knowsley.gov.uk/themes/custom/knowsley/logo.svg",
+      "sourcePage": "https://www.knowsley.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E08000011.svg",
+      "sha256": "c73f9825fde078588a3ae4166a5f09ddc6cf6a1d4db0eae813c28c27fbe2e989",
+      "colour": "#bd2b30",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000018": {
+      "source": "https://www.rotherham.gov.uk/site/dist/images/site-logo.png?2.31.6",
+      "sourcePage": "https://www.rotherham.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E08000018.png",
+      "sha256": "cda0bbe703c8075342167204b657a6daeb4568ac62db20075260c7ad6a7b2c99",
+      "colour": "#002554",
+      "sampleCount": 1164,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000021": {
+      "source": "https://new.newcastle.gov.uk/sites/default/files/ncc-logo.png",
+      "sourcePage": "https://new.newcastle.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E08000021.png",
+      "sha256": "6044c0ac6b30f665d59aa44043d5c6923a5523118a144891b451c1035b50a3c7",
+      "colour": "#333333",
+      "sampleCount": 350,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000026": {
+      "source": "https://www.coventry.gov.uk/site/dist/images/favicons/apple-touch-icon.png?2.24.0",
+      "sourcePage": "https://www.coventry.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000026-icon.png",
+      "sha256": "8d7a086d823c07ed7b4b2d47df15beca3eff49cc9043ca749b5c9311f0a9f583",
+      "colour": "#2d3447",
+      "sampleCount": 12349,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000027": {
+      "source": "https://www.dudley.gov.uk/assets/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.dudley.gov.uk/residents/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000027-icon.png",
+      "sha256": "b28da35b9e609861803b98a9106e3fac6336c332665c11f2abdb3bdce381b18c",
+      "colour": "#003a8d",
+      "sampleCount": 136,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000028": {
+      "source": "https://www.sandwell.gov.uk/site/dist/images/favicons/apple-touch-icon.png?2.17.0",
+      "sourcePage": "https://www.sandwell.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000028-icon.png",
+      "sha256": "0a394d32a266d54a1844fba493184037e90d4493f82f21ed90f4245f215a6396",
+      "colour": "#508328",
+      "sampleCount": 26354,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000030": {
+      "source": "https://go.walsall.gov.uk/themes/custom/walsall/walsall/favicon.ico",
+      "sourcePage": "https://go.walsall.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000030-icon.ico",
+      "sha256": "c432a91e6cc173584a73a5f8ea8064300ff77ead7fd2508b924f22de14ce0960",
+      "colour": "#232b31",
+      "sampleCount": 126038,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000031": {
+      "source": "https://www.wolverhampton.gov.uk/themes/custom/omega_bigbluedoor/logo.svg",
+      "sourcePage": "https://www.wolverhampton.gov.uk",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E08000031.svg",
+      "sha256": "deea9e2082590b4cdb5e475b9e1e0b7bb7d42b17bbc38d8c6bde95dc4d210531",
+      "colour": "#3e2e63",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000035": {
+      "source": "https://www.leeds.gov.uk/themes/custom/leedscitycouncil_theme/assets/images/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.leeds.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E08000035-icon.png",
+      "sha256": "cb6f5011a9a1f1cef7ad95096fd335548569478b0a5edeac813bb9ef7c2e01cb",
+      "colour": "#183f55",
+      "sampleCount": 13993,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E08000036": {
+      "source": "https://www.wakefield.gov.uk/images/content/logo.svg",
+      "sourcePage": "https://www.wakefield.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E08000036.svg",
+      "sha256": "72da8a7b4475056e17de3a03fe557a74be6f1ec8756ea429c87f627a3c45dc3e",
+      "colour": "#333086",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E08000038": {
+      "source": "https://www.barnsley.gov.uk/Images/bmbc-print.png",
+      "sourcePage": "https://www.barnsley.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E08000038.png",
+      "sha256": "e46cc8a291068866dd9cf9839c680d21a94d65d8450e60a3421124942caed3a0",
+      "colour": "#630000",
+      "sampleCount": 1841,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000001": {
+      "source": "https://www.cityoflondon.gov.uk/",
+      "sourcePage": "https://www.cityoflondon.gov.uk/",
+      "method": "Inline SVG fill",
+      "evidence": "data/raw/logos/E09000001.svg",
+      "sha256": "561d85d9b9fdcc83d9a9118a2b0959afb2ae4f267017e3bcd3c15d95f2bfdea0",
+      "colour": "#e15e36",
+      "sampleCount": 3,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Orange-red detail of the official City crest SVG; this is one crest colour, not its full palette."
+    },
+    "E09000002": {
+      "source": "https://www.lbbd.gov.uk/themes/custom/lgd/logo.svg",
+      "sourcePage": "https://www.lbbd.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000002.svg",
+      "sha256": "1ab8b857086989ce41ba46f2148e1c815c2537a3893d39f4236ad29c02c5e430",
+      "colour": "#ed1c24",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000003": {
+      "colour": "#006a6c",
+      "source": "https://publicaccess.barnet.gov.uk/online-applications-skin/images/barnet/favicon.ico",
+      "sourcePage": "https://publicaccess.barnet.gov.uk/online-applications/",
+      "method": "Exact opaque official logo-icon pixel",
+      "evidence": "data/raw/logos/E09000003.ico",
+      "sha256": "339804135b5330faee8223e0df86b64b00dd9f6fdc219457cb4cd508db3c22d0",
+      "sampleCount": 11,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Teal pixel in the B-letter council favicon explicitly linked by the official Barnet public planning portal. This is an exact sample from a 16px raster emblem, not a claim of a printed brand-guide RGB specification. The full wordmark on the same portal is a reversed-white variant.",
+      "pageEvidence": "data/raw/logos/E09000003-source.html",
+      "pageSha256": "eecf1dc0fa0283e2765a74b675510363d4c48c5df2900e34747b65d2f95b6803",
+      "pageEvidenceType": "Official source HTML excerpt around the linked council favicon",
+      "sourcePageSha256": "abbde108e7fe5e025035171d6d7f4f10e03af761a4f82410276a5f1ae25a17be"
+    },
+    "E09000004": {
+      "source": "https://www.bexley.gov.uk/images/logo-2024.png",
+      "sourcePage": "https://www.bexley.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000004.png",
+      "sha256": "af78fe4db50e7c1a541c12f063ffec20686e974f9afde325b5804192b95691bd",
+      "colour": "#0c3274",
+      "sampleCount": 4986,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000005": {
+      "source": "https://www.brent.gov.uk/-/media/static/logo.svg",
+      "sourcePage": "https://www.brent.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000005.svg",
+      "sha256": "9e075f515e62b416586f7c8effd1b46eb6529590de50ed01d0878d5e2ea56d5e",
+      "colour": "#534f9c",
+      "sampleCount": 2,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Purple fill selected from the official multicolour Brent logo; no claim that the logo has a unique dominant colour."
+    },
+    "E09000006": {
+      "source": "https://www.bromley.gov.uk/site/dist/images/site-logo.png?3.21.1",
+      "sourcePage": "https://www.bromley.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000006.png",
+      "sha256": "311e22e9eb84a961f78194cc6a96d7550b0eb0a4a0abe127e0f832b45db7a93b",
+      "colour": "#006633",
+      "sampleCount": 36910,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000007": {
+      "source": "https://www.camden.gov.uk/documents/20142/608164825/Camden+logo+favicon/2d1708ea-873a-ccd0-f823-8670707d595b",
+      "sourcePage": "https://www.camden.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000007.png",
+      "sha256": "98ba627188097cf2234f74879df43bad68db562360965be320d14028cf9370c3",
+      "colour": "#0b0c0c",
+      "sampleCount": 41003,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000008": {
+      "source": "https://www.croydon.gov.uk/themes/contrib/localgov_base_croydon/assets/images/favicons/apple-touch-icon.png",
+      "sourcePage": "https://www.croydon.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000008.png",
+      "sha256": "82c6d9bf7fd96c57bc35eaa9c7c5887925793c2aa8a29956e82cc58af47f5f6d",
+      "colour": "#880088",
+      "sampleCount": 15076,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000009": {
+      "source": "https://www.ealing.gov.uk/logo.jpg",
+      "sourcePage": "https://www.ealing.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000009.jpg",
+      "sha256": "b2e33fa726f0c1d318094a53a4f59b3410c2283927f5dc3c9f1def6d8554ca36",
+      "colour": "#00823a",
+      "sampleCount": 1077148,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000010": {
+      "source": "https://s3-eu-west-1.amazonaws.com/ehq-production-europe/76469c72e67246d56100d5a4e79d063bf42d89ee/original/1667802879/35caa90eaf2a0fa876edd53eec97d25d_footer-logo.png?1667802879",
+      "sourcePage": "https://letstalk.enfield.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000010.png",
+      "sha256": "473de624ba7acc2d566d8634e0dbd15b60edc97135c1a01cc8fa9977fc7c8149",
+      "colour": "#595959",
+      "sampleCount": 18303,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Grey field in the council-published monochrome Enfield logo image on its official consultation portal; not asserted as a full corporate brand palette.",
+      "pageEvidence": "data/raw/logos/E09000010-source.html",
+      "pageSha256": "8329358acbb2209545b8ba9506d473649745390cc865c230709cacbea3ad0874",
+      "sourcePageSha256": "7e94ab4fe259656eb59e4e3154d7decda363054b717e54aa388a583d0e147c1a",
+      "pageEvidenceType": "Official source HTML excerpt around the linked logo URL"
+    },
+    "E09000011": {
+      "source": "https://www.royalgreenwich.gov.uk/themes/contrib/greenwich/assets/images/favicons/favicon.svg",
+      "sourcePage": "https://www.royalgreenwich.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000011.svg",
+      "sha256": "1325cf7a39c38fbc7532de1f3801e07c0ea33a450f8ff2ebf98d64da124f58f4",
+      "colour": "#ed1c24",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000012": {
+      "source": "https://www.hackney.gov.uk/",
+      "sourcePage": "https://www.hackney.gov.uk/",
+      "method": "Inline SVG fill",
+      "evidence": "data/raw/logos/E09000012.svg",
+      "sha256": "5c5e65f36f36b1e074bf48d9904f9b58b19ba1e96bda55a36113e3bd6db0ec9d",
+      "colour": "#00664f",
+      "sampleCount": 8,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000013": {
+      "source": "https://s3-eu-west-1.amazonaws.com/ehq-production-europe/5a5820d5fb4cad9d5701c86add2ef8d54a53aa31/original/1642611092/04231c39c0cdaf9fce0a928de383b430_hf_logo_2016_rgb_hires.jpg?1642611092",
+      "sourcePage": "https://haveyoursay.lbhf.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000013.jpg",
+      "sha256": "9eb9304a8d1de4897b9526ed2103cb72183429731848c20dcbc72471f0ddb667",
+      "colour": "#e40613",
+      "sampleCount": 37930,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette.",
+      "pageEvidence": "data/raw/logos/E09000013-source.html",
+      "pageSha256": "524ab8a2d779c51dcf798e2743f474662ae9039cfad4c55283507b61379b1d76",
+      "sourcePageSha256": "34251a1d9883eb43c798c81d5d0ddb004899534ac5d834ed2059dfa67b617b8b",
+      "pageEvidenceType": "Official source HTML excerpt around the linked logo URL"
+    },
+    "E09000014": {
+      "source": "https://haringey.gov.uk/themes/custom/lgd/assets/images/favicons/apple-touch-icon.png",
+      "sourcePage": "https://haringey.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000014.png",
+      "sha256": "6673e06bf67791dcf06e0c9e9d5b05060ccc59080799b2bc84ab7b755fcdfd9e",
+      "colour": "#e12928",
+      "sampleCount": 4743,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000015": {
+      "source": "https://www.harrow.gov.uk/site/dist/icons/png/logo.png",
+      "sourcePage": "https://www.harrow.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000015.png",
+      "sha256": "8c92020dd6e7e8fd5beebaf974ad722c33035fbecc9bc33d719de44db3acbef2",
+      "colour": "#482e85",
+      "sampleCount": 2035,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000016": {
+      "source": "https://consultation.havering.gov.uk/os-custom-logos/havering-logo-white-rgb.png",
+      "sourcePage": "https://consultation.havering.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000016.png",
+      "sha256": "cd3697af745a4cff5398760ebdc735791d8563377aa5aa57c9301c1a8f3dc360",
+      "colour": "#ffffff",
+      "sampleCount": 129931,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Only a reversed white logo is verified on the official consultation portal. White is its exact foreground, not a guessed distinctive corporate hue; render with a visible boundary."
+    },
+    "E09000017": {
+      "source": "https://www.hillingdon.gov.uk/image/83/Hillingdon-favicon/appletouchiconlarge.png?m=1550742133147",
+      "sourcePage": "https://www.hillingdon.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000017.png",
+      "sha256": "ee9f3b1a3d4b93382e9206a43f4ac09330a2a4f5365f87f8fef76a8a276219e9",
+      "colour": "#006666",
+      "sampleCount": 18285,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000018": {
+      "source": "https://s3-eu-west-1.amazonaws.com/ehq-production-europe/7e6eba8bd19783762e7782a31ed66aac20c910f0/original/1687876558/a30e707714bdd02180eb311f44f4f57a_LBH.jpg?1687876558",
+      "sourcePage": "https://talk.hounslow.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000018.jpg",
+      "sha256": "197b11733547c03a2e3a5672d672d59581c72522903b2a1fe70b07e1cdfc318d",
+      "colour": "#6d2878",
+      "sampleCount": 390273,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette.",
+      "pageEvidence": "data/raw/logos/E09000018-source.html",
+      "pageSha256": "fb0c69076a27e3856c76466290bedb526e6f69553a175989f550d59592acb736",
+      "sourcePageSha256": "2dda23c20e162a93a210a20470abe0ba6737a709b6963139be7a3a0b2e91ff69",
+      "pageEvidenceType": "Official source HTML excerpt around the linked logo URL"
+    },
+    "E09000019": {
+      "source": "https://www.islington.gov.uk/_common/img/svg/fallback/logo.png",
+      "sourcePage": "https://www.islington.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000019.png",
+      "sha256": "ec7e44145b59c905979d713f1c6f3b027c2197237124d176d4d426168c2d462b",
+      "colour": "#000000",
+      "sampleCount": 95022,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Black lettering in the official monochrome council logo/tagline asset; not an inferred corporate green."
+    },
+    "E09000020": {
+      "source": "https://www.rbkc.gov.uk/themes/custom/rbkc/images/RBKC_Logo.svg",
+      "sourcePage": "https://www.rbkc.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000020.svg",
+      "sha256": "0ec650a184d680407d2f2daa6e84220b7c557f262ad2a020d2992b3266249cf7",
+      "colour": "#273971",
+      "sampleCount": 52,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000021": {
+      "source": "https://www.kingston.gov.uk/themes/custom/bbd_localgov/images/logo-kingston-dark.png",
+      "sourcePage": "https://www.kingston.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000021.png",
+      "sha256": "fe64d5bb333f9727533e7f54619f42d0cda5497f1c5ed76d82493c6826811781",
+      "colour": "#162655",
+      "sampleCount": 8187,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000022": {
+      "source": "https://www.lambeth.gov.uk/apple-touch-icon.png?v=XBy3YnR4m4",
+      "sourcePage": "https://www.lambeth.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000022.png",
+      "sha256": "8af6463da1a1ffe064b2cd71147009e1a82d14b39bbcc5ed82b234e62414d352",
+      "colour": "#006699",
+      "sampleCount": 26027,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000023": {
+      "source": "https://councilmeetings.lewisham.gov.uk/sitespecific/assets/static/img/logo.png",
+      "sourcePage": "https://councilmeetings.lewisham.gov.uk/uuCoverPage.aspx",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000023.png",
+      "sha256": "636559e1630393fb56677041f3a3020320e277075c6c88ceae6bfeefa2b62013",
+      "colour": "#3573b9",
+      "sampleCount": 5976,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000024": {
+      "source": "https://democracy.merton.gov.uk/SiteSpecific/mertonlogotagline-blue.gif",
+      "sourcePage": "https://democracy.merton.gov.uk/uuCoverPage.aspx",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000024.gif",
+      "sha256": "6280d9b11b2c172984bf7a96319dfef624cb12df95670fb0d141677e09868729",
+      "colour": "#5f3e94",
+      "sampleCount": 42175,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000025": {
+      "source": "https://www.newham.gov.uk/logo.gif",
+      "sourcePage": "https://www.newham.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000025.gif",
+      "sha256": "cba63bd79157c3dfc96db8eda1c2c86a25d32a9416ade202cdec7ec7bfe0fcc7",
+      "colour": "#ec2a8b",
+      "sampleCount": 142,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Magenta arc sampled from the official Newham logo. The accompanying wordmark is grey."
+    },
+    "E09000026": {
+      "source": "https://www.redbridge.gov.uk/css/redbridge-overrides.css?v=ImeUJ5AP1w0WKD_KhxX1UwFnEqsyW-UrojeR9kGnmWg",
+      "sourcePage": "https://www.redbridge.gov.uk/",
+      "method": "Official primary brand-palette CSS token and paint selector",
+      "evidence": "data/raw/logos/E09000026-brand.css",
+      "sha256": "22679427900fd70d16283fca8715f553016712ab325be52ba23791f641a79968",
+      "colour": "#942725",
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "User-directed dark-red identity correction: exact chestnut #942725 from the official Redbridge primary brand palette (:root --chestnut), painted by .chestnut { background-color: var(--chestnut); }. This replaces the monochrome leaf-icon black; no colour is fabricated or darkened. The current homepage header separately uses --mulberry #bc0067, so chestnut is not misrepresented as its current header background. Publisher/site navy-and-gold branding remains separate.",
+      "cssToken": "--chestnut",
+      "cssSelector": ".chestnut",
+      "cssProperty": "background-color",
+      "cssDeclaration": "--chestnut: #942725;",
+      "cssPaintRule": ".chestnut { background-color: var(--chestnut); }",
+      "homepageHeaderColour": "#bc0067",
+      "logoEvidence": "data/raw/logos/E09000026.png",
+      "logoSha256": "bff3565264f8ea4de34393ddbdc9b5aef78da4c59301350d658f90e828f77587",
+      "logoSource": "https://www.redbridge.gov.uk/assets/images/lbr-apple-touch-icon-180x180.png",
+      "pageEvidence": "data/raw/logos/E09000026-brand-source.html",
+      "pageSha256": "a241a1a7a7c3799cca85719e1db9ecbe2bef361c062972351348e8c90eae2a95",
+      "pageEvidenceType": "Official homepage source excerpts linking the brand CSS and showing the header/logo markup",
+      "sourcePageSha256": "f2dbf767ac05821b7a4e863bbbb7cce9967c682409372f47ea5bf8d659f62dcb",
+      "sourceReference": "/css/redbridge-overrides.css?v=ImeUJ5AP1w0WKD_KhxX1UwFnEqsyW-UrojeR9kGnmWg"
+    },
+    "E09000027": {
+      "source": "https://www.richmond.gov.uk/lbr180x180.png",
+      "sourcePage": "https://www.richmond.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000027.png",
+      "sha256": "1575bc70ef09f095d80e4559bc2bdff195eb8a362076b626885d3ed43b18dd3f",
+      "colour": "#0060aa",
+      "sampleCount": 10854,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000028": {
+      "source": "https://www.southwark.gov.uk/themes/custom/bbd_localgov/logo.svg",
+      "sourcePage": "https://www.southwark.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000028.svg",
+      "sha256": "b2e0bc80c0c0f0b9948789cd1a9b867fba546b4d6d5a69c0fd55d287479e4ef2",
+      "colour": "#121212",
+      "sampleCount": 17,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000029": {
+      "source": "https://www.sutton.gov.uk/themes/custom/bbd_localgov/logo.svg",
+      "sourcePage": "https://www.sutton.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E09000029.svg",
+      "sha256": "672d2663ff8d504820cef39d3f5f023bad1ccc8103c21310408f6ad09339cd5d",
+      "colour": "#008a6f",
+      "sampleCount": 3,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Green tree fill from the official two-colour Sutton logo; the burgundy wordmark is also present."
+    },
+    "E09000030": {
+      "source": "https://www.towerhamlets.gov.uk/assets/img/logo_th_gov.png",
+      "sourcePage": "https://www.towerhamlets.gov.uk/Home.aspx",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000030.png",
+      "sha256": "ab85a066812523b30cc4f8baef0c8c15b23b5c6f2f28d04abf39ea0124876798",
+      "colour": "#0062ae",
+      "sampleCount": 729,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Blue river/lettering sampled from the official blue-and-green Tower Hamlets logo."
+    },
+    "E09000031": {
+      "source": "https://democracy.walthamforest.gov.uk/SiteSpecific/backup_site/index_files/Logo.png",
+      "sourcePage": "https://democracy.walthamforest.gov.uk/uuCoverPage.aspx",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000031.png",
+      "sha256": "40bbad1be8733e32520b5277fd2027e02f8235698a79d5a9927bf48e2d9f9532",
+      "colour": "#00997c",
+      "sampleCount": 2622,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Green from the official committee portal's retained older council logo variant; not asserted to be a current corporate brand-guide specification."
+    },
+    "E09000032": {
+      "source": "https://www.wandsworth.gov.uk/Assets/Wandsworth-Council-logo-400x400.png",
+      "sourcePage": "https://www.wandsworth.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000032.png",
+      "sha256": "ec9c11556bfb5654b1c96e6dff57b0bed3e67e16d10ac8c86e4667d67b644e96",
+      "colour": "#009757",
+      "sampleCount": 151284,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E09000033": {
+      "source": "https://www.westminster.gov.uk/themes/custom/wcc/images/logo.png",
+      "sourcePage": "https://www.westminster.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E09000033.png",
+      "sha256": "7bd8959f8ad53c3e585c721e931210e16da60c18bbfc81e22ae980c7b3c72403",
+      "colour": "#1d1d1b",
+      "sampleCount": 27176,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000003": {
+      "source": "https://www.cambridgeshire.gov.uk/_8Bju7g_fe9ae9bb-6865-4d4f-8e60-c38a818dec08/static/img/cambridgeshirecc.svg",
+      "sourcePage": "https://www.cambridgeshire.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E10000003.svg",
+      "sha256": "12efc3e50219377ec7e2a60ee2bc1177bcc67ee2ebaf1d140cdd907cc128d35b",
+      "colour": "#139cd8",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000007": {
+      "source": "https://www.derbyshire.gov.uk/site-elements/images/fav-icons/apple-icon-57x57.png",
+      "sourcePage": "https://www.derbyshire.gov.uk/home.aspx",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000007-icon.png",
+      "sha256": "98d8d8dc963d021c2fa0979a57e68c006b9b54aaaae0419c1aa6b0adc0bf0c3e",
+      "colour": "#8e318b",
+      "sampleCount": 1095,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000011": {
+      "source": "https://www.eastsussex.gov.uk/apple-touch-icon.png",
+      "sourcePage": "https://www.eastsussex.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000011-icon.png",
+      "sha256": "0799f76dec97effecb9e78fc7f7a6d3999cc2cf1eb51617fe6093063fc6e286c",
+      "colour": "#00a1de",
+      "sampleCount": 5379,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000012": {
+      "source": "https://www.essex.gov.uk/themes/custom/ecc_theme_gov/assets/images/ECC_logo_long_red.svg",
+      "sourcePage": "https://www.essex.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E10000012.svg",
+      "sha256": "556df4df002b25db284a65b45df7bf12f45925116734ad5b3e979f954d86bcf5",
+      "colour": "#e30137",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000015": {
+      "source": "https://www.hertfordshire.gov.uk/images/icons/favicon.ico",
+      "sourcePage": "https://www.hertfordshire.gov.uk/home.aspx",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000015-icon.ico",
+      "sha256": "16e1bfc84725e524d53b630d5da818c490f840b016b9aa749cba945a9a812ea7",
+      "colour": "#000000",
+      "sampleCount": 261,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000017": {
+      "source": "https://www.lancashire.gov.uk/media/0ddpr4ig/lcc-logo-2024-1.svg",
+      "sourcePage": "https://www.lancashire.gov.uk/",
+      "method": "SVG fill",
+      "evidence": "data/raw/logos/E10000017.svg",
+      "sha256": "353a1b3d70b76142a16c8d4783af1ffd491964715fdebe8ece4e2e5468c3e29c",
+      "colour": "#db0029",
+      "sampleCount": 1,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000019": {
+      "source": "https://www.lincolnshire.gov.uk/site/images/favicons/apple-touch-icon.png?1.50.0",
+      "sourcePage": "https://www.lincolnshire.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000019-icon.png",
+      "sha256": "d46d2efef39a673cf4aa4da958b0b385544a7c5809fe9a681831a09fc6ef4e7f",
+      "colour": "#aab737",
+      "sampleCount": 3928,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000024": {
+      "source": "https://www.nottinghamshire.gov.uk/apple-touch-icon.png",
+      "sourcePage": "https://www.nottinghamshire.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000024-icon.png",
+      "sha256": "aebe96f065399435b2f3f6835ce46a66966e58bd0d6a0115d8cd4f993bd4dba9",
+      "colour": "#278a35",
+      "sampleCount": 26203,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000028": {
+      "source": "https://www.staffordshire.gov.uk/themes/custom/staffordshire_subsite/logo.jpg",
+      "sourcePage": "https://www.staffordshire.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E10000028.jpg",
+      "sha256": "bdc0fc2ac3dbfda6972aec3c31cc537b8b63707b2fa2ca3a96e21ac9a7f884f0",
+      "colour": "#223266",
+      "sampleCount": 1823,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000030": {
+      "source": "https://www.surreycc.gov.uk/__data/assets/image/0019/49132/scc-logo.gif?v=0.1.3",
+      "sourcePage": "https://www.surreycc.gov.uk/",
+      "method": "Exact opaque logo pixel",
+      "evidence": "data/raw/logos/E10000030.gif",
+      "sha256": "75af6016ec99eaff4d055cae428d7e41d2d0f26d34862374545704578c36ddac",
+      "colour": "#000003",
+      "sampleCount": 1872,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Representative exact colour from the official council logo asset. A single selected swatch is not the complete corporate brand palette."
+    },
+    "E10000032": {
+      "source": "https://www.westsussex.gov.uk/content/static/img/icons/apple-touch-icon.png",
+      "sourcePage": "https://www.westsussex.gov.uk/",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000032-icon.png",
+      "sha256": "7b0947ac3d6f9a49164bd0b077cd90887d813fb031892d27f5c6357a86ef2518",
+      "colour": "#3f9cc3",
+      "sampleCount": 10536,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Officially linked council-emblem icon; the selected colour occurs in the supplied logo-icon composition, not inferred from unrelated page styling."
+    },
+    "E10000034": {
+      "source": "https://www.worcestershire.gov.uk/themes/custom/bbd_classy/favicons/apple-icon-precomposed.png",
+      "sourcePage": "https://www.worcestershire.gov.uk",
+      "method": "Exact opaque logo-icon pixel",
+      "evidence": "data/raw/logos/E10000034-icon.png",
+      "sha256": "151e38e1aa3f1c296591cc3b11253e644f11a66fd6a8a3b44ff44235b745bfc6",
+      "colour": "#770127",
+      "sampleCount": 749,
+      "retrieved": "2026-10-21",
+      "status": "verified-logo",
+      "note": "Exact modal burgundy pixel from the official coat-of-arms icon's gradient field; not asserted as a printed brand-guide RGB specification."
+    }
+  },
+  "research": {
+    "E06000055": {
+      "sourcePage": "https://www.bedford.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000025": {
+      "sourcePage": "https://www.birmingham.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000008": {
+      "sourcePage": "https://www.blackburn.gov.uk/",
+      "note": "Identity colour remains unverified. <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    "E06000009": {
+      "sourcePage": "https://www.blackpool.gov.uk/Home.aspx",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000001": {
+      "sourcePage": "https://www.bolton.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000036": {
+      "sourcePage": "https://www.bracknell-forest.gov.uk/",
+      "note": "Identity colour remains unverified. 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte"
+    },
+    "E06000043": {
+      "sourcePage": "https://www.brighton-hove.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000023": {
+      "sourcePage": "https://www.bristol.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000033": {
+      "sourcePage": "https://www.calderdale.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000032": {
+      "sourcePage": "https://www.bradford.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000063": {
+      "sourcePage": "https://www.cumberland.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000015": {
+      "sourcePage": "https://www.derby.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E10000008": {
+      "sourcePage": "https://www.devon.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000017": {
+      "sourcePage": "https://www.doncaster.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000047": {
+      "sourcePage": "https://www.durham.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000011": {
+      "sourcePage": "https://www.eastriding.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E08000037": {
+      "sourcePage": "https://www.gateshead.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E10000013": {
+      "sourcePage": "https://www.gloucestershire.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000006": {
+      "sourcePage": "https://www.halton.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E10000014": {
+      "sourcePage": "https://www.hants.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000046": {
+      "sourcePage": "https://www.iow.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E10000016": {
+      "sourcePage": "https://www.kent.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E08000034": {
+      "sourcePage": "https://www.kirklees.gov.uk/beta/default.aspx",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E10000018": {
+      "sourcePage": "https://www.leicestershire.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E08000012": {
+      "sourcePage": "https://liverpool.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000003": {
+      "sourcePage": "https://www.manchester.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000035": {
+      "sourcePage": "https://www.medway.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 503: Service Unavailable"
+    },
+    "E06000002": {
+      "sourcePage": "https://www.middlesbrough.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000042": {
+      "sourcePage": "https://www.milton-keynes.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E10000020": {
+      "sourcePage": "https://www.norfolk.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000013": {
+      "sourcePage": "https://www.northlincs.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000061": {
+      "sourcePage": "https://www.northnorthants.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000022": {
+      "sourcePage": "https://my.northtyneside.gov.uk/?originalUrl=https://my.northtyneside.gov.uk/",
+      "note": "Identity colour remains unverified. Unexpected logo type text/html: https://my.northtyneside.gov.uk/?originalUrl=https://my.northtyneside.gov.uk/logo.svg"
+    },
+    "E06000018": {
+      "sourcePage": "https://www.nottinghamcity.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000004": {
+      "sourcePage": "https://www.oldham.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E10000025": {
+      "sourcePage": "https://www.oxfordshire.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000038": {
+      "sourcePage": "https://www.reading.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000006": {
+      "sourcePage": "https://www.salford.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000014": {
+      "sourcePage": "https://www.sefton.gov.uk/",
+      "note": "Identity colour remains unverified. URL can't contain control characters. '/images/SeftonCouncil Logo v2 white.svg' (found at least ' ')"
+    },
+    "E08000039": {
+      "sourcePage": "https://www.sheffield.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000029": {
+      "sourcePage": "https://www.solihull.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000045": {
+      "sourcePage": "https://www.southampton.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000033": {
+      "sourcePage": "https://www.southend.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 502: Bad Gateway"
+    },
+    "E08000023": {
+      "sourcePage": "https://www.southtyneside.gov.uk",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E08000013": {
+      "sourcePage": "https://www.sthelens.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000004": {
+      "sourcePage": "https://www.stockton.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000021": {
+      "sourcePage": "https://www.stoke.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 503: Service Unavailable"
+    },
+    "E10000029": {
+      "sourcePage": "https://www.suffolk.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000024": {
+      "sourcePage": "https://www.sunderland.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000030": {
+      "sourcePage": "https://www.swindon.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 503: Service Unavailable"
+    },
+    "E06000020": {
+      "sourcePage": "https://www.telford.gov.uk",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E06000034": {
+      "sourcePage": "https://www.thurrock.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E08000009": {
+      "sourcePage": "https://www.trafford.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E10000031": {
+      "sourcePage": "https://www.warwickshire.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000037": {
+      "sourcePage": "https://www.westberks.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E06000064": {
+      "sourcePage": "https://www.westmorlandandfurness.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000062": {
+      "sourcePage": "https://www.westnorthants.gov.uk/",
+      "note": "Identity colour remains unverified. Only a reversed/monochrome variant or unreviewed candidate retrieved; no distinctive identity colour selected."
+    },
+    "E08000010": {
+      "sourcePage": "https://www.wigan.gov.uk/index.aspx",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    },
+    "E06000054": {
+      "sourcePage": "https://www.wiltshire.gov.uk/",
+      "note": "Identity colour remains unverified. HTTP Error 403: Forbidden"
+    },
+    "E08000015": {
+      "sourcePage": "https://www.wirral.gov.uk/",
+      "note": "Identity colour remains unverified. Logo asset requires further research"
+    }
+  },
+  "coverage": {
+    "returnAuthorities": 415,
+    "councils": 317,
+    "verifiedLogoVariants": 91,
+    "verifiedCouncilColours": 91,
+    "verifiedLondon": 33,
+    "totalLondon": 33,
+    "unknownCouncilColours": 226,
+    "specialAuthorities": 98,
+    "reversedWhiteVariants": [
+      "E09000016"
+    ],
+    "unverifiedLondon": [],
+    "verifiedCssPaletteColours": 1,
+    "verifiedLogoSampleColours": 90
+  },
+  "researchHistory": {
+    "E09000003": {
+      "retrieved": "2026-10-21",
+      "attempts": [
+        {
+          "url": "https://www.barnet.gov.uk/",
+          "result": "HTTP 200 anti-bot interstitial; no council/logo markup"
+        },
+        {
+          "url": "https://barnet.gov.uk/",
+          "result": "Redirect to www; HTTP 200 anti-bot interstitial"
+        },
+        {
+          "url": "https://www.barnet.gov.uk/your-council",
+          "result": "HTTP 200 anti-bot interstitial"
+        },
+        {
+          "url": "https://www.barnet.gov.uk/themes/custom/barnet/logo.svg",
+          "result": "HTTP 404"
+        },
+        {
+          "url": "https://democracy.barnet.gov.uk/",
+          "result": "DNS lookup failed (getaddrinfo 11001)"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/",
+          "result": "HTTP 403"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/ieDocHome.aspx",
+          "result": "HTTP 200; official committee wrapper links Barnet council homepage"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/sitespecific/Barnet/Barnetfiles/styles.css",
+          "result": "HTTP 200; logo background-image URLs, no actual image fill literals"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/SiteSpecific/Barnet/img/logo.png",
+          "result": "HTTP 404"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/sitespecific/Barnet/Barnetfiles/logo.png",
+          "result": "HTTP 404"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/sitespecific/Barnet/Barnetfiles/barnet-logo-white.png",
+          "result": "HTTP 404"
+        },
+        {
+          "url": "https://engage.barnet.gov.uk/",
+          "result": "Connection timed out (WinError 10060)"
+        },
+        {
+          "url": "https://www.engage.barnet.gov.uk/",
+          "result": "Connection timed out (WinError 10060)"
+        },
+        {
+          "url": "https://barnet.moderngov.co.uk/SiteSpecific/Barnet/img/barnet-logo-white.png",
+          "result": "New follow-up: HTTP 200 PNG; only white visible foreground verified"
+        },
+        {
+          "url": "https://publicaccess.barnet.gov.uk/online-applications/",
+          "result": "New follow-up: HTTP 200, links official council wordmark and council-specific favicon"
+        },
+        {
+          "url": "https://publicaccess.barnet.gov.uk/online-applications-skin/images/barnet/logo.png",
+          "result": "HTTP 200 RGBA PNG; white visible foreground, transparent black excluded"
+        },
+        {
+          "url": "https://publicaccess.barnet.gov.uk/online-applications-skin/images/barnet/favicon.ico",
+          "result": "HTTP 200 ICO; B-letter emblem; exact teal #006a6c (11 fully opaque pixels)"
+        }
+      ],
+      "cssConclusion": "The committee CSS exposes bitmap URLs only. No SVG or independently verifiable logo fill can be extracted from those CSS declarations; page accent colours were not used."
+    }
+  },
+  "selectionCorrections": {
+    "E09000026": {
+      "retrieved": "2026-10-21",
+      "previousColour": "#0a0b0b",
+      "colour": "#942725",
+      "reason": "User explicitly requested the official dark-red identity colour rather than monochrome logo-icon black.",
+      "source": "https://www.redbridge.gov.uk/css/redbridge-overrides.css?v=ImeUJ5AP1w0WKD_KhxX1UwFnEqsyW-UrojeR9kGnmWg",
+      "sha256": "22679427900fd70d16283fca8715f553016712ab325be52ba23791f641a79968",
+      "selector": ".chestnut",
+      "property": "background-color",
+      "token": "--chestnut",
+      "headerCaveat": "Current .header-bg uses --mulberry #BC0067; the chosen dark red is a separately declared official primary palette colour, not a claim about the current header."
+    }
+  }
+}

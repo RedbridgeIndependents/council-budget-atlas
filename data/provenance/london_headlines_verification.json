@@ -1,0 +1,1155 @@
+{
+  "checked": "2026-10-21",
+  "targetYear": "2026-27",
+  "extractor": "pypdf 6.21.2, re-extracted directly from the preserved official PDFs for this release gate",
+  "methodology": "Every original localHeadline was independently reread on its physical PDF page. Literal extracts preserve source characters and line breaks; tests normalize whitespace only. Source values are converted with Decimal using the printed currency/unit and correct year column. sourcePrecisionPounds records displayed precision, not pounds-level accuracy. Definitions and locators are frozen to this review. All measures remain UNMAPPED to MHCLG RA and excluded from benchmarking. One wrong-year Harrow amount is explicitly withheld; no replacement is inferred. Year/title context is separate where the primary recommendation omits the year. Page hashes cover whitespace-normalized full page text and are tied to the original PDF SHA-256. Normal offline tests check the preserved hash-linked extraction; --verify-headlines --pdf-reader-path re-extracts every cited page directly.",
+  "claims": [
+    {
+      "ons": "E09000001",
+      "council": "City of London",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/city.pdf",
+      "documentSha256": "4186f62d16026a0c7a76e6dbda9685c01647b2b06b2dca4278c8ad4288292476",
+      "sourceValue": "214.6",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 100000,
+      "checkedHeadlinePounds": 214600000,
+      "localMeasure": "City Fund net budget requirement (reported as £214.6m)",
+      "localLocator": "PDF p5, recommendation 1.9: City Fund Net Budget Requirement £214.6m.",
+      "localNote": "Court of Common Council report for 5 March 2026. City Fund covers local government, Police and Port Health services; City’s Estate and City Bridge Foundation are separate funds and separately listed at this meeting. City Fund is therefore not a London-borough-only service perimeter. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 5,
+          "quote": "1.9 Approve the City Fund Net Budget Requirement of £214.6m (Appendix A, \nparagraph 9).",
+          "pageTextSha256": "c55e875c2eac10371d008ebd70b6bbfba368f21abdeb47346125920498d8a451"
+        },
+        {
+          "role": "units",
+          "page": 5,
+          "quote": "1.9 Approve the City Fund Net Budget Requirement of £214.6m (Appendix A, \nparagraph 9).",
+          "pageTextSha256": "c55e875c2eac10371d008ebd70b6bbfba368f21abdeb47346125920498d8a451"
+        },
+        {
+          "role": "year",
+          "page": 1,
+          "quote": "City Fund 2026/27 Budget and Medium-Term Financial \nPlan",
+          "pageTextSha256": "cd2ad77b39ec3f0705bed97fe873f102f4e1ba62b3e8a67471b6d32a50f3bcec"
+        },
+        {
+          "role": "scope1",
+          "page": 1,
+          "quote": "This report presents the overall financial position of the City Fund (i.e. the City \nCorporation’s finances relating to Local Government, Police and Port Health services).",
+          "pageTextSha256": "cd2ad77b39ec3f0705bed97fe873f102f4e1ba62b3e8a67471b6d32a50f3bcec"
+        }
+      ],
+      "review": "Recommendation 1.9 is the City Fund requirement, not a borough-only service total. The title supplies 2026/27; the displayed £214.6m is only precise to £0.1m."
+    },
+    {
+      "ons": "E09000002",
+      "council": "Barking and Dagenham",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/barking_final.pdf",
+      "documentSha256": "63e9b653065f8a870d855205426ed8b9cdf5b76fd908addfe455c1dcd7ce5900",
+      "sourceValue": "266",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000000,
+      "checkedHeadlinePounds": 266000000,
+      "localMeasure": "Net General Fund budget requiring approval, rounded by the report to £266m",
+      "localLocator": "PDF p40, paragraph 21.6: net General Fund budget requiring approval for 2026/27 is £266m.",
+      "localNote": "Assembly/Full Council budget-setting report of 25 February 2026, with official meeting and agenda-item context. The headline retains the report’s rounded precision; detailed Appendix A is separately published. The initially suggested s183985 PDF was read and rejected: it contained corporate priorities, not the budget. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 40,
+          "quote": "21.6. Based on the final Local Government Finance Settlement, the Council’s total net \nGeneral Fund budget requiring approval for 2026/27 is £266m, reflecting the overall \nresources available to support core services.",
+          "pageTextSha256": "315ef2c69cf7727e98c1497f1ad7c2fa39d29f3e6f23487c11ef5e6b6c6aabb7"
+        },
+        {
+          "role": "units",
+          "page": 40,
+          "quote": "21.6. Based on the final Local Government Finance Settlement, the Council’s total net \nGeneral Fund budget requiring approval for 2026/27 is £266m, reflecting the overall \nresources available to support core services.",
+          "pageTextSha256": "315ef2c69cf7727e98c1497f1ad7c2fa39d29f3e6f23487c11ef5e6b6c6aabb7"
+        },
+        {
+          "role": "year",
+          "page": 40,
+          "quote": "21.6. Based on the final Local Government Finance Settlement, the Council’s total net \nGeneral Fund budget requiring approval for 2026/27 is £266m, reflecting the overall \nresources available to support core services.",
+          "pageTextSha256": "315ef2c69cf7727e98c1497f1ad7c2fa39d29f3e6f23487c11ef5e6b6c6aabb7"
+        }
+      ],
+      "review": "Paragraph 21.6 explicitly assigns £266m to 2026/27. Rounded source precision is £1m. The old locator misnamed section 21 Financial Implications; that heading is section 22. Corrected to paragraph 21.6."
+    },
+    {
+      "ons": "E09000003",
+      "council": "Barnet",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/barnet.pdf",
+      "documentSha256": "209dcad24901b2408483aa12d8dd38f20c10507b4e5acf89c39e674f571ea0ae",
+      "sourceValue": "398,863,858",
+      "sourceScale": 1,
+      "sourcePrecisionPounds": 1,
+      "checkedHeadlinePounds": 398863858,
+      "localMeasure": "Budget requirement after £79.298009m EFS and other grants, before business rates, Revenue Support Grant and council tax financing",
+      "localLocator": "PDF p16, 2026/27 column: Budget Requirement £398,863,858.",
+      "localNote": "Full Council report dated 5 March 2026. The revenue summary deducts £79.298009m Exceptional Financial Support before its budget requirement; this is not a simple net service total. Separate appendix set and meeting minutes are not exhaustively archived; no assertion that all draft recommendations survived amendment. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 16,
+          "quote": "Budget Requirement 322,509,912 322,509,912 398,863,858",
+          "pageTextSha256": "9400fa2eb6a275c0fffbd840df2def613b7f857f8b98f8b686a4eb025a361a36"
+        },
+        {
+          "role": "units",
+          "page": 16,
+          "quote": "2025/26 2025/26 2026/27 Council Tax Requirement Summary Original Current Original \n £ £ £",
+          "pageTextSha256": "9400fa2eb6a275c0fffbd840df2def613b7f857f8b98f8b686a4eb025a361a36"
+        },
+        {
+          "role": "year",
+          "page": 16,
+          "quote": "2025/26 2025/26 2026/27 Council Tax Requirement Summary Original Current Original \n £ £ £",
+          "pageTextSha256": "9400fa2eb6a275c0fffbd840df2def613b7f857f8b98f8b686a4eb025a361a36"
+        },
+        {
+          "role": "scope1",
+          "page": 16,
+          "quote": "Total Service Expenditure 473,035,809 472,807,457 544,372,662 \nContribution to / (from) Specific Reserves 0 0 0 \nExceptional Financial Support (EFS) (55,726,709) (55,726,709) (79,298,009) \nNet Expenditure 417,309,100 417,080,748 465,074,653 \nOther Grants (94,799,188) (94,570,836) (66,210,795) \nBudget Requirement 322,509,912 322,509,912 398,863,858 \nBusiness Rates Retention (29,913,242) (29,913,242) (43,421,468) \nBusiness rates top-up (44,111,121) (44,111,121) (34,507,928) \nBusiness Rates 8 authority pool income (2,728,500) (2,728,500) 0 \nBusiness Rates Income (76,752,863) (76,752,863) (77,929,396) \nRevenue Support Grant (8,477,902) (8,477,902) (67,268,270) \nBarnet's Element of Council Tax Requirement 237,279,148 237,279,148 253,666,191",
+          "pageTextSha256": "9400fa2eb6a275c0fffbd840df2def613b7f857f8b98f8b686a4eb025a361a36"
+        }
+      ],
+      "review": "Selected third column, 2026/27 Original, denominated in pounds, not thousands. £79,298,009 EFS and £66,210,795 other grants precede the requirement; taxation financing follows.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2025-26",
+          "2026-27"
+        ],
+        "sourceValues": [
+          "322,509,912",
+          "322,509,912",
+          "398,863,858"
+        ],
+        "selectedIndex": 2,
+        "rowLabel": "Budget Requirement"
+      }
+    },
+    {
+      "ons": "E09000004",
+      "council": "Bexley",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/bexley.pdf",
+      "documentSha256": "f4267045a760b4539977ae36c523be65702691967d2ac4e8faabf669c559a0e5",
+      "sourceValue": "271.950",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 271950000,
+      "localMeasure": "General Fund budget including £5m contingency provision",
+      "localLocator": "PDF p1, recommendation 1: General Fund Budget £271.950m including Contingency Provision £5.000m.",
+      "localNote": "Council budget-setting report of 4 March 2026, referring to Public Cabinet on 23 February. Capital programme, treasury management and fees decisions are referenced separately. General Fund headline is not a gross all-services total and is not reconciled to RA; minutes not independently archived.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 1,
+          "quote": "(1) Agree a General Fund Budget of £271.950m for 2026/27 including a \nContingency Provision of £5.000m (Appendix A) considered by Public Cabinet \non 23 February 2026;",
+          "pageTextSha256": "93e8b6759d46fbfa8189b8faff4e48b480e4f2d1b070ffb24668a9e0f3f1040a"
+        },
+        {
+          "role": "units",
+          "page": 1,
+          "quote": "(1) Agree a General Fund Budget of £271.950m for 2026/27 including a \nContingency Provision of £5.000m (Appendix A) considered by Public Cabinet \non 23 February 2026;",
+          "pageTextSha256": "93e8b6759d46fbfa8189b8faff4e48b480e4f2d1b070ffb24668a9e0f3f1040a"
+        },
+        {
+          "role": "year",
+          "page": 1,
+          "quote": "(1) Agree a General Fund Budget of £271.950m for 2026/27 including a \nContingency Provision of £5.000m (Appendix A) considered by Public Cabinet \non 23 February 2026;",
+          "pageTextSha256": "93e8b6759d46fbfa8189b8faff4e48b480e4f2d1b070ffb24668a9e0f3f1040a"
+        }
+      ],
+      "review": "Recommendation (1) explicitly assigns the £271.950m budget and included £5.000m contingency to 2026/27; precision £0.001m."
+    },
+    {
+      "ons": "E09000007",
+      "council": "Camden",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/camden.pdf",
+      "documentSha256": "0aef495333a1e54117ac2324ea462b1ffdb35da7096f4d2d2f19a77270062589",
+      "sourceValue": "336,126",
+      "sourceScale": 1000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 336126000,
+      "localMeasure": "General Fund net budget, after transfers from earmarked reserves",
+      "localLocator": "PDF p13, GF All Directorates summary, 2026/27 Net Budget £336,126 thousand.",
+      "localNote": "Official 2026/27 budget book. Introduction identifies the budget for Full Council agreement on 2 March 2026; agreement outcome was not independently checked in minutes. General Fund and HRA are separately tabulated. The headline includes the presentation’s reserves treatment; not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 13,
+          "quote": "Net Budget 335,860 8,324 (8,058) 336,126",
+          "pageTextSha256": "2a22a068b906566442834459efe5cf1518f2c326968f3948810bcef8ad58dab7"
+        },
+        {
+          "role": "units",
+          "page": 13,
+          "quote": "Directorate 2025/26 Budget£000 Inflation£000 Other Adjustments£000 2026/27 Budget£000",
+          "pageTextSha256": "2a22a068b906566442834459efe5cf1518f2c326968f3948810bcef8ad58dab7"
+        },
+        {
+          "role": "year",
+          "page": 13,
+          "quote": "Directorate 2025/26 Budget£000 Inflation£000 Other Adjustments£000 2026/27 Budget£000",
+          "pageTextSha256": "2a22a068b906566442834459efe5cf1518f2c326968f3948810bcef8ad58dab7"
+        },
+        {
+          "role": "scope1",
+          "page": 13,
+          "quote": "Total Expenditure 1,072,814 11,872 39,981 1,124,667 \nEmployee Expenses 402,848 108 541 403,497 \nPremises Related Expenditure 55,693 872 25,464 82,028 \nTransport Related Expenditure 6,447 129 378 6,954 \nSupplies & Services Expenditure 111,311 1,159 (8,252) 104,218 \nTransfer Payments 182,524 793 14,614 197,932 \nThird Party Payments 255,518 8,811 21,273 285,602 \nDepreciation & Impairment Losses 22,731 0 0 22,731 \nSupport Services Expenditure 16,390 0 9,083 25,473 \nBelow Cost of Services on CIES Expenditure 8,629 0 (13,903) (5,274)\nTransfer to Earmarked Reserves 10,723 0 (9,217) 1,506 \nTotal Income (736,953) (3,548) (48,040) (788,541)\nGovernment Grants (479,128) 0 27,705 (451,423)\nOther Grants Reimbursements & Contributions (66,466) (499) 791 (66,173)\nCustomer & Client Receipts (120,533) (3,050) (9,802) (133,384)\nSupport Services Income (45,519) 0 (2,110) (47,629)\nBelow Cost of Services on CIES Income (2,190) 0 2,926 736 \nAdjustments between Accounting Basis & Funding Basis (22,986) 0 0 (22,986)\nTransfer from Earmarked Reserves (132) 0 (67,550) (67,682)\nNet Budget 335,860 8,324 (8,058) 336,126",
+          "pageTextSha256": "2a22a068b906566442834459efe5cf1518f2c326968f3948810bcef8ad58dab7"
+        }
+      ],
+      "review": "Selected final 2026/27 column, not inflation or adjustments. £000 units require multiplication by 1,000. Net budget is after income, accounting adjustments and earmarked-reserve transfers.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          null,
+          null,
+          "2026-27"
+        ],
+        "sourceValues": [
+          "335,860",
+          "8,324",
+          "(8,058)",
+          "336,126"
+        ],
+        "selectedIndex": 3,
+        "rowLabel": "Net Budget"
+      }
+    },
+    {
+      "ons": "E09000008",
+      "council": "Croydon",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/croydon.pdf",
+      "documentSha256": "cc2281bf31f5ef701da752932e33bb691dfc28995475fb6b3f20677209243ed1",
+      "sourceValue": "485.401",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 485401000,
+      "localMeasure": "Council net budget requirement",
+      "localLocator": "PDF p3, recommendation 2.8: net budget requirement £485.401m; council tax requirement is separately £288,943,962.",
+      "localNote": "Final Council budget-setting report, decision date 25 February 2026. Updates the Cabinet package for the final finance settlement and distinguishes net budget requirement from council tax requirement. Much supporting detail is separately published. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 3,
+          "quote": "2.8 Approve the setting of the Council’s net budget requirement for 2026-27 at £485.401m. \n \n2.9 Approve the calculation of the Council Tax requirement of £288,943,962 and the Council’s \nelement of Council Tax by band as set out in Appendix 2.",
+          "pageTextSha256": "bc6c1d3d04d24c77022b6ad1510bd751fd97c5f6af4ccb898fe7834d31271b5d"
+        },
+        {
+          "role": "units",
+          "page": 3,
+          "quote": "2.8 Approve the setting of the Council’s net budget requirement for 2026-27 at £485.401m. \n \n2.9 Approve the calculation of the Council Tax requirement of £288,943,962 and the Council’s \nelement of Council Tax by band as set out in Appendix 2.",
+          "pageTextSha256": "bc6c1d3d04d24c77022b6ad1510bd751fd97c5f6af4ccb898fe7834d31271b5d"
+        },
+        {
+          "role": "year",
+          "page": 3,
+          "quote": "2.8 Approve the setting of the Council’s net budget requirement for 2026-27 at £485.401m. \n \n2.9 Approve the calculation of the Council Tax requirement of £288,943,962 and the Council’s \nelement of Council Tax by band as set out in Appendix 2.",
+          "pageTextSha256": "bc6c1d3d04d24c77022b6ad1510bd751fd97c5f6af4ccb898fe7834d31271b5d"
+        }
+      ],
+      "review": "Recommendation 2.8 explicitly gives the 2026-27 net budget requirement. The following recommendation separately identifies the £288,943,962 Council Tax requirement; these are not interchangeable."
+    },
+    {
+      "ons": "E09000009",
+      "council": "Ealing",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/ealing.pdf",
+      "documentSha256": "79c58b60dae30f4ca9178c73a9e3930530279c973ec57bcdb66f53de3f55ab4d",
+      "sourceValue": "423,529",
+      "sourceScale": 1000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 423529000,
+      "localMeasure": "Net budget requirement before revenue support grant, business rates and council tax financing",
+      "localLocator": "PDF p31, Table 21, 2026/27 Net Budget Requirement £423,529 thousand.",
+      "localNote": "Budget Strategy Report FINAL linked by the official Council agenda item for 3 March 2026. Directorate and funding tables, savings, reserves and capital plans are described; appendices are separate. A guessed earlier agenda link led to a login page and was not accepted as evidence. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 31,
+          "quote": "Net Budget Requirement 323,476 423,529 454,174 486,144 505,390",
+          "pageTextSha256": "54457cf19bbbb0ffd4780fdb972b71e67eb0388dfe77eee997749de5ea98fddb"
+        },
+        {
+          "role": "units",
+          "page": 31,
+          "quote": "2025/26 \n£000 \n2026/27 \n£000 \n2027/28 \n£000 \n2028/29 \n£000 \n2029/30 \n£000",
+          "pageTextSha256": "54457cf19bbbb0ffd4780fdb972b71e67eb0388dfe77eee997749de5ea98fddb"
+        },
+        {
+          "role": "year",
+          "page": 31,
+          "quote": "2025/26 \n£000 \n2026/27 \n£000 \n2027/28 \n£000 \n2028/29 \n£000 \n2029/30 \n£000",
+          "pageTextSha256": "54457cf19bbbb0ffd4780fdb972b71e67eb0388dfe77eee997749de5ea98fddb"
+        },
+        {
+          "role": "scope1",
+          "page": 31,
+          "quote": "Net Service Department Budget 297,168 333,169 343,297 353,197 366,616 \nCorporate Budgets 22,808 86,861 107,377 129,448 135,274 \nContribution to (+) / from (-) reserves 3,500 3,500 3,500 3,500 3,500 \nNet Budget Requirement 323,476 423,529 454,174 486,144 505,390 \nFunded by   \n    \nRevenue Support Grant (22,236) (100,991) (118,731) (137,046) (137,046) \nBusiness Rates Retention System (106,530) (117,118) (119,805) (122,222) (122,222) \nCouncil Tax Income (192,984) (204,508) (215,638) (226,876) (238,228) \nCollection Fund (1,727) (911) 0 0 0 \nTotal Funding (323,476) (423,529) (454,174) (486,144) (497,496)",
+          "pageTextSha256": "54457cf19bbbb0ffd4780fdb972b71e67eb0388dfe77eee997749de5ea98fddb"
+        }
+      ],
+      "review": "Selected second year column, 2026/27, in £000. Budget requirement includes corporate budgets and reserves contributions; it is not the departmental service subtotal or taxation funding.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27",
+          "2027-28",
+          "2028-29",
+          "2029-30"
+        ],
+        "sourceValues": [
+          "323,476",
+          "423,529",
+          "454,174",
+          "486,144",
+          "505,390"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "Net Budget Requirement"
+      }
+    },
+    {
+      "ons": "E09000010",
+      "council": "Enfield",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/enfield.pdf",
+      "documentSha256": "40a67e9ede1075e67801a761503f1212b49b6566b4a17cd00bcf1f2787e5a427",
+      "sourceValue": "438.969",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 438969000,
+      "localMeasure": "General Fund net revenue budget; locally restated methodology closer to Core Spending Power",
+      "localLocator": "PDF p2, recommendation vii: £438.969m; p3 paragraph 10 explains a £21m methodological realignment.",
+      "localNote": "Council report of 26 February 2026 includes the revenue budget and medium-term plan. The report explicitly attributes part of the year-on-year increase to a changed budget methodology closer to government Core Spending Power, not just additional spending. Not reconciled to RA or other councils’ net budgets.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 2,
+          "quote": "vii. To agree to the proposed General Fund Net Revenue Budget of \n£438.969m for 2026/27.",
+          "pageTextSha256": "93725ec95f0bff75f5612e9789fe89fee023d150e9a943c123610c3c43cb373f"
+        },
+        {
+          "role": "units",
+          "page": 2,
+          "quote": "vii. To agree to the proposed General Fund Net Revenue Budget of \n£438.969m for 2026/27.",
+          "pageTextSha256": "93725ec95f0bff75f5612e9789fe89fee023d150e9a943c123610c3c43cb373f"
+        },
+        {
+          "role": "year",
+          "page": 2,
+          "quote": "vii. To agree to the proposed General Fund Net Revenue Budget of \n£438.969m for 2026/27.",
+          "pageTextSha256": "93725ec95f0bff75f5612e9789fe89fee023d150e9a943c123610c3c43cb373f"
+        },
+        {
+          "role": "scope1",
+          "page": 3,
+          "quote": "10. After core funding increases for 2026/27, the net revenue budget is \nproposed to increase by £90.2m from £348.7m in 2025/26 to £438.9m in \n2026/27 (£65m increase in funding and council tax income, and £21m due \nto realigning our methodology of calculating net revenue budget in order to \nbring it closer to the way the government calculates Core Spending power).",
+          "pageTextSha256": "59bff23ca434f0d23a04523eb945ca891077b0a9394ee9a9599f230627a16d51"
+        }
+      ],
+      "review": "Recommendation vii identifies the 2026/27 General Fund net revenue budget. Paragraph 10 explicitly describes £21m of methodology realignment; no year-on-year spending comparison is inferred."
+    },
+    {
+      "ons": "E09000014",
+      "council": "Haringey",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/haringey.pdf",
+      "documentSha256": "f408c33123c41ae5f30dcac58a0d2bf8e914811f4bd80d10f0cb595a19c2a44e",
+      "sourceValue": "353.027",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 353027000,
+      "localMeasure": "General Fund budget requirement net of Dedicated Schools Budget, after the report’s EFS/savings treatment",
+      "localLocator": "PDF p5, recommendation 3.1(c): £353.027m; p8 corrects an earlier Cabinet table and updates the final settlement.",
+      "localNote": "Full Council final report of 2 March 2026, with Cabinet annex and official agenda context archived. The Council report corrects the earlier Cabinet budget requirement and changes funding assumptions; do not use the superseded £343.4m table. Exceptional Financial Support/savings treatment affects the local perimeter. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 5,
+          "quote": "(c) To approve the General Fund budget requirement for 2026/27 of \n£353.027m, net of Dedicated Schools Budget, and the Directorate cash \nlimits for 2026/27 as set out in Annex 2 of this report;",
+          "pageTextSha256": "9dd25123ad3b2e625e828027d2cb7a4c16c262933fda942124cd38aa8fa3522e"
+        },
+        {
+          "role": "units",
+          "page": 5,
+          "quote": "(c) To approve the General Fund budget requirement for 2026/27 of \n£353.027m, net of Dedicated Schools Budget, and the Directorate cash \nlimits for 2026/27 as set out in Annex 2 of this report;",
+          "pageTextSha256": "9dd25123ad3b2e625e828027d2cb7a4c16c262933fda942124cd38aa8fa3522e"
+        },
+        {
+          "role": "year",
+          "page": 5,
+          "quote": "(c) To approve the General Fund budget requirement for 2026/27 of \n£353.027m, net of Dedicated Schools Budget, and the Directorate cash \nlimits for 2026/27 as set out in Annex 2 of this report;",
+          "pageTextSha256": "9dd25123ad3b2e625e828027d2cb7a4c16c262933fda942124cd38aa8fa3522e"
+        },
+        {
+          "role": "scope1",
+          "page": 8,
+          "quote": "7.8 The corporately held budgets were incorrectly presented in the 10 February \n2026 Cabinet report (Annex 1), leading to a General Fund budget requirement \nof £343.4m being presented in Table 10 rather than the correct £347.9m.  All \nDirectorate budgets presented were correct at the time of publication.  \nAdjustments have subsequently been made to reflect the correction and Table \n10 is now correctly represented here: \n \nRepresented Table 10 From 10 February Cabinet Report– General Fund \nBudget Requirement 2026/27 \nDirectorate  £’000  \nAdult Social Care  140,310  \nHousing Demand (Temporary Accommodation)  42,861  \nChildren and Young People Services (including \nEducation)  82,636  \nEnvironment and Resident Experience  13,412  \nCulture, Strategy and Communities 18,922  \nFinance & Resources (including Chief \nExecutive) 34,061  \nCorporate Budgets 104,995  \nCouncil Cash Limit 437,197  \nExceptional Financial Support/Savings (89,206) \nTotal General Fund Budget Requirement 347,991  \n \n7.9 After this revision and with the changes arising from the final Local \nGovernment Finance Settlement discussed above, the General Fund budget \nrequirement now presented for approval is £353.027m as set out in Annex 2.",
+          "pageTextSha256": "7880a23a6dc0e734605abee5746a725e7ea791c02f5ed07ab00fcf735d483987"
+        }
+      ],
+      "review": "Final recommendation expressly excludes Dedicated Schools Budget. Paragraphs 7.8–7.9 correct the old £343.4m Cabinet table, show £89.206m EFS/savings treatment, and identify the updated £353.027m requirement. These are not equivalent to RA net service expenditure."
+    },
+    {
+      "ons": "E09000015",
+      "council": "Harrow",
+      "status": "withheld",
+      "sourceYear": "2025-26",
+      "file": "data/raw/reports/harrow.pdf",
+      "documentSha256": "1721e9373e7516ae71c7118d02a9362a8ab2d936653e0a899b80157937db264b",
+      "sourceValue": "215",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000000,
+      "checkedHeadlinePounds": 215000000,
+      "localMeasure": null,
+      "localLocator": null,
+      "localNote": "Final Cabinet report for 19 February 2026, included in the Full Council budget-setting item on 26 February. Release-gate PDF recheck found that paragraph 1.05’s £215m net revenue budget explicitly refers to 2025/26, NOT 2026/27. That previously transcribed headline is withdrawn. No 2026/27 total independently verified in this report; the revenue summary is a separate appendix. HRA and capital programme are separate budget items. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 4,
+          "quote": "In 2025/26 \napproximately 80% of the Council’s net revenue budget of £215m is funded \nfrom Council Tax.",
+          "pageTextSha256": "cd27320ca60821a7873fdd4debbe6cfca904de8703668cc3ecbcadaf34756ba8"
+        },
+        {
+          "role": "units",
+          "page": 4,
+          "quote": "In 2025/26 \napproximately 80% of the Council’s net revenue budget of £215m is funded \nfrom Council Tax.",
+          "pageTextSha256": "cd27320ca60821a7873fdd4debbe6cfca904de8703668cc3ecbcadaf34756ba8"
+        },
+        {
+          "role": "year",
+          "page": 4,
+          "quote": "In 2025/26 \napproximately 80% of the Council’s net revenue budget of £215m is funded \nfrom Council Tax.",
+          "pageTextSha256": "cd27320ca60821a7873fdd4debbe6cfca904de8703668cc3ecbcadaf34756ba8"
+        }
+      ],
+      "review": "REJECTED wrong-year transcription. The paragraph’s year is 2025/26 despite the document being a 2026/27 budget report.",
+      "reason": "WITHHELD: the quoted £215m and approximately 80% Council Tax share explicitly describe 2025/26. The report title is 2026/27, but that does not change this paragraph’s year. No independently verified 2026/27 budget total in the retained main report; do not infer one from funding or budget-change tables."
+    },
+    {
+      "ons": "E09000019",
+      "council": "Islington",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/islington_final.pdf",
+      "documentSha256": "64d738fbebeb6b6c451fda575829760db14805f477f8a5c529652e36fc00d68c",
+      "sourceValue": "373.360",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 373360000,
+      "localMeasure": "General Fund net budget requirement after specific grants and fees/charges, before taxation and non-specific grants",
+      "localLocator": "PDF p8, paragraphs 1.50–1.51: definition and General Fund Net Budget Requirement £373.360m; p9 Table 1.",
+      "localNote": "Final Full Council report of 26 February 2026, replacing the earlier Executive paper. Document explicitly defines its net budget requirement; HRA and capital programme have separate sections. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 8,
+          "quote": "1.51. The Net Budget Requirement for the General Fund in 2026/27 is £373.360m. This is \noutlined in Table 1 below.",
+          "pageTextSha256": "6e3010e2b2b287b3d5b4edd0f7fc2b545f7e89f0c6846f1e5ab95fe20aad6b27"
+        },
+        {
+          "role": "units",
+          "page": 8,
+          "quote": "1.51. The Net Budget Requirement for the General Fund in 2026/27 is £373.360m. This is \noutlined in Table 1 below.",
+          "pageTextSha256": "6e3010e2b2b287b3d5b4edd0f7fc2b545f7e89f0c6846f1e5ab95fe20aad6b27"
+        },
+        {
+          "role": "year",
+          "page": 8,
+          "quote": "1.51. The Net Budget Requirement for the General Fund in 2026/27 is £373.360m. This is \noutlined in Table 1 below.",
+          "pageTextSha256": "6e3010e2b2b287b3d5b4edd0f7fc2b545f7e89f0c6846f1e5ab95fe20aad6b27"
+        },
+        {
+          "role": "scope1",
+          "page": 8,
+          "quote": "1.50. Many council services are funded by specific grants or fees and charges income. For \nexample, the Public Health Grant fully funds the Public Health service. The ‘Net Budget \nRequirement’ is the remaining council budget which is not funded by specific grant or fees \nand charges income. The Net Budget Requirement needs to be paid for by taxation \n(council tax and retained business rates) and non-specific government grant income.",
+          "pageTextSha256": "6e3010e2b2b287b3d5b4edd0f7fc2b545f7e89f0c6846f1e5ab95fe20aad6b27"
+        },
+        {
+          "role": "scope2",
+          "page": 9,
+          "quote": "Table 1 – General Fund Net Budget Requirement \nBudget Net Budget 2026/27 (£m) \nChildren & Young People 82.385 \nCommunity Wealth Building 26.597 \nEnvironment & Climate Change (14.408) \nHealth & Social Care 128.489 \nHomes & Neighbourhoods (General Fund) 32.030 \nResources 41.680 \nStrategy & Programmes 3.340 \nCentral Costs & Contingency 73.248 \nNet Budget Requirement 373.360 \nNon-Specific Grants & Business Rates Retention Income (234.051) \nForecast Collection Fund (Surplus)/Deficit (6.978) \nCouncil Tax Requirement (132.331) \nTaxation and Non-Specific Grant Income (373.360) \nNet Budget -",
+          "pageTextSha256": "e8deff8f9a33653e126292af7b66486fada3b666e9e495f4cea50bdfa4a1895c"
+        }
+      ],
+      "review": "Paragraphs 1.50–1.51 directly define the measure and its year. Table 1 confirms the £373.360m requirement before non-specific grant, retained rates, collection fund and Council Tax financing."
+    },
+    {
+      "ons": "E09000021",
+      "council": "Kingston upon Thames",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/kingston_final.pdf",
+      "documentSha256": "3a0813f0923480e068cb737b5fd1c3c34b36a5300398ddbaf6039aba7672cd41",
+      "sourceValue": "205,702",
+      "sourceScale": 1000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 205702000,
+      "localMeasure": "Gross budget requirement in the MTFS, before parking/traffic reserves and specific grants; not gross all-council expenditure",
+      "localLocator": "PDF p20, MTFS 2026/27 column: Gross Budget Requirement £205,702 thousand, followed by separate parking/reserve and specific-grant resources.",
+      "localNote": "Final Budget Council report of 26 February 2026, not the earlier draft Corporate Resources budget pack. The table’s locally named gross budget requirement excludes separate schools/HRA and has its own grant/reserve treatment. It is not equivalent to MHCLG gross service expenditure or net service expenditure; not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 20,
+          "quote": "Gross Budget \n Requirement:  190,670  205,702  223,082  238,404  252,501",
+          "pageTextSha256": "965003eefeedba655ca4730f9eb16ac1f715f270ae144817184f5f88a1f88e42"
+        },
+        {
+          "role": "units",
+          "page": 20,
+          "quote": "2025/26 \n £000s \n 2026/27 \n £000s \n 2027/28 \n £000s \n 2028/29 \n £000s \n 2029/30 \n £000s",
+          "pageTextSha256": "965003eefeedba655ca4730f9eb16ac1f715f270ae144817184f5f88a1f88e42"
+        },
+        {
+          "role": "year",
+          "page": 20,
+          "quote": "2025/26 \n £000s \n 2026/27 \n £000s \n 2027/28 \n £000s \n 2028/29 \n £000s \n 2029/30 \n £000s",
+          "pageTextSha256": "965003eefeedba655ca4730f9eb16ac1f715f270ae144817184f5f88a1f88e42"
+        },
+        {
+          "role": "scope1",
+          "page": 20,
+          "quote": "Resources: \n Parking and Traffic \n Reserves  (5,945)  (7,648)  (7,516)  (7,361)  (7,182) \n Specific Grants  (21,360)  (5,556)  (5,556)  (5,556)  (2,656) \n Sub-total  (27,305)  (13,204)  (13,072)  (12,917)  (9,838) \n Financing Resources \n for Tax Setting \n Purposes",
+          "pageTextSha256": "965003eefeedba655ca4730f9eb16ac1f715f270ae144817184f5f88a1f88e42"
+        }
+      ],
+      "review": "Selected second year column, not the identical 2027/28 Base Budget value. The locally named Gross Budget Requirement follows service savings/fees and precedes parking/traffic reserves and specific grants. It is not MHCLG gross expenditure.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27",
+          "2027-28",
+          "2028-29",
+          "2029-30"
+        ],
+        "sourceValues": [
+          "190,670",
+          "205,702",
+          "223,082",
+          "238,404",
+          "252,501"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "Gross Budget Requirement:"
+      }
+    },
+    {
+      "ons": "E09000022",
+      "council": "Lambeth",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/lambeth.pdf",
+      "documentSha256": "893a37bd79248c04095d1b45c8b30f729273fc3e59dd614253fae53b394b5ab3",
+      "sourceValue": "471.852",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 471852000,
+      "localMeasure": "Total expenditure in Resources and Budget table, after £20m Exceptional Financial Support is deducted",
+      "localLocator": "PDF p9, Table 2: TOTAL EXPENDITURE £471.852m after savings £46.580m and EFS £20m.",
+      "localNote": "Full Council report of 4 March 2026; official agenda/decision context and addendum archived. The report places EFS as a reduction in its expenditure bridge and identifies Public Health separately from General Fund spending; the headline is that exact local presentation, not net service expenditure. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 9,
+          "quote": "TOTAL EXPENDITURE 471.852",
+          "pageTextSha256": "4a4ee77a53e21f105def7fafdb4b686b22eeaec49fcd1c781f1f743ee6f4b29b"
+        },
+        {
+          "role": "units",
+          "page": 9,
+          "quote": "2026-27 £m",
+          "pageTextSha256": "4a4ee77a53e21f105def7fafdb4b686b22eeaec49fcd1c781f1f743ee6f4b29b"
+        },
+        {
+          "role": "year",
+          "page": 9,
+          "quote": "2026-27 £m",
+          "pageTextSha256": "4a4ee77a53e21f105def7fafdb4b686b22eeaec49fcd1c781f1f743ee6f4b29b"
+        },
+        {
+          "role": "scope1",
+          "page": 9,
+          "quote": "Budget before Savings and Efficiencies 538.431 \n  \nAgreed Savings -46.580 \nExceptional Financial Support -20.000 \n  \nTOTAL EXPENDITURE 471.852",
+          "pageTextSha256": "4a4ee77a53e21f105def7fafdb4b686b22eeaec49fcd1c781f1f743ee6f4b29b"
+        },
+        {
+          "role": "scope2",
+          "page": 9,
+          "quote": "*Public Health grant included for completeness but accounted for outside general fund spending as a \nseparate specific ring fenced grant.",
+          "pageTextSha256": "4a4ee77a53e21f105def7fafdb4b686b22eeaec49fcd1c781f1f743ee6f4b29b"
+        }
+      ],
+      "review": "2026-27 table is in £m. The report deducts £46.580m savings and £20.000m EFS above TOTAL EXPENDITURE. This financing-like bridge is retained as the council presents it, not relabelled net service expenditure.",
+      "table": {
+        "columnYears": [
+          "2026-27"
+        ],
+        "sourceValues": [
+          "471.852"
+        ],
+        "selectedIndex": 0,
+        "rowLabel": "TOTAL EXPENDITURE"
+      }
+    },
+    {
+      "ons": "E09000023",
+      "council": "Lewisham",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/lewisham_final.pdf",
+      "documentSha256": "b641c95a3593308e7d4301c41a4753805f19cad6a72f2ebbb5fc1d9df868fdd3",
+      "sourceValue": "425.799",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 425799000,
+      "localMeasure": "General Fund revenue budget aligned to the report’s Core Spending Power basis",
+      "localLocator": "PDF p2, executive summary: Core Spending Power, and therefore General Fund Revenue Budget, £425.799m.",
+      "localNote": "Final Full Council report of 4 March 2026. The £425.799m figure is checked directly in this final report, rather than relying on an earlier Mayor and Cabinet proposal. The report expressly restates the budget onto a Core Spending Power basis, including rolled-in grants; this must not be labelled RA net service expenditure or compared directly with other local definitions.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 2,
+          "quote": "In respect of the General Fund, the assumed Core Spending Power, \nand therefore the General Fund Revenue Budget for 2026/27, is \n£425.799m.",
+          "pageTextSha256": "80c067053c5bc849e1adfcf9aea8a0fd3a8f36f4f7e5e194bb042d822cf68636"
+        },
+        {
+          "role": "units",
+          "page": 2,
+          "quote": "In respect of the General Fund, the assumed Core Spending Power, \nand therefore the General Fund Revenue Budget for 2026/27, is \n£425.799m.",
+          "pageTextSha256": "80c067053c5bc849e1adfcf9aea8a0fd3a8f36f4f7e5e194bb042d822cf68636"
+        },
+        {
+          "role": "year",
+          "page": 2,
+          "quote": "In respect of the General Fund, the assumed Core Spending Power, \nand therefore the General Fund Revenue Budget for 2026/27, is \n£425.799m.",
+          "pageTextSha256": "80c067053c5bc849e1adfcf9aea8a0fd3a8f36f4f7e5e194bb042d822cf68636"
+        },
+        {
+          "role": "scope1",
+          "page": 2,
+          "quote": "To align Lewisham Council’s 2026/27 General Fund Revenue Budget \nwith Government’s Fair Funding Review, it has been built based on a \nrestated 2025/26 Core Spending Power Budget of £401.877m as \nopposed to the General Fund Net Revenue Budget of £312.515m. Full \ndetail of the restatement and build can also be found in Section 6.",
+          "pageTextSha256": "80c067053c5bc849e1adfcf9aea8a0fd3a8f36f4f7e5e194bb042d822cf68636"
+        }
+      ],
+      "review": "Final Council report explicitly identifies the General Fund revenue budget with Core Spending Power. The different earlier-proposal amount was removed from the note because it is not evidenced in this retained final PDF. No direct borough-to-borough comparison is made."
+    },
+    {
+      "ons": "E09000024",
+      "council": "Merton",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/merton.pdf",
+      "documentSha256": "5ec2b73a5b1867987199c70cf15aa6203d2f8aee2b5886dfbcee749a56453bca",
+      "sourceValue": "227.709",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 227709000,
+      "localMeasure": "2026/27 budget requirement before Fair Funding, business rates and council tax financing",
+      "localLocator": "PDF p29, Council Tax calculation table, 2026/27 Budget Requirement £227.709m.",
+      "localNote": "Official annual detailed budget book covering 2026/27 revenue estimates, MTFS, capital, treasury, savings and fees. Downloaded from the council’s August 2026 publication path; no exact publication/adoption date inferred solely from that path. Accounting perimeter and grant/reserve treatment are local; not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 29,
+          "quote": "Budget Requirement 221.250 227.709",
+          "pageTextSha256": "1ab1c342416cb22568a23f103d0c50b7db2eb89271cca2a06cfaf06f75e98d00"
+        },
+        {
+          "role": "units",
+          "page": 29,
+          "quote": "Table 34: Average Council Tax Calculation at Band D 2025/26 £m 2026/27 £m",
+          "pageTextSha256": "1ab1c342416cb22568a23f103d0c50b7db2eb89271cca2a06cfaf06f75e98d00"
+        },
+        {
+          "role": "year",
+          "page": 29,
+          "quote": "Table 34: Average Council Tax Calculation at Band D 2025/26 £m 2026/27 £m",
+          "pageTextSha256": "1ab1c342416cb22568a23f103d0c50b7db2eb89271cca2a06cfaf06f75e98d00"
+        },
+        {
+          "role": "scope1",
+          "page": 29,
+          "quote": "Fair Funding Allocation   \nBaseline Funding Level/ revised for NNDR1 (Table 27) N/A (31.892) \nRevenue Support Grant N/A (44.205) \nLocal Authority Better Care Grant N/A (6.180) \nLegacy Funding Assessment   \nLegacy Business Rates (47.403) N/A \nLegacy Grant Funding (29.081) N/A \nLocal Authority Better Care Grant (6.181) N/A \nHomelessness, Rough Sleeping and Domestic Abuse (1.880) (2.603) \nChildren, Families and Youth Grant (0.723) (2.687) \nOther:   \nPFI Grant (4.797) (4.797) \nCollection Fund – (Surplus)/Deficit (1.463) 0.067 \nExtended Producer Responsibility Scheme (2.951) (3.252) \nCouncil tax requirement 126.771 132.160",
+          "pageTextSha256": "1ab1c342416cb22568a23f103d0c50b7db2eb89271cca2a06cfaf06f75e98d00"
+        }
+      ],
+      "review": "Physical PDF page 29 is printed page 26. Selected second column, 2026/27 £m; Fair Funding, other grants, collection fund and Council Tax requirement are separate rows below the budget requirement.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27"
+        ],
+        "sourceValues": [
+          "221.250",
+          "227.709"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "Budget Requirement"
+      }
+    },
+    {
+      "ons": "E09000025",
+      "council": "Newham",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/newham_final.pdf",
+      "documentSha256": "822d918f916ccbfdfe837a6f1bbf81c1ee0bfa10e810259c7583191d34957f04",
+      "sourceValue": "520.897",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 520897000,
+      "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p5, recommendation 2.20: General Fund Net Budget requirement £520.897m.",
+      "localNote": "Actual final Council budget-setting report from the verified 26 February 2026 meeting, together with main Cabinet supporting report. The initial search-derived meeting ID was wrong and was rejected after direct checking. Document labels the date 26 February but incorrectly calls it Tuesday; the official calendar confirms Thursday 26 February. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 5,
+          "quote": "2.20. Agree the General Fund Net Budget requirement for 202 6/27 be set at \n£520.897m for 2026/27 and the individual Directorate Budgets for 2026/27 \nas set out in Appendix I.",
+          "pageTextSha256": "cef19f9c771862eef69125d7b388e702e57625c53ea9a0e1c5c11d0cb4aab0a0"
+        },
+        {
+          "role": "units",
+          "page": 5,
+          "quote": "2.20. Agree the General Fund Net Budget requirement for 202 6/27 be set at \n£520.897m for 2026/27 and the individual Directorate Budgets for 2026/27 \nas set out in Appendix I.",
+          "pageTextSha256": "cef19f9c771862eef69125d7b388e702e57625c53ea9a0e1c5c11d0cb4aab0a0"
+        },
+        {
+          "role": "year",
+          "page": 5,
+          "quote": "2.20. Agree the General Fund Net Budget requirement for 202 6/27 be set at \n£520.897m for 2026/27 and the individual Directorate Budgets for 2026/27 \nas set out in Appendix I.",
+          "pageTextSha256": "cef19f9c771862eef69125d7b388e702e57625c53ea9a0e1c5c11d0cb4aab0a0"
+        }
+      ],
+      "review": "Recommendation 2.20 expressly gives £520.897m for 2026/27. The first occurrence of the year has extraction spacing, but the second is unambiguous; the quote preserves both literally."
+    },
+    {
+      "ons": "E09000026",
+      "council": "Redbridge",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/redbridge_budget_report.pdf",
+      "documentSha256": "5dd4e10715cfd38c0343d8222d33a5e27ce403147a54cbf706406b3cdfd6cf6b",
+      "sourceValue": "314.896",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 314896000,
+      "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p3, recommendation 2.2.9: proposed General Fund net budget requirement £314.896m.",
+      "localNote": "Budget Council report dated 5 March 2026. The local General Fund budget excludes the separately identified £453.664m schools budget and has local funding/reserve treatment. It is neither the news item’s Core Spending Power (funding) nor the MHCLG RA service/revenue totals. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 3,
+          "quote": "2.2.9 \n Approves the 2026/27 Revenue Budget summarised in Appendix I including \nthe proposed General Fund net budget requirement of £314.896m for \n2026/27, and the commencement of any required consultation, statutory or \notherwise;",
+          "pageTextSha256": "fa57a9831efbc2c2da4878d705a21417a0d94fa4b3889d55aaed3af5242cbc8f"
+        },
+        {
+          "role": "units",
+          "page": 3,
+          "quote": "2.2.9 \n Approves the 2026/27 Revenue Budget summarised in Appendix I including \nthe proposed General Fund net budget requirement of £314.896m for \n2026/27, and the commencement of any required consultation, statutory or \notherwise;",
+          "pageTextSha256": "fa57a9831efbc2c2da4878d705a21417a0d94fa4b3889d55aaed3af5242cbc8f"
+        },
+        {
+          "role": "year",
+          "page": 3,
+          "quote": "2.2.9 \n Approves the 2026/27 Revenue Budget summarised in Appendix I including \nthe proposed General Fund net budget requirement of £314.896m for \n2026/27, and the commencement of any required consultation, statutory or \notherwise;",
+          "pageTextSha256": "fa57a9831efbc2c2da4878d705a21417a0d94fa4b3889d55aaed3af5242cbc8f"
+        },
+        {
+          "role": "scope1",
+          "page": 3,
+          "quote": "2.2.10 \n Approves the Schools budget of £453.664m and its relevant distribution as \nrecommended by the Schools Forum at its meeting\n s \ndated 22 January 2026 \nand 2 February 2026 and agrees that any changes to the budget reasonably \nrequired as a result of changes to the 2026/27 DSG settlement are delegated \nfor decision to the Executive Director of Children and Education following \nconsultat\nion with the Executive Director of Resources (Appendix J(i));",
+          "pageTextSha256": "fa57a9831efbc2c2da4878d705a21417a0d94fa4b3889d55aaed3af5242cbc8f"
+        }
+      ],
+      "review": "Recommendation 2.2.9 gives the General Fund requirement for 2026/27. The next recommendation separately approves £453.664m schools funding. These are not combined or compared to RA totals."
+    },
+    {
+      "ons": "E09000027",
+      "council": "Richmond upon Thames",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/richmond.pdf",
+      "documentSha256": "b98ef8f99a6b78d81474ccd4b2d610796cefb1993fc2ec3877ed8ba1a3c113d2",
+      "sourceValue": "220.197",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 220197000,
+      "localMeasure": "Net expenditure after use of balances and reserves, before Collection Fund and taxation/grant financing",
+      "localLocator": "PDF p17, Council Tax 2026/27 table: Net Expenditure after use of balances and reserves £220.197m.",
+      "localNote": "Official annual budget book linked by the council’s budgets-and-spending publication page. Revenue budget, MTFS and capital programme are included. No exact publication/adoption date asserted without a directly checked dated decision. The headline retains the book’s reserves treatment; not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 17,
+          "quote": "Net Expenditure after use of balances and reserves 220.197",
+          "pageTextSha256": "b3665614ec961b4ebd94796c8ad1079a36c331f8d3c366917f71277e0f5bc18e"
+        },
+        {
+          "role": "units",
+          "page": 17,
+          "quote": "Summary of requirements and Council Tax  \n 2026/27 \n£’m",
+          "pageTextSha256": "b3665614ec961b4ebd94796c8ad1079a36c331f8d3c366917f71277e0f5bc18e"
+        },
+        {
+          "role": "year",
+          "page": 17,
+          "quote": "Summary of requirements and Council Tax  \n 2026/27 \n£’m",
+          "pageTextSha256": "b3665614ec961b4ebd94796c8ad1079a36c331f8d3c366917f71277e0f5bc18e"
+        },
+        {
+          "role": "scope1",
+          "page": 17,
+          "quote": "Net Expenditure after use of balances and reserves 220.197  \nCollection Fund Deficit/ (Surplus) -1.682  \n 218.515  \nLess:  \nRetained Business Rates -1.514  \nRevenue Support Grant  -38.499  \nRichmond Requirement for Council Tax 178.502",
+          "pageTextSha256": "b3665614ec961b4ebd94796c8ad1079a36c331f8d3c366917f71277e0f5bc18e"
+        }
+      ],
+      "review": "Single 2026/27 £m column. £220.197m is after balances/reserves and before the £1.682m Collection Fund surplus, retained rates, RSG and Council Tax calculation.",
+      "table": {
+        "columnYears": [
+          "2026-27"
+        ],
+        "sourceValues": [
+          "220.197"
+        ],
+        "selectedIndex": 0,
+        "rowLabel": "Net Expenditure after use of balances and reserves"
+      }
+    },
+    {
+      "ons": "E09000028",
+      "council": "Southwark",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/southwark_final.pdf",
+      "documentSha256": "9eee2e40e469e0699a9636501ca262f4cd6a92999b39d5dd28e0a24d7b52218e",
+      "sourceValue": "533.57",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 10000,
+      "checkedHeadlinePounds": 533570000,
+      "localMeasure": "MTFS total budget before £7m additional transformation savings, reported to £0.01m; not the final balanced total",
+      "localLocator": "PDF p4, Table 2, 2026/27 TOTAL BUDGET £533.57m.",
+      "localNote": "Council Assembly final report of 25 February 2026, replacing the earlier 2 February Cabinet report. Table 2’s £533.57m TOTAL BUDGET is before £7m transformation savings; TOTAL RESOURCES is £526.57m after reserves contributions. HRA and council-tax-setting are separate items. Neither figure is reconciled to RA net service or revenue expenditure.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 4,
+          "quote": "TOTAL BUDGET 491.04 533.57 561.70 566.49 566.42",
+          "pageTextSha256": "c24382b4d980d37d4b82e3283fd886044767759d97d3f1163ae7e6b59091a95b"
+        },
+        {
+          "role": "units",
+          "page": 4,
+          "quote": "Medium Term Financial Strategy (MTFS) 2025-26 2026-27 2027-28 2028-29 2029-30 \n  £m £m £m £m £m",
+          "pageTextSha256": "c24382b4d980d37d4b82e3283fd886044767759d97d3f1163ae7e6b59091a95b"
+        },
+        {
+          "role": "year",
+          "page": 4,
+          "quote": "Medium Term Financial Strategy (MTFS) 2025-26 2026-27 2027-28 2028-29 2029-30 \n  £m £m £m £m £m",
+          "pageTextSha256": "c24382b4d980d37d4b82e3283fd886044767759d97d3f1163ae7e6b59091a95b"
+        },
+        {
+          "role": "scope1",
+          "page": 4,
+          "quote": "Total Funding before contributions from balances 492.05 521.57 531.04 531.42 543.71 \nContribution to earmarked reserve for EPR -6.51 0.00 0.00 0.00 0.00 \nContribution from Fair Funding Reform reserve 0.00 0.00 2.50 2.50 2.50 \nContribution from earmarked reserves 2.50 5.00 0.00 0.00 0.00 \nTOTAL RESOURCES 488.04 526.57 533.54 533.92 546.21",
+          "pageTextSha256": "c24382b4d980d37d4b82e3283fd886044767759d97d3f1163ae7e6b59091a95b"
+        },
+        {
+          "role": "scope2",
+          "page": 4,
+          "quote": "TOTAL BUDGET 491.04 533.57 561.70 566.49 566.42 \n            \nShortfall before Transformation  3.00 7.00 28.16 32.57 20.21 \nTransformation savings -3.00 -7.00 0.00 0.00 0.00 \nGap post transformation 0.00 0.00 28.16 32.57 20.21",
+          "pageTextSha256": "c24382b4d980d37d4b82e3283fd886044767759d97d3f1163ae7e6b59091a95b"
+        }
+      ],
+      "review": "Selected second year column in £m, displayed to £0.01m. £533.57m is before £7m transformation savings, not the balanced post-transformation total. £526.57m resources include £5m reserves; these funding and spending lines are kept distinct.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27",
+          "2027-28",
+          "2028-29",
+          "2029-30"
+        ],
+        "sourceValues": [
+          "491.04",
+          "533.57",
+          "561.70",
+          "566.49",
+          "566.42"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "TOTAL BUDGET"
+      }
+    },
+    {
+      "ons": "E09000029",
+      "council": "Sutton",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/sutton.pdf",
+      "documentSha256": "68d8c924c8ba215de3e3c9df217ca7d1c7e9d88ab4607886ae7f8443be3b2af6",
+      "sourceValue": "222.088",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 222088000,
+      "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p1, recommendation 2.1: General Fund Net Budget Requirement £222.088m.",
+      "localNote": "Budget Council report for 2 March 2026, signed 18 February. It updates the Strategy and Resources Committee recommendations and refers to the updated detailed revenue appendix, HRA and capital programme. Minutes not independently archived; not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 1,
+          "quote": "2.1\n \nTo\n \nagree\n \nthe\n \nproposed\n \nGeneral\n \nFund\n \nNet\n \nBudget\n \nRequirement\n \nof\n \n£222.088m\n \nsummarised\n \nin\n \nUpdated\n \nAppendix\n \nB",
+          "pageTextSha256": "22c6bd91b1b4bea728c447ed46d4e1c438388df28b70de1cf21a511ea090e0a1"
+        },
+        {
+          "role": "units",
+          "page": 1,
+          "quote": "2.1\n \nTo\n \nagree\n \nthe\n \nproposed\n \nGeneral\n \nFund\n \nNet\n \nBudget\n \nRequirement\n \nof\n \n£222.088m\n \nsummarised\n \nin\n \nUpdated\n \nAppendix\n \nB",
+          "pageTextSha256": "22c6bd91b1b4bea728c447ed46d4e1c438388df28b70de1cf21a511ea090e0a1"
+        },
+        {
+          "role": "year",
+          "page": 1,
+          "quote": "Revenue\n \nBudget\n \n2026/27\n \n2.1\n \nTo\n \nagree\n \nthe\n \nproposed\n \nGeneral\n \nFund\n \nNet\n \nBudget\n \nRequirement\n \nof\n \n£222.088m\n \nsummarised\n \nin\n \nUpdated\n \nAppendix\n \nB",
+          "pageTextSha256": "22c6bd91b1b4bea728c447ed46d4e1c438388df28b70de1cf21a511ea090e0a1"
+        }
+      ],
+      "review": "Recommendation 2.1 under Revenue Budget 2026/27; physical PDF page 1, printed agenda page 61. Whitespace-heavy extraction is preserved literally. Source is £m, not pounds or thousands."
+    },
+    {
+      "ons": "E09000030",
+      "council": "Tower Hamlets",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/towerhamlets.pdf",
+      "documentSha256": "9b9c3dfb7421905d391c3d6747f241078677d30eba057529de1dfe8ff26d0deb",
+      "sourceValue": "497.797",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 497797000,
+      "localMeasure": "General Fund revenue budget",
+      "localLocator": "PDF p2, recommendation 1: General Fund Revenue Budget £497.797m.",
+      "localNote": "Council budget-setting report of 25 February 2026, linked by the official agenda/decision item. General Fund budget, council tax and Section 25 robustness statement checked; capital, treasury and supporting appendices are separately referenced. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 2,
+          "quote": "1. To approve a General Fund Revenue Budget of £497.797m and approve a \nCouncil Tax (Band D) of £1,327.27 (Council share) for 2026-27 as set out \nin the motion and Council Tax Resolution attached at Annex 1 to this report.",
+          "pageTextSha256": "297d928427c9cfd084099b6d75ed178897278caec293ee3502646c8ecd09a93a"
+        },
+        {
+          "role": "units",
+          "page": 2,
+          "quote": "1. To approve a General Fund Revenue Budget of £497.797m and approve a \nCouncil Tax (Band D) of £1,327.27 (Council share) for 2026-27 as set out \nin the motion and Council Tax Resolution attached at Annex 1 to this report.",
+          "pageTextSha256": "297d928427c9cfd084099b6d75ed178897278caec293ee3502646c8ecd09a93a"
+        },
+        {
+          "role": "year",
+          "page": 2,
+          "quote": "1. To approve a General Fund Revenue Budget of £497.797m and approve a \nCouncil Tax (Band D) of £1,327.27 (Council share) for 2026-27 as set out \nin the motion and Council Tax Resolution attached at Annex 1 to this report.",
+          "pageTextSha256": "297d928427c9cfd084099b6d75ed178897278caec293ee3502646c8ecd09a93a"
+        }
+      ],
+      "review": "Recommendation 1 expressly assigns the General Fund revenue budget to 2026-27. Council Tax Band D is separate, and capital/HRA/DSG approvals are separate recommendations."
+    },
+    {
+      "ons": "E09000031",
+      "council": "Waltham Forest",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/walthamforest_final.pdf",
+      "documentSha256": "9d5e3ed3ec8593caca04e7b172a6912e3efc810aa4b0a634bac3ba6cf65e97f9",
+      "sourceValue": "607,255",
+      "sourceScale": 1000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 607255000,
+      "localMeasure": "Projected council budget / Total LBWF expenditure including DSG, before specific-grant financing and EFS",
+      "localLocator": "PDF p2, summary table, Total LBWF expenditure £607,255 thousand; p4 recommendation 2.1.5 approves £607.255m.",
+      "localNote": "Final Council report of 26 February 2026, replacing the earlier Cabinet paper. The £607.255m summary includes DSG; £252.176m DSG/Pupil Premium and £21.389m Public Health grant are deducted below it. It is not statutory gross expenditure of £1,111.208m or the £155.728m council-tax requirement. EFS is financing below the local total. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 2,
+          "quote": "Total LBWF expenditure  523,859 607,255",
+          "pageTextSha256": "a05926823052fe96b8dc8518b3b5c61bac6de11b68d13aa898523cb8b6667696"
+        },
+        {
+          "role": "units",
+          "page": 2,
+          "quote": "Budget Forecast Summary 2025/26 2026/27 \n  £'000 £'000",
+          "pageTextSha256": "a05926823052fe96b8dc8518b3b5c61bac6de11b68d13aa898523cb8b6667696"
+        },
+        {
+          "role": "year",
+          "page": 2,
+          "quote": "Budget Forecast Summary 2025/26 2026/27 \n  £'000 £'000",
+          "pageTextSha256": "a05926823052fe96b8dc8518b3b5c61bac6de11b68d13aa898523cb8b6667696"
+        },
+        {
+          "role": "scope1",
+          "page": 2,
+          "quote": "Service Base Budgets including DSG 551,951 628,315 \nInterest and Capital Charges (23,386)  (21,060)  \n  528,565 607,255 \n      \nContribution from reserves (4,706)  0 \nTotal LBWF expenditure  523,859 607,255 \n(Surplus)/Deficit on Collection Fund 1,352 1,297 \nBusiness Rate Retention * (37,367)    \nBusiness Rate Top up Grant * (52,405)    \nOther Government Grants (38,557)  (9,038)  \nFair Funding Assessment   (163,829)  \nExceptional Financial Support (EFS)   (19,000)  \nPublic Health Grant (19,082)  (21,389)  \nDedicated Schools Grant and Pupil Premium (243,301)  (252,176)  \n  134,499 143,120 \nAdd: Levies 13,457 12,608 \nCouncil Tax Requirement 147,956 155,728",
+          "pageTextSha256": "a05926823052fe96b8dc8518b3b5c61bac6de11b68d13aa898523cb8b6667696"
+        },
+        {
+          "role": "scope2",
+          "page": 4,
+          "quote": "2.1.5 agree that the projected budget (as set out in Appendix 1) for 2026/27 \nof £607.255 million is approved;",
+          "pageTextSha256": "67891a8ee0669f921a49cd4988101bc978127b2705f55a648924ec49df011900"
+        },
+        {
+          "role": "scope3",
+          "page": 4,
+          "quote": "a) Gross Expenditure \n£1,111.208 million – being the aggregate of the amounts which \nthe council estimates for the items in Sections 31A (2) of the Act; \n \nb) Gross Income \n £955.480 million – being the aggregate of the amounts which the \ncouncil estimates for the items in Sections 31A (3) of the Act; \n \nc) Net Expenditure \n £155.728 million – being the amounts by which the aggregate at \n2.1.8(a), exceeds the aggregate at 2.1.8(b) above, calculated by \nthe Council in accordance with Section 31A (4) pf the Act as its \ncouncil tax requirement for the year.",
+          "pageTextSha256": "67891a8ee0669f921a49cd4988101bc978127b2705f55a648924ec49df011900"
+        }
+      ],
+      "review": "Second year column is 2026/27, £000. Includes DSG before grant financing/EFS; £252.176m DSG/Pupil Premium and £21.389m Public Health are below it. Recommendation 2.1.5 is physical PDF page 4, not page 3; corrected. Statutory gross £1,111.208m and Council Tax requirement £155.728m are separate measures.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27"
+        ],
+        "sourceValues": [
+          "523,859",
+          "607,255"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "Total LBWF expenditure"
+      }
+    },
+    {
+      "ons": "E09000032",
+      "council": "Wandsworth",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/wandsworth.pdf",
+      "documentSha256": "9c919ee4ffd8ec6b96270197a2dbd86c7625ae965bf8e82c6e57f7ce96e200b4",
+      "sourceValue": "259.027",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 259027000,
+      "localMeasure": "General Fund net budget requirement after reserves used to balance the budget",
+      "localLocator": "PDF p14, Net Budget Requirement 2026/27 £259.027m; p15 paragraph 50 repeats the amount.",
+      "localNote": "Official annual Council budget publication containing General Fund, Dedicated Schools, HRA and capital material. The headline uses the locally tabulated £259.027m at the source’s precision. No publication/adoption date inferred solely from a download link. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 14,
+          "quote": "Net Budget Requirement 209.950 259.027 319.577 322.021",
+          "pageTextSha256": "b6a16d2c586914cef8c66b7dc45fee490ace7b69b8a0e49fea13e58b2effaeaa"
+        },
+        {
+          "role": "units",
+          "page": 14,
+          "quote": "Use of Balances and Reserves 2025/26 2026/27 2027/28 2028/29 \n  £m £m £m £m",
+          "pageTextSha256": "b6a16d2c586914cef8c66b7dc45fee490ace7b69b8a0e49fea13e58b2effaeaa"
+        },
+        {
+          "role": "year",
+          "page": 14,
+          "quote": "Use of Balances and Reserves 2025/26 2026/27 2027/28 2028/29 \n  £m £m £m £m",
+          "pageTextSha256": "b6a16d2c586914cef8c66b7dc45fee490ace7b69b8a0e49fea13e58b2effaeaa"
+        },
+        {
+          "role": "scope1",
+          "page": 14,
+          "quote": "Council's Net Expenditure  233.093 309.352 321.791 321.936 \nUse of General Fund Working Balance -1.521     \nPlanned use of reserves -6.689 -12.325 -2.214 0.085 \nUse of reserves to balance the budget -14.933 -38.000    \nNet Budget Requirement 209.950 259.027 319.577 322.021",
+          "pageTextSha256": "b6a16d2c586914cef8c66b7dc45fee490ace7b69b8a0e49fea13e58b2effaeaa"
+        },
+        {
+          "role": "scope2",
+          "page": 15,
+          "quote": "50. Overall, this will produce a 2026/27 budget requirement of £259.027m.",
+          "pageTextSha256": "01f09719247edaedd2b6f5ef6287371b234a5b7d5e01e2cae1b975e62c870d5b"
+        }
+      ],
+      "review": "Second year column is 2026/27 £m. Requirement follows £12.325m planned reserve use and £38m balancing reserve use; £309.352m net expenditure is a different pre-reserves line. Paragraph 50 repeats the selected total.",
+      "table": {
+        "columnYears": [
+          "2025-26",
+          "2026-27",
+          "2027-28",
+          "2028-29"
+        ],
+        "sourceValues": [
+          "209.950",
+          "259.027",
+          "319.577",
+          "322.021"
+        ],
+        "selectedIndex": 1,
+        "rowLabel": "Net Budget Requirement"
+      }
+    },
+    {
+      "ons": "E09000033",
+      "council": "Westminster",
+      "status": "verified",
+      "sourceYear": "2026-27",
+      "file": "data/raw/reports/westminster.pdf",
+      "documentSha256": "6ef8f06394e64064f6fe3f551349a7132e614128d4696d8e6ee183e9243d04bf",
+      "sourceValue": "282.666",
+      "sourceScale": 1000000,
+      "sourcePrecisionPounds": 1000,
+      "checkedHeadlinePounds": 282666000,
+      "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p3, recommendation 8: General Fund net budget requirement £282.666m.",
+      "localNote": "Full Council report of 4 March 2026 on Cabinet’s 23 February budget recommendations; the longer business-and-financial-planning Cabinet report is also archived. £282.666m is the report’s local General Fund net budget requirement, not a gross expenditure total. Capital and HRA are separately identified. Not reconciled to RA.",
+      "evidence": [
+        {
+          "role": "amount",
+          "page": 3,
+          "quote": "8) That the proposed General Fund net budget requirement of £282.666m \nsummarised in Appendix 3 is approved.",
+          "pageTextSha256": "f9855e45b39fab7ed2c404266a63fec18f4c73a32ad09befdf178ce98e372ccd"
+        },
+        {
+          "role": "units",
+          "page": 3,
+          "quote": "8) That the proposed General Fund net budget requirement of £282.666m \nsummarised in Appendix 3 is approved.",
+          "pageTextSha256": "f9855e45b39fab7ed2c404266a63fec18f4c73a32ad09befdf178ce98e372ccd"
+        },
+        {
+          "role": "year",
+          "page": 1,
+          "quote": "Business and Financial Planning 2026/27 to 2028/2029 \n \n(a) This report brought together the Council’s business and financial planning and \nlooks forward over the next three years to set out how it will support the \nCouncil’s objectives under the Fairer Westminster strategy, supported by a \nmedium-term financial plan and balanced budget for 2026/27.",
+          "pageTextSha256": "c2d7a623a5905f2b5fa9d887fdd58a34e4049b03b49e829855c57850d5925c2c"
+        },
+        {
+          "role": "scope1",
+          "page": 3,
+          "quote": "9) That £9.84m of the general fund balance and £9.84m of earmarked reserves \nare used to partially fund the budget in 2026/27.",
+          "pageTextSha256": "f9855e45b39fab7ed2c404266a63fec18f4c73a32ad09befdf178ce98e372ccd"
+        }
+      ],
+      "review": "Recommendation 8 is the General Fund net budget requirement in the 2026/27 balanced-budget report, not gross expenditure. The press/website gross number was removed because it is not directly evidenced in the retained PDF."
+    }
+  ]
+}

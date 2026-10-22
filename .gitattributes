@@ -1,0 +1,8 @@
+* text=auto eol=lf
+data/** -text -whitespace
+index.html -text -whitespace
+funding.html -text -whitespace
+methodology.html -text -whitespace
+accounting.html -text -whitespace
+services/** -text -whitespace
+assets/** -text -whitespace

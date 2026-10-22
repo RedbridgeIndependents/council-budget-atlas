@@ -1,0 +1,261 @@
+{
+  "retrieved": "2026-10-21",
+  "methodology": "Directly downloaded official council documents, identified by PDF signature and read with pypdf 6.21.2 from the official py-pdf/pypdf release. Search results were discovery leads only. PDF page numbers below are physical PDF pages, not necessarily printed pagination. Reports are budget-setting documents or annual budget publications, not audited outturn accounts. Separate appendices are not exhaustively archived. Local figures retain their own accounting definitions and are NOT reconciled to MHCLG RA net service expenditure or revenue expenditure; they must not be used in the common RA ranking. A Council agenda report proves the document considered, not that every recommendation survived amendment; adoption/decision context is distinguished in individual notes. Bromley is a summary-publication fallback, not a retrieved full technical report.",
+  "checks": [
+    {
+      "ons": "E09000001", "council": "City of London", "source": "city",
+      "title": "City Fund 2026/27 Budget and Medium-Term Financial Plan", "date": "2026-03-05",
+      "localHeadline": 214600000, "localMeasure": "City Fund net budget requirement (reported as £214.6m)",
+      "localLocator": "PDF p5, recommendation 1.9: City Fund Net Budget Requirement £214.6m.",
+      "note": "Court of Common Council report for 5 March 2026. City Fund covers local government, Police and Port Health services; City’s Estate and City Bridge Foundation are separate funds and separately listed at this meeting. City Fund is therefore not a London-borough-only service perimeter. Not reconciled to RA.",
+      "contexts": ["city_meeting", "city_item"]
+    },
+    {
+      "ons": "E09000002", "council": "Barking and Dagenham", "source": "barking_final",
+      "title": "Budget Framework 2026/27 and Medium Term Financial Strategy 2026/27 to 2030/31", "date": "2026-02-25",
+      "localHeadline": 266000000, "localMeasure": "Net General Fund budget requiring approval, rounded by the report to £266m",
+      "localLocator": "PDF p40, paragraph 21.6: net General Fund budget requiring approval for 2026/27 is £266m.",
+      "note": "Assembly/Full Council budget-setting report of 25 February 2026, with official meeting and agenda-item context. The headline retains the report’s rounded precision; detailed Appendix A is separately published. The initially suggested s183985 PDF was read and rejected: it contained corporate priorities, not the budget. Not reconciled to RA.",
+      "contexts": ["barking_full_meeting", "barking_item", "barking_news"]
+    },
+    {
+      "ons": "E09000003", "council": "Barnet", "source": "barnet",
+      "title": "Business Planning 2026-2031 (Medium Term Financial Strategy) and 2026/27 Budget", "date": "2026-03-05",
+      "localHeadline": 398863858, "localMeasure": "Budget requirement after £79.298009m EFS and other grants, before business rates, Revenue Support Grant and council tax financing",
+      "localLocator": "PDF p16, 2026/27 column: Budget Requirement £398,863,858.",
+      "note": "Full Council report dated 5 March 2026. The revenue summary deducts £79.298009m Exceptional Financial Support before its budget requirement; this is not a simple net service total. Separate appendix set and meeting minutes are not exhaustively archived; no assertion that all draft recommendations survived amendment. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000004", "council": "Bexley", "source": "bexley",
+      "title": "Financial Plans 2026/27", "date": "2026-03-04",
+      "localHeadline": 271950000, "localMeasure": "General Fund budget including £5m contingency provision",
+      "localLocator": "PDF p1, recommendation 1: General Fund Budget £271.950m including Contingency Provision £5.000m.",
+      "note": "Council budget-setting report of 4 March 2026, referring to Public Cabinet on 23 February. Capital programme, treasury management and fees decisions are referenced separately. General Fund headline is not a gross all-services total and is not reconciled to RA; minutes not independently archived.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000005", "council": "Brent", "source": "brent",
+      "title": "Budget and Council Tax 2026/27", "date": "2026-02-23",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Full Council report of 23 February 2026. Main report verifies the General Fund budget, council tax, savings, reserves and capital/treasury package; the detailed revenue totals are in separately published Appendices A and B. No unverified headline inferred from percentage-based summaries. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000006", "council": "Bromley", "source": "bromley",
+      "title": "A guide to your Council Tax 2026/27", "date": null,
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Official adopted-year council-tax/budget booklet, linked from the council’s live 2026/27 council-tax guide. This is a public summary, NOT the full adopted technical revenue/capital budget report. The exact full Council report and committee portal timed out over HTTPS and HTTP; the alternative modernGov host returned 522. The council’s separate £351m online budget figure is explicitly projected/consultation-stage, so it is not used as an adopted headline.",
+      "contexts": ["bromley_guide", "bromley_budget_page", "bromley_future"]
+    },
+    {
+      "ons": "E09000007", "council": "Camden", "source": "camden",
+      "title": "Revenue and Capital Budgets 2026/27", "date": "2026-03-02",
+      "localHeadline": 336126000, "localMeasure": "General Fund net budget, after transfers from earmarked reserves",
+      "localLocator": "PDF p13, GF All Directorates summary, 2026/27 Net Budget £336,126 thousand.",
+      "note": "Official 2026/27 budget book. Introduction identifies the budget for Full Council agreement on 2 March 2026; agreement outcome was not independently checked in minutes. General Fund and HRA are separately tabulated. The headline includes the presentation’s reserves treatment; not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000008", "council": "Croydon", "source": "croydon",
+      "title": "The Council’s Budget 2026-27", "date": "2026-02-25",
+      "localHeadline": 485401000, "localMeasure": "Council net budget requirement",
+      "localLocator": "PDF p3, recommendation 2.8: net budget requirement £485.401m; council tax requirement is separately £288,943,962.",
+      "note": "Final Council budget-setting report, decision date 25 February 2026. Updates the Cabinet package for the final finance settlement and distinguishes net budget requirement from council tax requirement. Much supporting detail is separately published. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000009", "council": "Ealing", "source": "ealing",
+      "title": "2026/27 Budget and Medium Term Financial Strategy", "date": "2026-03-03",
+      "localHeadline": 423529000, "localMeasure": "Net budget requirement before revenue support grant, business rates and council tax financing",
+      "localLocator": "PDF p31, Table 21, 2026/27 Net Budget Requirement £423,529 thousand.",
+      "note": "Budget Strategy Report FINAL linked by the official Council agenda item for 3 March 2026. Directorate and funding tables, savings, reserves and capital plans are described; appendices are separate. A guessed earlier agenda link led to a login page and was not accepted as evidence. Not reconciled to RA.",
+      "contexts": ["ealing_item"]
+    },
+    {
+      "ons": "E09000010", "council": "Enfield", "source": "enfield",
+      "title": "Budget Report 2026/27 and Medium-Term Financial Plan 2026/27 to 2030/31", "date": "2026-02-26",
+      "localHeadline": 438969000, "localMeasure": "General Fund net revenue budget; locally restated methodology closer to Core Spending Power",
+      "localLocator": "PDF p2, recommendation vii: £438.969m; p3 paragraph 10 explains a £21m methodological realignment.",
+      "note": "Council report of 26 February 2026 includes the revenue budget and medium-term plan. The report explicitly attributes part of the year-on-year increase to a changed budget methodology closer to government Core Spending Power, not just additional spending. Not reconciled to RA or other councils’ net budgets.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000011", "council": "Greenwich", "source": "greenwich",
+      "title": "Budget and Council Tax Setting 2026/27", "date": "2026-02-26",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Council budget/council-tax-setting report of 26 February 2026. The accompanying MTFS report is also archived; schools, HRA and capital have separate components. No unverified all-council net figure substituted for the report’s statutory council-tax calculations. Retrieval is independent of Greenwich’s missing MHCLG RA budget return; no RA values imputed.",
+      "contexts": ["greenwich_meeting"]
+    },
+    {
+      "ons": "E09000012", "council": "Hackney", "source": "hackney",
+      "title": "2026/27 Budget and Council Tax Report", "date": "2026-03-04",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Budget report for Cabinet on 2 March and Council on 4 March 2026. Main public report covers General Fund, council tax, reserves and MTFS, with separate appendices and one exempt appendix. Exempt material was not sought. No total inferred by adding differently scoped service summaries. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000013", "council": "Hammersmith and Fulham", "source": "hammersmith_final",
+      "title": "Revenue Budget and Council Tax Levels 2026/27", "date": "2026-02-25",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Full Council version dated 25 February 2026, not the earlier 9 February Cabinet paper. Revenue budget, funding reforms, savings and directorate gross/net summaries checked. The capital strategy and HRA are separate reports. No borough-wide budget inferred from rounded directorate figures; not reconciled to RA.",
+      "contexts": ["hammersmith_council"]
+    },
+    {
+      "ons": "E09000014", "council": "Haringey", "source": "haringey",
+      "title": "2026/27 Budget and 2026/2031 Medium Term Financial Strategy Report", "date": "2026-03-02",
+      "localHeadline": 353027000, "localMeasure": "General Fund budget requirement net of Dedicated Schools Budget, after the report’s EFS/savings treatment",
+      "localLocator": "PDF p5, recommendation 3.1(c): £353.027m; p8 corrects an earlier Cabinet table and updates the final settlement.",
+      "note": "Full Council final report of 2 March 2026, with Cabinet annex and official agenda context archived. The Council report corrects the earlier Cabinet budget requirement and changes funding assumptions; do not use the superseded £343.4m table. Exceptional Financial Support/savings treatment affects the local perimeter. Not reconciled to RA.",
+      "contexts": ["haringey_page"]
+    },
+    {
+      "ons": "E09000015", "council": "Harrow", "source": "harrow",
+      "title": "Final Revenue Budget 2026/27 and Medium Term Financial Strategy to 2028/29", "date": "2026-02-26",
+      "localHeadline": null, "localMeasure": null,
+      "localLocator": null,
+      "note": "Final Cabinet report for 19 February 2026, included in the Full Council budget-setting item on 26 February. Release-gate PDF recheck found that paragraph 1.05’s £215m net revenue budget explicitly refers to 2025/26, NOT 2026/27. That previously transcribed headline is withdrawn. No 2026/27 total independently verified in this report; the revenue summary is a separate appendix. HRA and capital programme are separate budget items. Not reconciled to RA.",
+      "contexts": ["harrow_meeting", "harrow_item"]
+    },
+    {
+      "ons": "E09000016", "council": "Havering", "source": "havering",
+      "title": "2026/27 Council Budget Report and Medium Term Financial Strategy", "date": "2026-03-04",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "The main Cabinet budget report is archived together with the Full Council covering report for 4 March 2026. The package separates General Fund, delegated schools, HRA and capital and discusses Exceptional Financial Support. A single unreconciled headline is withheld rather than confusing council-tax requirement, EFS and budget totals. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000017", "council": "Hillingdon", "source": "hillingdon_full",
+      "title": "2026/27 Budget and Medium-Term Financial Strategy", "date": "2026-02-26",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Full main Cabinet report of 19 February, subsequently referred to Budget Council on 26 February 2026; Council recommendations and official Council meeting context are archived. A one-page procedural cover was not mistaken for the substantive budget. The balanced General Fund budget relies on planned Exceptional Financial Support subject to government approval. Not reconciled to RA.",
+      "contexts": ["hillingdon_meeting", "hillingdon_cabinet"]
+    },
+    {
+      "ons": "E09000018", "council": "Hounslow", "source": "hounslow",
+      "title": "Budget 2026/27", "date": "2026-03-03",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Full Cabinet budget report from 10 February 2026, expressly included in the Borough Council budget-setting meeting on 3 March; the Council reference report is also archived. General Fund, HRA and capital are separately presented. The £158.437m council-tax requirement is funding, not a total spending budget, so is not used as a spending headline. Not reconciled to RA.",
+      "contexts": ["hounslow_meeting"]
+    },
+    {
+      "ons": "E09000019", "council": "Islington", "source": "islington_final",
+      "title": "Budget Proposals 2026/27 and Medium-Term Financial Strategy", "date": "2026-02-26",
+      "localHeadline": 373360000, "localMeasure": "General Fund net budget requirement after specific grants and fees/charges, before taxation and non-specific grants",
+      "localLocator": "PDF p8, paragraphs 1.50–1.51: definition and General Fund Net Budget Requirement £373.360m; p9 Table 1.",
+      "note": "Final Full Council report of 26 February 2026, replacing the earlier Executive paper. Document explicitly defines its net budget requirement; HRA and capital programme have separate sections. Not reconciled to RA.",
+      "contexts": ["islington_council"]
+    },
+    {
+      "ons": "E09000020", "council": "Kensington and Chelsea", "source": "kensington_final",
+      "title": "Revenue Budget, Capital Programme and Council Tax 2026/27", "date": "2026-02-25",
+      "localHeadline": null, "localMeasure": null, "localLocator": null,
+      "note": "Council-published budget report and appendices, attached to the 25 February Full Council meeting. The official 26 February news publication directly confirms approval on 25 February. This General Fund/capital package is separate from the HRA budget/business plan. No headline copied from consultation-stage or press summaries; not reconciled to RA.",
+      "contexts": ["kensington_council", "kensington_page", "kensington_budget"]
+    },
+    {
+      "ons": "E09000021", "council": "Kingston upon Thames", "source": "kingston_final",
+      "title": "Budget Report 2026/27–2029/30", "date": "2026-02-26",
+      "localHeadline": 205702000, "localMeasure": "Gross budget requirement in the MTFS, before parking/traffic reserves and specific grants; not gross all-council expenditure",
+      "localLocator": "PDF p20, MTFS 2026/27 column: Gross Budget Requirement £205,702 thousand, followed by separate parking/reserve and specific-grant resources.",
+      "note": "Final Budget Council report of 26 February 2026, not the earlier draft Corporate Resources budget pack. The table’s locally named gross budget requirement excludes separate schools/HRA and has its own grant/reserve treatment. It is not equivalent to MHCLG gross service expenditure or net service expenditure; not reconciled to RA.",
+      "contexts": ["kingston_council", "kingston_item"]
+    },
+    {
+      "ons": "E09000022", "council": "Lambeth", "source": "lambeth",
+      "title": "Revenue and Capital Budget 2026/27 and Medium-Term Financial Strategy 2026/27 to 2029/30", "date": "2026-03-04",
+      "localHeadline": 471852000, "localMeasure": "Total expenditure in Resources and Budget table, after £20m Exceptional Financial Support is deducted",
+      "localLocator": "PDF p9, Table 2: TOTAL EXPENDITURE £471.852m after savings £46.580m and EFS £20m.",
+      "note": "Full Council report of 4 March 2026; official agenda/decision context and addendum archived. The report places EFS as a reduction in its expenditure bridge and identifies Public Health separately from General Fund spending; the headline is that exact local presentation, not net service expenditure. Not reconciled to RA.",
+      "contexts": ["lambeth_meeting", "lambeth_item"]
+    },
+    {
+      "ons": "E09000023", "council": "Lewisham", "source": "lewisham_final",
+      "title": "Council Budget 2026/27", "date": "2026-03-04",
+      "localHeadline": 425799000, "localMeasure": "General Fund revenue budget aligned to the report’s Core Spending Power basis",
+      "localLocator": "PDF p2, executive summary: Core Spending Power, and therefore General Fund Revenue Budget, £425.799m.",
+      "note": "Final Full Council report of 4 March 2026. The £425.799m figure is checked directly in this final report, rather than relying on an earlier Mayor and Cabinet proposal. The report expressly restates the budget onto a Core Spending Power basis, including rolled-in grants; this must not be labelled RA net service expenditure or compared directly with other local definitions.",
+      "contexts": ["lewisham_meeting"]
+    },
+    {
+      "ons": "E09000024", "council": "Merton", "source": "merton",
+      "title": "Budget Book 2026–2030", "date": null,
+      "localHeadline": 227709000, "localMeasure": "2026/27 budget requirement before Fair Funding, business rates and council tax financing",
+      "localLocator": "PDF p29, Council Tax calculation table, 2026/27 Budget Requirement £227.709m.",
+      "note": "Official annual detailed budget book covering 2026/27 revenue estimates, MTFS, capital, treasury, savings and fees. Downloaded from the council’s August 2026 publication path; no exact publication/adoption date inferred solely from that path. Accounting perimeter and grant/reserve treatment are local; not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000025", "council": "Newham", "source": "newham_final",
+      "title": "Final Budget 2026/27, Council Tax 2026/27 and MTFS 2026/27–2030/31", "date": "2026-02-26",
+      "localHeadline": 520897000, "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p5, recommendation 2.20: General Fund Net Budget requirement £520.897m.",
+      "note": "Actual final Council budget-setting report from the verified 26 February 2026 meeting, together with main Cabinet supporting report. The initial search-derived meeting ID was wrong and was rejected after direct checking. Document labels the date 26 February but incorrectly calls it Tuesday; the official calendar confirms Thursday 26 February. Not reconciled to RA.",
+      "contexts": ["newham_actual_meeting"]
+    },
+    {
+      "ons": "E09000026", "council": "Redbridge", "source": "redbridge_budget_report",
+      "title": "Revenue and Capital Budget and Council Tax 2026/27 and MTFS 2026/27–2030/31", "date": "2026-03-05",
+      "localHeadline": 314896000, "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p3, recommendation 2.2.9: proposed General Fund net budget requirement £314.896m.",
+      "note": "Budget Council report dated 5 March 2026. The local General Fund budget excludes the separately identified £453.664m schools budget and has local funding/reserve treatment. It is neither the news item’s Core Spending Power (funding) nor the MHCLG RA service/revenue totals. Not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000027", "council": "Richmond upon Thames", "source": "richmond",
+      "title": "Budget Book 2026/27", "date": null,
+      "localHeadline": 220197000, "localMeasure": "Net expenditure after use of balances and reserves, before Collection Fund and taxation/grant financing",
+      "localLocator": "PDF p17, Council Tax 2026/27 table: Net Expenditure after use of balances and reserves £220.197m.",
+      "note": "Official annual budget book linked by the council’s budgets-and-spending publication page. Revenue budget, MTFS and capital programme are included. No exact publication/adoption date asserted without a directly checked dated decision. The headline retains the book’s reserves treatment; not reconciled to RA.",
+      "contexts": ["richmond_page"]
+    },
+    {
+      "ons": "E09000028", "council": "Southwark", "source": "southwark_final",
+      "title": "Policy and Resources Strategy Report: 2026–27 Budget and Medium Term Financial Strategy", "date": "2026-02-25",
+      "localHeadline": 533570000, "localMeasure": "MTFS total budget before £7m additional transformation savings, reported to £0.01m; not the final balanced total",
+      "localLocator": "PDF p4, Table 2, 2026/27 TOTAL BUDGET £533.57m.",
+      "note": "Council Assembly final report of 25 February 2026, replacing the earlier 2 February Cabinet report. Table 2’s £533.57m TOTAL BUDGET is before £7m transformation savings; TOTAL RESOURCES is £526.57m after reserves contributions. HRA and council-tax-setting are separate items. Neither figure is reconciled to RA net service or revenue expenditure.",
+      "contexts": ["southwark_meeting", "southwark_item"]
+    },
+    {
+      "ons": "E09000029", "council": "Sutton", "source": "sutton",
+      "title": "Medium Term Financial Plan 2026/27–2028/29", "date": "2026-03-02",
+      "localHeadline": 222088000, "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p1, recommendation 2.1: General Fund Net Budget Requirement £222.088m.",
+      "note": "Budget Council report for 2 March 2026, signed 18 February. It updates the Strategy and Resources Committee recommendations and refers to the updated detailed revenue appendix, HRA and capital programme. Minutes not independently archived; not reconciled to RA.",
+      "contexts": []
+    },
+    {
+      "ons": "E09000030", "council": "Tower Hamlets", "source": "towerhamlets",
+      "title": "The Council’s 2026–27 Budget Report and Medium Term Financial Strategy 2026–29", "date": "2026-02-25",
+      "localHeadline": 497797000, "localMeasure": "General Fund revenue budget",
+      "localLocator": "PDF p2, recommendation 1: General Fund Revenue Budget £497.797m.",
+      "note": "Council budget-setting report of 25 February 2026, linked by the official agenda/decision item. General Fund budget, council tax and Section 25 robustness statement checked; capital, treasury and supporting appendices are separately referenced. Not reconciled to RA.",
+      "contexts": ["towerhamlets_page"]
+    },
+    {
+      "ons": "E09000031", "council": "Waltham Forest", "source": "walthamforest_final",
+      "title": "Budget and Council Tax Setting 2026/27", "date": "2026-02-26",
+      "localHeadline": 607255000, "localMeasure": "Projected council budget / Total LBWF expenditure including DSG, before specific-grant financing and EFS",
+      "localLocator": "PDF p2, summary table, Total LBWF expenditure £607,255 thousand; p4 recommendation 2.1.5 approves £607.255m.",
+      "note": "Final Council report of 26 February 2026, replacing the earlier Cabinet paper. The £607.255m summary includes DSG; £252.176m DSG/Pupil Premium and £21.389m Public Health grant are deducted below it. It is not statutory gross expenditure of £1,111.208m or the £155.728m council-tax requirement. EFS is financing below the local total. Not reconciled to RA.",
+      "contexts": ["walthamforest_council"]
+    },
+    {
+      "ons": "E09000032", "council": "Wandsworth", "source": "wandsworth",
+      "title": "Council Budget 2026/27", "date": null,
+      "localHeadline": 259027000, "localMeasure": "General Fund net budget requirement after reserves used to balance the budget",
+      "localLocator": "PDF p14, Net Budget Requirement 2026/27 £259.027m; p15 paragraph 50 repeats the amount.",
+      "note": "Official annual Council budget publication containing General Fund, Dedicated Schools, HRA and capital material. The headline uses the locally tabulated £259.027m at the source’s precision. No publication/adoption date inferred solely from a download link. Not reconciled to RA.",
+      "contexts": ["wandsworth_page"]
+    },
+    {
+      "ons": "E09000033", "council": "Westminster", "source": "westminster",
+      "title": "Report of Cabinet: Business and Financial Planning 2026/27 to 2028/29", "date": "2026-03-04",
+      "localHeadline": 282666000, "localMeasure": "General Fund net budget requirement",
+      "localLocator": "PDF p3, recommendation 8: General Fund net budget requirement £282.666m.",
+      "note": "Full Council report of 4 March 2026 on Cabinet’s 23 February budget recommendations; the longer business-and-financial-planning Cabinet report is also archived. £282.666m is the report’s local General Fund net budget requirement, not a gross expenditure total. Capital and HRA are separately identified. Not reconciled to RA.",
+      "contexts": ["westminster_item"]
+    }
+  ]
+}

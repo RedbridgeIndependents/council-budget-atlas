@@ -1,0 +1,461 @@
+{
+  "methodology": "Directly downloaded official council documents, identified by PDF signature and read with pypdf 6.21.2 from the official py-pdf/pypdf release. Search results were discovery leads only. PDF page numbers below are physical PDF pages, not necessarily printed pagination. Reports are budget-setting documents or annual budget publications, not audited outturn accounts. Separate appendices are not exhaustively archived. Local figures retain their own accounting definitions and are NOT reconciled to MHCLG RA net service expenditure or revenue expenditure; they must not be used in the common RA ranking. A Council agenda report proves the document considered, not that every recommendation survived amendment; adoption/decision context is distinguished in individual notes. Bromley is a summary-publication fallback, not a retrieved full technical report.",
+  "reports": {
+    "E09000001": {
+      "documentSha256": "4186f62d16026a0c7a76e6dbda9685c01647b2b06b2dca4278c8ad4288292476",
+      "textFile": "data/provenance/reports_text/city.txt",
+      "textSha256": "322bdf18445badbd48361c0cac910622a7bedbdf3ba216511c1a9c4439480db5",
+      "pdfPages": 42,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\nITEM 7(A) \nReport – Finance Committee \nCity Fund 2026/27 Budget and Medium-Term Financial \nPlan \nTo be presented on Thursday, 5th March 2026 \nTo the Right Honourable The Lady Mayor, Aldermen and Commons  \nof the City",
+      "contexts": [
+        {
+          "url": "https://democracy.cityoflondon.gov.uk/ieListDocuments.aspx?CId=223&MId=25159&Ver=4",
+          "file": "data/provenance/reports_context/city_meeting.html",
+          "sha256": "7f5faf07a8d590f3481952bc4d95377701f77cf97537fd25b13aae69742c9acc"
+        },
+        {
+          "url": "https://democracy.cityoflondon.gov.uk/mgAi.aspx?ID=171028",
+          "file": "data/provenance/reports_context/city_item.html",
+          "sha256": "4f46e7a84b29ae8566bd61cf9d9f3b397aad0499d623e81f6ad9a1ceb35826f7"
+        }
+      ]
+    },
+    "E09000002": {
+      "documentSha256": "63e9b653065f8a870d855205426ed8b9cdf5b76fd908addfe455c1dcd7ce5900",
+      "textFile": "data/provenance/reports_text/barking_final.txt",
+      "textSha256": "42338e6717f3bd93a1e7574df488fd0c886c4ecb07710df53475090a8f2de308",
+      "pdfPages": 43,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n \n \nASSEMBLY \n \n25 February 2026 \n \nTitle: Budget Framework 2026/27 and Medium Term Financial Strategy 2026/27 to \n2030/31 \n \nReport of the Leader of the Council \n \nOpen Report \n \nFor Decision \nWards Affected: All \n \nKey Decisi",
+      "contexts": [
+        {
+          "url": "https://lbbd.moderngov.co.uk/ieListDocuments.aspx?CId=179&MId=13704&Ver=4",
+          "file": "data/provenance/reports_context/barking_full_meeting.html",
+          "sha256": "e5f4d380a6a9ac5bffd294d9a856ecb04a7844aca707bcbd491c9c79b65b2435"
+        },
+        {
+          "url": "https://lbbd.moderngov.co.uk/mgAi.aspx?ID=100799",
+          "file": "data/provenance/reports_context/barking_item.html",
+          "sha256": "5a8a5e50962fb9f623cdb371b13a2f894f00955a60b90e77843aded1e55e5c19"
+        },
+        {
+          "url": "https://www.lbbd.gov.uk/news/2026/barking-and-dagenham-council-agrees-202627-budget-protect-key-services-and-invest",
+          "file": "data/provenance/reports_context/barking_news.html",
+          "sha256": "350da494128575ef36c690617879741cb6563447815e96f18c87a32004297f87"
+        }
+      ]
+    },
+    "E09000003": {
+      "documentSha256": "209dcad24901b2408483aa12d8dd38f20c10507b4e5acf89c39e674f571ea0ae",
+      "textFile": "data/provenance/reports_text/barnet.txt",
+      "textSha256": "1ec3768225ace8d9b269ed706079fd7dfc3dd1eb13f21ac80c5ba06f409343cb",
+      "pdfPages": 40,
+      "yearExcerpt": "l \n \n \nTitle  Business Planning 2026-2031 (Medium Term Financial \nStrategy) and 2026/27 Budget \nDate of meeting 5th March 2026 \nReport of Councillor Simon Radford – Cabinet Member for \nFinancial Sustainability \nWards All \nStatus Public \nKey Key \nU",
+      "contexts": []
+    },
+    "E09000004": {
+      "documentSha256": "f4267045a760b4539977ae36c523be65702691967d2ac4e8faabf669c559a0e5",
+      "textFile": "data/provenance/reports_text/bexley.txt",
+      "textSha256": "ac85a8150c4a268e72c0f0222afcba2eb970aa65c68e509eab7db1befe0d044c",
+      "pdfPages": 11,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n \n \nCOUNCIL MEETING – 4 MARCH 2026 \nFINANCIAL PLANS 2026/27 \n1. INTRODUCTION  \n1.1. A full update on the 2026/27 Financial Plans including the Draft Budget, Capital \nProgramme, Capital Strategy, Treasury Management Stra",
+      "contexts": []
+    },
+    "E09000005": {
+      "documentSha256": "4582cc49834d9b7c1bec44ad187f2ef9069e251b55558fb64dd404ca11259364",
+      "textFile": "data/provenance/reports_text/brent.txt",
+      "textSha256": "0a50181b926c3a6fced5a26bfc702c98137c8a2d0a57463cb433cd5c48f68bcf",
+      "pdfPages": 79,
+      "yearExcerpt": "er \nfor Finance and Resources  \n(Councillor Mili Patel) \nBudget and Council Tax 2026/27 \n \nWards Affected:  All \nKey or Non-Key Decision:  Council \nOpen or Part/Fully Exempt: \n(If exempt, please highlight relevant paragraph \nof Part 1, Schedule 12",
+      "contexts": []
+    },
+    "E09000006": {
+      "documentSha256": "df7311018e287b782f0131994208226a9a64988ac9a35789c9a47ee23075c4b0",
+      "textFile": "data/provenance/reports_text/bromley.txt",
+      "textSha256": "49b60f0d5d3011fa083317f3865737bd4f535c86b7c13dc594b3c09befd08380",
+      "pdfPages": 8,
+      "yearExcerpt": "AGE 1 ===\nOUR\ny e romlB\nH GOUR ST BOE BS ’ LONDON\nA GUIDE TO YOUR  \nCOUNCIL TAX 2026/27\nDelivering for  Bromley\n•  Transforming libraries and leisure centres\n•  £29m saved this year with even more eff icient services\n•  Half of waste recycled as w",
+      "contexts": [
+        {
+          "url": "https://www.bromley.gov.uk/council-tax/council-tax-guide",
+          "file": "data/provenance/reports_context/bromley_guide.html",
+          "sha256": "8a69191c9c1f13d6c035bedbc14dd8a31b8e529fbd4ca83345a61cad822ed5b0"
+        },
+        {
+          "url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627",
+          "file": "data/provenance/reports_context/bromley_budget_page.html",
+          "sha256": "24869a5cc29808a643dafadab51fcb04267ea741587526c70e15c079d9c5afe0"
+        },
+        {
+          "url": "https://www.bromley.gov.uk/council-democracy/council-budget-202627/2",
+          "file": "data/provenance/reports_context/bromley_future.html",
+          "sha256": "dc327cf30d7c82e37ac7049f47733a48a8eaac3a716e81ff063f2bfc125400ac"
+        }
+      ]
+    },
+    "E09000007": {
+      "documentSha256": "0aef495333a1e54117ac2324ea462b1ffdb35da7096f4d2d2f19a77270062589",
+      "textFile": "data/provenance/reports_text/camden.txt",
+      "textSha256": "f51bad07f4ed80178e0d470ba5e350ce40d839402b45548231cd3c8a948a9e7d",
+      "pdfPages": 75,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\nRevenue & Capital Budgets\nLondon Borough of Camden\n2026/27\n1\n\n=== PDF PAGE 2 ===\nThis document sets out the London Borough of Camden’s revenue and capital budgets for 2026/27 in a summarised \nformat, together with othe",
+      "contexts": []
+    },
+    "E09000008": {
+      "documentSha256": "cc2281bf31f5ef701da752932e33bb691dfc28995475fb6b3f20677209243ed1",
+      "textFile": "data/provenance/reports_text/croydon.txt",
+      "textSha256": "52a1311744cfd60f373f7bfcd0356c0fee3f568ae253913455d01a14f62e6ff3",
+      "pdfPages": 7,
+      "yearExcerpt": " \n \nDATE OF DECISION: 25 February 2026 \n \nREPORT TITLE: \n \nThe Council’s Budget 2026-27 \n \nCORPORATE \nDIRECTOR / \nDIRECTOR:  \n \nElaine Jackson, Interim Chief Executive \nConrad Hall, Corporate Director of Resources \n(Section 151 Officer) \n \nLEAD OF",
+      "contexts": []
+    },
+    "E09000009": {
+      "documentSha256": "79c58b60dae30f4ca9178c73a9e3930530279c973ec57bcdb66f53de3f55ab4d",
+      "textFile": "data/provenance/reports_text/ealing.txt",
+      "textSha256": "6e23eae36fd9ec95b26821ad2700246bdd3b94fcf344b253421fd37f02dd5373",
+      "pdfPages": 53,
+      "yearExcerpt": "te:   11 February 2026  \n \nSubject:   Budget and Medium-Term Financial Strategy 2026/27 to 2029/30 \n \nReport of:  Councillor Steve Donnelly, Cabinet Member for Inclusive Economy \n \nReport authors: Andre Mark, Director of Finance \nEmma Horner, Assi",
+      "contexts": [
+        {
+          "url": "https://ealing.moderngov.co.uk/mgAi.aspx?ID=6594",
+          "file": "data/provenance/reports_context/ealing_item.html",
+          "sha256": "a5ede22e9494ca78ae552b6b4a3f795786a0df2930d31826e6da80da91cd308c"
+        }
+      ]
+    },
+    "E09000010": {
+      "documentSha256": "40a67e9ede1075e67801a761503f1212b49b6566b4a17cd00bcf1f2787e5a427",
+      "textFile": "data/provenance/reports_text/enfield.txt",
+      "textSha256": "f13323409c94a50f96e90428d27aba053804fea16488aeca944d89376a7cec64",
+      "pdfPages": 199,
+      "yearExcerpt": " \n \n \n \n \n \n \n \n \n \n \nLondon Borough of Enfield \n \n \nReport Title Budget Report 2026/27 and Medium-Term Financial \nPlan 2026/27 to 2030/31 \nDecision Taker/ \nCommittee \nCouncil \nReport Author Neil Goddard, neil.goddard@enfield.gov.uk \nWard(s) affec",
+      "contexts": []
+    },
+    "E09000011": {
+      "documentSha256": "aa533f7406869c281f042267711a87a8d94dffbad1f8e26f925b94c43c875b06",
+      "textFile": "data/provenance/reports_text/greenwich.txt",
+      "textSha256": "d0a6995160f0d90706f079ec8ebe81457ad5a9fc92d85da833e5a690809e0507",
+      "pdfPages": 22,
+      "yearExcerpt": " requested to recommend to Council to agree: \n \n1.1 that the Council budget for 2026/27 as set out in the report be approved  \n \n1.2 a 2.99% increase in the borough element of council tax in support of service \ndelivery pressures \n \n1.3 an Adult S",
+      "contexts": [
+        {
+          "url": "https://committees.royalgreenwich.gov.uk/ieListDocuments.aspx?CId=151&MId=2646&Ver=4",
+          "file": "data/provenance/reports_context/greenwich_meeting.html",
+          "sha256": "94ac0a404e5eff87fcdbcb91a1f71f70d43181d77a807df2cbf6c0d3bc847c0e"
+        }
+      ]
+    },
+    "E09000012": {
+      "documentSha256": "ab0cccb7e7c2cb09bf97e8662e6e061ccd6799bf193699573932f258e33f1d06",
+      "textFile": "data/provenance/reports_text/hackney.txt",
+      "textSha256": "95fb4171ff2834f17150f6f1b34e4224601df6f8722c78e35ed21e4c86341f00",
+      "pdfPages": 60,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n \n \n \n \nTitle\n \nof\n \nReport\n \n2026/27\n \nBudget\n \nand\n \nCouncil\n \nTax\n \nReport\n \nKey\n \nDecision\n \nNo\n \nFCR\n \nS532\n \nFor\n \nConsideration\n \nBy\n \nCabinet\n \nand\n \nCouncil\n \nMeeting\n \nDate\n \nCabinet\n \n2\n",
+      "contexts": []
+    },
+    "E09000013": {
+      "documentSha256": "f7fdd0066a08544f45ab502bdf8736359107f4e39584a9ca9129926578e67897",
+      "textFile": "data/provenance/reports_text/hammersmith_final.txt",
+      "textSha256": "d0eb7a7723d621e6865aab1f198456e08c8a33dd61205dfe4c542d663353e8bd",
+      "pdfPages": 41,
+      "yearExcerpt": "l Council \n \nDate: 25/02/2026 \n \nSubject: Revenue Budget and Council Tax Levels 2026/27 \n \nReport of: Councillor Rowan Ree, Cabinet Member for Finance and Reform   \n \nAuthor: Elizabeth Nash, Principal Accountant (Revenue Planning) \nJames Newman, A",
+      "contexts": [
+        {
+          "url": "https://democracy.lbhf.gov.uk/ieListDocuments.aspx?CId=114&MId=7895&Ver=4",
+          "file": "data/provenance/reports_context/hammersmith_council.html",
+          "sha256": "b55591da6a8a43023d11a4593215d1b023d146ebc3a993c4d2039dcb65c92d9e"
+        }
+      ]
+    },
+    "E09000014": {
+      "documentSha256": "f408c33123c41ae5f30dcac58a0d2bf8e914811f4bd80d10f0cb595a19c2a44e",
+      "textFile": "data/provenance/reports_text/haringey.txt",
+      "textSha256": "72e8690f3bc12fbaa2e80368e296915e08a07e2ba4281f9fb5283adb2ad5af34",
+      "pdfPages": 15,
+      "yearExcerpt": "DF PAGE 1 ===\nReport for:  Full Council 2 March 2026 \n \nItem number:  \n \nTitle: 2026/27 Budget and 2026/2031 Medium Term Financial \nStrategy Report \n \nReport  \nauthorised by:  Taryn Eves, Corporate Director of Finance and Resources  \n   (Section 1",
+      "contexts": [
+        {
+          "url": "https://www.minutes.haringey.gov.uk/mgAi.aspx?ID=85016",
+          "file": "data/provenance/reports_context/haringey_page.html",
+          "sha256": "3973c7a0603582cf0064595c67e61fb3b9d16167e7f1b7072e68b90b10237b9b"
+        }
+      ]
+    },
+    "E09000015": {
+      "documentSha256": "1721e9373e7516ae71c7118d02a9362a8ab2d936653e0a899b80157937db264b",
+      "textFile": "data/provenance/reports_text/harrow.txt",
+      "textSha256": "500548f8f3b07cf4cf5901619cda0bd7068445fa18d69c3204d42f9d729a82cf",
+      "pdfPages": 42,
+      "yearExcerpt": " CABINET \nDate of Meeting: 19 February 2026 \n \nSubject: \n \nFinal Revenue Budget 2026/27 and Medium Term \nFinancial Strategy to 2028/29 \n \nKey Decision:  \n \nYes \n \nResponsible \nOfficer: \n \nSharon Daniels – Strategic Director of Finance (S151 \nOffic",
+      "contexts": [
+        {
+          "url": "https://moderngov.harrow.gov.uk/ieListDocuments.aspx?CId=288&MId=66223&Ver=4",
+          "file": "data/provenance/reports_context/harrow_meeting.html",
+          "sha256": "b30d919de5abcfac44fff428a9bc9a29fb2892d43e5bfffa35a4841679b6b1a3"
+        },
+        {
+          "url": "https://moderngov.harrow.gov.uk/mgAi.aspx?ID=141375",
+          "file": "data/provenance/reports_context/harrow_item.html",
+          "sha256": "f6b1ee6649d5b4ee595fa657151a715b3debb4f628addf542cb82441d2e3c507"
+        }
+      ]
+    },
+    "E09000016": {
+      "documentSha256": "a6f6cc7944881e8eb11a6167b807119b4b7bc9458151452ad8ddf58f1175d2cb",
+      "textFile": "data/provenance/reports_text/havering.txt",
+      "textSha256": "6338ef595fdf308e17bf76d98b2b30dec8f2ad4521f054b39605bfa08111ee86",
+      "pdfPages": 29,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n \nCABINET \n \n \nSubject Heading: \n \n2026/27 Budget and 2026-2029 Medium \nTerm Financial Strategy \n \nCabinet Member: \n Councillor Chris Wilkins (Cabinet Member for Finance)  \nELT Lead: \n \nKathy Freeman \nS",
+      "contexts": []
+    },
+    "E09000017": {
+      "documentSha256": "a3b4d9f764646d7b1bd96893b3061c4b4a3b0043e1a6d553673cfb296d6f1dad",
+      "textFile": "data/provenance/reports_text/hillingdon_full.txt",
+      "textSha256": "95af1a43ef9d2dffcf73b70fa0a0502e0ce9938f9abf131127e8fa20dcc80227",
+      "pdfPages": 46,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n   \n \n \nCabinet – 19 February 2026   \n(Part 1 Public) \n \n2026/27 BUDGET AND MEDIUM-TERM FINANCIAL STRATEGY \n \nCabinet Member & \nPortfolio  \n Cllr Eddie Lavery,  \nCabinet Member for Finance and Transformation \n   \nResponsible",
+      "contexts": [
+        {
+          "url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=117&MId=4969",
+          "file": "data/provenance/reports_context/hillingdon_meeting.html",
+          "sha256": "9c6c31199ae8af45cec425d014a7fc6727a50b3d7030d30c7da0cb05a026c169"
+        },
+        {
+          "url": "https://modgov.hillingdon.gov.uk/ieListDocuments.aspx?CId=115&MId=5061",
+          "file": "data/provenance/reports_context/hillingdon_cabinet.html",
+          "sha256": "85b4ba9c43307d31a48311dba0b49177c94ea3ef21182e602372f2d9287c65dd"
+        }
+      ]
+    },
+    "E09000018": {
+      "documentSha256": "ac529456fb2639100b4d71ed52b6ab45b67b52667a5bdb6aa4390c41305e8dbf",
+      "textFile": "data/provenance/reports_text/hounslow.txt",
+      "textSha256": "6ab6b0ca2c07955b77021012ec3e32355aba5e4909ca78fea9d5a5ce7b175796",
+      "pdfPages": 54,
+      "yearExcerpt": "ential or \nExempt Information \nN \nCabinet Key Decision Y \n \nReport Title Budget 2026/27 \n \nMember Reporting Councillor Shantanu Rajawat \nLeader of the Council and Cabinet Member for Strategy, \nResources and External Affairs \n \nContact Details Jake",
+      "contexts": [
+        {
+          "url": "https://democraticservices.hounslow.gov.uk/ieListDocuments.aspx?MId=13613",
+          "file": "data/provenance/reports_context/hounslow_meeting.html",
+          "sha256": "0196eb896c24327e70c05ac7af3ca071eb631f077886a69bfc6a4cdb82ac5018"
+        }
+      ]
+    },
+    "E09000019": {
+      "documentSha256": "64d738fbebeb6b6c451fda575829760db14805f477f8a5c529652e36fc00d68c",
+      "textFile": "data/provenance/reports_text/islington_final.txt",
+      "textSha256": "e3602b95ba5955d1945e771b402f18a96285aea22cf479bc3c48e2a30c985251",
+      "pdfPages": 66,
+      "yearExcerpt": "ll \nReport of: Executive Member for Finance and Performance \n \nBudget Proposals 2026/27 and Medium-Term \nFinancial Strategy  \n1. Introduction \n1.1. Islington is an exciting, diverse, and vibrant place to live, filled with incredible opportunities.",
+      "contexts": [
+        {
+          "url": "https://democracy.islington.gov.uk/ieListDocuments.aspx?CId=134&MId=5285&Ver=4",
+          "file": "data/provenance/reports_context/islington_council.html",
+          "sha256": "3256adf35450eacd8e00ddd81e58e54e68e395f78038bdeb8721d2a81425856c"
+        }
+      ]
+    },
+    "E09000020": {
+      "documentSha256": "958e248e0461d9fec408aede9a2212bce7d085c9fc5dcb777c719fabc0185f37",
+      "textFile": "data/provenance/reports_text/kensington_final.txt",
+      "textSha256": "849d3516a59802a0c4f8d7cd39bf411384c07496187f5b3474137f18b85ffbd3",
+      "pdfPages": 376,
+      "yearExcerpt": "KEY DECISION  \nReport Title: REVENUE BUDGET, CAPITAL \nPROGRAMME AND COUNCIL TAX 2026/27 \nDate: 10 February 2026 \n \nDecision Maker  Leadership Team \nReporting Officer Mike Curtis – Executive Director of Resources \nKey Decision KD1012893 \nAccess to ",
+      "contexts": [
+        {
+          "url": "https://rbkc.moderngov.co.uk/Committees/ieListDocuments.aspx?CId=175&MId=4176&Ver=4",
+          "file": "data/provenance/reports_context/kensington_council.html",
+          "sha256": "e5c190809e4bcc83aac2528a0ba954d64b75603cfcd410470098c93c0c1e5198"
+        },
+        {
+          "url": "https://www.rbkc.gov.uk/newsroom/council-approves-forward-looking-budget-2026-2027",
+          "file": "data/provenance/reports_context/kensington_page.html",
+          "sha256": "a6b9541710be1730bb23a6985887f7de819aaf1340055ac837d7b707d78b962c"
+        },
+        {
+          "url": "https://www.rbkc.gov.uk/council-tax/guide-council-tax-benefits-and-business-rates/your-council-tax-and-business-rates-2026-2027-and-our-performance-and-spending-plans/rbkcs-budget-and-council-tax-requirement-2026-2027",
+          "file": "data/provenance/reports_context/kensington_budget.html",
+          "sha256": "9326371c41b59380aa4d2bd326b17e833eaa83912352752d0931b14532efdf61"
+        }
+      ]
+    },
+    "E09000021": {
+      "documentSha256": "3a0813f0923480e068cb737b5fd1c3c34b36a5300398ddbaf6039aba7672cd41",
+      "textFile": "data/provenance/reports_text/kingston_final.txt",
+      "textSha256": "31ec6cc061d5fc0d4231d519806f40b767ddee08e212dd3163f69deace1b7552",
+      "pdfPages": 37,
+      "yearExcerpt": "= PDF PAGE 1 ===\n Introduction \n 1.  This  report  sets  out  the  Budget  for  2026/27  including  the  Capital  Programme, \n Housing  Revenue  Account  (HRA),  Schools  Budget,  and  the  Medium  Term \n Financial  Strategy  (MTFS)  to  2029/30. ",
+      "contexts": [
+        {
+          "url": "https://moderngov.kingston.gov.uk/ieListDocuments.aspx?CId=137&MId=10156&Ver=4",
+          "file": "data/provenance/reports_context/kingston_council.html",
+          "sha256": "92605339bdf431911c1444350e92aa940dbb16c648bc6dfb0956ac1b80c7b0ca"
+        },
+        {
+          "url": "https://moderngov.kingston.gov.uk/mgAi.aspx?ID=52213",
+          "file": "data/provenance/reports_context/kingston_item.html",
+          "sha256": "8854967828ced23767b1f35767a7ffb947963c56a7015b36218b1a950a974fae"
+        }
+      ]
+    },
+    "E09000022": {
+      "documentSha256": "893a37bd79248c04095d1b45c8b30f729273fc3e59dd614253fae53b394b5ab3",
+      "textFile": "data/provenance/reports_text/lambeth.txt",
+      "textSha256": "37ec794a4053df014198a726f3c3925bbe2d7337f92a4aca31f048fa22f77f56",
+      "pdfPages": 34,
+      "yearExcerpt": "1 ===\n1 \n \n \n \nCOUNCIL 4 MARCH 2026 \n \nReport title: Revenue and Capital Budget 2026-27 and Medium-Term Financial Strategy 2026-\n27 to 2029-30 \n \nWards: All \n \nPortfolio: Leader of the Council, Councillor Claire Holland  \n \nReport Authorised by: C",
+      "contexts": [
+        {
+          "url": "https://moderngov.lambeth.gov.uk/ieListDocuments.aspx?CId=142&MId=17355&Ver=4",
+          "file": "data/provenance/reports_context/lambeth_meeting.html",
+          "sha256": "bbd4449fbda81441d47d9ded0d029c3d7773d98f02d75d32e5c2a01174d2c8db"
+        },
+        {
+          "url": "https://moderngov.lambeth.gov.uk/mgAi.aspx?ID=67346",
+          "file": "data/provenance/reports_context/lambeth_item.html",
+          "sha256": "eaf14e25ec64076c79e9175b8f26874f53f43aa33ea6efd1d0b7f043af3cfad1"
+        }
+      ]
+    },
+    "E09000023": {
+      "documentSha256": "b641c95a3593308e7d4301c41a4753805f19cad6a72f2ebbb5fc1d9df868fdd3",
+      "textFile": "data/provenance/reports_text/lewisham_final.txt",
+      "textSha256": "4e6c4ce32bcd716fad1fe080a2106d9c8dd52e706966bf73f49bc308f1372def",
+      "pdfPages": 145,
+      "yearExcerpt": "uk/contact-us/send-us-feedback-on-our-reports   \n \nCouncil \n \n \n \nReport Title: 2026/27 Budget Report \nDate: 4 March 2026 \nKey decision: No  \nClass: Part 1 \nWard(s) affected: All \nContributors: Executive Director for Finance, Digital and Corporate",
+      "contexts": [
+        {
+          "url": "https://councilmeetings.lewisham.gov.uk/ieListDocuments.aspx?CId=138&MId=8820&Ver=4",
+          "file": "data/provenance/reports_context/lewisham_meeting.html",
+          "sha256": "4378fda19c85b4612087fb128e5a4c0d871b50f75f8d0e2a5a6797f84a27353d"
+        }
+      ]
+    },
+    "E09000024": {
+      "documentSha256": "5ec2b73a5b1867987199c70cf15aa6203d2f8aee2b5886dfbcee749a56453bca",
+      "textFile": "data/provenance/reports_text/merton.txt",
+      "textSha256": "01057ba4307194af4cce3df3077b0c6c7617b2db749345ddecd1c526d6055974",
+      "pdfPages": 327,
+      "yearExcerpt": "y \n \n39 \nIII. Treasury Management Policy & Strategy \n \n82 \nB) Revenue Estimates 2026-27 \n \n125 \nC) Savings in MTFS 2026-2030 \n \n174 \nD) Growth Proposals 2026-2030 \n \n214 \nE) Fees and Charges 2026-30 \n \n219 \nF) Risk Management \n \nRisk Management Po",
+      "contexts": []
+    },
+    "E09000025": {
+      "documentSha256": "822d918f916ccbfdfe837a6f1bbf81c1ee0bfa10e810259c7583191d34957f04",
+      "textFile": "data/provenance/reports_text/newham_final.txt",
+      "textSha256": "4ff1383f26b567f628e6d9df7f0e87293d3ffd328db5cac7920dd74109a47d15",
+      "pdfPages": 14,
+      "yearExcerpt": "F PAGE 1 ===\n \nLONDON BOROUGH OF NEWHAM \n \nCOUNCIL \n \nReport title Final Budget 2026/27, Council Tax 2026/27 and MTFS 2026/27-\n2030/31: Establishing Financial Resilience, Sustainability and \nDelivering a Fairer Newham \nDate of \nMeeting \nTuesday 26",
+      "contexts": [
+        {
+          "url": "https://mgov.newham.gov.uk/ieListDocuments.aspx?CId=295&MId=15006&Ver=4",
+          "file": "data/provenance/reports_context/newham_actual_meeting.html",
+          "sha256": "368b460a2a9c895f8f2151f3f2e9712ae83a66f3a290d1a32a9363b669360723"
+        }
+      ]
+    },
+    "E09000026": {
+      "documentSha256": "5dd4e10715cfd38c0343d8222d33a5e27ce403147a54cbf706406b3cdfd6cf6b",
+      "textFile": "data/provenance/reports_text/redbridge_budget_report.txt",
+      "textSha256": "0a083658ce97683b16d552087db6115cdeec36bc19258379f7139c43a4180d2a",
+      "pdfPages": 16,
+      "yearExcerpt": "tor of Resources  \nTitle of Report  \nRevenue and Capital Budget and Council Tax 2026/27 \nand MTFS 2026/27 \n– \n2030/31 \n \n  \n \n1. \n Executive Summary  \n \n1.1 \n This report seeks Council approval of the Revenue and Capital Budget and Council Tax \nfo",
+      "contexts": []
+    },
+    "E09000027": {
+      "documentSha256": "b98ef8f99a6b78d81474ccd4b2d610796cefb1993fc2ec3877ed8ba1a3c113d2",
+      "textFile": "data/provenance/reports_text/richmond.txt",
+      "textSha256": "5bb7ff01f2c21d408aef4e7e8405b3433890da6a54071ea98fc4b3298c1d485d",
+      "pdfPages": 133,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n Official \n \n             \n2026/27 \n \n  \nBUDGET BOOK \n\n\n=== PDF PAGE 2 ===\n  \nBudget Book 2026/27  \n \n \n \n \n \n \nEach year the Council sets detailed revenue and capital budgets. The \nrevenue budg",
+      "contexts": [
+        {
+          "url": "https://www.richmond.gov.uk/budgets_and_spending",
+          "file": "data/provenance/reports_context/richmond_page.html",
+          "sha256": "a8c90b270ee59a69bf3ea88c2296763aff0554fd4c3c931bbd1bbb1b19647ef3"
+        }
+      ]
+    },
+    "E09000028": {
+      "documentSha256": "9eee2e40e469e0699a9636501ca262f4cd6a92999b39d5dd28e0a24d7b52218e",
+      "textFile": "data/provenance/reports_text/southwark_final.txt",
+      "textSha256": "4c899194855fa2dbc40534c61dd80e2de484189c890caa0d5395c6f9c22acb4e",
+      "pdfPages": 12,
+      "yearExcerpt": "te: \n \n25 February 2026 \nReport title: \n \nPolicy and Resources Strategy Report: 2026-27 \nBudget and Medium Term Financial Strategy \n \nCabinet Member: \n \nCouncillor Stephanie Cryan, Equalities, Democracy \nand Finance \nWard(s) or groups affected: \n ",
+      "contexts": [
+        {
+          "url": "https://moderngov.southwark.gov.uk/ieListDocuments.aspx?CId=132&MId=8198&Ver=4",
+          "file": "data/provenance/reports_context/southwark_meeting.html",
+          "sha256": "3040be028ecc125dd06db6e206fb9d24910e1f773c7508313a0315a0c9b5fb84"
+        },
+        {
+          "url": "https://moderngov.southwark.gov.uk/mgAi.aspx?ID=76426",
+          "file": "data/provenance/reports_context/southwark_item.html",
+          "sha256": "05bb5ce1897b0cc21b87baffa1af25134c2ded69028c5ef734e6664ae430b492"
+        }
+      ]
+    },
+    "E09000029": {
+      "documentSha256": "68d8c924c8ba215de3e3c9df217ca7d1c7e9d88ab4607886ae7f8443be3b2af6",
+      "textFile": "data/provenance/reports_text/sutton.txt",
+      "textSha256": "640c726e09b1b62f7e44e6e4762003d8cd5176de9423eec5b6782408e93f0315",
+      "pdfPages": 8,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\nMedium\n \nTerm\n \nFinancial\n \nPlan\n \n2026/27\n \n-\n \n2028/29\n \n \n \nReport\n \nTitle\n \nMedium\n \nTerm\n \nFinancial\n \nPlan\n \n2026/27\n \n-\n \n2028/29\n \nCommittee\n \nBudget\n \nCouncil,\n \nCouncil\n \nMeeting\n \nDate\n \n2\n \n",
+      "contexts": []
+    },
+    "E09000030": {
+      "documentSha256": "9b9c3dfb7421905d391c3d6747f241078677d30eba057529de1dfe8ff26d0deb",
+      "textFile": "data/provenance/reports_text/towerhamlets.txt",
+      "textSha256": "45ddce1f76e90f22a3be964fd5b0c5ef97e0921d2f7bc0a9b2a4c09b87e09998",
+      "pdfPages": 20,
+      "yearExcerpt": " Resources (Section 151 Officer) \nClassification: \nUnrestricted  \nThe Council’s 2026-27 Budget Report and Medium Term Financial Strategy  \n2026-29 \n \n \nLead Member Councillor Saied Ahmed, Cabinet Member for \nResources and the Cost of Living \n \nOri",
+      "contexts": [
+        {
+          "url": "https://democracy.towerhamlets.gov.uk/mgAi.aspx?ID=170309",
+          "file": "data/provenance/reports_context/towerhamlets_page.html",
+          "sha256": "eb5fbee8490fad5df7859a7678fd98ff48f74ad27735dbdabbb6cfb2f8b7e6df"
+        }
+      ]
+    },
+    "E09000031": {
+      "documentSha256": "9d5e3ed3ec8593caca04e7b172a6912e3efc810aa4b0a634bac3ba6cf65e97f9",
+      "textFile": "data/provenance/reports_text/walthamforest_final.txt",
+      "textSha256": "546789144662f86fc7c6a56bfa97950f019ebef54b1e2f1ef74606064764c41c",
+      "pdfPages": 54,
+      "yearExcerpt": "\nLondon Borough of Waltham Forest \nReport Title  Budget and Council Tax Setting 2026/27 \nMeeting / Date Council, 26th February 2026 \nCabinet portfolio Councillor Paul Douglas, \nPortfolio Lead Member for \nFinance and Resources  \nSignature \nReport a",
+      "contexts": [
+        {
+          "url": "https://democracy.walthamforest.gov.uk/ieListDocuments.aspx?CId=335&MId=6164&Ver=4",
+          "file": "data/provenance/reports_context/walthamforest_council.html",
+          "sha256": "1b6a25e5b120617e12c391f49893dced4f34ae0d3bab5719e01aa4e9a65c0360"
+        }
+      ]
+    },
+    "E09000032": {
+      "documentSha256": "9c919ee4ffd8ec6b96270197a2dbd86c7625ae965bf8e82c6e57f7ce96e200b4",
+      "textFile": "data/provenance/reports_text/wandsworth.txt",
+      "textSha256": "c2e956c61b75884f91ccf8367af3f0565985f6b66e8c66b3c54094b4c857ae25",
+      "pdfPages": 268,
+      "yearExcerpt": "\n=== PDF PAGE 1 ===\n \n \nCOUNCIL BUDGETS \n2026-2027 \n  \n\n\n=== PDF PAGE 2 ===\nWANDSWORTH BOROUGH COUNCIL – BUDGET \nBOOK 2026/27 \nContents  Page  \nGeneral Fund Revenue – Council Tax  3-31 \nSubjective Analysis  32-",
+      "contexts": [
+        {
+          "url": "https://www.wandsworth.gov.uk/the-council/how-the-council-works/council-finances/council-budget/",
+          "file": "data/provenance/reports_context/wandsworth_page.html",
+          "sha256": "a398f955429297f1f4fa7b1d5c98e317ff57842e657d2392b672a60103383617"
+        }
+      ]
+    },
+    "E09000033": {
+      "documentSha256": "6ef8f06394e64064f6fe3f551349a7132e614128d4696d8e6ee183e9243d04bf",
+      "textFile": "data/provenance/reports_text/westminster.txt",
+      "textSha256": "9a32bff8b72789a92560ac534d978cd053c3cc25eac3e703c1995c5e95c8186f",
+      "pdfPages": 9,
+      "yearExcerpt": "ara \nHassan, Ellie Ormsby, Max Sullivan \n \n \n1. Business and Financial Planning 2026/27 to 2028/2029 \n \n(a) This report brought together the Council’s business and financial planning and \nlooks forward over the next three years to set out how it w",
+      "contexts": [
+        {
+          "url": "https://committees.westminster.gov.uk/mgAi.aspx?ID=22914",
+          "file": "data/provenance/reports_context/westminster_item.html",
+          "sha256": "46d5f6bfca7ec620221d42d564d9687e3a326d903a210cc107bd7c650071afa3"
+        }
+      ]
+    }
+  }
+}
