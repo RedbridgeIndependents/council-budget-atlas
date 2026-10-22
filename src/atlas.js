@@ -7,6 +7,8 @@
   const navigation = window.AtlasNavigation;
   const initial = navigation.parse(location.search,data.authorities,data.fields);
   const state = { focus: initial.focus, comparisons: new Set(initial.peers), peer: initial.group, field: initial.field, metric: initial.metric, story: initial.story };
+  const londonComparisons=data.authorities.filter(a=>a.class==="LB" && a.code!==state.focus).map(a=>a.code);
+  let previousComparisonCount=null;
   const selectedCodes = () => [state.focus, ...state.comparisons].filter((code, index, all) => all.indexOf(code) === index);
   const selectedAuthorities = () => selectedCodes().map(code => authorities.get(code));
   const nf = new Intl.NumberFormat("en-GB", { maximumFractionDigits: 0 });
@@ -42,13 +44,25 @@
     if (url.href!==location.href) history.replaceState(null,"",url.href);
     syncLinks();
   }
+  function updateThemeButton() {
+    const action=document.documentElement.dataset.theme==="dark" ? "Use light theme" : "Use dark theme";
+    $("theme-toggle").setAttribute("aria-label",action);
+    $("theme-toggle").title=action;
+  }
   function setControls() {
-    $("theme-toggle").textContent=document.documentElement.dataset.theme==="dark" ? "Use light theme" : "Use dark theme";
+    updateThemeButton();
     $("shared-metric").value=state.metric;
-    $("peer-group").value=state.peer;
+    if ($("peer-group")) $("peer-group").value=state.peer;
     if ($("budget-line")) $("budget-line").value=state.field;
-    if ($("display-metric")) $("display-metric").value=state.metric;
-    for (const key of ["metric","filter","sort"]) if ($("benchmark-"+key)) $("benchmark-"+key).value=benchmarkState[key];
+    for (const key of ["filter","sort"]) if ($("benchmark-"+key)) $("benchmark-"+key).value=benchmarkState[key];
+    document.querySelectorAll("[data-current-metric]").forEach(el=>{ el.textContent=$("shared-metric").selectedOptions[0].textContent; });
+    const explanations={
+      resident:"ONS mid-2025 population scale, not service-user cost or need adjustment.",
+      absolute:"Published amounts in £m. No adjustment for council size or need.",
+      roads:"DfT 2025 network miles; eligible maintenance lines only, not audited unit cost."
+    };
+    const current=fields.get(document.body.dataset.serviceId);
+    $("shared-metric-help").textContent=(current && state.metric==="roads" && current.denominator.key!=="roads" ? "Unavailable for this service. " : "")+explanations[state.metric]+" Shared with the service chart controls.";
   }
   function setMetric(metric) {
     state.metric=metric; benchmarkState.metric=metric;
@@ -164,7 +178,7 @@
       return benchmarkState.sort==="above" ? y-x : benchmarkState.sort==="below" ? x-y : Math.abs(y)-Math.abs(x);
     });
     const example=benchmark(fields.get("ra1_servicetot"));
-    $("benchmark-method").innerHTML=`${identity("E09000026")} is the persistent reference. ${selectedCodes().length-1} comparison authorities selected; this lens is ${escape(unit(benchmarkState.metric))}. Only selected London borough peers are eligible: ${example.excludedResponsibility} selected authorities excluded for unlike responsibilities; missing measures are filtered line by line. ${items.length} of 129 detailed service lines shown. <a href="#funding">Change selections / All London shortcut</a>.`;
+    $("benchmark-method").innerHTML=`${identity("E09000026")} is the persistent reference. ${selectedCodes().length-1} comparison authorities selected; this lens is ${escape(unit(benchmarkState.metric))}. Only selected London borough peers are eligible: ${example.excludedResponsibility} selected authorities excluded for unlike responsibilities; missing measures are filtered line by line. ${items.length} of 129 detailed service lines shown. <a href="#comparison-controls">Change selected councils</a>.`;
     $("benchmark-table").innerHTML=benchmarkTable(items);
     const top=items.filter(item=>isNumber(item.b.delta)).slice(0,3);
     $("headline-benchmarks").innerHTML=top.length ? `<div class="stat-grid">${top.map(({f,b})=>`<div class="stat"><span><a href="#line-${f.id}">${escape(f.label)}</a></span><strong>${formatMetric(b.delta,benchmarkState.metric)}</strong><span>${b.delta>0 ? "Above" : b.delta<0 ? "Below" : "At"} selected-peer benchmark · ${b.count} valid peers · investigate, not a verdict${cite(f.source)}</span></div>`).join("")}</div>` : '<p class="note">No valid differences in this selection and lens. Select comparable councils or use an eligible metric; no benchmark is invented.</p>';
@@ -419,11 +433,35 @@
     document.querySelectorAll("[data-money]").forEach(el => { el.textContent = monetary(focus.values[el.dataset.money]); el.title = locator(focus,fields.get(el.dataset.money)); });
     // The editorial introduction names the focus council after selection as well.
     document.querySelectorAll("[data-focus-name]").forEach(el => { el.innerHTML = identity(focus.code); });
-    $("selection-colours").innerHTML = `<span class="selected-chip">Focus: ${identity(focus.code)}</span>${[...state.comparisons].map(code => `<span class="selected-chip">${identity(code)}<button type="button" data-remove="${code}" aria-label="Remove ${escape(authorities.get(code).name)}">×</button></span>`).join("")}`;
-    $("selection-colours").querySelectorAll("[data-remove]").forEach(button => button.addEventListener("click", () => { state.comparisons.delete(button.dataset.remove); updateSelection(); $("comparison-picker").querySelector("summary").focus(); }));
-    document.querySelectorAll('input[name="comparison"]').forEach(input => { input.checked = state.comparisons.has(input.value); input.disabled = input.value === state.focus; });
-    $("selected-count").textContent = `${pair.length} selected authorities: 1 focus and ${pair.length - 1} comparison${pair.length === 2 ? "" : "s"}.`;
-    $("selection-status").innerHTML = `${identity(focus.code)} with ${pair.length - 1} comparison authorities. Financial year 2026–27; release 11 June 2026. ${focus.returned ? "" : "<strong>The focus authority did not submit a return; missing values are not zero.</strong>"} ${pair.some(a => a.code === "E09000001") ? `${identity("E09000001")} has distinct responsibilities and remains outside ordinary borough rankings.` : ""} ${pair.some(a => !a.returned) ? "Selected missing returns remain visible, without invented figures." : ""} ${state.peer === "councils" || state.peer === "all" ? "Warning: this peer group mixes different service responsibilities." : ""}${returnFlags(focus)}`;
+    $("selection-colours").innerHTML = [...state.comparisons].map(code => `<span class="selected-chip">${identity(code)}<button type="button" data-remove="${code}" aria-label="Remove ${escape(authorities.get(code).name)}">×</button></span>`).join("");
+    $("selection-colours").querySelectorAll("[data-remove]").forEach((button,index) => button.addEventListener("click", () => {
+      state.comparisons.delete(button.dataset.remove); updateSelection();
+      const remaining=$("selection-colours").querySelectorAll("[data-remove]");
+      (remaining[Math.min(index,remaining.length-1)] || $("comparison-search")).focus();
+    }));
+    document.querySelectorAll('input[name="comparison"]').forEach(input => {
+      input.checked = state.comparisons.has(input.value);
+      input.closest(".comparison-option").classList.toggle("is-selected",input.checked);
+    });
+    const count=state.comparisons.size, selectedList=$("selected-comparisons");
+    const noun=pair.some(a=>a.class==="O") ? (count===1 ? "authority" : "authorities") : (count===1 ? "council" : "councils");
+    const announcement=`${count} comparison ${noun} selected.`;
+    if ($("selected-count").textContent!==announcement) $("selected-count").textContent=announcement;
+    $("selected-empty").hidden=count!==0;
+    selectedList.hidden=count===0;
+    if (count<=4) selectedList.open=true;
+    else if (previousComparisonCount===null || previousComparisonCount<=4) selectedList.open=false;
+    previousComparisonCount=count;
+    $("clear-comparisons").disabled=count===0;
+    const londonCount=londonComparisons.filter(code=>state.comparisons.has(code)).length, others=count-londonCount;
+    const exactLondon=londonCount===londonComparisons.length && others===0;
+    $("all-london").setAttribute("aria-pressed",String(exactLondon));
+    $("all-london").dataset.selectionState=exactLondon ? "all" : londonCount>0 ? "partial" : "none";
+    $("london-preset-status").textContent=(londonCount===londonComparisons.length ? `All ${londonCount} London comparison councils selected` : `${londonCount} of ${londonComparisons.length} London comparison councils selected`)+(others ? `; ${others} outside London.` : ".");
+    const excluded=pair.filter(a=>a.code!==focus.code && (a.class!=="LB" || a.code==="E09000001")).length;
+    const missing=pair.filter(a=>!a.returned).length;
+    $("selection-status").innerHTML=(count ? "Benchmarks use selected London boroughs with valid matching data; Redbridge is excluded." : "No comparison selected: no peer benchmark is calculated.")+(excluded ? ` ${excluded} selected ${excluded===1 ? "authority has" : "authorities have"} different responsibilities.` : "")+(missing ? ` ${missing} selected ${missing===1 ? "return is" : "returns are"} missing; no figures are invented.` : "")+returnFlags(focus);
+    filterComparisonOptions();
     document.querySelectorAll(".service").forEach(section => {
       const f = fields.get(section.id.slice(5));
       section.querySelector("table").innerHTML = `<caption>All ${pair.length} selected authorities · 2026–27 budget · £m</caption><thead><tr><th scope="col">Authority</th><th scope="col">Published amount</th></tr></thead><tbody>${pair.map(a => `<tr${a.code === state.focus ? ' class="selected"' : ""}><th scope="row">${identity(a.code)}</th><td class="num">${sourceValue(a,f)}</td></tr>`).join("")}</tbody>`;
@@ -461,6 +499,17 @@
     $("catalog-count").textContent = `${count} of 192 accounting / theme lines match. The 129 individual services have separate documents.`;
     requestAnimationFrame(updateProgress);
   }
+  function filterComparisonOptions() {
+    const search=$("comparison-search").value.trim().toLocaleLowerCase("en-GB");
+    let matches=0, checked=0;
+    document.querySelectorAll("[data-option-search]").forEach(label=>{
+      label.hidden=!label.dataset.optionSearch.includes(search);
+      if (!label.hidden) { matches++; if (label.querySelector("input").checked) checked++; }
+    });
+    $("comparison-options").hidden=matches===0;
+    $("comparison-no-results").hidden=matches!==0;
+    $("comparison-result-count").textContent=`${matches} ${matches===1 ? "matching authority" : "matching authorities"}; ${checked} selected in these results.`;
+  }
   function revealHash() {
     const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
     if (target?.classList.contains("service")) {
@@ -480,18 +529,13 @@
     if (input.checked) state.comparisons.add(input.value); else state.comparisons.delete(input.value);
     updateSelection();
   }));
-  $("comparison-search").addEventListener("input", e => {
-    const query = e.target.value.trim().toLocaleLowerCase("en-GB");
-    document.querySelectorAll("[data-option-search]").forEach(label => { label.hidden = !label.dataset.optionSearch.includes(query); });
-  });
-  $("all-london").addEventListener("click", () => { state.comparisons = new Set(data.authorities.filter(a => a.class === "LB" && a.code !== state.focus).map(a => a.code)); updateSelection(); });
-  $("clear-comparisons").addEventListener("click", () => { state.comparisons.clear(); updateSelection(); });
-  $("reset-comparisons").addEventListener("click", () => { state.focus = "E09000026"; state.comparisons = new Set(["E09000031"]); $("focus-council").value = state.focus; updateSelection(); });
-  $("peer-group").addEventListener("change", e => { state.peer = e.target.value; updateSelection(); });
+  $("comparison-search").addEventListener("input", filterComparisonOptions);
+  $("all-london").addEventListener("click", () => { state.comparisons = new Set(londonComparisons); $("comparison-search").value=""; updateSelection(); });
+  $("clear-comparisons").addEventListener("click", () => { state.comparisons.clear(); updateSelection(); $("comparison-search").focus(); });
+  $("reset-comparisons").addEventListener("click", () => { state.comparisons = new Set(["E09000031"]); $("comparison-search").value=""; updateSelection(); });
+  $("peer-group")?.addEventListener("change", e => { state.peer = e.target.value; updateSelection(); });
   $("budget-line")?.addEventListener("change", e => { state.field = e.target.value; updateExplorer(); updateContext(); });
-  $("display-metric")?.addEventListener("change", e => setMetric(e.target.value));
   $("shared-metric").addEventListener("change", e=>setMetric(e.target.value));
-  $("benchmark-metric")?.addEventListener("change", e=>setMetric(e.target.value));
   for (const key of ["filter","sort"]) $("benchmark-"+key)?.addEventListener("change", e=>{ benchmarkState[key]=e.target.value; updateBenchmarks(); updateContext(); });
   document.querySelectorAll("[data-ledger-metric]").forEach(selector=>selector.addEventListener("change",()=>{
     setMetric(selector.value);
@@ -517,10 +561,9 @@
   $("theme-toggle").addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
-    $("theme-toggle").textContent = next === "dark" ? "Use light theme" : "Use dark theme";
+    updateThemeButton();
     updateContext();
   });
-  $("theme-toggle").textContent = document.documentElement.dataset.theme === "dark" ? "Use light theme" : "Use dark theme";
   window.addEventListener("hashchange", revealHash);
   let scrollPending = false;
   window.addEventListener("scroll", () => {

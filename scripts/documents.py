@@ -57,14 +57,10 @@ def write_documents(root, page, atlas, css):
         "fields": paths,
     }
     original_controls = element(page, "div", "comparison-controls")
-    controls = original_controls.replace(
-        "</select></label>\n        <div class=\"comparison-picker\">",
-        '</select></label><label>Shared comparison lens<select id="shared-metric"><option value="resident">£ per resident — scale, not unit cost</option><option value="absolute">Published amount (£m)</option><option value="roads">£ per network mile — eligible maintenance only</option></select></label>\n        <div class="comparison-picker">',
-        1,
-    )
+    controls = original_controls
     spending_context = element(page, "div", "spending-funding-context")
+    theme_button = element(page, "button", "theme-toggle")
     selection = element(page, "p", "selection-status")
-    selection += '<p class="small">The All London shortcut includes all 33 council entries: City has different responsibilities; Greenwich has no RA return. Neither contaminates the borough benchmark. Council selection and metric travel in each document URL, without local storage.</p>'
     notices = '<p id="navigation-notice" class="note" role="status" hidden></p><noscript><p class="note">JavaScript is off. These documents show the sourced default comparison: Redbridge and Waltham Forest. URL-selected councils and metrics require JavaScript. Every document, service directory, source link and initial data table remains readable offline.</p></noscript>'
     common = f'<section class="wrap document-controls" aria-label="Shared comparison settings">{controls}{selection}{notices}</section>'
     funding = sections["funding"]
@@ -157,7 +153,7 @@ def write_documents(root, page, atlas, css):
         related = "" if kind == "methods" else f'<section class="wrap page-evidence" aria-labelledby="page-sources"><h2 id="page-sources">Evidence for this document</h2><p>2026–27 budget snapshot. Exact authority cells travel with the figures. {", ".join(f"""<a href="methodology.html#source-{n}">Source [{n}]</a>""" for n in source_ids)}. <a href="methodology.html#sources">Full numbered sources and limitations</a>.</p></section>'
         content = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Offline 2026–27 council budget evidence: {esc(title, quote=True)}"><title>{esc(title)} | Council budget atlas</title>{theme_script}<link rel="stylesheet" href="{prefix}assets/atlas.css"></head>
 <body id="top" data-document="{kind}" data-root="{prefix}"{f' data-service-id="{field_id}"' if field_id else ""}>
-<a class="skip" href="#content">Skip to content</a><header class="masthead"><progress class="progress" id="reading-progress" max="100" value="0" aria-label="Reading progress">0%</progress><div class="wrap masthead-inner"><a class="wordmark" href="index.html">Council<br>budget atlas</a><nav aria-label="Major sections">{nav}</nav><button type="button" class="theme-button js-only" id="theme-toggle">Light / dark</button></div></header>
+<a class="skip" href="#content">Skip to content</a><header class="masthead"><progress class="progress" id="reading-progress" max="100" value="0" aria-label="Reading progress">0%</progress><div class="wrap masthead-inner"><a class="wordmark" href="index.html">Council<br>budget atlas</a><nav aria-label="Major sections">{nav}</nav>{theme_button}</div></header>
 <main id="content" tabindex="-1"><div class="wrap">{crumbs}</div>{body}{related}</main><a class="back-top" href="#top"><span aria-hidden="true">↑</span> Back to top</a>
 <footer class="wrap"><p>Council budget atlas · 2026–27 budgets · no council endorsement implied.</p><p>Private repository. Offline relative documents/assets; no public hosting, analytics, cookies or runtime APIs.</p></footer>
 <script src="{prefix}assets/atlas-data.js" defer></script><script src="{prefix}assets/navigation.js" defer></script><script src="{prefix}assets/benchmark.js" defer></script><script src="{prefix}assets/atlas.js" defer></script></body></html>'''

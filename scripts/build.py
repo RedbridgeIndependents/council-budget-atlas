@@ -237,6 +237,21 @@ def build():
     mapping_table = '<table><caption>All 321 canonical fields · original return labels and display aliases · 2026–27 £ thousands</caption><thead><tr><th scope="col">Canonical ID</th><th scope="col">Original official label</th><th scope="col">Display alias</th><th scope="col">Official definition locator</th><th scope="col">Mapping rationale</th></tr></thead><tbody>' + mapping_rows + '</tbody></table>'
     known = sum(bool(c.get("colour")) for c in colours.values())
     known_london = sum(bool(colours.get(a["code"],{}).get("colour")) for a in atlas["authorities"] if a["class"]=="LB")
+    def comparison_option(authority):
+        code = authority["code"]
+        responsibility = authority["subclass"] if authority["class"] == "O" else {
+            "LB": "London borough", "MD": "Metropolitan district", "UA": "Unitary authority",
+            "SC": "Shire county", "SD": "Shire district",
+        }[authority["class"]]
+        notes = [responsibility]
+        if code == "E09000001" or authority["class"] != "LB":
+            notes.append("Different responsibilities; outside borough benchmark")
+        if not authority["returned"]:
+            notes.append("Budget not returned")
+        search = esc(" ".join([authority["name"], responsibility, authority["subclass"], code]).lower())
+        checked = " checked" if authority == compare else ""
+        return f'<label class="comparison-option" data-option-search="{search}"><input type="checkbox" name="comparison" value="{code}"{checked}><span>{council(code)}<small>{esc(" · ".join(notes))}</small></span></label>'
+
     replacements = {
         "REDBRIDGE": '<span data-focus-name>' + council("E09000026") + '</span>', "BARNSLEY": council("E08000038"), "SHEFFIELD": council("E08000039"),
         "CITY": council("E09000001"), "GREENWICH": council("E09000011"),
@@ -244,9 +259,7 @@ def build():
         "TAX_TOTAL": money(focus["values"]["ra1_ctrtot"]),
         "CURRENT_TOTAL": money(focus["values"]["ra1_netcurrtot"]),
         "REVENUE_TOTAL": money(focus["values"]["ra1_revenuetot"]),
-        "FOCUS_OPTIONS": f'<option value="{focus["code"]}">{esc(focus["name"])} — persistent analytical reference</option>',
-        "COMPARISON_OPTIONS": "".join(f'<option value="{a["code"]}"{" selected" if a==compare else ""}>{esc(a["name"])} — {esc(a["subclass"])}</option>' for a in atlas["authorities"]),
-        "COMPARISON_CHECKBOXES": "".join(f'<label class="comparison-option" data-option-search="{esc((a["name"]+" "+a["subclass"]).lower())}"><input type="checkbox" name="comparison" value="{a["code"]}"{" checked" if a==compare else ""}{" disabled" if a==focus else ""}>{council(a["code"])}<small>{esc(a["subclass"])}</small></label>' for a in atlas["authorities"]),
+        "COMPARISON_CHECKBOXES": "".join(comparison_option(a) for a in sorted(atlas["authorities"],key=lambda a:(a["class"]!="LB",a["name"])) if a!=focus),
         "SELECTION_LABELS": council(focus["code"])+" <span>vs</span> "+council(compare["code"]),
         "LINE_OPTIONS": "".join(f'<option value="{f["id"]}"{" selected" if f["id"]=="ra1_servicetot" else ""}>{esc(f["label"])} · {esc(f["part"].upper())} {esc(f["line"])}</option>' for f in atlas["fields"]),
         "THEME_BARS": bars, "THEME_TABLE": theme_table(), "STORY_TABLE": theme_table(),

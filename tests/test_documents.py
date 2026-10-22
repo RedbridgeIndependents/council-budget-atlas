@@ -130,6 +130,45 @@ class DocumentsTests(unittest.TestCase):
         for page in self.pages.values():
             self.assertIn("URL-selected councils and metrics require JavaScript", page.source)
 
+    def test_all_133_documents_share_one_accessible_icon_only_theme_button(self):
+        expected = None
+        for name, page in self.pages.items():
+            buttons = re.findall(r'<button\b[^>]*id="theme-toggle"[^>]*>.*?</button>', page.source, re.S)
+            self.assertEqual(len(buttons), 1, name)
+            button = buttons[0]
+            expected = button if expected is None else expected
+            self.assertEqual(button, expected, name)
+            self.assertIn('type="button"', button)
+            self.assertIn('aria-label="Use dark theme"', button)
+            self.assertIn('title="Use dark theme"', button)
+            self.assertEqual(button.count('data-theme-icon="moon"'), 1)
+            self.assertEqual(button.count('data-theme-icon="sun"'), 1)
+            self.assertEqual(button.count('aria-hidden="true"'), 2)
+            self.assertEqual(button.count('focusable="false"'), 2)
+            self.assertEqual(re.sub(r"<[^>]+>", "", button).strip(), "")
+
+    def test_every_document_has_visible_native_comparison_controls_and_one_shared_measure(self):
+        expected = {a["code"] for a in self.atlas["authorities"]} - {"E09000026"}
+        for name, page in self.pages.items():
+            source = page.source
+            for identifier in ("comparison-controls", "comparison-search", "comparison-options",
+                               "comparison-no-results", "comparison-result-count", "selected-count",
+                               "selected-comparisons", "shared-metric", "london-preset-status"):
+                self.assertEqual(page.ids.count(identifier), 1, (name, identifier))
+            self.assertIn('<label for="comparison-search">Compare with</label>', source)
+            self.assertIn('name="comparison-search" autocomplete="off"', source)
+            self.assertNotIn('<details id="comparison-picker"', source)
+            self.assertNotIn('id="focus-council"', source)
+            self.assertNotIn('id="benchmark-metric"', source)
+            self.assertNotIn('id="display-metric"', source)
+            choices = re.findall(r'<input type="checkbox" name="comparison" value="([^"]+)"([^>]*)>', source)
+            self.assertEqual(len(choices), len(expected), name)
+            self.assertEqual({code for code, _ in choices}, expected, name)
+            self.assertEqual([code for code, attrs in choices if "checked" in attrs], ["E09000031"], name)
+            self.assertEqual(page.ids.count("peer-group"), 1 if name == "index.html" else 0, name)
+        self.assertIn('aria-describedby="peer-group-help"', self.pages["index.html"].source)
+        self.assertIn("not your selected comparison councils or their benchmark", self.pages["index.html"].source)
+
     def test_regeneration_is_offline_and_byte_identical(self):
         files = [ROOT / name for name in self.pages] + list((ROOT / "assets").iterdir()) + [ROOT / "data" / "processed" / "documents.json"]
         before = {path: path.read_bytes() for path in files}

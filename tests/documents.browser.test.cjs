@@ -53,6 +53,205 @@ async function library(page,enhanced=true) {
 }
 const metricSelect=page=>page.locator("[data-ledger-metric]").first();
 
+test("icon-only theme button has action labels, keyboard/touch round-trips and cross-document URL persistence",async()=>{
+  for(const [width,initial] of [[1440,"light"],[390,"dark"]]){
+    const {page,context,errors,requests}=await open("index.html",{
+      viewport:{width,height:1000},hasTouch:width===390,
+      query:`peers=E09000027,E09000029&metric=resident&scoutTheme=${initial}`
+    });
+    const button=page.locator("#theme-toggle");
+    async function verify(theme){
+      const action=theme==="dark" ? "Use light theme" : "Use dark theme";
+      assert.equal(await page.locator("html").getAttribute("data-theme"),theme);
+      assert.equal(await page.getByRole("button",{name:action,exact:true}).count(),1);
+      assert.equal(await button.getAttribute("title"),action);
+      assert.equal((await button.innerText()).trim(),"");
+      assert.equal(await button.locator("svg:visible").count(),1);
+      assert.equal(await button.locator("svg:visible").getAttribute("data-theme-icon"),theme==="dark" ? "sun" : "moon");
+      const box=await button.boundingBox();
+      assert.ok(box.width>=44 && box.width<=48 && box.height>=44 && box.height<=48);
+      const contrast=await button.evaluate(el=>{
+        const luminance=colour=>colour.match(/\d+(\.\d+)?/g).slice(0,3).map(Number).map(n=>{
+          n/=255;return n<=.04045 ? n/12.92 : ((n+.055)/1.055)**2.4;
+        }).reduce((sum,n,i)=>sum+n*[.2126,.7152,.0722][i],0);
+        const styles=getComputedStyle(el),foreground=luminance(styles.color),background=luminance(styles.backgroundColor);
+        return (Math.max(foreground,background)+.05)/(Math.min(foreground,background)+.05);
+      });
+      assert.ok(contrast>=3);
+      const params=new URL(page.url()).searchParams;
+      assert.equal(params.get("scoutTheme"),theme);
+      assert.equal(params.get("peers"),"E09000027,E09000029");
+      assert.equal(params.get("metric"),await page.locator("#shared-metric").inputValue());
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+    }
+    await verify(initial);
+    await button.focus();
+    assert.equal(await button.evaluate(el=>getComputedStyle(el).outlineStyle),"solid");
+    const opposite=initial==="dark" ? "light" : "dark";
+    await page.keyboard.press("Enter");
+    await verify(opposite);
+    await page.keyboard.press("Space");
+    await verify(initial);
+    if(width===390)await button.tap();else await button.click();
+    await verify(opposite);
+    await library(page);
+    await verify(opposite);
+    assert.equal(await page.locator(".service tbody tr").count(),3);
+    await page.reload();
+    await page.waitForFunction(()=>Boolean(window.atlasAudit));
+    await verify(opposite);
+    await page.selectOption("#shared-metric","absolute");
+    await verify(opposite);
+    await major(page,"Overview");
+    await verify(opposite);
+    assert.deepEqual(errors,[]);
+    assert.deepEqual(requests,[]);
+    await context.close();
+  }
+});
+
+test("comparison panel supports visible search, keyboard labels, truthful presets, compact removal and cross-page state on desktop/mobile",async()=>{
+  const outside=data.authorities.find(a=>a.name==="Adur").code;
+  for(const width of [1440,390]){
+    const {page,context,errors,requests}=await open("index.html",{
+      viewport:{width,height:844},hasTouch:width===390,query:`scoutTheme=${width===390 ? "dark" : "light"}`
+    });
+    const search=page.getByRole("searchbox",{name:"Compare with",exact:true});
+    const checked=()=>page.locator('input[name="comparison"]:checked').evaluateAll(inputs=>inputs.map(input=>input.value));
+    async function checkCount(count){
+      assert.equal(await page.locator("#selected-count").textContent(),`${count} comparison ${count===1 ? "council" : "councils"} selected.`);
+      assert.equal((await checked()).length,count);
+      assert.equal(await page.locator('input[name="comparison"][value="E09000026"]').count(),0);
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+    }
+    assert.match(await page.locator(".comparison-reference").textContent(),/Comparing Redbridge/);
+    assert.equal(await page.locator("#focus-council").count(),0);
+    assert.equal(await page.locator("#comparison-controls #peer-group").count(),0);
+    assert.equal(await page.locator("#comparison-options").isVisible(),true);
+    assert.equal(await search.getAttribute("autocomplete"),"off");
+    assert.equal(await search.getAttribute("name"),"comparison-search");
+    assert.ok((await search.boundingBox()).height>=44);
+    await checkCount(1);
+    await search.fill("Richmond");
+    assert.equal(await page.locator(".comparison-option:visible").count(),1);
+    await page.locator(".comparison-option:visible").click();
+    await checkCount(2);
+    await page.locator(".comparison-option:visible").click();
+    await checkCount(1);
+    await page.locator(".comparison-option:visible").click();
+    await checkCount(2);
+    await search.fill("Sutton");
+    await search.focus();
+    await page.keyboard.press("Tab");
+    assert.equal(await page.locator(".selection-skip").evaluate(el=>el===document.activeElement),true);
+    await page.keyboard.press("Tab");
+    const sutton=page.locator('input[name="comparison"][value="E09000029"]');
+    assert.equal(await sutton.evaluate(el=>el===document.activeElement),true);
+    assert.equal(await sutton.evaluate(el=>getComputedStyle(el).outlineStyle),"solid");
+    const box=await sutton.boundingBox(),header=await page.locator(".masthead").boundingBox();
+    assert.ok(box.y>=header.y+header.height && box.y+box.height<=844);
+    await page.keyboard.press("Space");
+    await checkCount(3);
+    assert.match(await page.locator("#comparison-result-count").textContent(),/1 matching authority; 1 selected/);
+    await page.evaluate(()=>{
+      window.selectionAnnouncements=[];
+      new MutationObserver(records=>window.selectionAnnouncements.push(...records.map(record=>record.type)))
+        .observe(document.getElementById("selected-count"),{childList:true,subtree:true,characterData:true});
+    });
+    const beforeSearch=new URL(page.url()).searchParams.get("peers");
+    await search.fill("ZZZ-no-such-council");
+    assert.equal(await page.locator("#comparison-no-results").isVisible(),true);
+    assert.equal(await page.locator("#comparison-options").isVisible(),false);
+    assert.match(await page.locator("#comparison-result-count").textContent(),/^0 matching/);
+    assert.equal(new URL(page.url()).searchParams.get("peers"),beforeSearch);
+    assert.deepEqual(await page.evaluate(()=>window.selectionAnnouncements),[]);
+    await page.getByRole("button",{name:"Remove Richmond upon Thames",exact:true}).click();
+    await checkCount(2);
+    assert.ok(await page.evaluate(()=>Boolean(document.activeElement.dataset.remove)));
+    assert.equal(await page.locator("#comparison-no-results").isVisible(),true);
+    await page.locator("#all-london").click();
+    await checkCount(32);
+    assert.equal(await search.inputValue(),"");
+    assert.equal(await page.locator("#all-london").getAttribute("aria-pressed"),"true");
+    assert.equal(await page.locator("#all-london").getAttribute("data-selection-state"),"all");
+    assert.match(await page.locator("#london-preset-status").textContent(),/^All 32 London comparison councils selected\.$/);
+    assert.equal(await page.locator("#selected-comparisons").getAttribute("open"),null);
+    assert.equal(await page.locator("#selection-colours [data-remove]").count(),32);
+    const list=await page.locator("#comparison-options").evaluate(el=>({height:el.clientHeight,content:el.scrollHeight}));
+    assert.ok(list.height<=352 && list.content>list.height);
+    assert.match(await page.locator('.comparison-option:has(input[value="E09000001"])').textContent(),/Different responsibilities/);
+    assert.match(await page.locator('.comparison-option:has(input[value="E09000011"])').textContent(),/Budget not returned/);
+    assert.match(await page.locator("#total-benchmark").textContent(),/30 valid peers/);
+    const allLondonBenchmark=await page.locator("#total-benchmark").textContent();
+    await search.fill("Adur");
+    await page.locator(".comparison-option:visible").click();
+    await checkCount(33);
+    assert.equal(await page.locator("#all-london").getAttribute("aria-pressed"),"false");
+    assert.equal(await page.locator("#all-london").getAttribute("data-selection-state"),"partial");
+    assert.match(await page.locator("#london-preset-status").textContent(),/All 32.*1 outside London/);
+    assert.equal(await page.locator("#total-benchmark").textContent(),allLondonBenchmark);
+    assert.ok((await checked()).includes(outside));
+    await page.locator("#all-london").click();
+    assert.ok(!(await checked()).includes(outside));
+    await page.locator("#selected-comparisons > summary").click();
+    await page.getByRole("button",{name:"Remove Sutton",exact:true}).click();
+    await checkCount(31);
+    assert.equal(await page.locator("#selected-comparisons").getAttribute("open"),"");
+    assert.equal(await sutton.isChecked(),false);
+    assert.equal(await page.locator("#all-london").getAttribute("aria-pressed"),"false");
+    assert.match(await page.locator("#london-preset-status").textContent(),/^31 of 32/);
+    await page.locator("#clear-comparisons").click();
+    await checkCount(0);
+    assert.equal(await search.evaluate(el=>el===document.activeElement),true);
+    assert.equal(await page.locator("#clear-comparisons").isDisabled(),true);
+    assert.equal(await page.locator("#selected-empty").isVisible(),true);
+    assert.equal(new URL(page.url()).searchParams.get("peers"),"");
+    assert.match(await page.locator("#selection-status").textContent(),/no peer benchmark/);
+    await page.locator("#reset-comparisons").click();
+    await checkCount(1);
+    assert.deepEqual(await checked(),[forest]);
+    await page.getByRole("button",{name:"Remove Waltham Forest",exact:true}).click();
+    await checkCount(0);
+    assert.equal(await search.evaluate(el=>el===document.activeElement),true);
+    await page.locator("#reset-comparisons").click();
+    await search.fill("Richmond");
+    await page.locator(".comparison-option:visible").click();
+    const selectedBeforeBrowse=new URL(page.url()).searchParams.get("peers");
+    const benchmarkBeforeBrowse=await page.locator("#total-benchmark").textContent();
+    for(const group of ["single","same","councils","all","london"]){
+      await page.selectOption("#peer-group",group);
+      assert.equal(new URL(page.url()).searchParams.get("peers"),selectedBeforeBrowse);
+      assert.equal(await page.locator("#total-benchmark").textContent(),benchmarkBeforeBrowse);
+    }
+    await page.selectOption("#shared-metric","absolute");
+    assert.ok((await page.locator("[data-current-metric]").allTextContents()).every(text=>text==="Total budget (£m)"));
+    await page.locator("#theme-toggle").click();
+    const theme=await page.locator("html").getAttribute("data-theme");
+    await major(page,"Funding");
+    await checkCount(2);
+    assert.equal(await page.locator("#funding-table [data-funding-authority]").count(),3);
+    assert.equal(await page.locator("#shared-metric").inputValue(),"absolute");
+    await major(page,"Services");
+    await library(page);
+    await checkCount(2);
+    assert.equal(await page.locator(".service tbody tr").count(),3);
+    assert.equal(await metricSelect(page).inputValue(),"absolute");
+    await metricSelect(page).selectOption("resident");
+    assert.equal(await page.locator("#shared-metric").inputValue(),"resident");
+    await page.selectOption("#shared-metric","roads");
+    assert.match(await page.locator("#shared-metric-help").textContent(),/^Unavailable for this service/);
+    await page.reload();
+    await page.waitForFunction(()=>Boolean(window.atlasAudit));
+    await checkCount(2);
+    assert.equal(new URL(page.url()).searchParams.get("peers"),selectedBeforeBrowse);
+    assert.equal(await page.locator("#shared-metric").inputValue(),"roads");
+    assert.equal(await page.locator("html").getAttribute("data-theme"),theme);
+    assert.deepEqual(errors,[]);
+    assert.deepEqual(requests,[]);
+    await context.close();
+  }
+});
+
 test("overview is a real smaller directory, not a hidden full ledger; precise totals remain",async()=>{
   const {page,context,errors,requests}=await open();
   assert.equal(await page.locator(".service").count(),0);
@@ -95,7 +294,6 @@ test("funding comes before spending, reconciles on its own document and keeps de
 
 test("one, multiple and empty selections synchronize funding, service, URL and reset",async()=>{
   const {page,context,errors}=await open("funding.html");
-  await page.locator("#comparison-picker > summary").click();
   await page.check('input[name="comparison"][value="E09000027"]');
   assert.equal(await page.locator("#funding-table [data-funding-authority]").count(),3);
   await page.selectOption("#shared-metric","absolute");
@@ -130,8 +328,8 @@ test("All London membership and excluded responsibilities survive links, reload 
   const selected=await page.locator('input[name="comparison"]:checked').evaluateAll(inputs=>inputs.map(input=>input.value));
   assert.deepEqual(new Set([focus,...selected]),new Set(london));
   assert.equal(selected.length,32);
-  assert.match(await page.locator("#selection-status").textContent(),/City of London.*distinct responsibilities/);
-  assert.match(await page.locator("#selection-status").textContent(),/missing returns remain visible/);
+  assert.match(await page.locator("#comparison-coverage").textContent(),/City of London.*different responsibilities/);
+  assert.match(await page.locator("#selection-status").textContent(),/1 selected return is missing/);
   assert.match(await page.locator("#total-benchmark").textContent(),/30 valid peers/);
   const href=await page.locator('.directory-entry a[href*="ra1_cullib.html"]').getAttribute("href");
   const other=await context.newPage();
@@ -210,7 +408,7 @@ test("overview filters, theme directory and detail links retain the exact benchm
   await row.locator("th a").click();
   assert.equal(await page.locator("[data-benchmark-delta]").getAttribute("data-benchmark-delta"),delta);
   await major(page,"Services");
-  await page.selectOption("#benchmark-metric","roads");
+  await page.selectOption("#shared-metric","roads");
   await page.selectOption("#benchmark-filter","available");
   assert.equal(await page.locator("#benchmark-table tbody tr").count(),3);
   await page.selectOption("#directory-group",data.fields.find(f=>f.id==="ra1_cullib").group);
@@ -386,7 +584,7 @@ test("zero funding denominator has no percentages or fabricated residual",async(
 test("no-JS offline fallback is readable across all document types with actual relative links",async()=>{
   const {page,context,requests}=await open("index.html",{javaScriptEnabled:false});
   assert.equal(await page.locator(".directory-entry").count(),129);
-  assert.equal(await page.locator("#focus-council").isVisible(),false);
+  assert.equal(await page.locator("#comparison-controls").isVisible(),false);
   await library(page,false);
   assert.match(await page.locator(".service table").textContent(),/5\.867m/);
   assert.equal(await page.locator(".service details").getAttribute("open"),"");
@@ -408,8 +606,6 @@ test("mobile keyboard/touch, selected names, theme and reduced motion stay acces
   assert.equal(await page.locator(".skip").evaluate(el=>el===document.activeElement),true);
   await page.keyboard.press("Enter");
   assert.equal(await page.locator("#content").evaluate(el=>el===document.activeElement),true);
-  await page.locator("#comparison-picker > summary").focus();
-  await page.keyboard.press("Enter");
   await page.fill("#comparison-search","Sutton");
   const checkbox=page.locator('input[name="comparison"][value="E09000029"]');
   await checkbox.focus();await page.keyboard.press("Space");
@@ -455,7 +651,7 @@ test("verified council tokens and permission-aware names remain consistent acros
     assert.ok(contrasts.length>0 && contrasts.every(ratio=>ratio>=4.5));
   }
   assert.equal(await page.locator("img").count(),0);
-  assert.equal(await page.locator('#selection-colours [data-council="E09000026"]').getAttribute("data-logo-state"),"not-established");
+  assert.equal(await page.locator('.comparison-reference [data-council="E09000026"]').getAttribute("data-logo-state"),"not-established");
   assert.deepEqual(requests,[]);
   await context.close();
 });
@@ -466,7 +662,7 @@ test("service-to-explorer CSV uses the same selected metric and exact unrounded 
   await page.waitForFunction(()=>Boolean(window.atlasAudit));
   assert.match(new URL(page.url()).pathname,/index.html$/);
   assert.equal(await page.locator("#budget-line").inputValue(),"ra1_cullib");
-  assert.equal(await page.locator("#display-metric").inputValue(),"resident");
+  assert.equal(await page.locator("#shared-metric").inputValue(),"resident");
   await page.selectOption("#peer-group","all");
   assert.equal(await page.locator("#peer-table tbody tr").count(),415);
   const promise=page.waitForEvent("download");
