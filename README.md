@@ -8,7 +8,7 @@ An offline-capable editorial investigation of **where Redbridge's 2026–27 plan
 
 After the plan upgrade, open **Settings > Pages > Build and deployment** and select **GitHub Actions** as the source. Merge the deployment PR into `main`, or run the **GitHub Pages** workflow manually against `main` after enabling Pages. The expected public address is `https://redbridgeindependents.github.io/council-budget-atlas/`; it is not live merely because the workflow exists.
 
-`.github/workflows/pages.yml` builds and tests pull requests without deploying them. Pushes to `main` and manual runs on `main` publish only after the build, source/data checks, packaging checks and browser checks pass. The deployment uses the official `actions/configure-pages`, `actions/upload-pages-artifact` and **`actions/deploy-pages`** actions, with deployment-scoped Pages/OIDC permissions and the `github-pages` environment.
+`.github/workflows/pages.yml` builds and tests pull requests without deploying them. Pushes to `main` and manual runs on `main` publish only after the build, source/data checks, packaging checks and browser checks pass. Build/tests run on Windows to support the pinned research metadata's Windows paths; the separate deployment job runs on Ubuntu. The deployment uses the official `actions/configure-pages`, `actions/upload-pages-artifact` and **`actions/deploy-pages`** actions, with deployment-scoped Pages/OIDC permissions and the `github-pages` environment.
 
 ```powershell
 npm run build:pages
