@@ -6,8 +6,8 @@
   "scripts": {
     "build": "python scripts\\import_data.py && python scripts\\build.py",
     "test:data": "python -m unittest discover -s tests -p \"test_*.py\"",
-    "test:browser": "node --test tests\\browser.test.cjs",
-    "test:benchmarks": "node --test tests\\benchmark.test.cjs",
+    "test:browser": "node --test tests\\documents.browser.test.cjs",
+    "test:benchmarks": "node --test tests\\benchmark.test.cjs tests\\navigation.test.cjs",
     "test": "npm run test:data && npm run test:benchmarks && npm run test:browser"
   },
   "devDependencies": {

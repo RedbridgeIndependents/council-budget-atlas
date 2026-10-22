@@ -1,17 +1,65 @@
 (() => {
   "use strict";
-  const data = JSON.parse(document.getElementById("atlas-data").textContent);
+  const data = window.atlasData;
   const authorities = new Map(data.authorities.map(a => [a.code, a]));
   const fields = new Map(data.fields.map(f => [f.id, f]));
   const $ = id => document.getElementById(id);
-  const state = { focus: "E09000026", comparisons: new Set(["E09000031"]), peer: "london", field: "ra1_servicetot", metric: "absolute", story: 0 };
+  const navigation = window.AtlasNavigation;
+  const initial = navigation.parse(location.search,data.authorities,data.fields);
+  const state = { focus: initial.focus, comparisons: new Set(initial.peers), peer: initial.group, field: initial.field, metric: initial.metric, story: initial.story };
   const selectedCodes = () => [state.focus, ...state.comparisons].filter((code, index, all) => all.indexOf(code) === index);
   const selectedAuthorities = () => selectedCodes().map(code => authorities.get(code));
   const nf = new Intl.NumberFormat("en-GB", { maximumFractionDigits: 0 });
   const decimal = new Intl.NumberFormat("en-GB", { minimumFractionDigits: 3, maximumFractionDigits: 3 });
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  const benchmarkState = { metric: "resident", filter: "all", sort: "magnitude" };
+  const benchmarkState = { metric: initial.metric, filter: initial.filter, sort: initial.sort };
   const stats = window.BudgetBenchmarks;
+  const root = document.body.dataset.root;
+  function query() {
+    return navigation.serialize({...state,filter:benchmarkState.filter,sort:benchmarkState.sort,theme:document.documentElement.dataset.theme});
+  }
+  function syncLinks(scope=document) {
+    const currentQuery=query();
+    scope.querySelectorAll("a[href]").forEach(link=>{
+      let base=link.dataset.documentHref || link.getAttribute("href");
+      if (base.startsWith("#") && !$(base.slice(1))) {
+        const identifier=base.slice(1);
+        if (identifier.startsWith("line-")) base=root+data.documents.fields[identifier.slice(5)];
+        else if (identifier.startsWith("source-")) base=root+"methodology.html"+base;
+        else if (identifier==="funding") base=root+"funding.html#funding";
+        else throw new Error(`Unresolved generated document link: ${identifier}`);
+      }
+      const target=new URL(base,location.href);
+      const local=target.protocol==="file:" || target.origin===location.origin && /^https?:$/.test(target.protocol);
+      if (!local || !target.pathname.endsWith(".html") || link.hasAttribute("download")) return;
+      link.dataset.documentHref=base;
+      link.setAttribute("href",navigation.href(base,currentQuery));
+    });
+  }
+  function updateContext() {
+    const url=new URL(location.href);
+    url.search=query();
+    if (url.href!==location.href) history.replaceState(null,"",url.href);
+    syncLinks();
+  }
+  function setControls() {
+    $("theme-toggle").textContent=document.documentElement.dataset.theme==="dark" ? "Use light theme" : "Use dark theme";
+    $("shared-metric").value=state.metric;
+    $("peer-group").value=state.peer;
+    if ($("budget-line")) $("budget-line").value=state.field;
+    if ($("display-metric")) $("display-metric").value=state.metric;
+    for (const key of ["metric","filter","sort"]) if ($("benchmark-"+key)) $("benchmark-"+key).value=benchmarkState[key];
+  }
+  function setMetric(metric) {
+    state.metric=metric; benchmarkState.metric=metric;
+    ledgerMetrics.clear(); setControls();
+    updateExplorer(); updateBenchmarks(); refreshOpenLedgers(); updateContext();
+  }
+  document.documentElement.dataset.theme=initial.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  if (initial.issues.length) {
+    $("navigation-notice").hidden=false;
+    $("navigation-notice").textContent=initial.issues.join(" ");
+  }
   const escape = text => String(text).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const isNumber = n => typeof n === "number" && Number.isFinite(n);
   const monetary = n => isNumber(n) ? `${n < 0 ? "−" : ""}£${decimal.format(Math.abs(n) / 1000)}m` : "Not available";
@@ -46,11 +94,7 @@
     return "Not available";
   }
   function metricValue(a, f, metric = state.metric) {
-    const value = raw(a, f);
-    if (!isNumber(value)) return null;
-    if (metric === "resident") return a.population && a.population.value > 0 ? value * 1000 / a.population.value : null;
-    if (metric === "roads") return f.denominator.key === "roads" && a.roads && a.roads.value > 0 ? value * 1000 / a.roads.value : null;
-    return value / 1000;
+    return stats.value(a,f,metric);
   }
   const formatMetric = (n, metric = state.metric) => !isNumber(n) ? "Not available" : metric === "absolute" ? `${n < 0 ? "−" : ""}£${decimal.format(Math.abs(n))}m` : pounds(n);
   const unit = metric => metric === "absolute" ? "£m" : metric === "resident" ? "£ per resident (mid-2025)" : "£ per local network mile (2025)";
@@ -78,6 +122,7 @@
     }).join("")}</tbody></table>`;
   }
   function updateComposition() {
+    if (!$("theme-bars")) return;
     const a = authorities.get(state.focus);
     const ids = data.meta.themeIds;
     const lo = Math.min(0, ...ids.map(id => a.values[id] || 0));
@@ -108,6 +153,7 @@
     }).join("")}</tbody></table>`;
   }
   function updateBenchmarks() {
+    if (!$("benchmark-table")) return;
     let items=data.fields.filter(f=>f.kind==="service").map(f=>({f,b:benchmark(f)}));
     const filter=benchmarkState.filter;
     items=items.filter(({b})=>filter==="above" ? b.delta>0 : filter==="below" ? b.delta<0 : filter==="available" ? isNumber(b.delta) : filter==="missing" ? !isNumber(b.delta) : true);
@@ -172,7 +218,7 @@
   const ledgerMetrics=new Map();
   function renderLedger(section) {
     const f=fields.get(section.id.slice(5)), selector=section.querySelector("[data-ledger-metric]");
-    if (!ledgerMetrics.has(f.id)) ledgerMetrics.set(f.id,benchmarkState.metric==="roads" && f.denominator.key!=="roads" ? "absolute" : benchmarkState.metric);
+    if (!ledgerMetrics.has(f.id)) ledgerMetrics.set(f.id,state.metric);
     const metric=ledgerMetrics.get(f.id); selector.value=metric;
     const pair=selectedAuthorities(), b=benchmark(f,metric);
     const rows=pair.map(a=>({a,n:metricValue(a,f,metric)})).sort((x,y)=>{
@@ -188,11 +234,14 @@
     const serviceUnit=f.denominator.key==="roads" ? `A verified road-network denominator is available where joined: use the network-mile option. It remains a maintenance-scale proxy, not an audited unit cost.${cite(7)}` : f.kind==="service" ? `Preferred service unit: ${escape(f.denominator.preferred)}. No verified matching service-unit denominator is imported; resident scale is not unit cost.${cite(f.denominator.source)}` : "No service-output denominator is applicable to this accounting total or line.";
     section.querySelector("[data-ledger-caption]").innerHTML=`${escape(basis)} · 2026–27 budget return · ${escape(unit(metric))}. Redbridge first; comparisons descending, missing values last. Solid focus / outlined comparisons; dashed vertical line ${b.count ? `= ${b.count===1 ? "direct peer" : "median of valid selected peers"} ${formatMetric(b.benchmark,metric)} (${b.count} peers)` : "not available: no supported service benchmark"}. All selected authorities stay visible, but non-borough responsibilities and missing measures do not enter the benchmark.${cite(f.source)}${metric==="resident" ? cite(8) : metric==="roads" ? cite(7) : ""} ${serviceUnit} Hover, tap or focus a named row for values; the complete table follows. Differences identify questions, not waste or underprovision.`;
     section.querySelector("[data-benchmark]").innerHTML=`<strong>Chart lens:</strong> ${benchmarkParagraph(f,metric)}`;
+    section.querySelector("[data-benchmark]").dataset.benchmarkDelta=isNumber(b.delta) ? String(b.delta) : "";
+    section.querySelector("[data-benchmark]").dataset.benchmarkPeers=String(b.count);
     section.querySelector("table").innerHTML=`<caption>All ${pair.length} selected authorities · 2026–27 return · ${escape(unit(metric))}</caption><thead><tr><th scope="col">Authority</th><th scope="col">Published amount (£m)</th><th scope="col">Chart denominator</th><th scope="col">Chart value · ${escape(unit(metric))}</th></tr></thead><tbody>${pair.map(a=>{
-      const den=metric==="resident" ? (a.population ? `${nf.format(a.population.value)} people · mid-2025` : "Population not joined") : metric==="roads" ? (a.roads ? `${a.roads.major} + ${a.roads.minor} = ${nf.format(a.roads.value)} miles · 2025` : "Road network not joined") : "Not used";
+      const den=metric==="resident" ? (a.population ? `${nf.format(a.population.value)} people · mid-2025` : "Population not joined") : metric==="roads" ? (f.denominator.key!=="roads" ? "No eligible denominator for this line" : a.roads ? `${a.roads.major} + ${a.roads.minor} = ${nf.format(a.roads.value)} miles · 2025` : "Road network not joined") : "Not used";
       const n=metricValue(a,f,metric);
       return `<tr${a.code===state.focus ? ' class="selected"' : ""}><th scope="row">${identity(a.code)}</th><td class="num">${sourceValue(a,f)}</td><td>${escape(den)}${metric==="resident" ? cite(8) : metric==="roads" ? cite(7) : ""}</td><td class="num">${isNumber(n) ? formatMetric(n,metric) : escape(unavailable(a,f,metric))}</td></tr>`;
     }).join("")}</tbody>`;
+    syncLinks(section);
   }
   function refreshOpenLedgers() {
     document.querySelectorAll(".service > details[open]").forEach(details=>renderLedger(details.parentElement));
@@ -209,6 +258,7 @@
   const percentage = (n,total) => isNumber(n) && isNumber(total) && total !== 0 ? `${(n/total*100).toFixed(1)}%` : "Not available";
   const perResident = (n,a) => isNumber(n) && a.population && a.population.value>0 ? pounds(n*1000/a.population.value) : "Not available";
   function updateFunding() {
+    if (!$("funding-table")) return;
     const pair=selectedAuthorities(), focus=pair[0], total=focus.values.ra1_revenuetot;
     const cards=[["Own council-tax requirement",focus.values.ra1_ctrtot],["Explicit central-government grants",government(focus)],["Reconciling revenue expenditure",total]];
     $("funding-cards").innerHTML=`<div class="stat-grid">${cards.map(([label,n])=>`<div class="stat"><span>${escape(label)} · ${identity(focus.code)}</span><strong>${monetary(n)}${cite(1)}</strong><span>${perResident(n,focus)} per resident · ${percentage(n,total)} of RA 900${cite(8)}</span></div>`).join("")}</div><p class="small">Of the specific grants inside AEF, Dedicated Schools Grant is ${sourceValue(focus,fields.get("sg_grantindsg"))}. It is already included in government grants above; it is not additional funding to add again.</p>`;
@@ -232,9 +282,13 @@
     }).join("");
     $("funding-peer-table").innerHTML=`<table><caption>2026–27 peer-group financing, £m; † selected outside ranking peers. Full selected-authority reconciliation above includes every adjustment.</caption><thead><tr><th scope="col">Authority</th><th scope="col">Own council tax</th><th scope="col">Government grants</th><th scope="col">Retained rates</th><th scope="col">Net reserves use (+) / addition (−)</th><th scope="col">RA 900 revenue total</th><th scope="col">Total £ / resident</th></tr></thead><tbody>${rows}</tbody></table>`;
     $("capitalisation-context").innerHTML=`<strong>Capitalisation is not a government grant.</strong> ${identity(focus.code)} reports ${sourceValue(focus,fields.get("ra1_netoffexpcap"))} at RA 868: netting off expenditure capitalised by a Section 16(2)b direction. This is a non-current adjustment before RA 900, not extra grant income in the financing mix. Reserve use, borrowing, flexible capital receipts and Exceptional Financial Support are not interchangeable; this return does not identify all EFS arrangements.`;
-    $("spending-funding-context").innerHTML=`<p><strong>Selected-council funding context · 2026–27 budget:</strong></p>${pair.map(a=>`<p>${identity(a.code)}: own council-tax requirement ${sourceValue(a,fields.get("ra1_ctrtot"))}; explicit central-government grants ${monetary(government(a))}${cite(1)}; revenue-expenditure perimeter ${sourceValue(a,fields.get("ra1_revenuetot"))}.</p>`).join("")}<p>This is not a grant allocation to the selected service, a measure of fiscal need or an efficiency adjustment. <a href="#funding">Read the complete funding reconciliation</a>.</p>`;
+  }
+  function updateFundingContext() {
+    if (!$("spending-funding-context")) return;
+    $("spending-funding-context").innerHTML=`<p><strong>Selected-council funding context · 2026–27 budget:</strong></p>${selectedAuthorities().map(a=>`<p>${identity(a.code)}: own council-tax requirement ${sourceValue(a,fields.get("ra1_ctrtot"))}; explicit central-government grants ${monetary(government(a))}${cite(1)}; revenue-expenditure perimeter ${sourceValue(a,fields.get("ra1_revenuetot"))}.</p>`).join("")}<p>This is not a grant allocation to the selected service, a measure of fiscal need or an efficiency adjustment. <a href="#funding">Read the complete funding reconciliation</a>.</p>`;
   }
   function updateStory(step = state.story) {
+    if (!$("story-chart")) return;
     state.story = step;
     const metric = step === 2 ? "resident" : "absolute";
     const ids = storySets[step];
@@ -250,6 +304,7 @@
       $("story-table").innerHTML = pairTable(ids,metric,titles[step]);
       $("story-caption").innerHTML = `For ${pair.length} selections, the graphic switches to one explicitly named line rather than overlapping council series. Each council gets its own labelled row, including missing returns. Scroll inside the graphic for all rows; the complete theme table keeps all ${pair.length} selections.${cite(1)}${metric === "resident" ? cite(8) : ""}`;
       document.querySelectorAll("[data-story]").forEach(button => button.setAttribute("aria-pressed", String(Number(button.dataset.story) === step)));
+      updateContext();
       return;
     }
     const values = ids.flatMap(id => pair.map(a => metricValue(a, fields.get(id), metric))).filter(isNumber);
@@ -282,9 +337,11 @@
     $("story-table").innerHTML = pairTable(ids, metric, titles[step]);
     $("story-caption").innerHTML = `Shared zero-based scale; solid focus and outlined comparison bars. Exact values are available by keyboard focus, touch and the data table.${cite(1)}${metric === "resident" ? cite(8) : ""}`;
     document.querySelectorAll("[data-story]").forEach(button => button.setAttribute("aria-pressed", String(Number(button.dataset.story) === step)));
+    updateContext();
   }
 
   function updateExplorer() {
+    if (!$("peer-table")) return;
     const f = fields.get(state.field);
     const peers = peerAuthorities();
     const peerCodes = new Set(peers.map(a => a.code));
@@ -350,6 +407,7 @@
   }
 
   function updateRoads() {
+    if (!$("roads-table")) return;
     const pair = selectedAuthorities();
     const f = fields.get("ra1_transrdsmnt"), a = pair[0], road = a.roads;
     const value = metricValue(a, f, "roads");
@@ -378,12 +436,18 @@
       el.textContent = monetary(raw(focus, f));
       el.title = `${locator(focus,f)}; linked source inside expanded section`;
     });
-    updateFunding(); updateComposition(); updateStory(); updateExplorer(); updateRoads(); updateBenchmarks(); refreshOpenLedgers();
+    updateFunding(); updateFundingContext(); updateComposition(); updateStory(); updateExplorer(); updateRoads(); updateBenchmarks(); refreshOpenLedgers(); updateContext();
   }
   function explore(id, metric) {
-    state.field = id; $("budget-line").value = id;
-    if (metric) { state.metric = metric; $("display-metric").value = metric; }
+    state.field = id;
+    if (metric) { state.metric = metric; benchmarkState.metric=metric; }
+    if (!$("budget-line")) {
+      location.href=navigation.href(root+"index.html#london",query());
+      return;
+    }
+    setControls();
     updateExplorer();
+    updateContext();
     $("london").scrollIntoView({ behavior: reducedMotion.matches ? "instant" : "smooth" });
     $("budget-line").focus({ preventScroll: true });
   }
@@ -394,7 +458,7 @@
       section.hidden = !(section.dataset.search.includes(query) && (kind === "all" || section.dataset.kind === kind));
       if (!section.hidden) count++;
     });
-    $("catalog-count").textContent = `${count} of 321 published numeric lines match. No data have been removed from the underlying catalogue.`;
+    $("catalog-count").textContent = `${count} of 192 accounting / theme lines match. The 129 individual services have separate documents.`;
     requestAnimationFrame(updateProgress);
   }
   function revealHash() {
@@ -424,26 +488,37 @@
   $("clear-comparisons").addEventListener("click", () => { state.comparisons.clear(); updateSelection(); });
   $("reset-comparisons").addEventListener("click", () => { state.focus = "E09000026"; state.comparisons = new Set(["E09000031"]); $("focus-council").value = state.focus; updateSelection(); });
   $("peer-group").addEventListener("change", e => { state.peer = e.target.value; updateSelection(); });
-  $("budget-line").addEventListener("change", e => { state.field = e.target.value; updateExplorer(); });
-  $("display-metric").addEventListener("change", e => { state.metric = e.target.value; updateExplorer(); });
-  for (const key of ["metric","filter","sort"]) $("benchmark-"+key).addEventListener("change", e=>{ benchmarkState[key]=e.target.value; updateBenchmarks(); refreshOpenLedgers(); });
+  $("budget-line")?.addEventListener("change", e => { state.field = e.target.value; updateExplorer(); updateContext(); });
+  $("display-metric")?.addEventListener("change", e => setMetric(e.target.value));
+  $("shared-metric").addEventListener("change", e=>setMetric(e.target.value));
+  $("benchmark-metric")?.addEventListener("change", e=>setMetric(e.target.value));
+  for (const key of ["filter","sort"]) $("benchmark-"+key)?.addEventListener("change", e=>{ benchmarkState[key]=e.target.value; updateBenchmarks(); updateContext(); });
   document.querySelectorAll("[data-ledger-metric]").forEach(selector=>selector.addEventListener("change",()=>{
-    ledgerMetrics.set(selector.dataset.ledgerMetric,selector.value);
-    renderLedger(selector.closest(".service"));
+    setMetric(selector.value);
   }));
-  $("service-search").addEventListener("input", filterCatalogue);
-  $("catalog-kind").addEventListener("change", filterCatalogue);
-  $("report-search").addEventListener("input", e => {
+  $("service-search")?.addEventListener("input", filterCatalogue);
+  $("catalog-kind")?.addEventListener("change", filterCatalogue);
+  function filterDirectory() {
+    const search=$("directory-search").value.trim().toLocaleLowerCase("en-GB"), group=$("directory-group").value;
+    const entries=[...document.querySelectorAll(".directory-entry")];
+    for (const entry of entries) entry.hidden=!entry.dataset.directorySearch.includes(search) || Boolean(group && entry.dataset.directoryGroup!==group);
+    $("directory-count").textContent=`${entries.filter(entry=>!entry.hidden).length} of 129 service documents match.`;
+    requestAnimationFrame(updateProgress);
+  }
+  $("directory-search")?.addEventListener("input",filterDirectory);
+  $("directory-group")?.addEventListener("change",filterDirectory);
+  $("report-search")?.addEventListener("input", e => {
     const query = e.target.value.toLocaleLowerCase("en-GB");
     document.querySelectorAll("[data-report-search]").forEach(row => { row.hidden = !row.dataset.reportSearch.includes(query); });
   });
   document.querySelectorAll("[data-explore]").forEach(button => button.addEventListener("click", () => explore(button.dataset.explore)));
   document.querySelectorAll("[data-story]").forEach(button => button.addEventListener("click", () => updateStory(Number(button.dataset.story))));
-  $("explore-roads").addEventListener("click", () => explore("ra1_transrdsmnt", "roads"));
+  $("explore-roads")?.addEventListener("click", () => explore("ra1_transrdsmnt", "roads"));
   $("theme-toggle").addEventListener("click", () => {
     const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
     $("theme-toggle").textContent = next === "dark" ? "Use light theme" : "Use dark theme";
+    updateContext();
   });
   $("theme-toggle").textContent = document.documentElement.dataset.theme === "dark" ? "Use light theme" : "Use dark theme";
   window.addEventListener("hashchange", revealHash);
@@ -461,6 +536,13 @@
       else clearLedgerChart(section);
     }
   },true);
+  window.addEventListener("popstate",()=>{
+    const restored=navigation.parse(location.search,data.authorities,data.fields);
+    Object.assign(state,{comparisons:new Set(restored.peers),peer:restored.group,field:restored.field,metric:restored.metric,story:restored.story});
+    Object.assign(benchmarkState,{metric:restored.metric,filter:restored.filter,sort:restored.sort});
+    if (restored.theme) document.documentElement.dataset.theme=restored.theme;
+    ledgerMetrics.clear(); setControls(); updateSelection();
+  });
   if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver(entries => {
       entries.filter(entry => entry.isIntersecting).forEach(entry => updateStory(Number(entry.target.dataset.step)));
@@ -470,12 +552,12 @@
       const reveal = new IntersectionObserver(entries => entries.forEach(entry => {
         if (entry.isIntersecting) { entry.target.classList.add("is-visible"); reveal.unobserve(entry.target); }
       }), { threshold: .08 });
-      document.querySelectorAll(".chapter > h2,.chapter > .section-head,.stat-grid,.coverage-card,.service").forEach(el => {
+      document.querySelectorAll(".chapter > h2,.chapter > .section-head,.stat-grid,.coverage-card,.service > details > summary,.ledger-figure").forEach(el => {
         el.classList.add("reveal", "will-reveal"); reveal.observe(el);
       });
     }
   }
-  updateSelection();
+  setControls(); updateSelection();
   document.documentElement.classList.add("js");
   updateProgress(); revealHash();
   // Expose read-only data for reproducibility and local audits, not a remote dependency.

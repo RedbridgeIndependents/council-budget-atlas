@@ -138,14 +138,12 @@ class DataTests(unittest.TestCase):
 
     def test_generated_offline_fallback(self):
         page = (ROOT / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(page.count('class="service"'), 321)
-        self.assertEqual(page.count('data-ledger-chart="'), 321)
-        self.assertEqual(page.count('data-ledger-metric="'), 321)
-        self.assertEqual(page.count('<option value="roads">£ per network mile — maintenance proxy, not audited cost</option>'), 3)
+        self.assertEqual(page.count('data-ledger-chart="'), 0)
+        self.assertEqual(page.count('class="directory-entry"'), 129)
         self.assertIn("£787.766m", page)
         self.assertIn('href="#content"', page)
-        self.assertIn('id="source-21"', page)
-        self.assertIn("prefers-reduced-motion", page)
+        self.assertIn('href="methodology.html#source-1"', page)
+        self.assertIn("prefers-reduced-motion", (ROOT / "assets" / "atlas.css").read_text(encoding="utf-8"))
         self.assertFalse(re.search(r'<(?:script|link|img)[^>]+(?:src|href)="https?://', page))
         markup = re.sub(r"<script\b[^>]*>.*?</script>", "", page, flags=re.S)
         ids = re.findall(r'\bid="([^"]+)"', markup)

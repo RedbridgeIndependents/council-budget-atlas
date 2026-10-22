@@ -86,9 +86,9 @@ small, .small { font-size: .82rem; line-height: 1.5; }
 .masthead { position: sticky; top: 0; z-index: 20; background: var(--cp-brand-navy); color: var(--cp-brand-white); border-bottom: 1px solid var(--cp-brand-gold); }
 .masthead-inner { display: flex; align-items: center; gap: 2rem; min-height: 76px; }
 .wordmark { font-family: var(--cp-font-display); font-size: 1.65rem; line-height: .95; font-weight: 800; letter-spacing: -.02em; color: var(--cp-brand-white); text-decoration: none; min-width: 9rem; }
-nav { display: flex; gap: 1.25rem; flex: 1; overflow-x: auto; padding-block: .75rem; }
-nav a { color: var(--cp-brand-white); white-space: nowrap; font-size: .9rem; text-decoration: none; }
-nav a:hover { color: var(--cp-brand-gold); }
+.masthead nav { display: flex; gap: 1.25rem; flex: 1; overflow-x: auto; padding-block: .75rem; }
+.masthead nav a { color: var(--cp-brand-white); white-space: nowrap; font-size: .9rem; text-decoration: none; }
+.masthead nav a:hover { color: var(--cp-brand-gold); }
 .masthead :focus-visible { outline-color: var(--cp-brand-gold); }
 .theme-button { flex: none; font-size: .8rem; background: var(--cp-brand-gold); color: var(--cp-brand-navy); border-color: var(--cp-brand-gold); }
 .theme-button:hover { background: var(--cp-brand-white); }
@@ -205,6 +205,24 @@ details > summary:focus-visible { outline: 3px solid var(--cp-text); outline-off
 .service-body h4 { margin: 0 0 .5rem; }
 .service-body button { font-size: .8rem; margin-top: 1rem; }
 .catalog-count { margin-block: 1rem; font-size: .85rem; }
+.breadcrumbs { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding-block: 1.5rem; font-size: .85rem; }
+.breadcrumbs > * + *::before { content: "/ "; color: var(--cp-text-soft); margin-right: .5rem; }
+.document-controls { padding-bottom: 1.5rem; }
+.document-controls .controls { margin-top: 0; }
+.service-directory { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap: 0 2rem; margin-top: 2rem; }
+.directory-entry { border-top: 1px solid var(--cp-border); padding-block: 1rem; min-width: 0; }
+.directory-entry a { display: block; font-weight: 600; padding-block: .25rem; }
+.directory-entry small { display: block; color: var(--cp-text-soft); margin-top: .4rem; }
+.service-document { padding-block: 1.5rem; }
+.service-document .service-body { grid-template-columns: minmax(0,2fr) minmax(0,1fr); }
+.service-document summary h3 { font: 700 1.5rem/1.2 var(--cp-font-display); }
+.service-funding-context { border-top: 1px solid var(--cp-border-strong); padding-block: 2rem; }
+.service-funding-context h2, .page-evidence h2 { font: 700 1.8rem/1.2 var(--cp-font-display); margin-bottom: 1rem; }
+.service-funding-context p { max-width: 85ch; font-size: .9rem; }
+.document-neighbours { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; padding-block: 2rem; }
+.document-neighbours a { max-width: 40ch; }
+.page-evidence { padding-block: 2rem 3rem; font-size: .9rem; }
+body[data-document="service"] .hero h1 { font-size: clamp(2.5rem,6vw,5rem); max-width: 24ch; overflow-wrap: anywhere; }
 .coverage-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-block: 2rem; }
 .coverage-card { padding: 1.5rem; border: 1px solid var(--cp-border-strong); border-radius: 16px; }
 .coverage-card h3 { font: 700 1.5rem/1.2 var(--cp-font-display); margin-block: .5rem 1rem; }
@@ -231,7 +249,7 @@ footer { border-top: 4px solid var(--cp-text); padding-block: 2rem 6rem; font-si
 @media (max-width: 1000px) {
   .masthead-inner { flex-wrap: wrap; gap: .5rem 1.5rem; padding-block: .75rem .5rem; }
   .wordmark { flex: 1; }
-  nav { order: 3; width: 100%; flex-basis: 100%; padding-block: .3rem; }
+  .masthead nav { order: 3; width: 100%; flex-basis: 100%; padding-block: .3rem; }
   .hero-grid, .section-head, .explorer-grid { display: block; }
   .hero-number { margin-top: 2.5rem; }
   .story-layout { gap: 2rem; grid-template-columns: .85fr 1.15fr; }
@@ -256,6 +274,7 @@ footer { border-top: 4px solid var(--cp-text); padding-block: 2rem 6rem; font-si
   .catalog-controls, .explorer-controls { grid-template-columns: 1fr; }
   #review .explorer-controls { grid-template-columns: 1fr; }
   .service-body { padding-top: 1rem; }
+  .service-document .service-body { grid-template-columns: minmax(0,1fr); }
   .chart-panel { padding: .75rem; }
   #story-chart, #comparison-chart { overflow-x: auto; }
   #story-chart svg, #comparison-chart svg, #funding-chart svg { min-width: 520px; }

@@ -37,7 +37,7 @@
       <p style="margin-top:1.5rem"><a href="#review">Go straight to Redbridge’s spending differences →</a></p>
       <p class="byline">Independent comparative analysis · no council endorsement implied<br>Budget release: 11 June 2026 · sources checked: 21 October 2026 · England in scope; UK gaps below</p>
       <noscript><p class="note">JavaScript is off. The sourced funding and spending comparisons, complete line catalogue, London reports and initial data tables remain readable. Interactive selection, charts and downloads require JavaScript.</p></noscript>
-      <div class="controls js-only" aria-label="Comparison settings">
+      <div class="controls js-only" id="comparison-controls" aria-label="Comparison settings">
         <label>Analytical reference<select id="focus-council" disabled><!-- FOCUS_OPTIONS --></select></label>
         <div class="comparison-picker">
           <details id="comparison-picker"><summary>Choose one or more comparison councils</summary>
@@ -122,7 +122,7 @@
       <details><summary>Redbridge’s differences from the selected-peer benchmark, by theme</summary><div class="table-scroll" id="theme-benchmarks"><!-- THEME_BENCHMARKS --></div></details>
     </section>
 
-    <section class="story" aria-labelledby="story-title">
+    <section class="story" id="story" aria-labelledby="story-title">
       <div class="wrap">
         <p class="eyebrow" style="padding-top:3rem">02 / Read between the bars</p>
         <h2 id="story-title">The same place.<br>A different lens.</h2>

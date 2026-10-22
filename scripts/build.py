@@ -5,6 +5,7 @@ import base64
 import json
 from pathlib import Path
 import re
+from documents import write_documents
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -204,7 +205,7 @@ def build():
         table = f'<table><caption>Selected authorities · 2026–27 budget · £m</caption><thead><tr><th scope="col">Authority</th><th scope="col">Published amount</th></tr></thead><tbody><tr><th scope="row" data-name="focus">{council(focus["code"])}</th><td class="num" data-value="{identifier}" data-authority="focus">{value(focus,f)}</td></tr><tr><th scope="row" data-name="compare">{council(compare["code"])}</th><td class="num" data-value="{identifier}" data-authority="compare">{value(compare,f)}</td></tr></tbody></table>'
         catalog.append(f'''<section class="service" id="line-{identifier}" aria-labelledby="heading-{identifier}" data-kind="{f["kind"]}" data-search="{esc((f["label"]+" "+f["group"]+" "+f["asset"]+" "+f["line"]).lower())}">
 <details><summary><h3 id="heading-{identifier}">{esc(f["label"])}</h3><div class="service-summary"><span>{esc(f["group"])} · {esc(f["part"].upper())} line {esc(f["line"])}</span><span class="value" data-summary-value="{identifier}" title="{esc(locator(focus,f))}; linked source inside expanded section">{money(focus["values"][identifier])}</span></div></summary>
-<div class="service-body"><div><h4>What this line measures</h4><p>{esc(explanation)}{citation(f["source"])}{citation(6)}</p><p class="note" data-benchmark="{identifier}">{benchmark_text(f)}</p><figure class="ledger-figure js-only"><h4>{esc(f["label"])} · selected-council chart</h4><label>Chart measure<select data-ledger-metric="{identifier}"><option value="absolute">Published amount (£m)</option><option value="resident">£ per resident — scale, not service unit cost</option>{'<option value="roads">£ per network mile — maintenance proxy, not audited cost</option>' if denominator.get("key")=="roads" else ""}</select></label><div class="ledger-chart" data-ledger-chart="{identifier}" tabindex="0" aria-label="{esc(f["label"])} chart"><p>Chart renders when this section opens. The source-linked table below is available without JavaScript.</p></div><figcaption data-ledger-caption="{identifier}">2026–27 return. Read the original accounting label and preferred denominator; no unit cost is inferred.</figcaption></figure><div class="table-scroll">{table}</div><p class="small muted">Source identifiers: {esc(f["sheet"])} · column {column_name(f["column"])} · asset {esc(f["asset"])} · header row {f["headerRow"]}. Exact authority rows travel with each figure.</p><button type="button" class="js-only" data-explore="{identifier}">Compare this line across the peer group</button></div><div><h4>Preferred service denominator</h4><p><strong>{esc(denominator["preferred"])}</strong></p><p>{esc(denominator["definition"])}{citation(denominator["source"])}</p><p class="note">{esc(status)}</p><p class="small">Resident-scale alternative: amount in £ thousands × 1,000 ÷ ONS mid-2025 residents (where joined). This is not demand adjustment. Service-user data year: not imported unless explicitly stated above.</p></div></div></details></section>''')
+<div class="service-body"><div><h4>What this line measures</h4><p>{esc(explanation)}{citation(f["source"])}{citation(6)}</p><p class="note" data-benchmark="{identifier}">{benchmark_text(f)}</p><figure class="ledger-figure js-only"><h4>{esc(f["label"])} · selected-council chart</h4><label>Chart measure<select data-ledger-metric="{identifier}"><option value="absolute">Published amount (£m)</option><option value="resident">£ per resident — scale, not service unit cost</option><option value="roads">{"£ per network mile — maintenance proxy, not audited cost" if denominator.get("key")=="roads" else "Network-mile lens unavailable for this line"}</option></select></label><div class="ledger-chart" data-ledger-chart="{identifier}" tabindex="0" aria-label="{esc(f["label"])} chart"><p>Chart renders when this section opens. The source-linked table below is available without JavaScript.</p></div><figcaption data-ledger-caption="{identifier}">2026–27 return. Read the original accounting label and preferred denominator; no unit cost is inferred.</figcaption></figure><div class="table-scroll">{table}</div><p class="small muted">Source identifiers: {esc(f["sheet"])} · column {column_name(f["column"])} · asset {esc(f["asset"])} · header row {f["headerRow"]}. Exact authority rows travel with each figure.</p><button type="button" class="js-only" data-explore="{identifier}">Compare this line across the peer group</button></div><div><h4>Preferred service denominator</h4><p><strong>{esc(denominator["preferred"])}</strong></p><p>{esc(denominator["definition"])}{citation(denominator["source"])}</p><p class="note">{esc(status)}</p><p class="small">Resident-scale alternative: amount in £ thousands × 1,000 ÷ ONS mid-2025 residents (where joined). This is not demand adjustment. Service-user data year: not imported unless explicitly stated above.</p></div></div></details></section>''')
 
     road = focus["roads"]
     road_value = focus["values"]["ra1_transrdsmnt"]
@@ -286,17 +287,13 @@ def build():
         font_css.append("/* Bundled font licence:\n" + (DATA / "raw" / "design" / licence).read_text(encoding="utf-8").replace("*/", "* /") + "\n*/")
     css = "\n".join(font_css) + "\n" + css
     css += "\n:root {\n" + "".join(f'  --cp-council-{code}: {c["colour"]};\n' for code,c in colours.items() if c.get("colour")) + "}\n"
-    page = page.replace("/* ATLAS_CSS */", css)
-    page = page.replace("/* ATLAS_DATA */", json.dumps(atlas,ensure_ascii=True,separators=(",",":")).replace("<", "\\u003c"))
-    page = page.replace("/* ATLAS_JS */", (ROOT / "src" / "benchmark.js").read_text(encoding="utf-8") + "\n" + (ROOT / "src" / "atlas.js").read_text(encoding="utf-8"))
     page = re.sub(
         r'<div class="table-scroll"([^>]*)>',
         lambda match: match[0] if "tabindex=" in match[1] else '<div class="table-scroll" tabindex="0"' + match[1] + ">",
         page,
     )
     assert not re.search(r"<!-- [A-Z_]+ -->", page)
-    (ROOT / "index.html").write_text(page, encoding="utf-8", newline="\n")
-    print(f'Built index.html: {len(page.encode("utf-8")):,} bytes; {len(atlas["fields"])} lines; {len(reports)} report records; {known} verified identities.')
+    write_documents(ROOT, page, atlas, css)
 
 
 if __name__ == "__main__":
