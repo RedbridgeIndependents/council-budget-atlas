@@ -1,4 +1,4 @@
-"""Keep private sources out of the GitHub Pages artifact."""
+"""Keep non-website sources out of the GitHub Pages artifact."""
 
 import json
 from pathlib import Path

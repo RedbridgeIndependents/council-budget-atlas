@@ -1,4 +1,4 @@
-"""Stage only the generated public website, never the private checkout."""
+"""Stage only the generated website, never the complete checkout."""
 
 import json
 from pathlib import Path
