@@ -155,7 +155,7 @@ def write_documents(root, page, atlas, css):
 <body id="top" data-document="{kind}" data-root="{prefix}"{f' data-service-id="{field_id}"' if field_id else ""}>
 <a class="skip" href="#content">Skip to content</a><header class="masthead"><progress class="progress" id="reading-progress" max="100" value="0" aria-label="Reading progress">0%</progress><div class="wrap masthead-inner"><a class="wordmark" href="index.html">Council<br>budget atlas</a><nav aria-label="Major sections">{nav}</nav>{theme_button}</div></header>
 <main id="content" tabindex="-1"><div class="wrap">{crumbs}</div>{body}{related}</main><a class="back-top" href="#top"><span aria-hidden="true">↑</span> Back to top</a>
-<footer class="wrap"><p>Council budget atlas · 2026–27 budgets · no council endorsement implied.</p><p>Private repository. Offline relative documents/assets; no public hosting, analytics, cookies or runtime APIs.</p></footer>
+<footer class="wrap"><p>Council budget atlas · 2026–27 budgets · no council endorsement implied.</p><p>Public source repository. Works offline or on GitHub Pages; no analytics, cookies or runtime APIs.</p></footer>
 <script src="{prefix}assets/atlas-data.js" defer></script><script src="{prefix}assets/navigation.js" defer></script><script src="{prefix}assets/benchmark.js" defer></script><script src="{prefix}assets/atlas.js" defer></script></body></html>'''
         content = rewrite_links(path, content)
         destination = root / Path(path)

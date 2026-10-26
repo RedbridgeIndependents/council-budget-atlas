@@ -1,6 +1,22 @@
 # Council budget atlas
 
-An offline editorial investigation of **where Redbridge's 2026–27 planned spending differs from selected peers**, initially Waltham Forest. Open **`index.html` directly in a browser**. No server, build step, externally loaded font, runtime API, analytics or public hosting is required. Keep the checkout's `assets/` and `services/` folders alongside the overview: this is now a collection of real HTML documents, not one self-contained file. The repository is private; do not enable GitHub Pages or change its visibility.
+An offline-capable editorial investigation of **where Redbridge's 2026–27 planned spending differs from selected peers**, initially Waltham Forest. Open **`index.html` directly in a browser**, or use the generated website on GitHub Pages. No server, build step, externally loaded font, runtime API, analytics or public hosting is required for local use. Keep the checkout's `assets/` and `services/` folders alongside the overview: this is now a collection of real HTML documents, not one self-contained file. **The repository is public**, as requested for publication on GitHub Free.
+
+## GitHub Pages deployment
+
+The repository and its Git history are public. GitHub Pages is enabled with **GitHub Actions** as the publishing source, so no paid organization-plan upgrade is required.
+
+The public website address is `https://redbridgeindependents.github.io/council-budget-atlas/`. Publication requires a successful deployment from `main`; enabling Pages alone does not publish the website. Merge the deployment PR into `main`, or run the **GitHub Pages** workflow manually against `main`.
+
+`.github/workflows/pages.yml` builds and tests pull requests without deploying them. Pushes to `main` and manual runs on `main` publish only after the build, source/data checks, packaging checks and browser checks pass. Build/tests run on Windows to support the pinned research metadata's Windows paths; the separate deployment job runs on Ubuntu. The deployment uses the official `actions/configure-pages`, `actions/upload-pages-artifact` and **`actions/deploy-pages`** actions, with deployment-scoped Pages/OIDC permissions and the `github-pages` environment.
+
+```powershell
+npm run build:pages
+```
+
+This stages a fresh **`_site/`** containing only the 133 manifest-listed HTML documents, five explicitly listed shared assets and `.nojekyll`. The workflow uploads **only `_site/`**, never the checkout: `.git/`, `.github/`, `src/`, raw research, scripts, tests and package metadata are not served by Pages, although tracked files are accessible through the public repository. The generated pages and `assets/atlas-data.js` are public website content, including the budget data and source references displayed by the atlas. New website assets must be added deliberately to `scripts/package_site.py`.
+
+**Both the repository and website are public.** Do not commit secrets or private material to the repository, generated pages or shared assets. Offline `file://` use and relative links under the Pages project URL remain supported.
 
 ## Document layout and navigation
 
@@ -116,7 +132,7 @@ The real-browser chart gate opens **all 129 individual-service files and the acc
 
 To repeat the direct-PDF headline release gate, use `python scripts\retrieve_reports.py --verify-headlines`; add `--pdf-reader-path <installed-pypdf-directory>` to re-extract the original PDF pages rather than validating their preserved literal extraction. Normal builds/tests require no extra Python packages.
 
-`npm run test:browser` uses actual **file://** documents in headless Microsoft Edge: offline/no-JS behaviour, one/multiple/All London selections, empty-state reload, new-tab links, previous/next, citations, funding navigation, browser back/forward, synchronized funding/service/benchmark changes, filter/order/detail consistency, financing signs/shares, identities, permission fallbacks, licensed fonts, mobile keyboard/touch, negative/zero/missing values, restricted denominators, directory, raw CSV, scroll story, progress/back-to-top, reduced motion and theme switching. Axe WCAG 2.2 A/AA audits cover every document type, open charts, light/dark and mobile. No application HTTP requests are permitted.
+`npm run test:browser` uses actual **file://** documents in headless Microsoft Edge: offline/no-JS behaviour, one/multiple/All London selections, empty-state reload, new-tab links, previous/next, citations, funding navigation, browser back/forward, synchronized funding/service/benchmark changes, filter/order/detail consistency, financing signs/shares, identities, permission fallbacks, licensed fonts, mobile keyboard/touch, negative/zero/missing values, restricted denominators, directory, raw CSV, scroll story, progress/back-to-top, reduced motion and theme switching. Axe WCAG 2.2 A/AA audits cover every document type, open charts, light/dark and mobile. No application HTTP requests are permitted in offline tests. A separate Pages smoke test serves only `_site/` under `/council-budget-atlas/`, checks live HTTP navigation, selections, theme/reload and no-JS fallback, and confirms non-website checkout paths return 404. CI uses Playwright Chromium.
 
 The default browser is installed Edge. For a system with Playwright Chromium instead:
 
